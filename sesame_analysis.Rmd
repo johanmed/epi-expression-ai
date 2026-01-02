@@ -1,0 +1,52 @@
+# DNA Methylation analyses with Illumina Probes
+
+This file contains codes for methylation analyses reperformed for this study: https://pmc.ncbi.nlm.nih.gov/articles/PMC10300436/
+
+The objective is to make better sense of epigenomic changes in mice related to the Gulf War disease
+
+## Prepare setup
+
+```r
+library(BiocManager)
+BiocManager::install("sesame")
+
+library(sesame)
+library(sesameData)
+
+sessionInfo()
+```
+
+## Acquire array metadata
+
+```r
+sesameDataCache() # run only the first time
+```
+
+## Normalize array data and compute methylation (beta) values
+
+```r
+new_betas <- openSesame("data/raw")
+```
+
+## Load data from previous analysis
+
+```r
+metadata <- readRDS("data/normalized/samples.RDS")
+
+original_processed <- readRDS("data/normalized/data_sesame.RDS")
+original_betas <- original_processed$beta
+```
+
+## Compare methylation values between new and previous analyses
+
+```r
+
+# Check 1
+new_betas["cg00101675_BC21", "208491450001_R01C01"]
+original_betas["cg00101675_BC21", "ET0557BJGWI26"]a
+
+# Check 2
+new_betas["cg00531009_BC21", "208491450001_R01C01"]
+original_betas["cg00531009_BC21", "ET0557BJGWI26"]
+```
+
