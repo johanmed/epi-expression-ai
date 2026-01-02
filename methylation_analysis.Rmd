@@ -1,0 +1,466 @@
+# DNA Methylation analyses with Illumina Probes
+
+This file contains codes for methylation analyses reperformed for this study: https://pmc.ncbi.nlm.nih.gov/articles/PMC10300436/
+
+The objective is to make better sense of epigenomic changes in mice related to the Gulf War disease
+
+## Prepare setup
+
+```r
+library(BiocManager)
+BiocManager::install(c("sesame", limna)) # use this to install packages
+
+# Load packages
+library(sesame)
+library(sesameData)
+library(limma)
+
+sessionInfo()
+```
+
+## Acquire array metadata
+
+```r
+sesameDataCache() # run only the first time
+```
+
+## Normalize array data and compute methylation (beta) values
+
+```r
+new_betas <- openSesame("data/raw")
+```
+
+## Load data from previous analysis
+
+```r
+metadata <- readRDS("data/normalized/samples.RDS")
+
+original_processed <- readRDS("data/normalized/data_sesame.RDS")
+original_betas <- original_processed$beta
+```
+
+## Compare methylation values between new and previous analyses
+
+```r
+
+# Check 1
+new_betas["cg00101675_BC21", "208491450001_R01C01"]
+original_betas["cg00101675_BC21", "ET0557BJGWI26"]a
+
+# Check 2
+new_betas["cg00531009_BC21", "208491450001_R01C01"]
+original_betas["cg00531009_BC21", "ET0557BJGWI26"]
+```
+
+## Perform Differential Methylation Analysis
+
+### Setup Design Matrix
+
+```r
+# Get treatment variable
+annot <- read.csv("data/normalized/90ArraySamples_simpleAnnot.csv")
+annot$Sample_Group <- annot$SID
+full_metadata <- merge(metadata, annot[, c("Sample_Group", "Treatment")], by="Sample_Group")
+
+# Reformulate treatment variable
+full_metadata$Treatment[full_metadata$Treatment == "CD+DFP"] <- "Treated"
+
+# Discard beta values of samples dropped of full metadata
+filtered_betas <- original_betas[, colnames(original_betas) %in% full_metadata$Sample_Group]
+ 
+# Create design matrix
+group <- factor(full_metadata$Treatment)
+design <- model.matrix(~ 0 + group)
+colnames(design) <- levels(group)
+
+# View design
+head(design)
+```
+
+### Fit Linear Model
+
+```r
+# Fit model using filtered methylation values
+fit <- lmFit(filtered_betas, design)
+
+# Define contrasts
+contMatrix <- makeContrasts(Treated-Control, levels = design)
+fit2 <- contrasts.fit(fit, contMatrix)
+fit2 <- eBayes(fit2)
+
+
+
+
+# Need to pickup from here
+# Get all results
+results <- topTable(fit2, num = Inf, coef = 1)
+
+# Add delta beta (biological effect size)
+results$deltaBeta <- rowMeans(beta[rownames(results), 
+                                    group == "Treated"]) - 
+                     rowMeans(beta[rownames(results), 
+                                    group == "Control"])
+
+# View top results
+head(results)
+```
+
+### Filter for Significant DMPs
+
+```r
+# Differentially Methylated Positions (DMPs)
+# Criteria: FDR < 0.05 and |delta beta| > 0.2
+sig_dmps <- results[results$adj.P.Val < 0.05 & 
+                    abs(results$deltaBeta) > 0.2, ]
+
+cat("Total significant DMPs:", nrow(sig_dmps), "\n")
+cat("Hypermethylated (delta beta > 0.2):", 
+    sum(sig_dmps$deltaBeta > 0.2), "\n")
+cat("Hypomethylated (delta beta < -0.2):", 
+    sum(sig_dmps$deltaBeta < -0.2), "\n")
+
+# View top DMPs
+head(sig_dmps[order(sig_dmps$adj.P.Val), ])
+```
+
+---
+
+## 8. Annotation and Gene Mapping
+
+```r
+# Add gene annotation to results
+annot <- getAnnotation(MSet)
+
+results$gene <- annot[rownames(results), "UCSC_RefGene_Name"]
+results$gene_group <- annot[rownames(results), "UCSC_RefGene_Group"]
+results$chr <- annot[rownames(results), "chr"]
+results$pos <- annot[rownames(results), "pos"]
+results$strand <- annot[rownames(results), "strand"]
+
+# View annotated results
+head(results[, c("gene", "gene_group", "chr", "pos", 
+                 "deltaBeta", "adj.P.Val")])
+
+# Annotate significant DMPs
+sig_dmps$gene <- annot[rownames(sig_dmps), "UCSC_RefGene_Name"]
+sig_dmps$gene_group <- annot[rownames(sig_dmps), "UCSC_RefGene_Group"]
+sig_dmps$chr <- annot[rownames(sig_dmps), "chr"]
+sig_dmps$pos <- annot[rownames(sig_dmps), "pos"]
+
+# Export results
+write.csv(results, "mouse_methylation_all_results.csv", row.names = TRUE)
+write.csv(sig_dmps, "mouse_methylation_significant_DMPs.csv", row.names = TRUE)
+```
+
+---
+
+## 9. Visualization
+
+### Volcano Plot
+
+```r
+# Create volcano plot
+plot(results$deltaBeta, -log10(results$P.Value),
+     pch = 16, cex = 0.5, col = "grey",
+     xlab = "Delta Beta (Methylation Difference)",
+     ylab = "-log10(P-value)",
+     main = "Volcano Plot: Mouse Methylation")
+
+# Highlight significant DMPs
+points(sig_dmps$deltaBeta, -log10(sig_dmps$P.Value),
+       pch = 16, cex = 0.5, col = "red")
+
+# Add threshold lines
+abline(h = -log10(0.05), col = "blue", lty = 2)  # P-value threshold
+abline(v = c(-0.2, 0.2), col = "blue", lty = 2)  # Delta beta threshold
+
+# Add legend
+legend("topright", 
+       legend = c("Significant", "Not significant"),
+       col = c("red", "grey"), pch = 16)
+```
+
+### Heatmap of Top DMPs
+
+```r
+library(pheatmap)
+
+# Select top 50 most significant DMPs
+top_probes <- rownames(sig_dmps[order(sig_dmps$adj.P.Val), ])[1:50]
+
+# Create annotation for samples
+sample_annotation <- data.frame(
+    Group = pData(MSet)$Sample_Group,
+    row.names = colnames(beta)
+)
+
+# Generate heatmap
+pheatmap(beta[top_probes, ],
+         scale = "none",
+         show_rownames = FALSE,
+         annotation_col = sample_annotation,
+         main = "Top 50 DMPs - Beta Values",
+         color = colorRampPalette(c("blue", "white", "red"))(100),
+         clustering_distance_rows = "euclidean",
+         clustering_distance_cols = "euclidean")
+```
+
+### Distribution of DMPs Across Genome
+
+```r
+# Chromosome distribution of significant DMPs
+chr_counts <- table(sig_dmps$chr)
+
+# Order chromosomes properly
+chr_order <- paste0("chr", c(1:19, "X", "Y"))
+chr_counts <- chr_counts[chr_order[chr_order %in% names(chr_counts)]]
+
+barplot(chr_counts, 
+        las = 2,
+        main = "Distribution of DMPs Across Chromosomes",
+        ylab = "Number of DMPs",
+        xlab = "Chromosome",
+        col = "steelblue")
+```
+
+### Gene Region Distribution
+
+```r
+# Distribution across gene regions
+region_counts <- table(sig_dmps$gene_group)
+
+# Split multiple annotations (some probes map to multiple regions)
+regions_split <- unlist(strsplit(as.character(sig_dmps$gene_group), ";"))
+region_table <- table(regions_split)
+
+barplot(sort(region_table, decreasing = TRUE),
+        las = 2,
+        main = "DMPs by Gene Region",
+        ylab = "Number of DMPs",
+        col = "coral",
+        cex.names = 0.8)
+```
+
+### Box Plots for Selected Probes
+
+```r
+# Example: Plot beta values for top 6 DMPs
+par(mfrow = c(2, 3))
+top_6 <- rownames(sig_dmps)[1:6]
+
+for (probe in top_6) {
+    boxplot(beta[probe, ] ~ pData(MSet)$Sample_Group,
+            main = paste0(probe, "\n", 
+                         annot[probe, "UCSC_RefGene_Name"]),
+            ylab = "Beta Value",
+            xlab = "",
+            col = c("lightblue", "lightcoral"))
+}
+```
+
+---
+
+## 10. Differentially Methylated Regions (DMRs)
+
+DMRs are genomic regions with multiple adjacent differentially methylated CpGs.
+
+```r
+library(DMRcate)
+
+# Annotate CpGs for DMR analysis
+myAnnotation <- cpg.annotate(datatype = "array",
+                              object = M,
+                              what = "M",
+                              arraytype = "Mouse",
+                              analysis.type = "differential",
+                              design = design,
+                              contrasts = TRUE,
+                              cont.matrix = contMatrix,
+                              coef = 1)
+
+# Find DMRs
+# lambda = max distance between CpGs (bp)
+# C = minimum number of CpGs
+DMRs <- dmrcate(myAnnotation, lambda = 1000, C = 2)
+
+# Extract results
+results.ranges <- extractRanges(DMRs)
+
+# View top DMRs
+head(results.ranges)
+
+# Export DMRs
+write.csv(as.data.frame(results.ranges), 
+          "mouse_methylation_DMRs.csv", 
+          row.names = FALSE)
+```
+
+### Plot Individual DMRs
+
+```r
+# Plot top DMR
+library(Gviz)
+
+# Create group colors
+group_colors <- as.numeric(factor(pData(MSet)$Sample_Group))
+
+DMR.plot(ranges = results.ranges, 
+         dmr = 1,  # Plot first DMR
+         CpGs = beta, 
+         phen.col = group_colors,
+         genome = "mm10",
+         main = "Top DMR")
+
+# Plot multiple DMRs
+for (i in 1:min(5, length(results.ranges))) {
+    DMR.plot(ranges = results.ranges, 
+             dmr = i,
+             CpGs = beta, 
+             phen.col = group_colors,
+             genome = "mm10",
+             main = paste("DMR", i))
+}
+```
+
+---
+
+## 11. Functional Analysis
+
+### Gene Ontology Enrichment
+
+```r
+# Extract unique genes from significant DMPs
+sig_genes <- unique(unlist(strsplit(as.character(sig_dmps$gene), ";")))
+sig_genes <- sig_genes[sig_genes != ""]
+
+cat("Number of unique genes with DMPs:", length(sig_genes), "\n")
+
+# Install GO analysis package
+if (!require("clusterProfiler")) {
+    BiocManager::install("clusterProfiler")
+}
+library(clusterProfiler)
+library(org.Mm.eg.db)  # Mouse annotation
+
+# Convert gene symbols to Entrez IDs
+genes_entrez <- bitr(sig_genes, 
+                     fromType = "SYMBOL",
+                     toType = "ENTREZID",
+                     OrgDb = org.Mm.eg.db)
+
+# GO enrichment analysis
+ego <- enrichGO(gene = genes_entrez$ENTREZID,
+                OrgDb = org.Mm.eg.db,
+                ont = "BP",  # Biological Process
+                pAdjustMethod = "BH",
+                qvalueCutoff = 0.05,
+                readable = TRUE)
+
+# View results
+head(ego)
+
+# Plot
+barplot(ego, showCategory = 20)
+dotplot(ego, showCategory = 20)
+```
+
+### KEGG Pathway Analysis
+
+```r
+# KEGG enrichment
+kegg <- enrichKEGG(gene = genes_entrez$ENTREZID,
+                   organism = 'mmu',  # mouse
+                   pvalueCutoff = 0.05)
+
+# View results
+head(kegg)
+
+# Plot
+barplot(kegg, showCategory = 20)
+dotplot(kegg, showCategory = 20)
+```
+
+---
+
+## 12. Save Results
+
+```r
+# Save processed data objects
+save(RGset, MSet, beta, M, detP, 
+     file = "mouse_methylation_processed_data.RData")
+
+# Save analysis results
+save(results, sig_dmps, results.ranges,
+     file = "mouse_methylation_analysis_results.RData")
+
+# Create summary report
+sink("mouse_methylation_summary.txt")
+cat("=== Mouse Methylation Analysis Summary ===\n\n")
+cat("Date:", format(Sys.time(), "%Y-%m-%d %H:%M:%S"), "\n\n")
+cat("Number of samples:", ncol(MSet), "\n")
+cat("Number of probes analyzed:", nrow(MSet), "\n")
+cat("Experimental groups:", paste(levels(group), collapse = ", "), "\n\n")
+cat("Significant DMPs (FDR < 0.05, |delta beta| > 0.2):", nrow(sig_dmps), "\n")
+cat("  - Hypermethylated:", sum(sig_dmps$deltaBeta > 0.2), "\n")
+cat("  - Hypomethylated:", sum(sig_dmps$deltaBeta < -0.2), "\n\n")
+cat("Number of DMRs found:", length(results.ranges), "\n")
+cat("Number of genes with DMPs:", length(sig_genes), "\n")
+sink()
+
+cat("\nAnalysis complete! Results saved.\n")
+```
+
+---
+
+## Troubleshooting
+
+### Common Issues
+
+**Problem**: Error reading IDAT files
+```r
+# Solution: Force reading and check file naming
+RGset <- read.metharray.exp(base = baseDir, recursive = TRUE, force = TRUE)
+
+# Check files are named correctly: SampleID_Grn.idat and SampleID_Red.idat
+list.files(baseDir, pattern = ".idat")
+```
+
+**Problem**: Missing annotation package
+```r
+# Solution: Install manually
+BiocManager::install("IlluminaMouseMethylationanno.12.v1.mm10")
+
+# Or check available annotations
+library(AnnotationHub)
+ah <- AnnotationHub()
+query(ah, "Mouse Methylation")
+```
+
+**Problem**: Low detection rates
+```r
+# Check individual sample quality
+mean_detP <- colMeans(detP)
+print(mean_detP)
+
+# Remove problematic samples
+keep <- mean_detP < 0.01
+RGset <- RGset[, keep]
+```
+
+---
+
+## Key Points to Remember
+
+1. **Use M-values for statistics** (linear modeling) but **beta-values for biological interpretation** (methylation percentages)
+
+2. **Detection p-values** identify failed probes - filter these out early
+
+3. **Delta beta > 0.2** (20% methylation difference) is commonly used as biological significance threshold
+
+4. **Mouse arrays** have ~285K probes covering ~20,000 genes in mm10 genome
+
+5. **Your decode statistics** (98.5% success rate) indicate excellent quality data
+
+6. **Normalization choice matters** - Noob is good for data with some technical variation
+
+7. **DMRs are often more biologically meaningful** than individual DMPs
