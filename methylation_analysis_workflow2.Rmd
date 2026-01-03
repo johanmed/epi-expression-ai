@@ -1,75 +1,249 @@
-# DNA Methylation analyses with Illumina Probes
+# DNA Methylation analyses with Illumina Probes - Pipeline 2
 
 This file contains codes for methylation analyses reperformed for this study: https://pmc.ncbi.nlm.nih.gov/articles/PMC10300436/
 
 The objective is to make better sense of epigenomic changes in mice related to the Gulf War disease
 
-## Prepare setup
+## 1. Prepare setup
 
 ```r
+# Install required packages
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
 library(BiocManager)
-BiocManager::install(c("sesame", limna)) # use this to install packages
+
+BiocManager::install(c("minfi", 
+                       "limma",
+                       "pheatmap",
+                       "DMRcate"))
+
+if(!require(devtools)) install.packages("devtools")
+devtools::install_github("chiaraherzog/IlluminaMouseMethylationmanifest")
+devtools::install_github("chiaraherzog/IlluminaMouseMethylationanno.12.v1.mm10")
 
 # Load packages
-library(sesame)
-library(sesameData)
+library(minfi)
 library(limma)
+library(DMRcate)
+library(pheatmap)
+library(IlluminaMouseMethylationanno.12.v1.mm10)
+library(IlluminaMouseMethylationmanifest)
 
 sessionInfo()
 ```
 
-## Acquire array metadata
+---
+
+## 2. Read IDAT Files
 
 ```r
-sesameDataCache() # run only the first time
+# Set directory containing IDAT files
+baseDir <- "data/raw"
+
+# Read IDAT files with sample sheet
+targets <- read.metharray.sheet(baseDir)
+RGset <- read.metharray.exp(targets = targets)
+
+# Check data
+RGset
+dim(RGset)
+pData(RGset)
+annotation(RGset)
 ```
 
-## Normalize array data and compute methylation (beta) values
+### Specify Mouse Array Type
 
 ```r
-new_betas <- openSesame("data/raw")
+RGset@annotation <-  c(array = "IlluminaMouseMethylation", annotation = "12.v1.mm10")
+
+annotation(RGset)
 ```
 
-## Load data from previous analysis
+---
+
+## 3. Quality Control
+
+### Generate QC Report
 
 ```r
-metadata <- readRDS("data/normalized/samples.RDS")
-
-original_processed <- readRDS("data/normalized/data_sesame.RDS")
-original_betas <- original_processed$beta
+# Comprehensive QC report
+qcReport(RGset,
+         sampNames = pData(RGset)$Sample_Group,
+         pdf = "methylation_study_qcReport.pdf")
 ```
 
-## Compare methylation values between new and previous analyses
+### Compute detection P-values
 
 ```r
+# Calculate detection p-values
+detP <- detectionP(RGset)
 
-# Check 1
-new_betas["cg00101675_BC21", "208491450001_R01C01"]
-original_betas["cg00101675_BC21", "ET0557BJGWI26"]a
+# Check overall quality
+mean_detP <- colMeans(detP)
+print(paste("Samples with mean detection p-value < 0.01:", 
+            sum(mean_detP < 0.01), "out of", length(mean_detP)))
 
-# Check 2
-new_betas["cg00531009_BC21", "208491450001_R01C01"]
-original_betas["cg00531009_BC21", "ET0557BJGWI26"]
+# Visualize detection p-values
+par(mfrow = c(2, 2))
+
+## Bar plot per sample
+barplot(mean_detP, 
+        las = 2, 
+        ylim = c(0, max(mean_detP) * 1.1),
+        main = "Mean Detection P-values",
+        ylab = "Mean Detection P-value",
+        cex.names = 0.7)
+abline(h = 0.01, col = "red", lwd = 2)
+
+## Distribution histogram
+hist(detP, breaks = 100, 
+     main = "Distribution of Detection P-values",
+     xlab = "Detection P-value")
+abline(v = 0.01, col = "red", lwd = 2)
+
+## Failed probes per sample
+failed_probes <- colSums(detP > 0.01)
+barplot(failed_probes,
+        las = 2,
+        main = "Number of Failed Probes per Sample",
+        ylab = "Number of probes with p > 0.01",
+        cex.names = 0.7)
+
+## Density plot by group
+densityPlot(RGset, sampGroups = pData(RGset)$Sample_Group,
+            main = "Raw Data Density by Group")
 ```
 
-## Perform Differential Methylation Analysis
+### Check Signal Intensities
+
+```r
+# Get raw intensities
+green <- getGreen(RGset)
+red <- getRed(RGset)
+
+# Calculate median intensities (should be >1000 for good quality)
+median_green <- apply(green, 2, median)
+median_red <- apply(red, 2, median)
+
+par(mfrow = c(1, 2))
+barplot(median_green, las = 2, 
+        main = "Median Green Channel Intensity",
+        ylab = "Intensity", col = "green3",
+        cex.names = 0.7)
+abline(h = 1000, col = "red", lwd = 2)
+
+barplot(median_red, las = 2, 
+        main = "Median Red Channel Intensity",
+        ylab = "Intensity", col = "red3",
+        cex.names = 0.7)
+abline(h = 1000, col = "red", lwd = 2)
+
+# Identify low intensity samples
+low_intensity <- median_green < 1000 | median_red < 1000
+if (any(low_intensity)) {
+    cat("Warning: Low intensity samples detected:\n")
+    print(names(which(low_intensity)))
+}
+```
+
+### Remove Poor Quality Samples
+
+```r
+cat("Samples before:", ncol(RGset), "\n")
+
+# Remove samples with mean detection p-value > 0.01
+keep_samples <- mean_detP < 0.01
+RGset <- RGset[, keep_samples]
+
+cat("Samples remaining:", ncol(RGset), "\n")
+```
+
+---
+
+## 4. Normalization
+
+
+```r
+# Option A: Perform Noob normalization (recommended for data with decode issues)
+MSet <- preprocessNoob(RGset)
+
+# Option B: Quantile normalization
+MSet <- preprocessQuantile(RGset)
+
+# Option C: SWAN 
+MSet <- preprocessSWAN(RGset)
+
+
+# Check normalization
+densityPlot(MSet, main = "After Normalization")
+```
+
+---
+
+## 5. Probe Filtering
+
+```r
+cat("Probes before detection filtering:", nrow(MSet), "\n")
+
+# Filter by detection p-value
+# Remove probes with detection p > 0.01 in ANY sample
+detP_filtered <- detP[match(featureNames(MSet), rownames(detP)), ]
+keep_probes <- rowSums(detP_filtered < 0.01) == ncol(MSet)
+MSet <- MSet[keep_probes, ]
+
+cat("Probes after detection filtering:", nrow(MSet), "\n")
+
+# Get annotation
+annot <- getAnnotation(MSet)
+
+cat("Probes before removing sex chromosomes:", nrow(MSet), "\n")
+
+# Remove sex chromosome probes (optional, if analyzing mixed-sex cohorts)
+keep_auto <- !(annot$chr %in% c("chrX", "chrY"))
+MSet <- MSet[keep_auto, ]
+cat("Probes after removing sex chromosomes:", nrow(MSet), "\n")
+```
+
+---
+
+## 6. Extract Methylation Values
+
+```r
+# Get Beta values (0-1 scale, intuitive interpretation)
+beta <- getBeta(MSet)
+dim(beta)
+head(beta[, 1:5])
+
+# Get M-values (log2 ratio, better for statistics)
+M <- getM(MSet)
+
+# Visualize distributions
+par(mfrow = c(1, 2))
+densityPlot(beta, sampGroups = pData(MSet)$Sample_Group,
+            main = "Beta Values", xlab = "Beta")
+densityPlot(M, sampGroups = pData(MSet)$Sample_Group,
+            main = "M-Values", xlab = "M-value")
+
+# Plot MDS to check for outliers
+plotMDS(M, labels = pData(MSet)$Sample_Group,
+        col = as.numeric(factor(pData(MSet)$Sample_Group)),
+        main = "MDS Plot - Sample Similarity")
+legend("topright", 
+       legend = levels(factor(pData(MSet)$Sample_Group)),
+       col = 1:length(levels(factor(pData(MSet)$Sample_Group))),
+       pch = 1)
+```
+
+---
+
+## 7. Differential Methylation Analysis
 
 ### Setup Design Matrix
 
 ```r
-# Get treatment variable
-annot <- read.csv("data/normalized/90ArraySamples_simpleAnnot.csv")
-annot$Sample_Group <- annot$SID
-full_metadata <- merge(metadata, annot[, c("Sample_Group", "Treatment")], by="Sample_Group")
-
-# Reformulate treatment variable
-full_metadata$Treatment[full_metadata$Treatment == "CD+DFP"] <- "Treated"
-
-# Discard beta values of samples dropped of full metadata
-filtered_betas <- original_betas[, colnames(original_betas) %in% full_metadata$Sample_Group]
- 
 # Create design matrix
-group <- factor(full_metadata$Treatment)
+group <- factor(pData(MSet)$Treatment)
+levels(group) <- c("Treated", "Control") # rename properly treatment group
 design <- model.matrix(~ 0 + group)
 colnames(design) <- levels(group)
 
@@ -80,23 +254,19 @@ head(design)
 ### Fit Linear Model
 
 ```r
-# Fit model using filtered methylation values
-fit <- lmFit(filtered_betas, design)
+# Fit model using M-values (better for statistics)
+fit <- lmFit(M, design)
 
 # Define contrasts
-contMatrix <- makeContrasts(Treated-Control, levels = design)
+contMatrix <- makeContrasts(Treated - Control, levels = design)
 fit2 <- contrasts.fit(fit, contMatrix)
 fit2 <- eBayes(fit2)
 
-
-
-
-# Need to pickup from here
-# Get all results
+# Get all regions differential methylated
 results <- topTable(fit2, num = Inf, coef = 1)
 
-# Add delta beta (biological effect size)
-results$deltaBeta <- rowMeans(beta[rownames(results), 
+# Compute delta beta (biological effect size between treated and control)
+results$deltaBeta <- rowMeans(beta[rownames(results),
                                     group == "Treated"]) - 
                      rowMeans(beta[rownames(results), 
                                     group == "Control"])
@@ -110,14 +280,13 @@ head(results)
 ```r
 # Differentially Methylated Positions (DMPs)
 # Criteria: FDR < 0.05 and |delta beta| > 0.2
-sig_dmps <- results[results$adj.P.Val < 0.05 & 
-                    abs(results$deltaBeta) > 0.2, ]
+sig_dmps <- subset(results, adj.P.Val < 0.05 & abs(deltaBeta) > 0.05)
 
 cat("Total significant DMPs:", nrow(sig_dmps), "\n")
 cat("Hypermethylated (delta beta > 0.2):", 
-    sum(sig_dmps$deltaBeta > 0.2), "\n")
+    sum(sig_dmps$deltaBeta > 0.05), "\n")
 cat("Hypomethylated (delta beta < -0.2):", 
-    sum(sig_dmps$deltaBeta < -0.2), "\n")
+    sum(sig_dmps$deltaBeta < -0.05), "\n")
 
 # View top DMPs
 head(sig_dmps[order(sig_dmps$adj.P.Val), ])
@@ -464,3 +633,24 @@ RGset <- RGset[, keep]
 6. **Normalization choice matters** - Noob is good for data with some technical variation
 
 7. **DMRs are often more biologically meaningful** than individual DMPs
+
+---
+
+## Additional Resources
+
+- **minfi User Guide**: https://bioconductor.org/packages/release/bioc/vignettes/minfi/inst/doc/minfi.html
+- **DMRcate Documentation**: https://bioconductor.org/packages/release/bioc/html/DMRcate.html
+- **Mouse Genome (mm10)**: https://genome.ucsc.edu/cgi-bin/hgGateway?db=mm10
+- **Illumina Support**: https://support.illumina.com/
+
+---
+
+## Session Info
+
+Always include session information in your analysis reports:
+
+```r
+sessionInfo()
+```
+
+This captures R version, package versions, and system information for reproducibility.
