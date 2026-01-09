@@ -1,14 +1,14 @@
 === Mouse Methylation Analysis Summary ===
 
-Date: 2026-01-09 17:25:24 
+Date: 2026-01-09 18:15:00 
 
 Number of samples: 78 
 Number of probes analyzed: 264359 
 Experimental groups: Treated, Control 
 
-Significant DMPs (FDR < 0.05, |delta beta| > 0.2): 10 
+Significant DMPs (FDR < 0.05,): 10 
   - Hypermethylated: 0 
-  - Hypomethylated: 0 
+  - Hypomethylated: 1 
 
 Number of DMRs found: 188460 
 Number of genes with DMPs: 11 
