@@ -1,0 +1,608 @@
+# DNA Methylation analyses with Illumina Probes - Pipeline 2
+
+This file contains codes for methylation analyses reperformed for this study: https://pmc.ncbi.nlm.nih.gov/articles/PMC10300436/
+
+The objective is to make better sense of epigenomic changes in mice related to the Gulf War disease
+
+## 1. Setup
+
+```r
+# Install required packages
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+library(BiocManager)
+
+BiocManager::install(c("minfi", 
+                       "limma",
+                       "pheatmap",
+                       "DMRcate",
+                       "clusterProfiler",
+                       "biomaRt",
+                       "org.Mm.eg.db")
+
+if(!require(devtools)) install.packages("devtools")
+devtools::install_github("chiaraherzog/IlluminaMouseMethylationmanifest")
+devtools::install_github("chiaraherzog/IlluminaMouseMethylationanno.12.v1.mm10")
+
+
+# Load packages
+library(stringr)
+library(rngtools)
+library(Gviz)
+library(glue)
+
+library(minfi)
+library(limma)
+library(pheatmap)
+library(DMRcate)
+library(clusterProfiler)
+library(biomaRt)
+
+library(org.Mm.eg.db)
+library(IlluminaMouseMethylationanno.12.v1.mm10)
+library(IlluminaMouseMethylationmanifest)
+
+sessionInfo()
+```
+
+---
+
+## 2. Reading IDAT Files
+
+```r
+# Set directory containing IDAT files
+raw_dir <- "data/raw"
+
+# Read IDAT files with sample sheet
+targets <- read.metharray.sheet(raw_dir)
+RGset <- read.metharray.exp(targets = targets)
+
+# Check data
+RGset
+dim(RGset)
+pData(RGset)
+annotation(RGset)
+```
+
+### Specify Mouse Array Type
+
+```r
+RGset@annotation <-  c(array = "IlluminaMouseMethylation", annotation = "12.v1.mm10")
+
+annotation(RGset)
+```
+
+---
+
+## 3. Quality Control
+
+### Generate QC Report
+
+```r
+# Comprehensive QC report
+qcReport(RGset,
+         sampNames = pData(RGset)$Sample_Group,
+         pdf = "results/methylation_study_qcReport.pdf")
+```
+
+### Compute detection P-values
+
+```r
+# Calculate detection p-values
+detP <- detectionP(RGset)
+
+# Check overall quality
+mean_detP <- colMeans(detP)
+print(paste("Samples with mean detection p-value < 0.01:",
+            sum(mean_detP < 0.01), "out of", length(mean_detP)))
+
+# Visualize detection p-values
+par(mfrow = c(2, 2))
+
+## Bar plot per sample
+barplot(mean_detP, 
+        las = 2, 
+        ylim = c(0, max(mean_detP) * 1.1),
+        main = "Mean Detection P-values",
+        ylab = "Mean Detection P-value",
+        cex.names = 0.7)
+abline(h = 0.01, col = "red", lwd = 2)
+
+## Distribution histogram
+hist(detP, breaks = 100, 
+     main = "Distribution of Detection P-values",
+     xlab = "Detection P-value")
+abline(v = 0.01, col = "red", lwd = 2)
+
+v## Failed probes per sample
+failed_probes <- colSums(detP > 0.01)
+barplot(failed_probes,
+        las = 2,
+        main = "Number of Failed Probes per Sample",
+        ylab = "Number of probes with p > 0.01",
+        cex.names = 0.7)
+
+## Density plot by group
+densityPlot(RGset, sampGroups = pData(RGset)$Sample_Group,
+            main = "Raw Data Density by Group")
+
+# Save results
+dev.copy(pdf, "results/detection_pvalues.pdf", width=10)
+dev.off()
+```
+
+### Check Signal Intensities
+
+```r
+# Get raw intensities
+green <- getGreen(RGset)
+red <- getRed(RGset)
+
+# Calculate median intensities (should be >1000 for good quality)
+median_green <- apply(green, 2, median)
+median_red <- apply(red, 2, median)
+
+# Visualize signal intensities
+par(mfrow = c(1, 2))
+barplot(median_green, las = 2, 
+        main = "Median Green Channel Intensity",
+        ylab = "Intensity", col = "green3",
+        cex.names = 0.7)
+abline(h = 1000, col = "red", lwd = 2)
+
+barplot(median_red, las = 2, 
+        main = "Median Red Channel Intensity",
+        ylab = "Intensity", col = "red3",
+        cex.names = 0.7)
+abline(h = 1000, col = "red", lwd = 2)
+
+dev.copy(pdf, "results/signal_intensities.pdf", width=10)
+dev.off()
+
+# Identify low intensity samples
+low_intensity <- median_green < 1000 | median_red < 1000
+if (any(low_intensity)) {
+    cat("Warning: Low intensity samples detected:\n")
+    print(names(which(low_intensity)))
+}
+```
+
+### Remove Poor Quality Samples
+
+```r
+cat("Samples before:", ncol(RGset), "\n")
+
+# Remove samples with mean detection p-value > 0.01
+keep_samples <- mean_detP < 0.01
+RGset <- RGset[, keep_samples]
+
+cat("Samples remaining:", ncol(RGset), "\n")
+```
+
+---
+
+## 4. Normalization
+
+
+```r
+# Perform Noob normalization (recommended for data with decode issues)
+MSet <- preprocessNoob(RGset)
+
+# Check normalization results
+densityPlot(MSet, main = "After Normalization")
+```
+
+---
+
+## 5. Probe Filtering
+
+```r
+cat("Probes before detection filtering:", nrow(MSet), "\n")
+
+# Filter by detection p-value
+# Remove probes with detection p > 0.01 in ANY sample
+detP_filtered <- detP[match(featureNames(MSet), rownames(detP)), ]
+keep_probes <- rowSums(detP_filtered < 0.01) == ncol(MSet)
+MSet <- MSet[keep_probes, ]
+
+cat("Probes after detection filtering:", nrow(MSet), "\n")
+
+# Get annotation
+annot <- getAnnotation(MSet)
+
+cat("Probes before removing sex chromosomes:", nrow(MSet), "\n")
+
+# Remove sex chromosome probes (optional, if analyzing mixed-sex cohorts)
+keep_auto <- !(annot$chr %in% c("chrX", "chrY"))
+MSet <- MSet[keep_auto, ]
+cat("Probes after removing sex chromosomes:", nrow(MSet), "\n")
+```
+
+---
+
+## 6. Extracting Methylation Values
+
+```r
+# Get Beta values (0-1 scale, intuitive interpretation)
+beta <- getBeta(MSet)
+dim(beta)
+head(beta[, 1:5])
+
+# Get M-values (log2 ratio, better for statistics)
+M <- getM(MSet)
+
+# Visualize distributions
+par(mfrow = c(1, 2))
+densityPlot(beta, sampGroups = pData(MSet)$Sample_Group,
+            main = "Beta Values", xlab = "Beta")
+densityPlot(M, sampGroups = pData(MSet)$Sample_Group,
+            main = "M-Values", xlab = "M-value")
+
+dev.copy(pdf, "results/distribution_methylation_values.pdf", width=10)
+dev.off()
+
+# Plot MDS to check for outliers
+plotMDS(M, labels = pData(MSet)$Sample_Group,
+        col = as.numeric(factor(pData(MSet)$Sample_Group)),
+        main = "MDS Plot - Sample Similarity")
+legend("topright", 
+       legend = levels(factor(pData(MSet)$Sample_Group)),
+       col = 1:length(levels(factor(pData(MSet)$Sample_Group))),
+       pch = 1)
+dev.copy(pdf, "results/mds.pdf", width=10)
+dev.off()
+```
+
+---
+
+## 7. Differential Methylation Analysis
+
+### Setup Design Matrix
+
+```r
+# Create design matrix
+group <- factor(pData(MSet)$Treatment)
+levels(group) <- c("Treated", "Control") # rename properly treatment group
+design <- model.matrix(~ 0 + group)
+colnames(design) <- levels(group)
+
+# View design
+head(design)
+```
+
+### Fit Linear Model
+
+```r
+# Fit model using M-values (better for statistics)
+fit <- lmFit(M, design)
+
+# Define contrasts
+contMatrix <- makeContrasts(TreatedVsControl = Treated - Control,
+                            levels = design)
+fit2 <- contrasts.fit(fit, contMatrix)
+fit2 <- eBayes(fit2)
+
+# Get all regions differential methylated
+results <- topTable(fit2, num = Inf, coef = 1)
+
+# Compute delta beta (biological effect size between treated and control)
+results$deltaBeta <- rowMeans(beta[rownames(results),
+                                    group == "Treated"]) - 
+                     rowMeans(beta[rownames(results), 
+                                    group == "Control"])
+
+# View top results
+head(results)
+```
+
+### Filter for Significant DMPs
+
+```r
+# Differentially Methylated Positions (DMPs)
+
+# Criteria 1: FDR < 0.05
+sig_dmps <- subset(results, adj.P.Val < 0.05)
+
+cat("Total significant DMPs:", nrow(sig_dmps), "\n")
+
+# Criteria 2: |delta beta| > 0.2
+
+cat("Hypermethylated (delta beta > 0.2):", 
+    sum(sig_dmps$deltaBeta > 0.05), "\n")
+cat("Hypomethylated (delta beta < -0.2):", 
+    sum(sig_dmps$deltaBeta < -0.05), "\n")
+
+# View top DMPs
+head(sig_dmps[order(sig_dmps$adj.P.Val), ])
+```
+
+---
+
+## 8. Annotation and Gene Mapping of DMPs
+
+```r
+# Add gene annotation to results
+results$gene <- annot[rownames(results), "GeneName_UCSC"]
+results$gene_group <- annot[rownames(results), "Feature_UCSC"]
+results$chr <- annot[rownames(results), "chr"]
+results$pos <- annot[rownames(results), "pos"]
+results$strand <- annot[rownames(results), "strand"]
+
+# View annotated results
+head(results[, c("gene", "gene_group", "chr", "pos", 
+                 "deltaBeta", "adj.P.Val")])
+
+# Annotate significant DMPs
+sig_dmps$gene <- annot[rownames(sig_dmps), "GeneName_UCSC"]
+sig_dmps$gene_group <- annot[rownames(sig_dmps), "Feature_UCSC"]
+sig_dmps$chr <- annot[rownames(sig_dmps), "chr"]
+sig_dmps$pos <- annot[rownames(sig_dmps), "pos"]
+sig_dmps$pos <- annot[rownames(sig_dmps), "strand"]
+
+# View annotated significant DMPs
+head(sig_dmps)
+
+# Export results
+write.csv(results, "results/methylation_all_results.csv", row.names = TRUE)
+write.csv(sig_dmps, "results/methylation_significant_DMPs.csv", row.names = TRUE)
+```
+
+---
+
+## 9. Visualization of DMPs
+
+### Generate Volcano Plot
+
+```r
+# Create volcano plot of DMP results
+plot(results$deltaBeta, -log10(results$P.Value),
+     pch = 16, cex = 0.5, col = "grey",
+     xlab = "Delta Beta (Methylation Difference)",
+     ylab = "-log10(P-value)",
+     main = "Mouse Differential Methylation")
+
+# Highlight significant DMPs
+points(sig_dmps$deltaBeta, -log10(sig_dmps$P.Value),
+       pch = 16, cex = 0.5, col = "red")
+
+# Add threshold lines
+abline(h = -log10(0.05), col = "blue", lty = 2)  # P-value threshold
+abline(v = c(-0.2, 0.2), col = "blue", lty = 2)  # Delta beta threshold
+
+# Add legend
+legend("topright", 
+       legend = c("Significant", "Not significant"),
+       col = c("red", "grey"), pch = 16)
+dev.copy(pdf, "results/volcano_DMPs.pdf", width=10)
+dev.off()
+```
+
+### Construct Heatmap of Top DMPs
+
+```r
+# Select most significant DMPs
+top_probes <- rownames(sig_dmps[order(sig_dmps$adj.P.Val), ])
+
+# Create annotation for samples
+sample_annotation <- data.frame(
+    Group = factor(pData(MSet)$Treatment, levels = c("Control", "CD+DFP")),
+    row.names = colnames(beta)
+)
+
+# Order annotation and beta-values by group
+col_order <- order(sample_annotation$Group)
+beta_ordered <- beta[top_probes, col_order]
+sample_annotation_ordered <- sample_annotation[col_order, , drop = FALSE]
+
+# Generate heatmap
+pheatmap(beta_ordered,
+         scale = "none",
+         show_rownames = TRUE,
+         annotation_col = sample_annotation_ordered,
+         main = "Top DMPs - Beta Values",
+         color = colorRampPalette(c("blue", "white", "red"))(100),
+         clustering_distance_rows = "euclidean",
+         cluster_cols = FALSE)
+dev.copy(pdf, "results/heatmap_DMPs.pdf", width=12)
+dev.off()
+```
+
+### Evaluate Distribution of DMPs Across Genome
+
+```r
+# Get chromosome distribution of significant DMPs
+chr_counts <- table(sig_dmps$chr)
+
+# Order chromosomes properly
+chr_order <- paste0("chr", c(1:19, "X", "Y"))
+chr_counts <- chr_counts[chr_order[chr_order %in% names(chr_counts)]]
+
+barplot(chr_counts,
+        las = 2,
+        main = "Distribution of DMPs Across Chromosomes",
+        ylab = "Number of DMPs",
+        xlab = "Chromosome",
+        col = "cadetblue")
+dev.copy(pdf, "results/dmp_distribution_chromosomes.pdf", width=10)
+dev.off()
+```
+
+### Assess Distribution Gene Region
+
+```r
+# Get distribution across gene regions
+region_counts <- table(sig_dmps$gene_group)
+
+# Split multiple annotations (some probes map to multiple regions)
+regions_split <- unlist(strsplit(as.character(sig_dmps$gene_group), ";"))
+region_table <- table(regions_split)
+
+barplot(sort(region_table, decreasing = TRUE),
+        las = 2,
+        main = "DMPs by Gene Region",
+        ylab = "Number of DMPs",
+        col = "coral",
+        cex.names = 0.8)
+dev.copy(pdf, "results/gene_region_distribution.pdf", width=10)
+dev.off()
+```
+
+### Draw Boxplots for Selected Probes
+
+```r
+# Example: Plot beta values for top 6 DMPs
+par(mfrow = c(2, 3))
+top_6 <- rownames(sig_dmps)[1:6]
+
+for (probe in top_6) {
+    boxplot(beta[probe, ] ~ pData(MSet)$Treatment,
+            main = paste0(probe, "\n", 
+                         annot[probe, "GeneName_UCSC"]),
+            ylab = "Beta Value",
+            xlab = "",
+            col = c("lightblue", "lightcoral"))
+}
+dev.copy(pdf, "results/boxplot_beta_top6_dmps.pdf", width=10)
+dev.off()
+```
+
+---
+
+## 10. Differentially Methylated Regions (DMRs)
+
+DMRs are genomic regions with multiple adjacent differentially methylated CpGs.
+
+```r
+# Transform methylation matrix to genomic ratio set
+GRset <- makeGenomicRatioSetFromMatrix(M,
+                                       pData = pData(MSet),
+                                       array = "IlluminaMouseMethylation",
+                                       annotation = "12.v1.mm10",
+                                       what = "M")
+
+# Compute DMRs with bumphunter
+
+dmrs <- bumphunter(GRset,
+                   design = design,
+                   coef = 1,
+                   cutoff = 0.05,
+                   B = 5,
+                   type = "M",
+                   maxGap = 500,
+                   nullMethod = "permutation")
+
+# Transform results to genomic ranges
+results.ranges <- GRanges(seqnames = dmrs$table$chr,
+                          ranges = IRanges(start = dmrs$table$start,
+                                           end = dmrs$table$end),
+                          value = dmrs$table$value,
+                          area = dmrs$table$area,
+                          L = dmrs$table$L,
+                          pvalue = dmrs$table$p.value,
+                          fwer = dmrs$table$fwer)
+
+# View top DMRs
+head(results.ranges)
+
+# Export DMRs
+write.csv(as.data.frame(results.ranges), 
+          "results/methylation_DMRs.csv", 
+          row.names = FALSE)
+```
+
+### Plot Individual DMRs
+
+```r
+# Create group colors
+groups <- factor(pData(MSet)$Treatment)
+group_pal <- c("Control" = "blue", "Treatment" = "red")
+group_colors <- group_pal[groups]
+
+# Plot multiple DMRs
+for (i in 1:min(5, length(results.ranges))) {
+    DMR.plot(ranges = results.ranges, 
+             dmr = i,
+             CpGs = GRset, 
+             phen.col = group_colors,
+             genome = "mm10")
+    dev.copy(pdf, glue("results/dmr{i}.pdf"), width=23, height=70)
+    dev.off()
+}
+```
+
+---
+
+## 11. Functional Analysis
+
+### Perform Gene Ontology Enrichment
+
+```r
+# Extract unique genes from significant DMPs
+sig_genes <- unique(unlist(strsplit(as.character(sig_dmps$gene), ";")))
+sig_genes <- sig_genes[sig_genes != ""]
+sig_genes <- na.omit(sig_genes)
+
+cat("Number of unique genes with DMPs:", length(sig_genes), "\n")
+
+# Convert gene UNIPROT IDs to Entrez IDs
+mouse_mart <- useMart("ensembl", dataset = "mmusculus_gene_ensembl")
+genes_entrez <- getBM(attributes = c("uniprotswissprot", "uniprotsptrembl", 
+                                     "entrezgene_id", "external_gene_name"),
+                      filters = "uniprotswissprot",
+                      values = sig_genes,
+                      mart = mouse_mart)
+
+# Execute GO enrichment analysis
+ego <- enrichGO(gene = genes_entrez$entrezgene_id,
+                OrgDb = org.Mm.eg.db,
+                ont = "BP",
+                pAdjustMethod = "fdr",
+                qvalueCutoff = 0.05,
+                readable = TRUE)
+
+# View results
+head(ego)
+
+# Plot
+barplot(ego, showCategory = 20)
+dotplot(ego, showCategory = 20)
+```
+
+### KEGG Pathway Analysis
+
+```r
+# Execute KEGG enrichment test
+kegg <- enrichKEGG(gene = genes_entrez$entrezgene_id,
+                   organism = 'mmu',  # mouse
+                   pvalueCutoff = 0.05)
+
+# View results
+head(kegg)
+
+# Plot
+barplot(kegg, showCategory = 20)
+dotplot(kegg, showCategory = 20)
+```
+
+---
+
+## 12. Saving Results
+
+```r
+# Create summary report
+sink("mouse_methylation_summary.txt")
+cat("=== Mouse Methylation Analysis Summary ===\n\n")
+cat("Date:", format(Sys.time(), "%Y-%m-%d %H:%M:%S"), "\n\n")
+cat("Number of samples:", ncol(MSet), "\n")
+cat("Number of probes analyzed:", nrow(MSet), "\n")
+cat("Experimental groups:", paste(levels(group), collapse = ", "), "\n\n")
+cat("Significant DMPs (FDR < 0.05, |delta beta| > 0.2):", nrow(sig_dmps), "\n")
+cat("  - Hypermethylated:", sum(sig_dmps$deltaBeta > 0.2), "\n")
+cat("  - Hypomethylated:", sum(sig_dmps$deltaBeta < -0.2), "\n\n")
+cat("Number of DMRs found:", length(results.ranges), "\n")
+cat("Number of genes with DMPs:", length(sig_genes), "\n")
+sink()
+
+cat("\nAnalysis complete!\n")
+```
+
