@@ -305,15 +305,23 @@ sig_dmps <- subset(results, adj.P.Val < 0.05)
 
 cat("Total significant DMPs:", nrow(sig_dmps), "\n")
 
-# Criteria 2: |delta beta| > 0.2
-
-cat("Hypermethylated (delta beta > 0.2):", 
-    sum(sig_dmps$deltaBeta > 0.05), "\n")
-cat("Hypomethylated (delta beta < -0.2):", 
-    sum(sig_dmps$deltaBeta < -0.05), "\n")
-
-# View top DMPs
+# View top significant DMPs
 head(sig_dmps[order(sig_dmps$adj.P.Val), ])
+
+
+# Criteria 2: |delta beta| > 0.2
+rel_dmps <- subset(results, abs(deltaBeta) > 0.05)
+
+cat("Hypermethylated DMPs (delta beta > 0.05):", 
+    sum(rel_dmps$deltaBeta > 0.05), "\n")
+cat("Hypomethylated DMPs (delta beta < -0.05):", 
+    sum(rel_dmps$deltaBeta < -0.05), "\n")
+
+# View top relevant DMPs
+head(rel_dmps[order(abs(rel_dmps$deltaBeta)), ])
+
+# Combine significant and relevant DMPs
+final_dmps <- unique(rbind(sig_dmps, rel_dmps))
 ```
 
 ---
@@ -332,19 +340,20 @@ results$strand <- annot[rownames(results), "strand"]
 head(results[, c("gene", "gene_group", "chr", "pos", 
                  "deltaBeta", "adj.P.Val")])
 
-# Annotate significant DMPs
-sig_dmps$gene <- annot[rownames(sig_dmps), "GeneName_UCSC"]
-sig_dmps$gene_group <- annot[rownames(sig_dmps), "Feature_UCSC"]
-sig_dmps$chr <- annot[rownames(sig_dmps), "chr"]
-sig_dmps$pos <- annot[rownames(sig_dmps), "pos"]
-sig_dmps$pos <- annot[rownames(sig_dmps), "strand"]
+# Annotate DMPs of interest
+final_dmps$gene <- annot[rownames(final_dmps), "GeneName_UCSC"]
+final_dmps$gene_group <- annot[rownames(final_dmps), "Feature_UCSC"]
+final_dmps$chr <- annot[rownames(final_dmps), "chr"]
+final_dmps$pos <- annot[rownames(final_dmps), "pos"]
+final_dmps$pos <- annot[rownames(final_dmps), "strand"]
 
-# View annotated significant DMPs
-head(sig_dmps)
+# View annotated final DMPs
+head(final_dmps)
+
 
 # Export results
 write.csv(results, "results/methylation_all_results.csv", row.names = TRUE)
-write.csv(sig_dmps, "results/methylation_significant_DMPs.csv", row.names = TRUE)
+write.csv(final_dmps, "results/methylation_interest_DMPs.csv", row.names = TRUE)
 ```
 
 ---
@@ -380,22 +389,24 @@ dev.off()
 ### Construct Heatmap of Top DMPs
 
 ```r
-# Select most significant DMPs
-top_probes <- rownames(sig_dmps[order(sig_dmps$adj.P.Val), ])
+heatmap_dmps <- function(dmps, label){
+    # Select most significant DMPs
+    top_probes <- rownames(dmps[order(dmps$adj.P.Val), ])
 
-# Create annotation for samples
-sample_annotation <- data.frame(
-    Group = factor(pData(MSet)$Treatment, levels = c("Control", "CD+DFP")),
-    row.names = colnames(beta)
-)
+    # Create annotation for samples
+    sample_annotation <- data.frame(
+        Group = factor(pData(MSet)$Treatment, levels = c("Control", "CD+DFP")),
+        row.names = colnames(beta)
+    )
 
-# Order annotation and beta-values by group
-col_order <- order(sample_annotation$Group)
-beta_ordered <- beta[top_probes, col_order]
-sample_annotation_ordered <- sample_annotation[col_order, , drop = FALSE]
+    # Order annotation and beta-values by group
+    col_order <- order(sample_annotation$Group)
+    beta_ordered <- beta[top_probes, col_order]
+    sample_annotation_ordered <- sample_annotation[col_order, , drop = FALSE]
 
-# Generate heatmap
-pheatmap(beta_ordered,
+    # Generate heatmap
+    pdf(glue("results/heatmap_{label}_DMPs.pdf"), width=12, height=15)
+    pheatmap(beta_ordered,
          scale = "none",
          show_rownames = TRUE,
          annotation_col = sample_annotation_ordered,
@@ -403,15 +414,21 @@ pheatmap(beta_ordered,
          color = colorRampPalette(c("blue", "white", "red"))(100),
          clustering_distance_rows = "euclidean",
          cluster_cols = FALSE)
-dev.copy(pdf, "results/heatmap_DMPs.pdf", width=12)
-dev.off()
+    dev.off()
+}
+
+# Plot heatmap all DMPs of interest
+heatmap_dmps(final_dmps, "interest")
+
+# Plot heatmap for only significant DMPs
+heatmap_dmps(sig_dmps, "significant")
 ```
 
 ### Evaluate Distribution of DMPs Across Genome
 
 ```r
 # Get chromosome distribution of significant DMPs
-chr_counts <- table(sig_dmps$chr)
+chr_counts <- table(final_dmps$chr)
 
 # Order chromosomes properly
 chr_order <- paste0("chr", c(1:19, "X", "Y"))
@@ -431,10 +448,10 @@ dev.off()
 
 ```r
 # Get distribution across gene regions
-region_counts <- table(sig_dmps$gene_group)
+region_counts <- table(final_dmps$gene_group)
 
 # Split multiple annotations (some probes map to multiple regions)
-regions_split <- unlist(strsplit(as.character(sig_dmps$gene_group), ";"))
+regions_split <- unlist(strsplit(as.character(final_dmps$gene_group), ";"))
 region_table <- table(regions_split)
 
 barplot(sort(region_table, decreasing = TRUE),
@@ -538,33 +555,39 @@ for (i in 1:min(5, length(results.ranges))) {
 
 ```r
 # Extract unique genes from significant DMPs
-sig_genes <- unique(unlist(strsplit(as.character(sig_dmps$gene), ";")))
-sig_genes <- sig_genes[sig_genes != ""]
-sig_genes <- na.omit(sig_genes)
+final_genes <- unique(unlist(strsplit(as.character(final_dmps$gene), ";")))
+final_genes <- final_genes[final_genes != ""]
+final_genes <- na.omit(final_genes)
 
-cat("Number of unique genes with DMPs:", length(sig_genes), "\n")
+cat("Number of unique genes with DMPs:", length(final_genes), "\n")
 
 # Convert gene UNIPROT IDs to Entrez IDs
 mouse_mart <- useMart("ensembl", dataset = "mmusculus_gene_ensembl")
 genes_entrez <- getBM(attributes = c("uniprotswissprot", "uniprotsptrembl", 
                                      "entrezgene_id", "external_gene_name"),
                       filters = "uniprotswissprot",
-                      values = sig_genes,
+                      values = final_genes,
                       mart = mouse_mart)
 
+gene_list <- genes_entrez$entrezgene_id
+
 # Execute GO enrichment analysis
-ego <- enrichGO(gene = genes_entrez$entrezgene_id,
+geo <- function(gene_list, ont_type){
+    ego <- enrichGO(gene = gene_list,
                 OrgDb = org.Mm.eg.db,
-                ont = "BP",
+                ont = ont_type,
                 pAdjustMethod = "fdr",
                 qvalueCutoff = 0.05,
                 readable = TRUE)
+}
 
-# View results
-head(ego)
+bp_geo <- geo(gene_list, "BP")
+mf_geo <- geo(gene_list, "MF")
+cc_geo <- geo(gene_list, "CC")
 
-# Plot
+# Draw barplot of results
 barplot(ego, showCategory = 20)
+# Draw dotplot of results
 dotplot(ego, showCategory = 20)
 ```
 
@@ -572,16 +595,22 @@ dotplot(ego, showCategory = 20)
 
 ```r
 # Execute KEGG enrichment test
-kegg <- enrichKEGG(gene = genes_entrez$entrezgene_id,
+kegg <- enrichKEGG(gene = gene_list,
                    organism = 'mmu',  # mouse
                    pvalueCutoff = 0.05)
 
 # View results
 head(kegg)
 
-# Plot
-barplot(kegg, showCategory = 20)
-dotplot(kegg, showCategory = 20)
+# Draw barplot of results
+barplot(kegg)
+dev.copy(pdf, "results/barplot_kegg_results.pdf", width=10)
+dev.off()
+
+# Draw dotplot of results
+dotplot(kegg)
+dev.copy(pdf, "results/dotplot_kegg_results.pdf", width=10)
+dev.off()
 ```
 
 ---
@@ -597,10 +626,13 @@ cat("Number of samples:", ncol(MSet), "\n")
 cat("Number of probes analyzed:", nrow(MSet), "\n")
 cat("Experimental groups:", paste(levels(group), collapse = ", "), "\n\n")
 cat("Significant DMPs (FDR < 0.05,):", nrow(sig_dmps), "\n")
-cat("  - Hypermethylated:", sum(sig_dmps$deltaBeta > 0.05), "\n")
-cat("  - Hypomethylated:", sum(sig_dmps$deltaBeta < -0.05), "\n\n")
+cat("DMPs of interest:", nrow(final_dmps), "\n")
+cat("  - Hypermethylated:", sum(final_dmps$deltaBeta > 0.05), "\n")
+cat("  - Hypomethylated:", sum(final_dmps$deltaBeta < -0.05), "\n\n")
 cat("Number of DMRs found:", length(results.ranges), "\n")
-cat("Number of genes with DMPs:", length(sig_genes), "\n")
+cat("Number of genes found in DMPs of interest:", length(final_genes), "\n")
+cat("Number of gene ontologies of relevance at molecular level", nrow(mf_geo), "\n")
+cat("Number of pathways of relevance:", nrow(kegg), "\n")
 sink()
 
 cat("\nAnalysis complete!\n")
