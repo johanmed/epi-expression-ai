@@ -97,16 +97,7 @@ print(paste("Samples with mean detection p-value < 0.01:",
             sum(mean_detP < 0.01), "out of", length(mean_detP)))
 
 # Visualize detection p-values
-par(mfrow = c(2, 2))
-
-## Bar plot per sample
-barplot(mean_detP, 
-        las = 2, 
-        ylim = c(0, max(mean_detP) * 1.1),
-        main = "Mean Detection P-values",
-        ylab = "Mean Detection P-value",
-        cex.names = 0.7)
-abline(h = 0.01, col = "red", lwd = 2)
+par(mfrow = c(1, 2))
 
 ## Distribution histogram
 hist(detP, breaks = 100, 
@@ -114,17 +105,9 @@ hist(detP, breaks = 100,
      xlab = "Detection P-value")
 abline(v = 0.01, col = "red", lwd = 2)
 
-v## Failed probes per sample
-failed_probes <- colSums(detP > 0.01)
-barplot(failed_probes,
-        las = 2,
-        main = "Number of Failed Probes per Sample",
-        ylab = "Number of probes with p > 0.01",
-        cex.names = 0.7)
-
 ## Density plot by group
 densityPlot(RGset, sampGroups = pData(RGset)$Sample_Group,
-            main = "Raw Data Density by Group")
+            main = "Raw Data Density by Sample")
 
 # Save results
 dev.copy(pdf, "results/detection_pvalues.pdf", width=10)
@@ -405,7 +388,7 @@ heatmap_dmps <- function(dmps, label){
     sample_annotation_ordered <- sample_annotation[col_order, , drop = FALSE]
 
     # Generate heatmap
-    pdf(glue("results/heatmap_{label}_DMPs.pdf"), width=12, height=15)
+    pdf(glue("results/heatmap_{label}_DMPs.pdf"), width=12, height=8)
     pheatmap(beta_ordered,
          scale = "none",
          show_rownames = TRUE,
@@ -535,14 +518,16 @@ groups <- factor(pData(MSet)$Treatment)
 group_pal <- c("Control" = "blue", "Treatment" = "red")
 group_colors <- group_pal[groups]
 
+
 # Plot multiple DMRs
-for (i in 1:min(5, length(results.ranges))) {
+for (i in 1:min(3, length(results.ranges))) {
     DMR.plot(ranges = results.ranges, 
              dmr = i,
              CpGs = GRset, 
              phen.col = group_colors,
+             heatmap=FALSE,
              genome = "mm10")
-    dev.copy(pdf, glue("results/dmr{i}.pdf"), width=23, height=70)
+    dev.copy(pdf, glue("results/dmr{i}.pdf"), width=20, height=10)
     dev.off()
 }
 ```
