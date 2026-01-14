@@ -596,6 +596,33 @@ dev.off()
 dotplot(kegg)
 dev.copy(pdf, "results/dotplot_kegg_results.pdf", width=10)
 dev.off()
+
+# Create list of genes and kegg for follow-up
+
+final_genes_kegg <- data.frame()
+
+kegg_data <- kegg[]
+
+for (i in seq_len(nrow(kegg_data))) {
+  genes <- strsplit(kegg_data$geneID[i], "/")[[1]]
+  genes <- as.integer(genes)
+  
+  matches <- genes_entrez$entrezgene_id %in% genes
+  
+  if (any(matches)) {
+    temp <- data.frame(
+      pathway_id = kegg_data$ID[i],
+      pathway_description = kegg_data$Description[i],
+      gene_symbol = genes_entrez$external_gene_name[matches],
+      entrez_id = genes_entrez$entrezgene_id[matches],
+      stringsAsFactors = FALSE
+    )
+    final_genes_kegg <- rbind(final_genes_kegg, temp)
+  }
+}
+
+final_genes_kegg <- unique(final_genes_kegg)
+write.csv(final_genes_kegg, "results/list_genes_kegg.csv", row.names=FALSE)
 ```
 
 ---
