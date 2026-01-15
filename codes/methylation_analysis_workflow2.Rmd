@@ -624,10 +624,35 @@ for (i in seq_len(nrow(kegg_data))) {
 final_genes_kegg <- unique(final_genes_kegg)
 write.csv(final_genes_kegg, "results/list_genes_kegg.csv", row.names=FALSE)
 ```
+---
+
+## 12. Creating phenotype files with methylation data
+
+```r
+# Read experiment metadata
+metadata <- read.csv("data/raw/sample_sheet.csv")
+
+# Save covariates
+covariates <- metadata[c("Strain", "Sex", "Age", "AgeDays", "Treatment")]
+write.csv(covariates, "results/covariates.csv", row.names=FALSE)
+
+
+# Save methylation phenotypes
+methyl_pheno <- beta
+
+colnames(methyl_pheno) <- metadata$Strain[match(colnames(methyl_pheno), metadata$ExtBasename)]
+
+trans_methyl_pheno <- t(methyl_pheno)
+
+write.csv(trans_methyl_pheno, "~/methylation_phenofile.csv", row.names=FALSE) # without strains
+
+write.csv(trans_methyl_pheno, "~/methylation_phenofile_strains.csv", row.names=TRUE) # with strains
+
+```
 
 ---
 
-## 12. Saving Results
+## 13. Saving Results
 
 ```r
 # Create summary report
