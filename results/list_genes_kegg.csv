@@ -1,43 +1,43 @@
-"pathway_id","pathway_description","gene_symbol","entrez_id"
-"mmu00040","Pentose and glucuronate interconversions","Fggy",75578
-"mmu00040","Pentose and glucuronate interconversions","Ugt1a9",394434
-"mmu00040","Pentose and glucuronate interconversions","Ugt1a7c",394432
-"mmu00040","Pentose and glucuronate interconversions","Ugt1a6a",94284
-"mmu00982","Drug metabolism - cytochrome P450","Ugt1a9",394434
-"mmu00982","Drug metabolism - cytochrome P450","Ugt1a7c",394432
-"mmu00982","Drug metabolism - cytochrome P450","Ugt1a6a",94284
-"mmu00982","Drug metabolism - cytochrome P450","Gsto2",68214
-"mmu00980","Metabolism of xenobiotics by cytochrome P450","Ugt1a9",394434
-"mmu00980","Metabolism of xenobiotics by cytochrome P450","Ugt1a7c",394432
-"mmu00980","Metabolism of xenobiotics by cytochrome P450","Ugt1a6a",94284
-"mmu00980","Metabolism of xenobiotics by cytochrome P450","Gsto2",68214
-"mmu05204","Chemical carcinogenesis - DNA adducts","Ugt1a9",394434
-"mmu05204","Chemical carcinogenesis - DNA adducts","Ugt1a7c",394432
-"mmu05204","Chemical carcinogenesis - DNA adducts","Ugt1a6a",94284
-"mmu05204","Chemical carcinogenesis - DNA adducts","Gsto2",68214
-"mmu00053","Ascorbate and aldarate metabolism","Ugt1a9",394434
-"mmu00053","Ascorbate and aldarate metabolism","Ugt1a7c",394432
-"mmu00053","Ascorbate and aldarate metabolism","Ugt1a6a",94284
-"mmu00983","Drug metabolism - other enzymes","Ugt1a9",394434
-"mmu00983","Drug metabolism - other enzymes","Ugt1a7c",394432
-"mmu00983","Drug metabolism - other enzymes","Ugt1a6a",94284
-"mmu00983","Drug metabolism - other enzymes","Gsto2",68214
-"mmu00860","Porphyrin metabolism","Ugt1a9",394434
-"mmu00860","Porphyrin metabolism","Ugt1a7c",394432
-"mmu00860","Porphyrin metabolism","Ugt1a6a",94284
-"mmu04640","Hematopoietic cell lineage","Il11ra2",16158
-"mmu04640","Hematopoietic cell lineage","Il11ra3",100042555
-"mmu04640","Hematopoietic cell lineage","Il11ra1",16157
-"mmu00140","Steroid hormone biosynthesis","Ugt1a9",394434
-"mmu00140","Steroid hormone biosynthesis","Ugt1a7c",394432
-"mmu00140","Steroid hormone biosynthesis","Ugt1a6a",94284
-"mmu04976","Bile secretion","Ugt1a9",394434
-"mmu04976","Bile secretion","Ugt1a7c",394432
-"mmu04976","Bile secretion","Ugt1a6a",94284
-"mmu00830","Retinol metabolism","Ugt1a9",394434
-"mmu00830","Retinol metabolism","Ugt1a7c",394432
-"mmu00830","Retinol metabolism","Ugt1a6a",94284
-"mmu05207","Chemical carcinogenesis - receptor activation","Ugt1a9",394434
-"mmu05207","Chemical carcinogenesis - receptor activation","Ugt1a7c",394432
-"mmu05207","Chemical carcinogenesis - receptor activation","Ugt1a6a",94284
-"mmu05207","Chemical carcinogenesis - receptor activation","Gsto2",68214
+"gene_entrez_id","gene_symbol","pathway_id","pathway_description","p_adjusted"
+75578,"Fggy","mmu00040","Pentose and glucuronate interconversions",0.00038748195407809
+394434,"Ugt1a9","mmu00040","Pentose and glucuronate interconversions",0.00038748195407809
+394432,"Ugt1a7c","mmu00040","Pentose and glucuronate interconversions",0.00038748195407809
+94284,"Ugt1a6a","mmu00040","Pentose and glucuronate interconversions",0.00038748195407809
+394434,"Ugt1a9","mmu00982","Drug metabolism - cytochrome P450",0.00264879674910935
+394432,"Ugt1a7c","mmu00982","Drug metabolism - cytochrome P450",0.00264879674910935
+94284,"Ugt1a6a","mmu00982","Drug metabolism - cytochrome P450",0.00264879674910935
+68214,"Gsto2","mmu00982","Drug metabolism - cytochrome P450",0.00264879674910935
+394434,"Ugt1a9","mmu00980","Metabolism of xenobiotics by cytochrome P450",0.00264879674910935
+394432,"Ugt1a7c","mmu00980","Metabolism of xenobiotics by cytochrome P450",0.00264879674910935
+94284,"Ugt1a6a","mmu00980","Metabolism of xenobiotics by cytochrome P450",0.00264879674910935
+68214,"Gsto2","mmu00980","Metabolism of xenobiotics by cytochrome P450",0.00264879674910935
+394434,"Ugt1a9","mmu05204","Chemical carcinogenesis - DNA adducts",0.00332573578428805
+394432,"Ugt1a7c","mmu05204","Chemical carcinogenesis - DNA adducts",0.00332573578428805
+94284,"Ugt1a6a","mmu05204","Chemical carcinogenesis - DNA adducts",0.00332573578428805
+68214,"Gsto2","mmu05204","Chemical carcinogenesis - DNA adducts",0.00332573578428805
+394434,"Ugt1a9","mmu00053","Ascorbate and aldarate metabolism",0.00332573578428805
+394432,"Ugt1a7c","mmu00053","Ascorbate and aldarate metabolism",0.00332573578428805
+94284,"Ugt1a6a","mmu00053","Ascorbate and aldarate metabolism",0.00332573578428805
+394434,"Ugt1a9","mmu00983","Drug metabolism - other enzymes",0.00332748255844648
+394432,"Ugt1a7c","mmu00983","Drug metabolism - other enzymes",0.00332748255844648
+94284,"Ugt1a6a","mmu00983","Drug metabolism - other enzymes",0.00332748255844648
+68214,"Gsto2","mmu00983","Drug metabolism - other enzymes",0.00332748255844648
+394434,"Ugt1a9","mmu00860","Porphyrin metabolism",0.00759555855706253
+394432,"Ugt1a7c","mmu00860","Porphyrin metabolism",0.00759555855706253
+94284,"Ugt1a6a","mmu00860","Porphyrin metabolism",0.00759555855706253
+16158,"Il11ra2","mmu04640","Hematopoietic cell lineage",0.0471870145962694
+100042555,"Il11ra3","mmu04640","Hematopoietic cell lineage",0.0471870145962694
+16157,"Il11ra1","mmu04640","Hematopoietic cell lineage",0.0471870145962694
+394434,"Ugt1a9","mmu00140","Steroid hormone biosynthesis",0.0471870145962694
+394432,"Ugt1a7c","mmu00140","Steroid hormone biosynthesis",0.0471870145962694
+94284,"Ugt1a6a","mmu00140","Steroid hormone biosynthesis",0.0471870145962694
+394434,"Ugt1a9","mmu04976","Bile secretion",0.0471870145962694
+394432,"Ugt1a7c","mmu04976","Bile secretion",0.0471870145962694
+94284,"Ugt1a6a","mmu04976","Bile secretion",0.0471870145962694
+394434,"Ugt1a9","mmu00830","Retinol metabolism",0.0471870145962694
+394432,"Ugt1a7c","mmu00830","Retinol metabolism",0.0471870145962694
+94284,"Ugt1a6a","mmu00830","Retinol metabolism",0.0471870145962694
+394434,"Ugt1a9","mmu05207","Chemical carcinogenesis - receptor activation",0.047231424129021
+394432,"Ugt1a7c","mmu05207","Chemical carcinogenesis - receptor activation",0.047231424129021
+94284,"Ugt1a6a","mmu05207","Chemical carcinogenesis - receptor activation",0.047231424129021
+68214,"Gsto2","mmu05207","Chemical carcinogenesis - receptor activation",0.047231424129021

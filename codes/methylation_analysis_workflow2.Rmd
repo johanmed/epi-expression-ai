@@ -611,12 +611,14 @@ for (i in seq_len(nrow(kegg_data))) {
   
   if (any(matches)) {
     temp <- data.frame(
-      pathway_id = kegg_data$ID[i],
-      pathway_description = kegg_data$Description[i],
-      gene_symbol = genes_entrez$external_gene_name[matches],
-      entrez_id = genes_entrez$entrezgene_id[matches],
-      stringsAsFactors = FALSE
+        gene_entrez_id = genes_entrez$entrezgene_id[matches],
+        gene_symbol = genes_entrez$external_gene_name[matches],
+        pathway_id = kegg_data$ID[i],
+        pathway_description = kegg_data$Description[i],
+        p_adjusted = kegg_data$p.adjust[i],
+        stringsAsFactors = FALSE
     )
+    temp <- temp[order(temp$p_adjusted),]
     final_genes_kegg <- rbind(final_genes_kegg, temp)
   }
 }
