@@ -30,6 +30,7 @@ library(stringr)
 library(rngtools)
 library(Gviz)
 library(glue)
+library(reticulate)
 
 library(minfi)
 library(limma)
@@ -576,7 +577,7 @@ barplot(ego, showCategory = 20)
 dotplot(ego, showCategory = 20)
 ```
 
-### KEGG Pathway Analysis
+### Perform KEGG Pathway Analysis
 
 ```r
 # Execute KEGG enrichment test
@@ -626,6 +627,23 @@ for (i in seq_len(nrow(kegg_data))) {
 final_genes_kegg <- unique(final_genes_kegg)
 write.csv(final_genes_kegg, "results/list_genes_kegg.csv", row.names=FALSE)
 ```
+---
+
+### Extract genes from enriched KEGG and reperform Gene Ontology enrichment
+
+```r
+py_require(c("requests"))
+source_python("codes/pathway2genes.py")
+
+new_gene_list <- py$new_list
+
+new_bp_geo <- geo(new_gene_list, "BP")
+new_mf_geo <- geo(new_gene_list, "MF")
+new_cc_geo <- geo(new_gene_list, "CC")
+
+```
+
+
 ---
 
 ## 12. Creating phenotype files with methylation data
