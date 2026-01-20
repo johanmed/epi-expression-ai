@@ -1,0 +1,1125 @@
+"gene_symbol","go_id","go_description","p_adjusted"
+"Mgst3","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gstm4","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gstm5","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gstm2","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gstm3","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gstm6","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gsta1","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gstp2","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gstk1","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gsto1","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gsta4","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gstm1","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Mgst1","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gstt2","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gstp3","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gstm7","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gsta2","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gsta5","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gstp1","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gsta3","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Hpgds","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Mgst2","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gsto2","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gstt4","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gstt3","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gstt1","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Gsta13","GO:0004364","glutathione transferase activity",1.0425580487662e-51
+"Cyp2c55","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp2c70","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp2c50","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp3a59","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp2c29","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp1b1","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp2f2","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp3a41a","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp2c68","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Fmo4","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp1a2","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Fmo9","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp2c54","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Gm4847","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp3a13","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp2c39","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp3a11","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp2e1","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp2c23","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp3a57","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Fmo13","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp3a41b","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp3a25","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp2s1","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp1a1","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp3a16","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Fmo2","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Fmo5","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp3a44","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp2c67","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp2c40","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp2c37","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Fmo6","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp2c38","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Akr1c21","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Fmo3","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Fmo1","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp2c66","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp2c69","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp2c65","GO:0004497","monooxygenase activity",8.86343085008516e-49
+"Cyp2c55","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp2c70","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp2c50","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp3a59","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp2c29","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp1b1","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp2f2","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp3a41a","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp2c68","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Fmo4","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp1a2","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Fmo9","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp2c54","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Gm4847","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp3a13","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp2c39","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp3a11","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp2e1","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp2c23","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp3a57","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Fmo13","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp3a41b","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp3a25","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp2s1","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp1a1","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp3a16","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Fmo2","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Fmo5","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp3a44","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp2c67","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp2c40","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp2c37","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Fmo6","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Ptgs2","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp2c38","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Akr1c21","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Fmo3","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Fmo1","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp2c66","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp2c69","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp2c65","GO:0016705","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",4.21586984878792e-43
+"Cyp2c50","GO:0101020","estrogen 16-alpha-hydroxylase activity",5.33156393426136e-42
+"Cyp3a59","GO:0101020","estrogen 16-alpha-hydroxylase activity",5.33156393426136e-42
+"Cyp1b1","GO:0101020","estrogen 16-alpha-hydroxylase activity",5.33156393426136e-42
+"Cyp3a41a","GO:0101020","estrogen 16-alpha-hydroxylase activity",5.33156393426136e-42
+"Cyp2c68","GO:0101020","estrogen 16-alpha-hydroxylase activity",5.33156393426136e-42
+"Cyp1a2","GO:0101020","estrogen 16-alpha-hydroxylase activity",5.33156393426136e-42
+"Cyp2c54","GO:0101020","estrogen 16-alpha-hydroxylase activity",5.33156393426136e-42
+"Cyp3a13","GO:0101020","estrogen 16-alpha-hydroxylase activity",5.33156393426136e-42
+"Cyp3a11","GO:0101020","estrogen 16-alpha-hydroxylase activity",5.33156393426136e-42
+"Cyp3a41b","GO:0101020","estrogen 16-alpha-hydroxylase activity",5.33156393426136e-42
+"Cyp3a25","GO:0101020","estrogen 16-alpha-hydroxylase activity",5.33156393426136e-42
+"Cyp1a1","GO:0101020","estrogen 16-alpha-hydroxylase activity",5.33156393426136e-42
+"Cyp3a16","GO:0101020","estrogen 16-alpha-hydroxylase activity",5.33156393426136e-42
+"Cyp3a44","GO:0101020","estrogen 16-alpha-hydroxylase activity",5.33156393426136e-42
+"Cyp2c67","GO:0101020","estrogen 16-alpha-hydroxylase activity",5.33156393426136e-42
+"Cyp2c40","GO:0101020","estrogen 16-alpha-hydroxylase activity",5.33156393426136e-42
+"Cyp2c37","GO:0101020","estrogen 16-alpha-hydroxylase activity",5.33156393426136e-42
+"Cyp2c66","GO:0101020","estrogen 16-alpha-hydroxylase activity",5.33156393426136e-42
+"Cyp2c69","GO:0101020","estrogen 16-alpha-hydroxylase activity",5.33156393426136e-42
+"Cyp2c65","GO:0101020","estrogen 16-alpha-hydroxylase activity",5.33156393426136e-42
+"Cyp2c55","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp2c70","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp2c50","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp3a59","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp2c29","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp1b1","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp2f2","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp3a41a","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp2c68","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp1a2","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp2c54","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp3a13","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp2c39","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp3a11","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp2e1","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp2c23","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp3a57","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp3a41b","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp3a25","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp2s1","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp1a1","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp3a16","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp3a44","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp2c67","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp2c40","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp2c37","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp2c38","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp2c66","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp2c69","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp2c65","GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",2.82546130535404e-41
+"Cyp2c55","GO:0008401","retinoic acid 4-hydroxylase activity",2.64888433910658e-40
+"Cyp2c50","GO:0008401","retinoic acid 4-hydroxylase activity",2.64888433910658e-40
+"Cyp3a59","GO:0008401","retinoic acid 4-hydroxylase activity",2.64888433910658e-40
+"Cyp2c29","GO:0008401","retinoic acid 4-hydroxylase activity",2.64888433910658e-40
+"Cyp3a41a","GO:0008401","retinoic acid 4-hydroxylase activity",2.64888433910658e-40
+"Cyp2c68","GO:0008401","retinoic acid 4-hydroxylase activity",2.64888433910658e-40
+"Cyp2c54","GO:0008401","retinoic acid 4-hydroxylase activity",2.64888433910658e-40
+"Cyp3a13","GO:0008401","retinoic acid 4-hydroxylase activity",2.64888433910658e-40
+"Cyp2c39","GO:0008401","retinoic acid 4-hydroxylase activity",2.64888433910658e-40
+"Cyp3a11","GO:0008401","retinoic acid 4-hydroxylase activity",2.64888433910658e-40
+"Cyp3a41b","GO:0008401","retinoic acid 4-hydroxylase activity",2.64888433910658e-40
+"Cyp3a25","GO:0008401","retinoic acid 4-hydroxylase activity",2.64888433910658e-40
+"Cyp3a16","GO:0008401","retinoic acid 4-hydroxylase activity",2.64888433910658e-40
+"Cyp3a44","GO:0008401","retinoic acid 4-hydroxylase activity",2.64888433910658e-40
+"Cyp2c67","GO:0008401","retinoic acid 4-hydroxylase activity",2.64888433910658e-40
+"Cyp2c40","GO:0008401","retinoic acid 4-hydroxylase activity",2.64888433910658e-40
+"Cyp2c37","GO:0008401","retinoic acid 4-hydroxylase activity",2.64888433910658e-40
+"Cyp2c38","GO:0008401","retinoic acid 4-hydroxylase activity",2.64888433910658e-40
+"Cyp2c66","GO:0008401","retinoic acid 4-hydroxylase activity",2.64888433910658e-40
+"Cyp2c69","GO:0008401","retinoic acid 4-hydroxylase activity",2.64888433910658e-40
+"Cyp2c65","GO:0008401","retinoic acid 4-hydroxylase activity",2.64888433910658e-40
+"Mgst3","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gstm4","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gstm5","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gstm2","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gstm3","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gstm6","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gsta1","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gstp2","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gstk1","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gsto1","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gsta4","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gstm1","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Mgst1","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gstt2","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gstp3","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gstm7","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gsta2","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gsta5","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gstp1","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gsta3","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Hpgds","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Mgst2","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gsto2","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gstt4","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gstt3","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gstt1","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Gsta13","GO:0016765","transferase activity, transferring alkyl or aryl (other than methyl) groups",1.50084093518796e-39
+"Cyp2c55","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp2c70","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp2c50","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp3a59","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp2c29","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp1b1","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp2f2","GO:0005506","iron ion binding",2.71907175896471e-39
+"Aox3","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp3a41a","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp2c68","GO:0005506","iron ion binding",2.71907175896471e-39
+"Aox4","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp1a2","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp2c54","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp3a13","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp2c39","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp3a11","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp2e1","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp2c23","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp3a57","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp3a41b","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp3a25","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp2s1","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp1a1","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp3a16","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp3a44","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp2c67","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp2c40","GO:0005506","iron ion binding",2.71907175896471e-39
+"Aox1","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp2c37","GO:0005506","iron ion binding",2.71907175896471e-39
+"Dpyd","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp2c38","GO:0005506","iron ion binding",2.71907175896471e-39
+"Rrm2","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp2c66","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp2c69","GO:0005506","iron ion binding",2.71907175896471e-39
+"Aox2","GO:0005506","iron ion binding",2.71907175896471e-39
+"Xdh","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp2c65","GO:0005506","iron ion binding",2.71907175896471e-39
+"Cyp2c50","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp3a59","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp2c29","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp1b1","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp3a41a","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp2c68","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp1a2","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp2c54","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp3a13","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp2c39","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp3a11","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp3a57","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp3a41b","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp3a25","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp1a1","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp3a16","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp3a44","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp2c67","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp2c40","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp2c37","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp2c38","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp2c66","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp2c69","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp2c65","GO:0008395","steroid hydroxylase activity",1.64687005430303e-37
+"Cyp2c50","GO:0016725","oxidoreductase activity, acting on CH or CH2 groups",4.10933618149398e-34
+"Cyp2c29","GO:0016725","oxidoreductase activity, acting on CH or CH2 groups",4.10933618149398e-34
+"Rrm2b","GO:0016725","oxidoreductase activity, acting on CH or CH2 groups",4.10933618149398e-34
+"Cyp2c68","GO:0016725","oxidoreductase activity, acting on CH or CH2 groups",4.10933618149398e-34
+"Cyp1a2","GO:0016725","oxidoreductase activity, acting on CH or CH2 groups",4.10933618149398e-34
+"Cyp2c54","GO:0016725","oxidoreductase activity, acting on CH or CH2 groups",4.10933618149398e-34
+"Cyp3a13","GO:0016725","oxidoreductase activity, acting on CH or CH2 groups",4.10933618149398e-34
+"Cyp2c39","GO:0016725","oxidoreductase activity, acting on CH or CH2 groups",4.10933618149398e-34
+"Rrm1","GO:0016725","oxidoreductase activity, acting on CH or CH2 groups",4.10933618149398e-34
+"Cyp2c67","GO:0016725","oxidoreductase activity, acting on CH or CH2 groups",4.10933618149398e-34
+"Cyp2c40","GO:0016725","oxidoreductase activity, acting on CH or CH2 groups",4.10933618149398e-34
+"Cyp2c37","GO:0016725","oxidoreductase activity, acting on CH or CH2 groups",4.10933618149398e-34
+"Cyp2c38","GO:0016725","oxidoreductase activity, acting on CH or CH2 groups",4.10933618149398e-34
+"Rrm2","GO:0016725","oxidoreductase activity, acting on CH or CH2 groups",4.10933618149398e-34
+"Cyp2c66","GO:0016725","oxidoreductase activity, acting on CH or CH2 groups",4.10933618149398e-34
+"Cyp2c69","GO:0016725","oxidoreductase activity, acting on CH or CH2 groups",4.10933618149398e-34
+"Xdh","GO:0016725","oxidoreductase activity, acting on CH or CH2 groups",4.10933618149398e-34
+"Cyp2c65","GO:0016725","oxidoreductase activity, acting on CH or CH2 groups",4.10933618149398e-34
+"Cyp2c55","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp2c70","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp2c50","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp3a59","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp2c29","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp1b1","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp2f2","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp3a41a","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp2c68","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp1a2","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp2c54","GO:0020037","heme binding",9.56243477042889e-34
+"Mpo","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp3a13","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp2c39","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp3a11","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp2e1","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp2c23","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp3a57","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp3a41b","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp3a25","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp2s1","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp1a1","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp3a16","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp3a44","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp2c67","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp2c40","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp2c37","GO:0020037","heme binding",9.56243477042889e-34
+"Ptgs2","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp2c38","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp2c66","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp2c69","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp2c65","GO:0020037","heme binding",9.56243477042889e-34
+"Cyp2c55","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp2c70","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp2c50","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp3a59","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp2c29","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp1b1","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp2f2","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp3a41a","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp2c68","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp1a2","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp2c54","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Mpo","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp3a13","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp2c39","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp3a11","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp2e1","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp2c23","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp3a57","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp3a41b","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp3a25","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp2s1","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp1a1","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp3a16","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp3a44","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp2c67","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp2c40","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp2c37","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Ptgs2","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp2c38","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp2c66","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp2c69","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp2c65","GO:0046906","tetrapyrrole binding",4.39219411291157e-33
+"Cyp2c50","GO:0033695","oxidoreductase activity, acting on CH or CH2 groups, quinone or similar compound as acceptor",2.75282562891259e-29
+"Cyp2c29","GO:0033695","oxidoreductase activity, acting on CH or CH2 groups, quinone or similar compound as acceptor",2.75282562891259e-29
+"Cyp2c68","GO:0033695","oxidoreductase activity, acting on CH or CH2 groups, quinone or similar compound as acceptor",2.75282562891259e-29
+"Cyp1a2","GO:0033695","oxidoreductase activity, acting on CH or CH2 groups, quinone or similar compound as acceptor",2.75282562891259e-29
+"Cyp2c54","GO:0033695","oxidoreductase activity, acting on CH or CH2 groups, quinone or similar compound as acceptor",2.75282562891259e-29
+"Cyp3a13","GO:0033695","oxidoreductase activity, acting on CH or CH2 groups, quinone or similar compound as acceptor",2.75282562891259e-29
+"Cyp2c39","GO:0033695","oxidoreductase activity, acting on CH or CH2 groups, quinone or similar compound as acceptor",2.75282562891259e-29
+"Cyp2c67","GO:0033695","oxidoreductase activity, acting on CH or CH2 groups, quinone or similar compound as acceptor",2.75282562891259e-29
+"Cyp2c40","GO:0033695","oxidoreductase activity, acting on CH or CH2 groups, quinone or similar compound as acceptor",2.75282562891259e-29
+"Cyp2c37","GO:0033695","oxidoreductase activity, acting on CH or CH2 groups, quinone or similar compound as acceptor",2.75282562891259e-29
+"Cyp2c38","GO:0033695","oxidoreductase activity, acting on CH or CH2 groups, quinone or similar compound as acceptor",2.75282562891259e-29
+"Cyp2c66","GO:0033695","oxidoreductase activity, acting on CH or CH2 groups, quinone or similar compound as acceptor",2.75282562891259e-29
+"Cyp2c69","GO:0033695","oxidoreductase activity, acting on CH or CH2 groups, quinone or similar compound as acceptor",2.75282562891259e-29
+"Cyp2c65","GO:0033695","oxidoreductase activity, acting on CH or CH2 groups, quinone or similar compound as acceptor",2.75282562891259e-29
+"Cyp2c50","GO:0034875","caffeine oxidase activity",2.75282562891259e-29
+"Cyp2c29","GO:0034875","caffeine oxidase activity",2.75282562891259e-29
+"Cyp2c68","GO:0034875","caffeine oxidase activity",2.75282562891259e-29
+"Cyp1a2","GO:0034875","caffeine oxidase activity",2.75282562891259e-29
+"Cyp2c54","GO:0034875","caffeine oxidase activity",2.75282562891259e-29
+"Cyp3a13","GO:0034875","caffeine oxidase activity",2.75282562891259e-29
+"Cyp2c39","GO:0034875","caffeine oxidase activity",2.75282562891259e-29
+"Cyp2c67","GO:0034875","caffeine oxidase activity",2.75282562891259e-29
+"Cyp2c40","GO:0034875","caffeine oxidase activity",2.75282562891259e-29
+"Cyp2c37","GO:0034875","caffeine oxidase activity",2.75282562891259e-29
+"Cyp2c38","GO:0034875","caffeine oxidase activity",2.75282562891259e-29
+"Cyp2c66","GO:0034875","caffeine oxidase activity",2.75282562891259e-29
+"Cyp2c69","GO:0034875","caffeine oxidase activity",2.75282562891259e-29
+"Cyp2c65","GO:0034875","caffeine oxidase activity",2.75282562891259e-29
+"Ugt1a2","GO:0015020","glucuronosyltransferase activity",7.69845697337859e-29
+"Ugt1a5","GO:0015020","glucuronosyltransferase activity",7.69845697337859e-29
+"Ugt1a6b","GO:0015020","glucuronosyltransferase activity",7.69845697337859e-29
+"Ugt2a2","GO:0015020","glucuronosyltransferase activity",7.69845697337859e-29
+"Ugt1a8","GO:0015020","glucuronosyltransferase activity",7.69845697337859e-29
+"Ugt2b34","GO:0015020","glucuronosyltransferase activity",7.69845697337859e-29
+"Ugt2b5","GO:0015020","glucuronosyltransferase activity",7.69845697337859e-29
+"Ugt2b38","GO:0015020","glucuronosyltransferase activity",7.69845697337859e-29
+"Ugt1a1","GO:0015020","glucuronosyltransferase activity",7.69845697337859e-29
+"Ugt2a1","GO:0015020","glucuronosyltransferase activity",7.69845697337859e-29
+"Ugt1a7c","GO:0015020","glucuronosyltransferase activity",7.69845697337859e-29
+"Ugt2b1","GO:0015020","glucuronosyltransferase activity",7.69845697337859e-29
+"Ugt2b37","GO:0015020","glucuronosyltransferase activity",7.69845697337859e-29
+"Ugt1a6a","GO:0015020","glucuronosyltransferase activity",7.69845697337859e-29
+"Ugt2a3","GO:0015020","glucuronosyltransferase activity",7.69845697337859e-29
+"Ugt1a9","GO:0015020","glucuronosyltransferase activity",7.69845697337859e-29
+"Ugt2b35","GO:0015020","glucuronosyltransferase activity",7.69845697337859e-29
+"Ugt2b36","GO:0015020","glucuronosyltransferase activity",7.69845697337859e-29
+"Cyp2c55","GO:0008391","arachidonate monooxygenase activity",5.38721893295547e-25
+"Cyp2c50","GO:0008391","arachidonate monooxygenase activity",5.38721893295547e-25
+"Cyp2c29","GO:0008391","arachidonate monooxygenase activity",5.38721893295547e-25
+"Cyp2f2","GO:0008391","arachidonate monooxygenase activity",5.38721893295547e-25
+"Cyp2c68","GO:0008391","arachidonate monooxygenase activity",5.38721893295547e-25
+"Cyp2c54","GO:0008391","arachidonate monooxygenase activity",5.38721893295547e-25
+"Cyp2c39","GO:0008391","arachidonate monooxygenase activity",5.38721893295547e-25
+"Cyp2e1","GO:0008391","arachidonate monooxygenase activity",5.38721893295547e-25
+"Cyp2c23","GO:0008391","arachidonate monooxygenase activity",5.38721893295547e-25
+"Cyp2s1","GO:0008391","arachidonate monooxygenase activity",5.38721893295547e-25
+"Cyp1a1","GO:0008391","arachidonate monooxygenase activity",5.38721893295547e-25
+"Cyp2c67","GO:0008391","arachidonate monooxygenase activity",5.38721893295547e-25
+"Cyp2c40","GO:0008391","arachidonate monooxygenase activity",5.38721893295547e-25
+"Cyp2c37","GO:0008391","arachidonate monooxygenase activity",5.38721893295547e-25
+"Cyp2c38","GO:0008391","arachidonate monooxygenase activity",5.38721893295547e-25
+"Cyp2c66","GO:0008391","arachidonate monooxygenase activity",5.38721893295547e-25
+"Cyp2c69","GO:0008391","arachidonate monooxygenase activity",5.38721893295547e-25
+"Cyp2c65","GO:0008391","arachidonate monooxygenase activity",5.38721893295547e-25
+"Cyp2c55","GO:0008392","arachidonate epoxygenase activity",8.1221691035248e-24
+"Cyp2c50","GO:0008392","arachidonate epoxygenase activity",8.1221691035248e-24
+"Cyp2c29","GO:0008392","arachidonate epoxygenase activity",8.1221691035248e-24
+"Cyp2f2","GO:0008392","arachidonate epoxygenase activity",8.1221691035248e-24
+"Cyp2c68","GO:0008392","arachidonate epoxygenase activity",8.1221691035248e-24
+"Cyp2c54","GO:0008392","arachidonate epoxygenase activity",8.1221691035248e-24
+"Cyp2c39","GO:0008392","arachidonate epoxygenase activity",8.1221691035248e-24
+"Cyp2e1","GO:0008392","arachidonate epoxygenase activity",8.1221691035248e-24
+"Cyp2c23","GO:0008392","arachidonate epoxygenase activity",8.1221691035248e-24
+"Cyp2s1","GO:0008392","arachidonate epoxygenase activity",8.1221691035248e-24
+"Cyp2c67","GO:0008392","arachidonate epoxygenase activity",8.1221691035248e-24
+"Cyp2c40","GO:0008392","arachidonate epoxygenase activity",8.1221691035248e-24
+"Cyp2c37","GO:0008392","arachidonate epoxygenase activity",8.1221691035248e-24
+"Cyp2c38","GO:0008392","arachidonate epoxygenase activity",8.1221691035248e-24
+"Cyp2c66","GO:0008392","arachidonate epoxygenase activity",8.1221691035248e-24
+"Cyp2c69","GO:0008392","arachidonate epoxygenase activity",8.1221691035248e-24
+"Cyp2c65","GO:0008392","arachidonate epoxygenase activity",8.1221691035248e-24
+"Gstm4","GO:0043295","glutathione binding",2.5206068750341e-22
+"Gstm5","GO:0043295","glutathione binding",2.5206068750341e-22
+"Gstm2","GO:0043295","glutathione binding",2.5206068750341e-22
+"Gstm3","GO:0043295","glutathione binding",2.5206068750341e-22
+"Gstm6","GO:0043295","glutathione binding",2.5206068750341e-22
+"Gsta1","GO:0043295","glutathione binding",2.5206068750341e-22
+"Gstm1","GO:0043295","glutathione binding",2.5206068750341e-22
+"Mgst1","GO:0043295","glutathione binding",2.5206068750341e-22
+"Gstm7","GO:0043295","glutathione binding",2.5206068750341e-22
+"Gsta2","GO:0043295","glutathione binding",2.5206068750341e-22
+"Gsta5","GO:0043295","glutathione binding",2.5206068750341e-22
+"Gsta3","GO:0043295","glutathione binding",2.5206068750341e-22
+"Mgst2","GO:0043295","glutathione binding",2.5206068750341e-22
+"Tpmt","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Gstm4","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Gstm5","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Sult2a8","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Gstm2","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Sult2a4","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Sult2a3","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Mpo","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Gstm3","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Gstm6","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Sult2a7","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Gsta1","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Gstp2","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Nme2","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Sult2a5","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Gstm1","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Mgst1","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Sult1a1","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Gstp3","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Nme1","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Gstm7","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Gsta2","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Gsta5","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Gstp1","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Gsta3","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Sult2a6","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Mgst2","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Sult2a1","GO:1901681","sulfur compound binding",2.84452504294476e-22
+"Ces1h","GO:0106435","carboxylesterase activity",5.63808563573673e-22
+"Ces1c","GO:0106435","carboxylesterase activity",5.63808563573673e-22
+"Ces1d","GO:0106435","carboxylesterase activity",5.63808563573673e-22
+"Ces2e","GO:0106435","carboxylesterase activity",5.63808563573673e-22
+"Ces2h","GO:0106435","carboxylesterase activity",5.63808563573673e-22
+"Ces1b","GO:0106435","carboxylesterase activity",5.63808563573673e-22
+"Ces1g","GO:0106435","carboxylesterase activity",5.63808563573673e-22
+"Ces1f","GO:0106435","carboxylesterase activity",5.63808563573673e-22
+"Ces2b","GO:0106435","carboxylesterase activity",5.63808563573673e-22
+"Ces2g","GO:0106435","carboxylesterase activity",5.63808563573673e-22
+"Ces1a","GO:0106435","carboxylesterase activity",5.63808563573673e-22
+"Ces2c","GO:0106435","carboxylesterase activity",5.63808563573673e-22
+"Ces1e","GO:0106435","carboxylesterase activity",5.63808563573673e-22
+"Gstm4","GO:1900750","oligopeptide binding",5.63808563573673e-22
+"Gstm5","GO:1900750","oligopeptide binding",5.63808563573673e-22
+"Gstm2","GO:1900750","oligopeptide binding",5.63808563573673e-22
+"Gstm3","GO:1900750","oligopeptide binding",5.63808563573673e-22
+"Gstm6","GO:1900750","oligopeptide binding",5.63808563573673e-22
+"Gsta1","GO:1900750","oligopeptide binding",5.63808563573673e-22
+"Gstm1","GO:1900750","oligopeptide binding",5.63808563573673e-22
+"Mgst1","GO:1900750","oligopeptide binding",5.63808563573673e-22
+"Gstm7","GO:1900750","oligopeptide binding",5.63808563573673e-22
+"Gsta2","GO:1900750","oligopeptide binding",5.63808563573673e-22
+"Gsta5","GO:1900750","oligopeptide binding",5.63808563573673e-22
+"Gsta3","GO:1900750","oligopeptide binding",5.63808563573673e-22
+"Mgst2","GO:1900750","oligopeptide binding",5.63808563573673e-22
+"Mgst3","GO:0004602","glutathione peroxidase activity",6.47257641238779e-22
+"Gsta1","GO:0004602","glutathione peroxidase activity",6.47257641238779e-22
+"Gstp2","GO:0004602","glutathione peroxidase activity",6.47257641238779e-22
+"Gstk1","GO:0004602","glutathione peroxidase activity",6.47257641238779e-22
+"Mgst1","GO:0004602","glutathione peroxidase activity",6.47257641238779e-22
+"Gstt2","GO:0004602","glutathione peroxidase activity",6.47257641238779e-22
+"Gstp3","GO:0004602","glutathione peroxidase activity",6.47257641238779e-22
+"Gstm7","GO:0004602","glutathione peroxidase activity",6.47257641238779e-22
+"Gsta2","GO:0004602","glutathione peroxidase activity",6.47257641238779e-22
+"Gsta5","GO:0004602","glutathione peroxidase activity",6.47257641238779e-22
+"Gstp1","GO:0004602","glutathione peroxidase activity",6.47257641238779e-22
+"Gsta3","GO:0004602","glutathione peroxidase activity",6.47257641238779e-22
+"Mgst2","GO:0004602","glutathione peroxidase activity",6.47257641238779e-22
+"Gstt1","GO:0004602","glutathione peroxidase activity",6.47257641238779e-22
+"Mgst3","GO:0016209","antioxidant activity",1.00851251508639e-20
+"Mpo","GO:0016209","antioxidant activity",1.00851251508639e-20
+"Gsta1","GO:0016209","antioxidant activity",1.00851251508639e-20
+"Gstp2","GO:0016209","antioxidant activity",1.00851251508639e-20
+"Gstk1","GO:0016209","antioxidant activity",1.00851251508639e-20
+"Gsto1","GO:0016209","antioxidant activity",1.00851251508639e-20
+"Mgst1","GO:0016209","antioxidant activity",1.00851251508639e-20
+"Gstt2","GO:0016209","antioxidant activity",1.00851251508639e-20
+"Gstp3","GO:0016209","antioxidant activity",1.00851251508639e-20
+"Gstm7","GO:0016209","antioxidant activity",1.00851251508639e-20
+"Ptgs2","GO:0016209","antioxidant activity",1.00851251508639e-20
+"Gsta2","GO:0016209","antioxidant activity",1.00851251508639e-20
+"Gsta5","GO:0016209","antioxidant activity",1.00851251508639e-20
+"Gstp1","GO:0016209","antioxidant activity",1.00851251508639e-20
+"Gsta3","GO:0016209","antioxidant activity",1.00851251508639e-20
+"Mgst2","GO:0016209","antioxidant activity",1.00851251508639e-20
+"Gsto2","GO:0016209","antioxidant activity",1.00851251508639e-20
+"Gstt1","GO:0016209","antioxidant activity",1.00851251508639e-20
+"Mgst3","GO:0004601","peroxidase activity",2.0719113078195e-20
+"Mpo","GO:0004601","peroxidase activity",2.0719113078195e-20
+"Gsta1","GO:0004601","peroxidase activity",2.0719113078195e-20
+"Gstp2","GO:0004601","peroxidase activity",2.0719113078195e-20
+"Gstk1","GO:0004601","peroxidase activity",2.0719113078195e-20
+"Mgst1","GO:0004601","peroxidase activity",2.0719113078195e-20
+"Gstt2","GO:0004601","peroxidase activity",2.0719113078195e-20
+"Gstp3","GO:0004601","peroxidase activity",2.0719113078195e-20
+"Gstm7","GO:0004601","peroxidase activity",2.0719113078195e-20
+"Ptgs2","GO:0004601","peroxidase activity",2.0719113078195e-20
+"Gsta2","GO:0004601","peroxidase activity",2.0719113078195e-20
+"Gsta5","GO:0004601","peroxidase activity",2.0719113078195e-20
+"Gstp1","GO:0004601","peroxidase activity",2.0719113078195e-20
+"Gsta3","GO:0004601","peroxidase activity",2.0719113078195e-20
+"Mgst2","GO:0004601","peroxidase activity",2.0719113078195e-20
+"Gstt1","GO:0004601","peroxidase activity",2.0719113078195e-20
+"Mgst3","GO:0016684","oxidoreductase activity, acting on peroxide as acceptor",3.77424060502487e-20
+"Mpo","GO:0016684","oxidoreductase activity, acting on peroxide as acceptor",3.77424060502487e-20
+"Gsta1","GO:0016684","oxidoreductase activity, acting on peroxide as acceptor",3.77424060502487e-20
+"Gstp2","GO:0016684","oxidoreductase activity, acting on peroxide as acceptor",3.77424060502487e-20
+"Gstk1","GO:0016684","oxidoreductase activity, acting on peroxide as acceptor",3.77424060502487e-20
+"Mgst1","GO:0016684","oxidoreductase activity, acting on peroxide as acceptor",3.77424060502487e-20
+"Gstt2","GO:0016684","oxidoreductase activity, acting on peroxide as acceptor",3.77424060502487e-20
+"Gstp3","GO:0016684","oxidoreductase activity, acting on peroxide as acceptor",3.77424060502487e-20
+"Gstm7","GO:0016684","oxidoreductase activity, acting on peroxide as acceptor",3.77424060502487e-20
+"Ptgs2","GO:0016684","oxidoreductase activity, acting on peroxide as acceptor",3.77424060502487e-20
+"Gsta2","GO:0016684","oxidoreductase activity, acting on peroxide as acceptor",3.77424060502487e-20
+"Gsta5","GO:0016684","oxidoreductase activity, acting on peroxide as acceptor",3.77424060502487e-20
+"Gstp1","GO:0016684","oxidoreductase activity, acting on peroxide as acceptor",3.77424060502487e-20
+"Gsta3","GO:0016684","oxidoreductase activity, acting on peroxide as acceptor",3.77424060502487e-20
+"Mgst2","GO:0016684","oxidoreductase activity, acting on peroxide as acceptor",3.77424060502487e-20
+"Gstt1","GO:0016684","oxidoreductase activity, acting on peroxide as acceptor",3.77424060502487e-20
+"Cyp3a59","GO:0050649","testosterone 6-beta-hydroxylase activity",9.77578623557993e-20
+"Cyp1b1","GO:0050649","testosterone 6-beta-hydroxylase activity",9.77578623557993e-20
+"Cyp3a41a","GO:0050649","testosterone 6-beta-hydroxylase activity",9.77578623557993e-20
+"Cyp3a13","GO:0050649","testosterone 6-beta-hydroxylase activity",9.77578623557993e-20
+"Cyp3a11","GO:0050649","testosterone 6-beta-hydroxylase activity",9.77578623557993e-20
+"Cyp3a57","GO:0050649","testosterone 6-beta-hydroxylase activity",9.77578623557993e-20
+"Cyp3a41b","GO:0050649","testosterone 6-beta-hydroxylase activity",9.77578623557993e-20
+"Cyp3a25","GO:0050649","testosterone 6-beta-hydroxylase activity",9.77578623557993e-20
+"Cyp3a16","GO:0050649","testosterone 6-beta-hydroxylase activity",9.77578623557993e-20
+"Cyp3a44","GO:0050649","testosterone 6-beta-hydroxylase activity",9.77578623557993e-20
+"Ugt1a2","GO:0033293","monocarboxylic acid binding",3.83231012550321e-18
+"Ugt1a5","GO:0033293","monocarboxylic acid binding",3.83231012550321e-18
+"Adh5","GO:0033293","monocarboxylic acid binding",3.83231012550321e-18
+"Ugt1a8","GO:0033293","monocarboxylic acid binding",3.83231012550321e-18
+"Gsta1","GO:0033293","monocarboxylic acid binding",3.83231012550321e-18
+"Gstp2","GO:0033293","monocarboxylic acid binding",3.83231012550321e-18
+"Nme2","GO:0033293","monocarboxylic acid binding",3.83231012550321e-18
+"Ugt1a1","GO:0033293","monocarboxylic acid binding",3.83231012550321e-18
+"Gstp3","GO:0033293","monocarboxylic acid binding",3.83231012550321e-18
+"Ugt1a7c","GO:0033293","monocarboxylic acid binding",3.83231012550321e-18
+"Gstm7","GO:0033293","monocarboxylic acid binding",3.83231012550321e-18
+"Gsta2","GO:0033293","monocarboxylic acid binding",3.83231012550321e-18
+"Gsta5","GO:0033293","monocarboxylic acid binding",3.83231012550321e-18
+"Gstp1","GO:0033293","monocarboxylic acid binding",3.83231012550321e-18
+"Ugt1a9","GO:0033293","monocarboxylic acid binding",3.83231012550321e-18
+"Gsta3","GO:0033293","monocarboxylic acid binding",3.83231012550321e-18
+"Akr1c21","GO:0033293","monocarboxylic acid binding",3.83231012550321e-18
+"Aox3","GO:0050660","flavin adenine dinucleotide binding",4.48506191344772e-18
+"Aox4","GO:0050660","flavin adenine dinucleotide binding",4.48506191344772e-18
+"Fmo4","GO:0050660","flavin adenine dinucleotide binding",4.48506191344772e-18
+"Fmo9","GO:0050660","flavin adenine dinucleotide binding",4.48506191344772e-18
+"Gm4847","GO:0050660","flavin adenine dinucleotide binding",4.48506191344772e-18
+"Fmo13","GO:0050660","flavin adenine dinucleotide binding",4.48506191344772e-18
+"Maob","GO:0050660","flavin adenine dinucleotide binding",4.48506191344772e-18
+"Fmo2","GO:0050660","flavin adenine dinucleotide binding",4.48506191344772e-18
+"Fmo5","GO:0050660","flavin adenine dinucleotide binding",4.48506191344772e-18
+"Maoa","GO:0050660","flavin adenine dinucleotide binding",4.48506191344772e-18
+"Aox1","GO:0050660","flavin adenine dinucleotide binding",4.48506191344772e-18
+"Fmo6","GO:0050660","flavin adenine dinucleotide binding",4.48506191344772e-18
+"Dpyd","GO:0050660","flavin adenine dinucleotide binding",4.48506191344772e-18
+"Fmo3","GO:0050660","flavin adenine dinucleotide binding",4.48506191344772e-18
+"Fmo1","GO:0050660","flavin adenine dinucleotide binding",4.48506191344772e-18
+"Aox2","GO:0050660","flavin adenine dinucleotide binding",4.48506191344772e-18
+"Xdh","GO:0050660","flavin adenine dinucleotide binding",4.48506191344772e-18
+"Ugt1a2","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Ugt1a5","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Ugt1a6b","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Hprt1","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Ugt2a2","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Umps","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Upp1","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Ugt1a8","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Ugt2b34","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Ugt2b5","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Tymp","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Ugt2b38","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Ugt1a1","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Ugt2a1","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Upp2","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Ugt1a7c","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Ugt2b1","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Ugt2b37","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Ugt1a6a","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Ugt2a3","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Ugt1a9","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Ugt2b35","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Ugt2b36","GO:0016757","glycosyltransferase activity",4.37609999163656e-17
+"Ugt1a2","GO:0008194","UDP-glycosyltransferase activity",5.55649343809982e-16
+"Ugt1a5","GO:0008194","UDP-glycosyltransferase activity",5.55649343809982e-16
+"Ugt1a6b","GO:0008194","UDP-glycosyltransferase activity",5.55649343809982e-16
+"Ugt2a2","GO:0008194","UDP-glycosyltransferase activity",5.55649343809982e-16
+"Ugt1a8","GO:0008194","UDP-glycosyltransferase activity",5.55649343809982e-16
+"Ugt2b34","GO:0008194","UDP-glycosyltransferase activity",5.55649343809982e-16
+"Ugt2b5","GO:0008194","UDP-glycosyltransferase activity",5.55649343809982e-16
+"Ugt2b38","GO:0008194","UDP-glycosyltransferase activity",5.55649343809982e-16
+"Ugt1a1","GO:0008194","UDP-glycosyltransferase activity",5.55649343809982e-16
+"Ugt2a1","GO:0008194","UDP-glycosyltransferase activity",5.55649343809982e-16
+"Ugt1a7c","GO:0008194","UDP-glycosyltransferase activity",5.55649343809982e-16
+"Ugt2b1","GO:0008194","UDP-glycosyltransferase activity",5.55649343809982e-16
+"Ugt2b37","GO:0008194","UDP-glycosyltransferase activity",5.55649343809982e-16
+"Ugt1a6a","GO:0008194","UDP-glycosyltransferase activity",5.55649343809982e-16
+"Ugt2a3","GO:0008194","UDP-glycosyltransferase activity",5.55649343809982e-16
+"Ugt1a9","GO:0008194","UDP-glycosyltransferase activity",5.55649343809982e-16
+"Ugt2b35","GO:0008194","UDP-glycosyltransferase activity",5.55649343809982e-16
+"Ugt2b36","GO:0008194","UDP-glycosyltransferase activity",5.55649343809982e-16
+"Nme6","GO:0019205","nucleobase-containing compound kinase activity",7.18558335575771e-16
+"Nme3","GO:0019205","nucleobase-containing compound kinase activity",7.18558335575771e-16
+"Cmpk1","GO:0019205","nucleobase-containing compound kinase activity",7.18558335575771e-16
+"Nme4","GO:0019205","nucleobase-containing compound kinase activity",7.18558335575771e-16
+"Nme7","GO:0019205","nucleobase-containing compound kinase activity",7.18558335575771e-16
+"Nme2","GO:0019205","nucleobase-containing compound kinase activity",7.18558335575771e-16
+"Tk1","GO:0019205","nucleobase-containing compound kinase activity",7.18558335575771e-16
+"Uck1","GO:0019205","nucleobase-containing compound kinase activity",7.18558335575771e-16
+"Uckl1","GO:0019205","nucleobase-containing compound kinase activity",7.18558335575771e-16
+"Nme1","GO:0019205","nucleobase-containing compound kinase activity",7.18558335575771e-16
+"Uck2","GO:0019205","nucleobase-containing compound kinase activity",7.18558335575771e-16
+"Tk2","GO:0019205","nucleobase-containing compound kinase activity",7.18558335575771e-16
+"Ugt1a2","GO:0016758","hexosyltransferase activity",3.51133685746435e-15
+"Ugt1a5","GO:0016758","hexosyltransferase activity",3.51133685746435e-15
+"Ugt1a6b","GO:0016758","hexosyltransferase activity",3.51133685746435e-15
+"Ugt2a2","GO:0016758","hexosyltransferase activity",3.51133685746435e-15
+"Ugt1a8","GO:0016758","hexosyltransferase activity",3.51133685746435e-15
+"Ugt2b34","GO:0016758","hexosyltransferase activity",3.51133685746435e-15
+"Ugt2b5","GO:0016758","hexosyltransferase activity",3.51133685746435e-15
+"Tymp","GO:0016758","hexosyltransferase activity",3.51133685746435e-15
+"Ugt2b38","GO:0016758","hexosyltransferase activity",3.51133685746435e-15
+"Ugt1a1","GO:0016758","hexosyltransferase activity",3.51133685746435e-15
+"Ugt2a1","GO:0016758","hexosyltransferase activity",3.51133685746435e-15
+"Ugt1a7c","GO:0016758","hexosyltransferase activity",3.51133685746435e-15
+"Ugt2b1","GO:0016758","hexosyltransferase activity",3.51133685746435e-15
+"Ugt2b37","GO:0016758","hexosyltransferase activity",3.51133685746435e-15
+"Ugt1a6a","GO:0016758","hexosyltransferase activity",3.51133685746435e-15
+"Ugt2a3","GO:0016758","hexosyltransferase activity",3.51133685746435e-15
+"Ugt1a9","GO:0016758","hexosyltransferase activity",3.51133685746435e-15
+"Ugt2b35","GO:0016758","hexosyltransferase activity",3.51133685746435e-15
+"Ugt2b36","GO:0016758","hexosyltransferase activity",3.51133685746435e-15
+"Fmo4","GO:0050661","NADP binding",4.47494421999333e-15
+"Fmo9","GO:0050661","NADP binding",4.47494421999333e-15
+"Cbr3","GO:0050661","NADP binding",4.47494421999333e-15
+"Gm4847","GO:0050661","NADP binding",4.47494421999333e-15
+"Fmo13","GO:0050661","NADP binding",4.47494421999333e-15
+"Fmo2","GO:0050661","NADP binding",4.47494421999333e-15
+"Fmo5","GO:0050661","NADP binding",4.47494421999333e-15
+"Hsd11b1","GO:0050661","NADP binding",4.47494421999333e-15
+"Fmo6","GO:0050661","NADP binding",4.47494421999333e-15
+"Dpyd","GO:0050661","NADP binding",4.47494421999333e-15
+"Akr1c21","GO:0050661","NADP binding",4.47494421999333e-15
+"Fmo3","GO:0050661","NADP binding",4.47494421999333e-15
+"Fmo1","GO:0050661","NADP binding",4.47494421999333e-15
+"Adh5","GO:0005504","fatty acid binding",5.53809076181064e-15
+"Ugt1a8","GO:0005504","fatty acid binding",5.53809076181064e-15
+"Gsta1","GO:0005504","fatty acid binding",5.53809076181064e-15
+"Gstp2","GO:0005504","fatty acid binding",5.53809076181064e-15
+"Nme2","GO:0005504","fatty acid binding",5.53809076181064e-15
+"Gstp3","GO:0005504","fatty acid binding",5.53809076181064e-15
+"Ugt1a7c","GO:0005504","fatty acid binding",5.53809076181064e-15
+"Gstm7","GO:0005504","fatty acid binding",5.53809076181064e-15
+"Gsta2","GO:0005504","fatty acid binding",5.53809076181064e-15
+"Gsta5","GO:0005504","fatty acid binding",5.53809076181064e-15
+"Gstp1","GO:0005504","fatty acid binding",5.53809076181064e-15
+"Ugt1a9","GO:0005504","fatty acid binding",5.53809076181064e-15
+"Gsta3","GO:0005504","fatty acid binding",5.53809076181064e-15
+"Sult2a8","GO:0050294","steroid sulfotransferase activity",2.54376396911046e-14
+"Sult2a4","GO:0050294","steroid sulfotransferase activity",2.54376396911046e-14
+"Sult2a3","GO:0050294","steroid sulfotransferase activity",2.54376396911046e-14
+"Sult2a7","GO:0050294","steroid sulfotransferase activity",2.54376396911046e-14
+"Sult2a5","GO:0050294","steroid sulfotransferase activity",2.54376396911046e-14
+"Sult1a1","GO:0050294","steroid sulfotransferase activity",2.54376396911046e-14
+"Sult2a6","GO:0050294","steroid sulfotransferase activity",2.54376396911046e-14
+"Sult2a1","GO:0050294","steroid sulfotransferase activity",2.54376396911046e-14
+"Fmo4","GO:0016709","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen",4.34325793859492e-14
+"Fmo9","GO:0016709","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen",4.34325793859492e-14
+"Gm4847","GO:0016709","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen",4.34325793859492e-14
+"Cyp2e1","GO:0016709","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen",4.34325793859492e-14
+"Fmo13","GO:0016709","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen",4.34325793859492e-14
+"Cyp1a1","GO:0016709","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen",4.34325793859492e-14
+"Fmo2","GO:0016709","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen",4.34325793859492e-14
+"Fmo5","GO:0016709","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen",4.34325793859492e-14
+"Fmo6","GO:0016709","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen",4.34325793859492e-14
+"Akr1c21","GO:0016709","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen",4.34325793859492e-14
+"Fmo3","GO:0016709","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen",4.34325793859492e-14
+"Fmo1","GO:0016709","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen",4.34325793859492e-14
+"Sult2a8","GO:0050656","3'-phosphoadenosine 5'-phosphosulfate binding",7.17691276640667e-14
+"Sult2a4","GO:0050656","3'-phosphoadenosine 5'-phosphosulfate binding",7.17691276640667e-14
+"Sult2a3","GO:0050656","3'-phosphoadenosine 5'-phosphosulfate binding",7.17691276640667e-14
+"Sult2a7","GO:0050656","3'-phosphoadenosine 5'-phosphosulfate binding",7.17691276640667e-14
+"Sult2a5","GO:0050656","3'-phosphoadenosine 5'-phosphosulfate binding",7.17691276640667e-14
+"Sult1a1","GO:0050656","3'-phosphoadenosine 5'-phosphosulfate binding",7.17691276640667e-14
+"Sult2a6","GO:0050656","3'-phosphoadenosine 5'-phosphosulfate binding",7.17691276640667e-14
+"Sult2a1","GO:0050656","3'-phosphoadenosine 5'-phosphosulfate binding",7.17691276640667e-14
+"Aox3","GO:0016903","oxidoreductase activity, acting on the aldehyde or oxo group of donors",2.66155391750935e-13
+"Aox4","GO:0016903","oxidoreductase activity, acting on the aldehyde or oxo group of donors",2.66155391750935e-13
+"Adh5","GO:0016903","oxidoreductase activity, acting on the aldehyde or oxo group of donors",2.66155391750935e-13
+"Aldh3b3","GO:0016903","oxidoreductase activity, acting on the aldehyde or oxo group of donors",2.66155391750935e-13
+"Aldh3b1","GO:0016903","oxidoreductase activity, acting on the aldehyde or oxo group of donors",2.66155391750935e-13
+"Adh4","GO:0016903","oxidoreductase activity, acting on the aldehyde or oxo group of donors",2.66155391750935e-13
+"Aox1","GO:0016903","oxidoreductase activity, acting on the aldehyde or oxo group of donors",2.66155391750935e-13
+"Adh7","GO:0016903","oxidoreductase activity, acting on the aldehyde or oxo group of donors",2.66155391750935e-13
+"Akr1c21","GO:0016903","oxidoreductase activity, acting on the aldehyde or oxo group of donors",2.66155391750935e-13
+"Aldh3b2","GO:0016903","oxidoreductase activity, acting on the aldehyde or oxo group of donors",2.66155391750935e-13
+"Aox2","GO:0016903","oxidoreductase activity, acting on the aldehyde or oxo group of donors",2.66155391750935e-13
+"Aldh3a1","GO:0016903","oxidoreductase activity, acting on the aldehyde or oxo group of donors",2.66155391750935e-13
+"Aox3","GO:0051540","metal cluster binding",3.32202433577054e-13
+"Aox4","GO:0051540","metal cluster binding",3.32202433577054e-13
+"Gsta1","GO:0051540","metal cluster binding",3.32202433577054e-13
+"Gstp2","GO:0051540","metal cluster binding",3.32202433577054e-13
+"Gstp3","GO:0051540","metal cluster binding",3.32202433577054e-13
+"Aox1","GO:0051540","metal cluster binding",3.32202433577054e-13
+"Dpyd","GO:0051540","metal cluster binding",3.32202433577054e-13
+"Gsta2","GO:0051540","metal cluster binding",3.32202433577054e-13
+"Gsta5","GO:0051540","metal cluster binding",3.32202433577054e-13
+"Gstp1","GO:0051540","metal cluster binding",3.32202433577054e-13
+"Gsta3","GO:0051540","metal cluster binding",3.32202433577054e-13
+"Aox2","GO:0051540","metal cluster binding",3.32202433577054e-13
+"Xdh","GO:0051540","metal cluster binding",3.32202433577054e-13
+"Ugt1a2","GO:0031406","carboxylic acid binding",2.038363441068e-12
+"Ugt1a5","GO:0031406","carboxylic acid binding",2.038363441068e-12
+"Adh5","GO:0031406","carboxylic acid binding",2.038363441068e-12
+"Ugt1a8","GO:0031406","carboxylic acid binding",2.038363441068e-12
+"Gsta1","GO:0031406","carboxylic acid binding",2.038363441068e-12
+"Gstp2","GO:0031406","carboxylic acid binding",2.038363441068e-12
+"Nme2","GO:0031406","carboxylic acid binding",2.038363441068e-12
+"Ugt1a1","GO:0031406","carboxylic acid binding",2.038363441068e-12
+"Gstp3","GO:0031406","carboxylic acid binding",2.038363441068e-12
+"Ugt1a7c","GO:0031406","carboxylic acid binding",2.038363441068e-12
+"Gstm7","GO:0031406","carboxylic acid binding",2.038363441068e-12
+"Gsta2","GO:0031406","carboxylic acid binding",2.038363441068e-12
+"Gsta5","GO:0031406","carboxylic acid binding",2.038363441068e-12
+"Gstp1","GO:0031406","carboxylic acid binding",2.038363441068e-12
+"Ugt1a9","GO:0031406","carboxylic acid binding",2.038363441068e-12
+"Gsta3","GO:0031406","carboxylic acid binding",2.038363441068e-12
+"Akr1c21","GO:0031406","carboxylic acid binding",2.038363441068e-12
+"Ugt1a2","GO:0043177","organic acid binding",2.73932019566874e-12
+"Ugt1a5","GO:0043177","organic acid binding",2.73932019566874e-12
+"Adh5","GO:0043177","organic acid binding",2.73932019566874e-12
+"Ugt1a8","GO:0043177","organic acid binding",2.73932019566874e-12
+"Gsta1","GO:0043177","organic acid binding",2.73932019566874e-12
+"Gstp2","GO:0043177","organic acid binding",2.73932019566874e-12
+"Nme2","GO:0043177","organic acid binding",2.73932019566874e-12
+"Ugt1a1","GO:0043177","organic acid binding",2.73932019566874e-12
+"Gstp3","GO:0043177","organic acid binding",2.73932019566874e-12
+"Ugt1a7c","GO:0043177","organic acid binding",2.73932019566874e-12
+"Gstm7","GO:0043177","organic acid binding",2.73932019566874e-12
+"Gsta2","GO:0043177","organic acid binding",2.73932019566874e-12
+"Gsta5","GO:0043177","organic acid binding",2.73932019566874e-12
+"Gstp1","GO:0043177","organic acid binding",2.73932019566874e-12
+"Ugt1a9","GO:0043177","organic acid binding",2.73932019566874e-12
+"Gsta3","GO:0043177","organic acid binding",2.73932019566874e-12
+"Akr1c21","GO:0043177","organic acid binding",2.73932019566874e-12
+"Sult2a8","GO:0004027","alcohol sulfotransferase activity",6.41842637870172e-12
+"Sult2a4","GO:0004027","alcohol sulfotransferase activity",6.41842637870172e-12
+"Sult2a3","GO:0004027","alcohol sulfotransferase activity",6.41842637870172e-12
+"Sult2a7","GO:0004027","alcohol sulfotransferase activity",6.41842637870172e-12
+"Sult2a5","GO:0004027","alcohol sulfotransferase activity",6.41842637870172e-12
+"Sult2a6","GO:0004027","alcohol sulfotransferase activity",6.41842637870172e-12
+"Sult2a1","GO:0004027","alcohol sulfotransferase activity",6.41842637870172e-12
+"Ces1h","GO:0004771","sterol ester esterase activity",9.05314796025263e-12
+"Ces1c","GO:0004771","sterol ester esterase activity",9.05314796025263e-12
+"Ces1d","GO:0004771","sterol ester esterase activity",9.05314796025263e-12
+"Ces1b","GO:0004771","sterol ester esterase activity",9.05314796025263e-12
+"Ces1g","GO:0004771","sterol ester esterase activity",9.05314796025263e-12
+"Ces1f","GO:0004771","sterol ester esterase activity",9.05314796025263e-12
+"Ces1a","GO:0004771","sterol ester esterase activity",9.05314796025263e-12
+"Ces1e","GO:0004771","sterol ester esterase activity",9.05314796025263e-12
+"Akr7a5","GO:0016616","oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",4.01467287403869e-11
+"Cbr1","GO:0016616","oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",4.01467287403869e-11
+"Adh1","GO:0016616","oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",4.01467287403869e-11
+"Adh5","GO:0016616","oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",4.01467287403869e-11
+"Cbr3","GO:0016616","oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",4.01467287403869e-11
+"Impdh2","GO:0016616","oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",4.01467287403869e-11
+"Adh4","GO:0016616","oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",4.01467287403869e-11
+"Dhdh","GO:0016616","oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",4.01467287403869e-11
+"Hsd11b1","GO:0016616","oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",4.01467287403869e-11
+"Adh7","GO:0016616","oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",4.01467287403869e-11
+"Cbr2","GO:0016616","oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",4.01467287403869e-11
+"Akr1c21","GO:0016616","oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",4.01467287403869e-11
+"Impdh1","GO:0016616","oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",4.01467287403869e-11
+"Aldh3a1","GO:0016616","oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",4.01467287403869e-11
+"Gstm4","GO:0072341","modified amino acid binding",5.67094076520052e-11
+"Gstm5","GO:0072341","modified amino acid binding",5.67094076520052e-11
+"Gstm2","GO:0072341","modified amino acid binding",5.67094076520052e-11
+"Gstm3","GO:0072341","modified amino acid binding",5.67094076520052e-11
+"Gstm6","GO:0072341","modified amino acid binding",5.67094076520052e-11
+"Gsta1","GO:0072341","modified amino acid binding",5.67094076520052e-11
+"Gstm1","GO:0072341","modified amino acid binding",5.67094076520052e-11
+"Mgst1","GO:0072341","modified amino acid binding",5.67094076520052e-11
+"Gstm7","GO:0072341","modified amino acid binding",5.67094076520052e-11
+"Gsta2","GO:0072341","modified amino acid binding",5.67094076520052e-11
+"Gsta5","GO:0072341","modified amino acid binding",5.67094076520052e-11
+"Gsta3","GO:0072341","modified amino acid binding",5.67094076520052e-11
+"Mgst2","GO:0072341","modified amino acid binding",5.67094076520052e-11
+"Ces1h","GO:0050253","retinyl-palmitate esterase activity",5.99025895488544e-11
+"Ces1d","GO:0050253","retinyl-palmitate esterase activity",5.99025895488544e-11
+"Ces2e","GO:0050253","retinyl-palmitate esterase activity",5.99025895488544e-11
+"Ces1g","GO:0050253","retinyl-palmitate esterase activity",5.99025895488544e-11
+"Ces1f","GO:0050253","retinyl-palmitate esterase activity",5.99025895488544e-11
+"Ces2c","GO:0050253","retinyl-palmitate esterase activity",5.99025895488544e-11
+"Ces1e","GO:0050253","retinyl-palmitate esterase activity",5.99025895488544e-11
+"Akr7a5","GO:0016614","oxidoreductase activity, acting on CH-OH group of donors",8.66566688403165e-11
+"Cbr1","GO:0016614","oxidoreductase activity, acting on CH-OH group of donors",8.66566688403165e-11
+"Adh1","GO:0016614","oxidoreductase activity, acting on CH-OH group of donors",8.66566688403165e-11
+"Adh5","GO:0016614","oxidoreductase activity, acting on CH-OH group of donors",8.66566688403165e-11
+"Cbr3","GO:0016614","oxidoreductase activity, acting on CH-OH group of donors",8.66566688403165e-11
+"Impdh2","GO:0016614","oxidoreductase activity, acting on CH-OH group of donors",8.66566688403165e-11
+"Adh4","GO:0016614","oxidoreductase activity, acting on CH-OH group of donors",8.66566688403165e-11
+"Dhdh","GO:0016614","oxidoreductase activity, acting on CH-OH group of donors",8.66566688403165e-11
+"Hsd11b1","GO:0016614","oxidoreductase activity, acting on CH-OH group of donors",8.66566688403165e-11
+"Adh7","GO:0016614","oxidoreductase activity, acting on CH-OH group of donors",8.66566688403165e-11
+"Cbr2","GO:0016614","oxidoreductase activity, acting on CH-OH group of donors",8.66566688403165e-11
+"Akr1c21","GO:0016614","oxidoreductase activity, acting on CH-OH group of donors",8.66566688403165e-11
+"Impdh1","GO:0016614","oxidoreductase activity, acting on CH-OH group of donors",8.66566688403165e-11
+"Aldh3a1","GO:0016614","oxidoreductase activity, acting on CH-OH group of donors",8.66566688403165e-11
+"Akr7a5","GO:0018455","alcohol dehydrogenase [NAD(P)+] activity",2.72168106072995e-10
+"Cbr1","GO:0018455","alcohol dehydrogenase [NAD(P)+] activity",2.72168106072995e-10
+"Adh1","GO:0018455","alcohol dehydrogenase [NAD(P)+] activity",2.72168106072995e-10
+"Adh5","GO:0018455","alcohol dehydrogenase [NAD(P)+] activity",2.72168106072995e-10
+"Cbr3","GO:0018455","alcohol dehydrogenase [NAD(P)+] activity",2.72168106072995e-10
+"Adh4","GO:0018455","alcohol dehydrogenase [NAD(P)+] activity",2.72168106072995e-10
+"Adh7","GO:0018455","alcohol dehydrogenase [NAD(P)+] activity",2.72168106072995e-10
+"Cbr2","GO:0018455","alcohol dehydrogenase [NAD(P)+] activity",2.72168106072995e-10
+"Akr1c21","GO:0018455","alcohol dehydrogenase [NAD(P)+] activity",2.72168106072995e-10
+"Aldh3a1","GO:0018455","alcohol dehydrogenase [NAD(P)+] activity",2.72168106072995e-10
+"Nme6","GO:0004550","nucleoside diphosphate kinase activity",5.09573018796233e-10
+"Nme3","GO:0004550","nucleoside diphosphate kinase activity",5.09573018796233e-10
+"Cmpk1","GO:0004550","nucleoside diphosphate kinase activity",5.09573018796233e-10
+"Nme4","GO:0004550","nucleoside diphosphate kinase activity",5.09573018796233e-10
+"Nme7","GO:0004550","nucleoside diphosphate kinase activity",5.09573018796233e-10
+"Nme2","GO:0004550","nucleoside diphosphate kinase activity",5.09573018796233e-10
+"Nme1","GO:0004550","nucleoside diphosphate kinase activity",5.09573018796233e-10
+"Gstm4","GO:0033218","amide binding",1.64616855542153e-09
+"Gstm5","GO:0033218","amide binding",1.64616855542153e-09
+"Gstm2","GO:0033218","amide binding",1.64616855542153e-09
+"Gstm3","GO:0033218","amide binding",1.64616855542153e-09
+"Gstm6","GO:0033218","amide binding",1.64616855542153e-09
+"Gsta1","GO:0033218","amide binding",1.64616855542153e-09
+"Nme2","GO:0033218","amide binding",1.64616855542153e-09
+"Gstm1","GO:0033218","amide binding",1.64616855542153e-09
+"Mgst1","GO:0033218","amide binding",1.64616855542153e-09
+"Nme1","GO:0033218","amide binding",1.64616855542153e-09
+"Gstm7","GO:0033218","amide binding",1.64616855542153e-09
+"Gsta2","GO:0033218","amide binding",1.64616855542153e-09
+"Gsta5","GO:0033218","amide binding",1.64616855542153e-09
+"Gsta3","GO:0033218","amide binding",1.64616855542153e-09
+"Mgst2","GO:0033218","amide binding",1.64616855542153e-09
+"Ces1h","GO:0052689","carboxylic ester hydrolase activity",2.78553510878271e-09
+"Ces1c","GO:0052689","carboxylic ester hydrolase activity",2.78553510878271e-09
+"Ces1d","GO:0052689","carboxylic ester hydrolase activity",2.78553510878271e-09
+"Ces2e","GO:0052689","carboxylic ester hydrolase activity",2.78553510878271e-09
+"Ces2h","GO:0052689","carboxylic ester hydrolase activity",2.78553510878271e-09
+"Ces1b","GO:0052689","carboxylic ester hydrolase activity",2.78553510878271e-09
+"Ces1g","GO:0052689","carboxylic ester hydrolase activity",2.78553510878271e-09
+"Ces1f","GO:0052689","carboxylic ester hydrolase activity",2.78553510878271e-09
+"Ces2b","GO:0052689","carboxylic ester hydrolase activity",2.78553510878271e-09
+"Ces2g","GO:0052689","carboxylic ester hydrolase activity",2.78553510878271e-09
+"Ces1a","GO:0052689","carboxylic ester hydrolase activity",2.78553510878271e-09
+"Ces2c","GO:0052689","carboxylic ester hydrolase activity",2.78553510878271e-09
+"Ces1e","GO:0052689","carboxylic ester hydrolase activity",2.78553510878271e-09
+"Ugt1a2","GO:0005501","retinoid binding",6.74175315562892e-09
+"Ugt1a5","GO:0005501","retinoid binding",6.74175315562892e-09
+"Ugt1a8","GO:0005501","retinoid binding",6.74175315562892e-09
+"Ugt1a1","GO:0005501","retinoid binding",6.74175315562892e-09
+"Adh4","GO:0005501","retinoid binding",6.74175315562892e-09
+"Ugt1a7c","GO:0005501","retinoid binding",6.74175315562892e-09
+"Adh7","GO:0005501","retinoid binding",6.74175315562892e-09
+"Ugt1a9","GO:0005501","retinoid binding",6.74175315562892e-09
+"Ugt1a2","GO:0019840","isoprenoid binding",1.48934628292673e-08
+"Ugt1a5","GO:0019840","isoprenoid binding",1.48934628292673e-08
+"Ugt1a8","GO:0019840","isoprenoid binding",1.48934628292673e-08
+"Ugt1a1","GO:0019840","isoprenoid binding",1.48934628292673e-08
+"Adh4","GO:0019840","isoprenoid binding",1.48934628292673e-08
+"Ugt1a7c","GO:0019840","isoprenoid binding",1.48934628292673e-08
+"Adh7","GO:0019840","isoprenoid binding",1.48934628292673e-08
+"Ugt1a9","GO:0019840","isoprenoid binding",1.48934628292673e-08
+"Adh5","GO:0004029","aldehyde dehydrogenase (NAD+) activity",7.12843424074045e-08
+"Aldh3b3","GO:0004029","aldehyde dehydrogenase (NAD+) activity",7.12843424074045e-08
+"Aldh3b1","GO:0004029","aldehyde dehydrogenase (NAD+) activity",7.12843424074045e-08
+"Adh4","GO:0004029","aldehyde dehydrogenase (NAD+) activity",7.12843424074045e-08
+"Akr1c21","GO:0004029","aldehyde dehydrogenase (NAD+) activity",7.12843424074045e-08
+"Aldh3b2","GO:0004029","aldehyde dehydrogenase (NAD+) activity",7.12843424074045e-08
+"Aldh3a1","GO:0004029","aldehyde dehydrogenase (NAD+) activity",7.12843424074045e-08
+"Ugt1a2","GO:0001972","retinoic acid binding",8.23123074247091e-08
+"Ugt1a5","GO:0001972","retinoic acid binding",8.23123074247091e-08
+"Ugt1a8","GO:0001972","retinoic acid binding",8.23123074247091e-08
+"Ugt1a1","GO:0001972","retinoic acid binding",8.23123074247091e-08
+"Ugt1a7c","GO:0001972","retinoic acid binding",8.23123074247091e-08
+"Ugt1a9","GO:0001972","retinoic acid binding",8.23123074247091e-08
+"Adh5","GO:0004030","aldehyde dehydrogenase [NAD(P)+] activity",8.39312292749493e-08
+"Aldh3b3","GO:0004030","aldehyde dehydrogenase [NAD(P)+] activity",8.39312292749493e-08
+"Aldh3b1","GO:0004030","aldehyde dehydrogenase [NAD(P)+] activity",8.39312292749493e-08
+"Adh4","GO:0004030","aldehyde dehydrogenase [NAD(P)+] activity",8.39312292749493e-08
+"Akr1c21","GO:0004030","aldehyde dehydrogenase [NAD(P)+] activity",8.39312292749493e-08
+"Aldh3b2","GO:0004030","aldehyde dehydrogenase [NAD(P)+] activity",8.39312292749493e-08
+"Aldh3a1","GO:0004030","aldehyde dehydrogenase [NAD(P)+] activity",8.39312292749493e-08
+"Nme6","GO:0016776","phosphotransferase activity, phosphate group as acceptor",8.39312292749493e-08
+"Nme3","GO:0016776","phosphotransferase activity, phosphate group as acceptor",8.39312292749493e-08
+"Cmpk1","GO:0016776","phosphotransferase activity, phosphate group as acceptor",8.39312292749493e-08
+"Nme4","GO:0016776","phosphotransferase activity, phosphate group as acceptor",8.39312292749493e-08
+"Nme7","GO:0016776","phosphotransferase activity, phosphate group as acceptor",8.39312292749493e-08
+"Nme2","GO:0016776","phosphotransferase activity, phosphate group as acceptor",8.39312292749493e-08
+"Nme1","GO:0016776","phosphotransferase activity, phosphate group as acceptor",8.39312292749493e-08
+"Sult2a8","GO:0008146","sulfotransferase activity",2.04866661093383e-07
+"Sult2a4","GO:0008146","sulfotransferase activity",2.04866661093383e-07
+"Sult2a3","GO:0008146","sulfotransferase activity",2.04866661093383e-07
+"Sult2a7","GO:0008146","sulfotransferase activity",2.04866661093383e-07
+"Sult2a5","GO:0008146","sulfotransferase activity",2.04866661093383e-07
+"Sult1a1","GO:0008146","sulfotransferase activity",2.04866661093383e-07
+"Sult2a6","GO:0008146","sulfotransferase activity",2.04866661093383e-07
+"Sult2a1","GO:0008146","sulfotransferase activity",2.04866661093383e-07
+"Akr7a5","GO:0008106","alcohol dehydrogenase (NADP+) activity",2.18433251440922e-07
+"Cbr1","GO:0008106","alcohol dehydrogenase (NADP+) activity",2.18433251440922e-07
+"Cbr3","GO:0008106","alcohol dehydrogenase (NADP+) activity",2.18433251440922e-07
+"Adh4","GO:0008106","alcohol dehydrogenase (NADP+) activity",2.18433251440922e-07
+"Cbr2","GO:0008106","alcohol dehydrogenase (NADP+) activity",2.18433251440922e-07
+"Akr1c21","GO:0008106","alcohol dehydrogenase (NADP+) activity",2.18433251440922e-07
+"Aldh3a1","GO:0008106","alcohol dehydrogenase (NADP+) activity",2.18433251440922e-07
+"Cyp2c29","GO:0008404","arachidonate 14,15-epoxygenase activity",3.90093507446191e-07
+"Cyp2c39","GO:0008404","arachidonate 14,15-epoxygenase activity",3.90093507446191e-07
+"Cyp2c23","GO:0008404","arachidonate 14,15-epoxygenase activity",3.90093507446191e-07
+"Cyp2c40","GO:0008404","arachidonate 14,15-epoxygenase activity",3.90093507446191e-07
+"Cyp2c38","GO:0008404","arachidonate 14,15-epoxygenase activity",3.90093507446191e-07
+"Cyp3a41a","GO:0032451","demethylase activity",4.24375649553128e-07
+"Cyp1a2","GO:0032451","demethylase activity",4.24375649553128e-07
+"Cyp3a11","GO:0032451","demethylase activity",4.24375649553128e-07
+"Cyp3a41b","GO:0032451","demethylase activity",4.24375649553128e-07
+"Cyp1a1","GO:0032451","demethylase activity",4.24375649553128e-07
+"Cyp3a16","GO:0032451","demethylase activity",4.24375649553128e-07
+"Cyp3a44","GO:0032451","demethylase activity",4.24375649553128e-07
+"Adh5","GO:0016620","oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",5.76520616220461e-07
+"Aldh3b3","GO:0016620","oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",5.76520616220461e-07
+"Aldh3b1","GO:0016620","oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",5.76520616220461e-07
+"Adh4","GO:0016620","oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",5.76520616220461e-07
+"Akr1c21","GO:0016620","oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",5.76520616220461e-07
+"Aldh3b2","GO:0016620","oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",5.76520616220461e-07
+"Aldh3a1","GO:0016620","oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",5.76520616220461e-07
+"Sult2a8","GO:0016782","transferase activity, transferring sulphur-containing groups",1.83422442137549e-06
+"Sult2a4","GO:0016782","transferase activity, transferring sulphur-containing groups",1.83422442137549e-06
+"Sult2a3","GO:0016782","transferase activity, transferring sulphur-containing groups",1.83422442137549e-06
+"Sult2a7","GO:0016782","transferase activity, transferring sulphur-containing groups",1.83422442137549e-06
+"Sult2a5","GO:0016782","transferase activity, transferring sulphur-containing groups",1.83422442137549e-06
+"Sult1a1","GO:0016782","transferase activity, transferring sulphur-containing groups",1.83422442137549e-06
+"Sult2a6","GO:0016782","transferase activity, transferring sulphur-containing groups",1.83422442137549e-06
+"Sult2a1","GO:0016782","transferase activity, transferring sulphur-containing groups",1.83422442137549e-06
+"Cyp3a13","GO:0005496","steroid binding",5.32406319291804e-06
+"Ephx1","GO:0005496","steroid binding",5.32406319291804e-06
+"Ugt1a8","GO:0005496","steroid binding",5.32406319291804e-06
+"Gstm1","GO:0005496","steroid binding",5.32406319291804e-06
+"Ugt1a1","GO:0005496","steroid binding",5.32406319291804e-06
+"Hsd11b1","GO:0005496","steroid binding",5.32406319291804e-06
+"Ugt1a7c","GO:0005496","steroid binding",5.32406319291804e-06
+"Ugt1a9","GO:0005496","steroid binding",5.32406319291804e-06
+"Akr1c21","GO:0005496","steroid binding",5.32406319291804e-06
+"Cbr1","GO:0016651","oxidoreductase activity, acting on NAD(P)H",7.1323549418631e-06
+"Fmo9","GO:0016651","oxidoreductase activity, acting on NAD(P)H",7.1323549418631e-06
+"Cbr3","GO:0016651","oxidoreductase activity, acting on NAD(P)H",7.1323549418631e-06
+"Fmo13","GO:0016651","oxidoreductase activity, acting on NAD(P)H",7.1323549418631e-06
+"Fmo5","GO:0016651","oxidoreductase activity, acting on NAD(P)H",7.1323549418631e-06
+"Adh4","GO:0016651","oxidoreductase activity, acting on NAD(P)H",7.1323549418631e-06
+"Akr1c21","GO:0016651","oxidoreductase activity, acting on NAD(P)H",7.1323549418631e-06
+"Cyp1b1","GO:0101021","estrogen 2-hydroxylase activity",8.75196595327819e-06
+"Cyp1a2","GO:0101021","estrogen 2-hydroxylase activity",8.75196595327819e-06
+"Cyp3a13","GO:0101021","estrogen 2-hydroxylase activity",8.75196595327819e-06
+"Cyp1a1","GO:0101021","estrogen 2-hydroxylase activity",8.75196595327819e-06
+"Aox3","GO:0071949","FAD binding",1.60620750719989e-05
+"Aox4","GO:0071949","FAD binding",1.60620750719989e-05
+"Aox1","GO:0071949","FAD binding",1.60620750719989e-05
+"Dpyd","GO:0071949","FAD binding",1.60620750719989e-05
+"Aox2","GO:0071949","FAD binding",1.60620750719989e-05
+"Xdh","GO:0071949","FAD binding",1.60620750719989e-05
+"Gsta1","GO:0004769","steroid Delta-isomerase activity",1.98092918408271e-05
+"Gsta2","GO:0004769","steroid Delta-isomerase activity",1.98092918408271e-05
+"Gsta5","GO:0004769","steroid Delta-isomerase activity",1.98092918408271e-05
+"Gsta3","GO:0004769","steroid Delta-isomerase activity",1.98092918408271e-05
+"Aox3","GO:0051537","2 iron, 2 sulfur cluster binding",2.86414783518761e-05
+"Aox4","GO:0051537","2 iron, 2 sulfur cluster binding",2.86414783518761e-05
+"Aox1","GO:0051537","2 iron, 2 sulfur cluster binding",2.86414783518761e-05
+"Aox2","GO:0051537","2 iron, 2 sulfur cluster binding",2.86414783518761e-05
+"Xdh","GO:0051537","2 iron, 2 sulfur cluster binding",2.86414783518761e-05
+"Gsta1","GO:0016860","intramolecular oxidoreductase activity",6.0276216184731e-05
+"Cyp2s1","GO:0016860","intramolecular oxidoreductase activity",6.0276216184731e-05
+"Gsta2","GO:0016860","intramolecular oxidoreductase activity",6.0276216184731e-05
+"Gsta5","GO:0016860","intramolecular oxidoreductase activity",6.0276216184731e-05
+"Gsta3","GO:0016860","intramolecular oxidoreductase activity",6.0276216184731e-05
+"Hpgds","GO:0016860","intramolecular oxidoreductase activity",6.0276216184731e-05
+"Ces1h","GO:0016298","lipase activity",6.55086377195059e-05
+"Ces1c","GO:0016298","lipase activity",6.55086377195059e-05
+"Ces1d","GO:0016298","lipase activity",6.55086377195059e-05
+"Ces1b","GO:0016298","lipase activity",6.55086377195059e-05
+"Ces1g","GO:0016298","lipase activity",6.55086377195059e-05
+"Ces1f","GO:0016298","lipase activity",6.55086377195059e-05
+"Ces1a","GO:0016298","lipase activity",6.55086377195059e-05
+"Ces1e","GO:0016298","lipase activity",6.55086377195059e-05
+"Adh1","GO:0004022","alcohol dehydrogenase (NAD+) activity",7.25798416296731e-05
+"Adh5","GO:0004022","alcohol dehydrogenase (NAD+) activity",7.25798416296731e-05
+"Adh4","GO:0004022","alcohol dehydrogenase (NAD+) activity",7.25798416296731e-05
+"Adh7","GO:0004022","alcohol dehydrogenase (NAD+) activity",7.25798416296731e-05
+"Akr1c21","GO:0004022","alcohol dehydrogenase (NAD+) activity",7.25798416296731e-05
+"Aox3","GO:0051287","NAD binding",0.000112029291678956
+"Aox4","GO:0051287","NAD binding",0.000112029291678956
+"Adh4","GO:0051287","NAD binding",0.000112029291678956
+"Aox1","GO:0051287","NAD binding",0.000112029291678956
+"Adh7","GO:0051287","NAD binding",0.000112029291678956
+"Aox2","GO:0051287","NAD binding",0.000112029291678956
+"Aox3","GO:0051536","iron-sulfur cluster binding",0.000199028194300078
+"Aox4","GO:0051536","iron-sulfur cluster binding",0.000199028194300078
+"Aox1","GO:0051536","iron-sulfur cluster binding",0.000199028194300078
+"Dpyd","GO:0051536","iron-sulfur cluster binding",0.000199028194300078
+"Aox2","GO:0051536","iron-sulfur cluster binding",0.000199028194300078
+"Xdh","GO:0051536","iron-sulfur cluster binding",0.000199028194300078
+"Cbr1","GO:0016655","oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor",0.000302911219748262
+"Cbr3","GO:0016655","oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor",0.000302911219748262
+"Adh4","GO:0016655","oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor",0.000302911219748262
+"Akr1c21","GO:0016655","oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor",0.000302911219748262
+"Gsta1","GO:0016863","intramolecular oxidoreductase activity, transposing C=C bonds",0.000356796941602489
+"Gsta2","GO:0016863","intramolecular oxidoreductase activity, transposing C=C bonds",0.000356796941602489
+"Gsta5","GO:0016863","intramolecular oxidoreductase activity, transposing C=C bonds",0.000356796941602489
+"Gsta3","GO:0016863","intramolecular oxidoreductase activity, transposing C=C bonds",0.000356796941602489
+"Hprt1","GO:0016763","pentosyltransferase activity",0.000711007967195996
+"Umps","GO:0016763","pentosyltransferase activity",0.000711007967195996
+"Upp1","GO:0016763","pentosyltransferase activity",0.000711007967195996
+"Tymp","GO:0016763","pentosyltransferase activity",0.000711007967195996
+"Upp2","GO:0016763","pentosyltransferase activity",0.000711007967195996
+"Cbr1","GO:0004090","carbonyl reductase (NADPH) activity",0.000825123648814
+"Cbr3","GO:0004090","carbonyl reductase (NADPH) activity",0.000825123648814
+"Cbr2","GO:0004090","carbonyl reductase (NADPH) activity",0.000825123648814
+"Cyp2c39","GO:0008405","arachidonate 11,12-epoxygenase activity",0.000825123648814
+"Cyp2c23","GO:0008405","arachidonate 11,12-epoxygenase activity",0.000825123648814
+"Cyp2c38","GO:0008405","arachidonate 11,12-epoxygenase activity",0.000825123648814
+"Nat3","GO:0016413","O-acetyltransferase activity",0.000825123648814
+"Nat1","GO:0016413","O-acetyltransferase activity",0.000825123648814
+"Nat2","GO:0016413","O-acetyltransferase activity",0.000825123648814
+"Cyp2c55","GO:0071614","linoleic acid epoxygenase activity",0.000825123648814
+"Cyp2c50","GO:0071614","linoleic acid epoxygenase activity",0.000825123648814
+"Cyp2c54","GO:0071614","linoleic acid epoxygenase activity",0.000825123648814
+"Adh1","GO:0004745","all-trans-retinol dehydrogenase (NAD+) activity",0.0010682451018898
+"Adh4","GO:0004745","all-trans-retinol dehydrogenase (NAD+) activity",0.0010682451018898
+"Adh7","GO:0004745","all-trans-retinol dehydrogenase (NAD+) activity",0.0010682451018898
+"Akr1c21","GO:0004745","all-trans-retinol dehydrogenase (NAD+) activity",0.0010682451018898
+"Mgst3","GO:0016846","carbon-sulfur lyase activity",0.0010682451018898
+"Gstm4","GO:0016846","carbon-sulfur lyase activity",0.0010682451018898
+"Mgst2","GO:0016846","carbon-sulfur lyase activity",0.0010682451018898
+"Mgst3","GO:0016829","lyase activity",0.00114285659902283
+"Gstm4","GO:0016829","lyase activity",0.00114285659902283
+"Cyp1b1","GO:0016829","lyase activity",0.00114285659902283
+"Cyp1a2","GO:0016829","lyase activity",0.00114285659902283
+"Umps","GO:0016829","lyase activity",0.00114285659902283
+"Cyp2s1","GO:0016829","lyase activity",0.00114285659902283
+"Cyp1a1","GO:0016829","lyase activity",0.00114285659902283
+"Mgst2","GO:0016829","lyase activity",0.00114285659902283
+"Gstp2","GO:0015643","toxic substance binding",0.00212491476977997
+"Gsta4","GO:0015643","toxic substance binding",0.00212491476977997
+"Gstp1","GO:0015643","toxic substance binding",0.00212491476977997
+"Fmo9","GO:0016174","NAD(P)H oxidase H2O2-forming activity",0.00257186139266263
+"Fmo13","GO:0016174","NAD(P)H oxidase H2O2-forming activity",0.00257186139266263
+"Fmo5","GO:0016174","NAD(P)H oxidase H2O2-forming activity",0.00257186139266263
+"Cyp2s1","GO:0016628","oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor",0.00271270913714396
+"Dhdh","GO:0016628","oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor",0.00271270913714396
+"Dpyd","GO:0016628","oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor",0.00271270913714396
+"Akr1c21","GO:0016628","oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor",0.00271270913714396
+"Fmo9","GO:0050664","oxidoreductase activity, acting on NAD(P)H, oxygen as acceptor",0.00428380815913106
+"Fmo13","GO:0050664","oxidoreductase activity, acting on NAD(P)H, oxygen as acceptor",0.00428380815913106
+"Fmo5","GO:0050664","oxidoreductase activity, acting on NAD(P)H, oxygen as acceptor",0.00428380815913106
+"Cyp1b1","GO:0016836","hydro-lyase activity",0.0108290077906214
+"Cyp1a2","GO:0016836","hydro-lyase activity",0.0108290077906214
+"Cyp2s1","GO:0016836","hydro-lyase activity",0.0108290077906214
+"Cyp1a1","GO:0016836","hydro-lyase activity",0.0108290077906214
+"Cyp2s1","GO:0016627","oxidoreductase activity, acting on the CH-CH group of donors",0.0172849701894087
+"Dhdh","GO:0016627","oxidoreductase activity, acting on the CH-CH group of donors",0.0172849701894087
+"Dpyd","GO:0016627","oxidoreductase activity, acting on the CH-CH group of donors",0.0172849701894087
+"Akr1c21","GO:0016627","oxidoreductase activity, acting on the CH-CH group of donors",0.0172849701894087
+"Cyp1b1","GO:0016835","carbon-oxygen lyase activity",0.0286254930448576
+"Cyp1a2","GO:0016835","carbon-oxygen lyase activity",0.0286254930448576
+"Cyp2s1","GO:0016835","carbon-oxygen lyase activity",0.0286254930448576
+"Cyp1a1","GO:0016835","carbon-oxygen lyase activity",0.0286254930448576
+"Cbr1","GO:0047020","15-hydroxyprostaglandin-D dehydrogenase (NADP+) activity",0.0287400930208276
+"Akr1c21","GO:0047020","15-hydroxyprostaglandin-D dehydrogenase (NADP+) activity",0.0287400930208276
+"Dhdh","GO:0047115","trans-1,2-dihydrobenzene-1,2-diol dehydrogenase activity",0.0287400930208276
+"Akr1c21","GO:0047115","trans-1,2-dihydrobenzene-1,2-diol dehydrogenase activity",0.0287400930208276
+"Cyp1a2","GO:0098809","nitrite reductase activity",0.0287400930208276
+"Xdh","GO:0098809","nitrite reductase activity",0.0287400930208276
+"Akr7a5","GO:0016801","hydrolase activity, acting on ether bonds",0.0409035967183925
+"Ephx1","GO:0016801","hydrolase activity, acting on ether bonds",0.0409035967183925
+"Akr7a5","GO:0016803","ether hydrolase activity",0.0409035967183925
+"Ephx1","GO:0016803","ether hydrolase activity",0.0409035967183925

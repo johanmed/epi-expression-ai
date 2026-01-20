@@ -1,0 +1,61 @@
+"gene_symbol","go_id","go_description","p_adjusted"
+"Mgst3","GO:0019867","outer membrane",2.8949252839687e-07
+"Nme3","GO:0019867","outer membrane",2.8949252839687e-07
+"Nme4","GO:0019867","outer membrane",2.8949252839687e-07
+"Ugt2b5","GO:0019867","outer membrane",2.8949252839687e-07
+"Mgst1","GO:0019867","outer membrane",2.8949252839687e-07
+"Maob","GO:0019867","outer membrane",2.8949252839687e-07
+"Ugt2b38","GO:0019867","outer membrane",2.8949252839687e-07
+"Nme1","GO:0019867","outer membrane",2.8949252839687e-07
+"Maoa","GO:0019867","outer membrane",2.8949252839687e-07
+"Ugt2b1","GO:0019867","outer membrane",2.8949252839687e-07
+"Ugt2b37","GO:0019867","outer membrane",2.8949252839687e-07
+"Ptgs2","GO:0019867","outer membrane",2.8949252839687e-07
+"Ugt2b35","GO:0019867","outer membrane",2.8949252839687e-07
+"Ugt2b36","GO:0019867","outer membrane",2.8949252839687e-07
+"Mgst3","GO:0031968","organelle outer membrane",2.8949252839687e-07
+"Nme3","GO:0031968","organelle outer membrane",2.8949252839687e-07
+"Nme4","GO:0031968","organelle outer membrane",2.8949252839687e-07
+"Ugt2b5","GO:0031968","organelle outer membrane",2.8949252839687e-07
+"Mgst1","GO:0031968","organelle outer membrane",2.8949252839687e-07
+"Maob","GO:0031968","organelle outer membrane",2.8949252839687e-07
+"Ugt2b38","GO:0031968","organelle outer membrane",2.8949252839687e-07
+"Nme1","GO:0031968","organelle outer membrane",2.8949252839687e-07
+"Maoa","GO:0031968","organelle outer membrane",2.8949252839687e-07
+"Ugt2b1","GO:0031968","organelle outer membrane",2.8949252839687e-07
+"Ugt2b37","GO:0031968","organelle outer membrane",2.8949252839687e-07
+"Ptgs2","GO:0031968","organelle outer membrane",2.8949252839687e-07
+"Ugt2b35","GO:0031968","organelle outer membrane",2.8949252839687e-07
+"Ugt2b36","GO:0031968","organelle outer membrane",2.8949252839687e-07
+"Ugt2b5","GO:0005640","nuclear outer membrane",5.33391469970985e-07
+"Ugt2b38","GO:0005640","nuclear outer membrane",5.33391469970985e-07
+"Ugt2b1","GO:0005640","nuclear outer membrane",5.33391469970985e-07
+"Ugt2b37","GO:0005640","nuclear outer membrane",5.33391469970985e-07
+"Ptgs2","GO:0005640","nuclear outer membrane",5.33391469970985e-07
+"Ugt2b35","GO:0005640","nuclear outer membrane",5.33391469970985e-07
+"Ugt2b36","GO:0005640","nuclear outer membrane",5.33391469970985e-07
+"Ces1h","GO:0005811","lipid droplet",1.33764603862051e-05
+"Ces1c","GO:0005811","lipid droplet",1.33764603862051e-05
+"Ces1d","GO:0005811","lipid droplet",1.33764603862051e-05
+"Ces1b","GO:0005811","lipid droplet",1.33764603862051e-05
+"Ces1g","GO:0005811","lipid droplet",1.33764603862051e-05
+"Ces1f","GO:0005811","lipid droplet",1.33764603862051e-05
+"Ces1a","GO:0005811","lipid droplet",1.33764603862051e-05
+"Aldh3b2","GO:0005811","lipid droplet",1.33764603862051e-05
+"Ces1e","GO:0005811","lipid droplet",1.33764603862051e-05
+"Ces1c","GO:0005788","endoplasmic reticulum lumen",0.00469286695872891
+"Ces1d","GO:0005788","endoplasmic reticulum lumen",0.00469286695872891
+"Ces1g","GO:0005788","endoplasmic reticulum lumen",0.00469286695872891
+"Ugt1a1","GO:0005788","endoplasmic reticulum lumen",0.00469286695872891
+"Ptgs2","GO:0005788","endoplasmic reticulum lumen",0.00469286695872891
+"Hpgds","GO:0005788","endoplasmic reticulum lumen",0.00469286695872891
+"Ces1e","GO:0005788","endoplasmic reticulum lumen",0.00469286695872891
+"Ugt2b5","GO:0031965","nuclear membrane",0.0407465405578143
+"Gsto1","GO:0031965","nuclear membrane",0.0407465405578143
+"Ugt2b38","GO:0031965","nuclear membrane",0.0407465405578143
+"Hsd11b1","GO:0031965","nuclear membrane",0.0407465405578143
+"Ugt2b1","GO:0031965","nuclear membrane",0.0407465405578143
+"Ugt2b37","GO:0031965","nuclear membrane",0.0407465405578143
+"Ptgs2","GO:0031965","nuclear membrane",0.0407465405578143
+"Ugt2b35","GO:0031965","nuclear membrane",0.0407465405578143
+"Ugt2b36","GO:0031965","nuclear membrane",0.0407465405578143

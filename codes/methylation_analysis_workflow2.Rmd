@@ -571,10 +571,6 @@ bp_geo <- geo(gene_list, "BP")
 mf_geo <- geo(gene_list, "MF")
 cc_geo <- geo(gene_list, "CC")
 
-# Draw barplot of results
-barplot(ego, showCategory = 20)
-# Draw dotplot of results
-dotplot(ego, showCategory = 20)
 ```
 
 ### Perform KEGG Pathway Analysis
@@ -632,14 +628,63 @@ write.csv(final_genes_kegg, "results/list_genes_kegg.csv", row.names=FALSE)
 ### Extract genes from enriched KEGG and reperform Gene Ontology enrichment
 
 ```r
+# Acquire genes
 py_require(c("requests"))
 source_python("codes/pathway2genes.py")
 
 new_gene_list <- py$new_list
 
+# Proceed to GO analysis
+
 new_bp_geo <- geo(new_gene_list, "BP")
-new_mf_geo <- geo(new_gene_list, "MF")
 new_cc_geo <- geo(new_gene_list, "CC")
+new_mf_geo <- geo(new_gene_list, "MF")
+
+# Plot results
+
+plot_go <- function(go, ont_type){
+    # Draw barplot of results
+    print(barplot(go))
+    dev.copy(pdf, glue("results/barplot_kegg_{ont_type}_results.pdf"), width=15, height=10)
+    dev.off()
+    # Draw dotplot of results
+    print(dotplot(go))
+    dev.copy(pdf, glue("results/dotplot_kegg_{ont_type}_results.pdf"), width=15, height=10)
+    dev.off()
+}
+
+plot_go(new_bp_geo, "BP")
+plot_go(new_cc_geo, "CC")
+plot_go(new_mf_geo, "MF")
+
+# Extract list of genes and GO and save results
+
+extract_gene_go <- function(go, annot_type){
+    final_genes_go <- data.frame()
+    go_data <- go[]
+
+    for (i in seq_len(nrow(go_data))) {
+        genes <- strsplit(go_data$geneID[i], "/")[[1]]
+  
+        for (gene in genes) {
+            temp <- data.frame(
+                gene_symbol = gene,
+                go_id = go_data$ID[i],
+                go_description = go_data$Description[i],
+                p_adjusted = go_data$p.adjust[i],
+                stringsAsFactors = FALSE
+            )
+            temp <- temp[order(temp$p_adjusted),]
+            final_genes_go <- rbind(final_genes_go, temp)
+        }
+    }
+    final_genes_go <- unique(final_genes_go)
+    write.csv(final_genes_go, glue("results/list_genes_go_{annot_type}.csv"), row.names=FALSE)
+}
+
+extract_gene_go(new_bp_geo, "BP")
+extract_gene_go(new_cc_geo, "CC")
+extract_gene_go(new_mf_geo, "MF")
 
 ```
 
