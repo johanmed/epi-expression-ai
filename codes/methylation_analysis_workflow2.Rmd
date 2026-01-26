@@ -702,7 +702,7 @@ covariates <- metadata[c("Strain", "Sex", "Age", "AgeDays", "Treatment")]
 write.csv(covariates, "results/covariates.csv", row.names=FALSE)
 
 
-# Save methylation phenotypes
+# Save all methylation phenotypes
 methyl_pheno <- beta
 
 colnames(methyl_pheno) <- metadata$Strain[match(colnames(methyl_pheno), metadata$ExtBasename)]
@@ -712,6 +712,20 @@ trans_methyl_pheno <- t(methyl_pheno)
 write.csv(trans_methyl_pheno, "~/methylation_phenofile.csv", row.names=FALSE) # without strains
 
 write.csv(trans_methyl_pheno, "~/methylation_phenofile_strains.csv", row.names=TRUE) # with strains
+
+
+# Save only methylation phenotypes for DMPs
+
+inter_methyl_pheno <- beta[match(rownames(beta), rownames(final_dmps)),]
+inter_methyl_pheno <- na.omit(inter_methyl_pheno)
+
+colnames(inter_methyl_pheno) <- metadata$Strain[match(colnames(inter_methyl_pheno), metadata$ExtBasename)]
+
+tinter_methyl_pheno <- t(inter_methyl_pheno)
+
+write.csv(tinter_methyl_pheno, "~/interest_methylation_phenofile.csv", row.names=FALSE) # without strains
+
+write.csv(tinter_methyl_pheno, "~/interest_methylation_phenofile_strains.csv", row.names=TRUE) # with strains
 
 ```
 
