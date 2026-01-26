@@ -19,7 +19,7 @@ new_geno <- geno[, c("marker", "allele1", "allele2", strains)]
 # Save new genotype file
 write.table(new_geno,
             file="~/new_BXD.8_geno.txt",
-            sep=",",
+            sep=", ",
             row.names=FALSE,
             col.names=FALSE,
             quote=FALSE)

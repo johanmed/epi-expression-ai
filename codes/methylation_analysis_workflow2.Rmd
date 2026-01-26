@@ -709,9 +709,9 @@ colnames(methyl_pheno) <- metadata$Strain[match(colnames(methyl_pheno), metadata
 
 trans_methyl_pheno <- t(methyl_pheno)
 
-write.csv(trans_methyl_pheno, "~/methylation_phenofile.csv", row.names=FALSE) # without strains
+write.table(trans_methyl_pheno, "~/methylation_phenofile.txt", row.names=FALSE, col.names=FALSE, sep=", ", quote=FALSE) # without strains
 
-write.csv(trans_methyl_pheno, "~/methylation_phenofile_strains.csv", row.names=TRUE) # with strains
+write.table(trans_methyl_pheno, "~/methylation_phenofile_strains.csv", row.names=TRUE, col.names=TRUE, sep=", ", quote=FALSE) # with strains and phenotypes
 
 
 # Save only methylation phenotypes for DMPs
@@ -723,9 +723,9 @@ colnames(inter_methyl_pheno) <- metadata$Strain[match(colnames(inter_methyl_phen
 
 tinter_methyl_pheno <- t(inter_methyl_pheno)
 
-write.csv(tinter_methyl_pheno, "~/interest_methylation_phenofile.csv", row.names=FALSE) # without strains
+write.table(tinter_methyl_pheno, file="~/interest_methylation_phenofile.csv", row.names=FALSE, col.names=FALSE, sep=", ", quote=FALSE) # without strains
 
-write.csv(tinter_methyl_pheno, "~/interest_methylation_phenofile_strains.csv", row.names=TRUE) # with strains
+write.table(tinter_methyl_pheno, file="~/interest_methylation_phenofile_strains.csv", row.names=TRUE, col.names=TRUE, sep=", ", quote=FALSE) # with strains and phenotypes
 
 ```
 
