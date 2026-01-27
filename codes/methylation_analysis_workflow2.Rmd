@@ -716,6 +716,9 @@ save_methyl <- function(methyl_pheno, annot_type){
 }
 
 save_methyl(beta, "beta")
+save_methyl(log2(beta), "log2beta")
+save_methyl(qsmoothData(qsmooth(object=beta, group_factor=groups)), "quantile_beta")
+
 save_methyl(M, "M")
 
 # Save only methylation phenotypes for DMPs
@@ -736,6 +739,7 @@ save_rmethyl <- function(methyl_pheno, annot_type){
 save_rmethyl(beta, "beta")
 save_rmethyl(log2(beta), "log2beta")
 save_rmethyl(qsmoothData(qsmooth(object=beta, group_factor=groups)), "quantile_beta")
+
 save_rmethyl(M, "M")
 
 ```
