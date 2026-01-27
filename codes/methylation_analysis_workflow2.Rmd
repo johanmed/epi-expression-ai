@@ -38,6 +38,7 @@ library(pheatmap)
 library(DMRcate)
 library(clusterProfiler)
 library(biomaRt)
+library(qsmooth)
 
 library(org.Mm.eg.db)
 library(IlluminaMouseMethylationanno.12.v1.mm10)
@@ -733,6 +734,8 @@ save_rmethyl <- function(methyl_pheno, annot_type){
 }
 
 save_rmethyl(beta, "beta")
+save_rmethyl(log2(beta), "log2beta")
+save_rmethyl(qsmoothData(qsmooth(object=beta, group_factor=groups)), "quantile_beta")
 save_rmethyl(M, "M")
 
 ```
