@@ -703,29 +703,37 @@ write.csv(covariates, "results/covariates.csv", row.names=FALSE)
 
 
 # Save all methylation phenotypes
-methyl_pheno <- beta
 
-colnames(methyl_pheno) <- metadata$Strain[match(colnames(methyl_pheno), metadata$ExtBasename)]
+save_methyl <- function(methyl_pheno, annot_type){
+    colnames(methyl_pheno) <- metadata$Strain[match(colnames(methyl_pheno), metadata$ExtBasename)]
 
-trans_methyl_pheno <- t(methyl_pheno)
+    trans_methyl_pheno <- t(methyl_pheno)
 
-write.table(trans_methyl_pheno, "~/methylation_phenofile.txt", row.names=FALSE, col.names=FALSE, sep=", ", quote=FALSE) # without strains
+    write.table(trans_methyl_pheno, glue("~/{annot_type}_phenofile.txt"), row.names=FALSE, col.names=FALSE, sep=", ", quote=FALSE) # without strains
 
-write.table(trans_methyl_pheno, "~/methylation_phenofile_strains.csv", row.names=TRUE, col.names=TRUE, sep=", ", quote=FALSE) # with strains and phenotypes
+    write.table(trans_methyl_pheno, glue("~/{annot_type}_phenofile_strains.txt"), row.names=TRUE, col.names=TRUE, sep=", ", quote=FALSE) # with strains and phenotypes
+}
 
+save_methyl(beta, "beta")
+save_methyl(M, "M")
 
 # Save only methylation phenotypes for DMPs
 
-inter_methyl_pheno <- beta[match(rownames(beta), rownames(final_dmps)),]
-inter_methyl_pheno <- na.omit(inter_methyl_pheno)
+save_rmethyl <- function(methyl_pheno, annot_type){
+    inter_methyl_pheno <- methyl_pheno[match(rownames(methyl_pheno), rownames(final_dmps)),]
+    inter_methyl_pheno <- na.omit(inter_methyl_pheno)
 
-colnames(inter_methyl_pheno) <- metadata$Strain[match(colnames(inter_methyl_pheno), metadata$ExtBasename)]
+    colnames(inter_methyl_pheno) <- metadata$Strain[match(colnames(inter_methyl_pheno), metadata$ExtBasename)]
 
-tinter_methyl_pheno <- t(inter_methyl_pheno)
+    tinter_methyl_pheno <- t(inter_methyl_pheno)
 
-write.table(tinter_methyl_pheno, file="~/interest_methylation_phenofile.csv", row.names=FALSE, col.names=FALSE, sep=", ", quote=FALSE) # without strains
+    write.table(tinter_methyl_pheno, file=glue("~/interest_{annot_type}_phenofile.txt"), row.names=FALSE, col.names=FALSE, sep=", ", quote=FALSE) # without strains
 
-write.table(tinter_methyl_pheno, file="~/interest_methylation_phenofile_strains.csv", row.names=TRUE, col.names=TRUE, sep=", ", quote=FALSE) # with strains and phenotypes
+    write.table(tinter_methyl_pheno, file=glue("~/interest_{annot_type}_phenofile_strains.txt"), row.names=TRUE, col.names=TRUE, sep=", ", quote=FALSE) # with strains and phenotypes
+}
+
+save_rmethyl(beta, "beta")
+save_rmethyl(M, "M")
 
 ```
 
