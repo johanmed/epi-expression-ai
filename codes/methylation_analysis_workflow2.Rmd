@@ -330,7 +330,7 @@ final_dmps$gene <- annot[rownames(final_dmps), "GeneName_UCSC"]
 final_dmps$gene_group <- annot[rownames(final_dmps), "Feature_UCSC"]
 final_dmps$chr <- annot[rownames(final_dmps), "chr"]
 final_dmps$pos <- annot[rownames(final_dmps), "pos"]
-final_dmps$pos <- annot[rownames(final_dmps), "strand"]
+final_dmps$strand <- annot[rownames(final_dmps), "strand"]
 
 # View annotated final DMPs
 head(final_dmps)
@@ -712,7 +712,7 @@ save_methyl <- function(methyl_pheno, annot_type){
 
     write.table(trans_methyl_pheno, glue("~/{annot_type}_phenofile.txt"), row.names=FALSE, col.names=FALSE, sep=", ", quote=FALSE) # without strains
 
-    write.table(trans_methyl_pheno, glue("~/{annot_type}_phenofile_strains.txt"), row.names=TRUE, col.names=TRUE, sep=", ", quote=FALSE) # with strains and phenotypes
+    #write.table(trans_methyl_pheno, glue("~/{annot_type}_phenofile_strains.txt"), row.names=TRUE, col.names=TRUE, sep=", ", quote=FALSE) # with strains and phenotypes
 }
 
 save_methyl(beta, "beta")
@@ -721,11 +721,12 @@ save_methyl(qsmoothData(qsmooth(object=beta, group_factor=groups)), "quantile_be
 
 save_methyl(M, "M")
 
+
 # Save only methylation phenotypes for DMPs
 
 save_rmethyl <- function(methyl_pheno, annot_type){
-    inter_methyl_pheno <- methyl_pheno[match(rownames(methyl_pheno), rownames(final_dmps)),]
-    inter_methyl_pheno <- na.omit(inter_methyl_pheno)
+    keep <- rownames(methyl_pheno) %in% rownames(final_dmps)
+    inter_methyl_pheno <- methyl_pheno[keep, , drop=FALSE]
 
     colnames(inter_methyl_pheno) <- metadata$Strain[match(colnames(inter_methyl_pheno), metadata$ExtBasename)]
 
@@ -733,7 +734,7 @@ save_rmethyl <- function(methyl_pheno, annot_type){
 
     write.table(tinter_methyl_pheno, file=glue("~/interest_{annot_type}_phenofile.txt"), row.names=FALSE, col.names=FALSE, sep=", ", quote=FALSE) # without strains
 
-    write.table(tinter_methyl_pheno, file=glue("~/interest_{annot_type}_phenofile_strains.txt"), row.names=TRUE, col.names=TRUE, sep=", ", quote=FALSE) # with strains and phenotypes
+    #write.table(tinter_methyl_pheno, file=glue("~/interest_{annot_type}_phenofile_strains.txt"), row.names=TRUE, col.names=TRUE, sep=", ", quote=FALSE) # with strains and phenotypes
 }
 
 save_rmethyl(beta, "beta")
@@ -741,6 +742,38 @@ save_rmethyl(log2(beta), "log2beta")
 save_rmethyl(qsmoothData(qsmooth(object=beta, group_factor=groups)), "quantile_beta")
 
 save_rmethyl(M, "M")
+
+
+# Save methylation phenotypes of interest + neighbors
+
+save_mmethyl <- function(methyl_pheno, annot_type){
+    final_results <- data.frame()
+    temp_results <- subset(results, chr %in% unique(final_dmps$chr))
+    
+    for (new_pos in final_dmps$pos){
+        temp <- subset(temp_results, abs(pos-new_pos)<10000)
+        final_results <- rbind(final_results, temp)
+    }
+    final_results <- unique(final_results)
+
+    keep <- rownames(methyl_pheno) %in% rownames(final_results)
+    final_pheno <- methyl_pheno[keep, , drop=FALSE]
+
+    colnames(final_pheno) <- metadata$Strain[match(colnames(final_pheno), metadata$ExtBasename)]
+    
+    trans_final_pheno <- t(final_pheno)
+
+    write.table(trans_final_pheno, glue("~/more_{annot_type}_phenofile.txt"), row.names=FALSE, col.names=FALSE, sep=", ", quote=FALSE) # without strains
+
+    #write.table(trans_final_pheno, glue("~/more_{annot_type}_phenofile_strains.txt"), row.names=TRUE, col.names=TRUE, sep=", ", quote=FALSE) # with strains and phenotypes
+}
+
+save_mmethyl(beta, "beta")
+save_mmethyl(log2(beta), "log2beta")
+save_mmethyl(qsmoothData(qsmooth(object=beta, group_factor=groups)), "quantile_beta")
+
+save_mmethyl(M, "M")
+
 
 ```
 
