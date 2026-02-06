@@ -1,0 +1,520 @@
+"gene_symbol","go_id","go_description","p_adjusted"
+"Hspa1a","GO:0061629","RNA polymerase II-specific DNA-binding transcription factor binding",1.82576734250743e-08
+"Hspa1b","GO:0061629","RNA polymerase II-specific DNA-binding transcription factor binding",1.82576734250743e-08
+"Nfe2l2","GO:0061629","RNA polymerase II-specific DNA-binding transcription factor binding",1.82576734250743e-08
+"T","GO:0061629","RNA polymerase II-specific DNA-binding transcription factor binding",1.82576734250743e-08
+"Myod1","GO:0061629","RNA polymerase II-specific DNA-binding transcription factor binding",1.82576734250743e-08
+"Per2","GO:0061629","RNA polymerase II-specific DNA-binding transcription factor binding",1.82576734250743e-08
+"Stat3","GO:0061629","RNA polymerase II-specific DNA-binding transcription factor binding",1.82576734250743e-08
+"Nkx2-1","GO:0061629","RNA polymerase II-specific DNA-binding transcription factor binding",1.82576734250743e-08
+"Smad2","GO:0061629","RNA polymerase II-specific DNA-binding transcription factor binding",1.82576734250743e-08
+"Nkx2-5","GO:0061629","RNA polymerase II-specific DNA-binding transcription factor binding",1.82576734250743e-08
+"Lef1","GO:0061629","RNA polymerase II-specific DNA-binding transcription factor binding",1.82576734250743e-08
+"Pou5f1","GO:0061629","RNA polymerase II-specific DNA-binding transcription factor binding",1.82576734250743e-08
+"Ppargc1a","GO:0061629","RNA polymerase II-specific DNA-binding transcription factor binding",1.82576734250743e-08
+"Id2","GO:0061629","RNA polymerase II-specific DNA-binding transcription factor binding",1.82576734250743e-08
+"Mapk14","GO:0061629","RNA polymerase II-specific DNA-binding transcription factor binding",1.82576734250743e-08
+"Sirt1","GO:0061629","RNA polymerase II-specific DNA-binding transcription factor binding",1.82576734250743e-08
+"Hspa1a","GO:0031625","ubiquitin protein ligase binding",1.82576734250743e-08
+"Hspa1b","GO:0031625","ubiquitin protein ligase binding",1.82576734250743e-08
+"Nfe2l2","GO:0031625","ubiquitin protein ligase binding",1.82576734250743e-08
+"Myod1","GO:0031625","ubiquitin protein ligase binding",1.82576734250743e-08
+"Smad7","GO:0031625","ubiquitin protein ligase binding",1.82576734250743e-08
+"Foxo1","GO:0031625","ubiquitin protein ligase binding",1.82576734250743e-08
+"Fzd6","GO:0031625","ubiquitin protein ligase binding",1.82576734250743e-08
+"Smad2","GO:0031625","ubiquitin protein ligase binding",1.82576734250743e-08
+"Ngfr","GO:0031625","ubiquitin protein ligase binding",1.82576734250743e-08
+"Cdkn1a","GO:0031625","ubiquitin protein ligase binding",1.82576734250743e-08
+"Pou5f1","GO:0031625","ubiquitin protein ligase binding",1.82576734250743e-08
+"Ppargc1a","GO:0031625","ubiquitin protein ligase binding",1.82576734250743e-08
+"Syk","GO:0031625","ubiquitin protein ligase binding",1.82576734250743e-08
+"Pml","GO:0031625","ubiquitin protein ligase binding",1.82576734250743e-08
+"Txnip","GO:0031625","ubiquitin protein ligase binding",1.82576734250743e-08
+"Hspa1a","GO:0044389","ubiquitin-like protein ligase binding",2.45669226696232e-08
+"Hspa1b","GO:0044389","ubiquitin-like protein ligase binding",2.45669226696232e-08
+"Nfe2l2","GO:0044389","ubiquitin-like protein ligase binding",2.45669226696232e-08
+"Myod1","GO:0044389","ubiquitin-like protein ligase binding",2.45669226696232e-08
+"Smad7","GO:0044389","ubiquitin-like protein ligase binding",2.45669226696232e-08
+"Foxo1","GO:0044389","ubiquitin-like protein ligase binding",2.45669226696232e-08
+"Fzd6","GO:0044389","ubiquitin-like protein ligase binding",2.45669226696232e-08
+"Smad2","GO:0044389","ubiquitin-like protein ligase binding",2.45669226696232e-08
+"Ngfr","GO:0044389","ubiquitin-like protein ligase binding",2.45669226696232e-08
+"Cdkn1a","GO:0044389","ubiquitin-like protein ligase binding",2.45669226696232e-08
+"Pou5f1","GO:0044389","ubiquitin-like protein ligase binding",2.45669226696232e-08
+"Ppargc1a","GO:0044389","ubiquitin-like protein ligase binding",2.45669226696232e-08
+"Syk","GO:0044389","ubiquitin-like protein ligase binding",2.45669226696232e-08
+"Pml","GO:0044389","ubiquitin-like protein ligase binding",2.45669226696232e-08
+"Txnip","GO:0044389","ubiquitin-like protein ligase binding",2.45669226696232e-08
+"Cdh1","GO:0019902","phosphatase binding",5.70167132574135e-07
+"Mapt","GO:0019902","phosphatase binding",5.70167132574135e-07
+"Cdh2","GO:0019902","phosphatase binding",5.70167132574135e-07
+"Stat3","GO:0019902","phosphatase binding",5.70167132574135e-07
+"Foxo1","GO:0019902","phosphatase binding",5.70167132574135e-07
+"Akt1","GO:0019902","phosphatase binding",5.70167132574135e-07
+"Smad2","GO:0019902","phosphatase binding",5.70167132574135e-07
+"Syk","GO:0019902","phosphatase binding",5.70167132574135e-07
+"Mapk14","GO:0019902","phosphatase binding",5.70167132574135e-07
+"Sod1","GO:0019902","phosphatase binding",5.70167132574135e-07
+"Ptk2","GO:0019902","phosphatase binding",5.70167132574135e-07
+"Drd1","GO:0019902","phosphatase binding",5.70167132574135e-07
+"H2-Ea","GO:0023026","MHC class II protein complex binding",5.70167132574135e-07
+"Cd74","GO:0023026","MHC class II protein complex binding",5.70167132574135e-07
+"H2-Aa","GO:0023026","MHC class II protein complex binding",5.70167132574135e-07
+"H2-Ab1","GO:0023026","MHC class II protein complex binding",5.70167132574135e-07
+"H2-Eb1","GO:0023026","MHC class II protein complex binding",5.70167132574135e-07
+"Ccl2","GO:0005126","cytokine receptor binding",5.84143093875509e-07
+"Smad7","GO:0005126","cytokine receptor binding",5.84143093875509e-07
+"Stat3","GO:0005126","cytokine receptor binding",5.84143093875509e-07
+"Il6","GO:0005126","cytokine receptor binding",5.84143093875509e-07
+"Vegfa","GO:0005126","cytokine receptor binding",5.84143093875509e-07
+"Casp3","GO:0005126","cytokine receptor binding",5.84143093875509e-07
+"Smad2","GO:0005126","cytokine receptor binding",5.84143093875509e-07
+"Ngfr","GO:0005126","cytokine receptor binding",5.84143093875509e-07
+"Syk","GO:0005126","cytokine receptor binding",5.84143093875509e-07
+"Lta","GO:0005126","cytokine receptor binding",5.84143093875509e-07
+"Tnf","GO:0005126","cytokine receptor binding",5.84143093875509e-07
+"Tgfb2","GO:0005126","cytokine receptor binding",5.84143093875509e-07
+"Bdnf","GO:0005126","cytokine receptor binding",5.84143093875509e-07
+"Cdh1","GO:0008013","beta-catenin binding",5.84143093875509e-07
+"Cdh2","GO:0008013","beta-catenin binding",5.84143093875509e-07
+"Nos3","GO:0008013","beta-catenin binding",5.84143093875509e-07
+"Gli3","GO:0008013","beta-catenin binding",5.84143093875509e-07
+"Smad7","GO:0008013","beta-catenin binding",5.84143093875509e-07
+"Foxo1","GO:0008013","beta-catenin binding",5.84143093875509e-07
+"Psen1","GO:0008013","beta-catenin binding",5.84143093875509e-07
+"Nos2","GO:0008013","beta-catenin binding",5.84143093875509e-07
+"Lef1","GO:0008013","beta-catenin binding",5.84143093875509e-07
+"H2-Ea","GO:0042277","peptide binding",1.18479586374243e-06
+"Cryab","GO:0042277","peptide binding",1.18479586374243e-06
+"Cd74","GO:0042277","peptide binding",1.18479586374243e-06
+"Ager","GO:0042277","peptide binding",1.18479586374243e-06
+"H2-Aa","GO:0042277","peptide binding",1.18479586374243e-06
+"Tubb3","GO:0042277","peptide binding",1.18479586374243e-06
+"Ngfr","GO:0042277","peptide binding",1.18479586374243e-06
+"H2-Ab1","GO:0042277","peptide binding",1.18479586374243e-06
+"H2-Eb1","GO:0042277","peptide binding",1.18479586374243e-06
+"Tgfb2","GO:0042277","peptide binding",1.18479586374243e-06
+"Prnp","GO:0042277","peptide binding",1.18479586374243e-06
+"Tlr2","GO:0042277","peptide binding",1.18479586374243e-06
+"Cryab","GO:0001540","amyloid-beta binding",3.24373146394245e-06
+"Cd74","GO:0001540","amyloid-beta binding",3.24373146394245e-06
+"Ager","GO:0001540","amyloid-beta binding",3.24373146394245e-06
+"Ngfr","GO:0001540","amyloid-beta binding",3.24373146394245e-06
+"Tgfb2","GO:0001540","amyloid-beta binding",3.24373146394245e-06
+"Prnp","GO:0001540","amyloid-beta binding",3.24373146394245e-06
+"Tlr2","GO:0001540","amyloid-beta binding",3.24373146394245e-06
+"Cdh1","GO:0019903","protein phosphatase binding",3.72360160757494e-06
+"Mapt","GO:0019903","protein phosphatase binding",3.72360160757494e-06
+"Cdh2","GO:0019903","protein phosphatase binding",3.72360160757494e-06
+"Stat3","GO:0019903","protein phosphatase binding",3.72360160757494e-06
+"Foxo1","GO:0019903","protein phosphatase binding",3.72360160757494e-06
+"Akt1","GO:0019903","protein phosphatase binding",3.72360160757494e-06
+"Mapk14","GO:0019903","protein phosphatase binding",3.72360160757494e-06
+"Sod1","GO:0019903","protein phosphatase binding",3.72360160757494e-06
+"Ptk2","GO:0019903","protein phosphatase binding",3.72360160757494e-06
+"Drd1","GO:0019903","protein phosphatase binding",3.72360160757494e-06
+"Hspa1a","GO:0031072","heat shock protein binding",3.91962339218884e-06
+"Hspa1b","GO:0031072","heat shock protein binding",3.91962339218884e-06
+"Bax","GO:0031072","heat shock protein binding",3.91962339218884e-06
+"Mapt","GO:0031072","heat shock protein binding",3.91962339218884e-06
+"Nos3","GO:0031072","heat shock protein binding",3.91962339218884e-06
+"Cdk1","GO:0031072","heat shock protein binding",3.91962339218884e-06
+"Ago2","GO:0031072","heat shock protein binding",3.91962339218884e-06
+"Nos2","GO:0031072","heat shock protein binding",3.91962339218884e-06
+"Htt","GO:0031072","heat shock protein binding",3.91962339218884e-06
+"H2-Ea","GO:0023023","MHC protein complex binding",5.53112132358554e-06
+"Cd74","GO:0023023","MHC protein complex binding",5.53112132358554e-06
+"H2-Aa","GO:0023023","MHC protein complex binding",5.53112132358554e-06
+"H2-Ab1","GO:0023023","MHC protein complex binding",5.53112132358554e-06
+"H2-Eb1","GO:0023023","MHC protein complex binding",5.53112132358554e-06
+"Cdh2","GO:0050998","nitric-oxide synthase binding",5.53112132358554e-06
+"Nos3","GO:0050998","nitric-oxide synthase binding",5.53112132358554e-06
+"Cd74","GO:0050998","nitric-oxide synthase binding",5.53112132358554e-06
+"Nos2","GO:0050998","nitric-oxide synthase binding",5.53112132358554e-06
+"Cav1","GO:0050998","nitric-oxide synthase binding",5.53112132358554e-06
+"Per2","GO:0140416","transcription regulator inhibitor activity",8.29742179006494e-05
+"Smad7","GO:0140416","transcription regulator inhibitor activity",8.29742179006494e-05
+"Lef1","GO:0140416","transcription regulator inhibitor activity",8.29742179006494e-05
+"Id2","GO:0140416","transcription regulator inhibitor activity",8.29742179006494e-05
+"Sirt1","GO:0140416","transcription regulator inhibitor activity",8.29742179006494e-05
+"Hspa1a","GO:0042826","histone deacetylase binding",0.000306885965561274
+"Hspa1b","GO:0042826","histone deacetylase binding",0.000306885965561274
+"Per2","GO:0042826","histone deacetylase binding",0.000306885965561274
+"Gli3","GO:0042826","histone deacetylase binding",0.000306885965561274
+"Runx2","GO:0042826","histone deacetylase binding",0.000306885965561274
+"Nkx2-5","GO:0042826","histone deacetylase binding",0.000306885965561274
+"Lef1","GO:0042826","histone deacetylase binding",0.000306885965561274
+"Ifnar1","GO:0019955","cytokine binding",0.000346771157401421
+"Csf2ra","GO:0019955","cytokine binding",0.000346771157401421
+"Cd74","GO:0019955","cytokine binding",0.000346771157401421
+"Ager","GO:0019955","cytokine binding",0.000346771157401421
+"Itgb1","GO:0019955","cytokine binding",0.000346771157401421
+"Pou5f1","GO:0019955","cytokine binding",0.000346771157401421
+"Lepr","GO:0019955","cytokine binding",0.000346771157401421
+"Atm","GO:0004674","protein serine/threonine kinase activity",0.000477326041014322
+"Cdk1","GO:0004674","protein serine/threonine kinase activity",0.000477326041014322
+"Grk5","GO:0004674","protein serine/threonine kinase activity",0.000477326041014322
+"Rock1","GO:0004674","protein serine/threonine kinase activity",0.000477326041014322
+"Camk2a","GO:0004674","protein serine/threonine kinase activity",0.000477326041014322
+"Akt1","GO:0004674","protein serine/threonine kinase activity",0.000477326041014322
+"Atr","GO:0004674","protein serine/threonine kinase activity",0.000477326041014322
+"Pkm","GO:0004674","protein serine/threonine kinase activity",0.000477326041014322
+"Mtor","GO:0004674","protein serine/threonine kinase activity",0.000477326041014322
+"Syk","GO:0004674","protein serine/threonine kinase activity",0.000477326041014322
+"Mapk14","GO:0004674","protein serine/threonine kinase activity",0.000477326041014322
+"Atm","GO:0035173","histone kinase activity",0.000548279587698269
+"Cdk1","GO:0035173","histone kinase activity",0.000548279587698269
+"Atr","GO:0035173","histone kinase activity",0.000548279587698269
+"Pkm","GO:0035173","histone kinase activity",0.000548279587698269
+"Cryab","GO:0033218","amide binding",0.000678973459949916
+"Cd74","GO:0033218","amide binding",0.000678973459949916
+"Ager","GO:0033218","amide binding",0.000678973459949916
+"Ngfr","GO:0033218","amide binding",0.000678973459949916
+"Tgfb2","GO:0033218","amide binding",0.000678973459949916
+"Prnp","GO:0033218","amide binding",0.000678973459949916
+"Tlr2","GO:0033218","amide binding",0.000678973459949916
+"Lepr","GO:0033218","amide binding",0.000678973459949916
+"F2rl1","GO:0032795","heterotrimeric G-protein binding",0.000699499892200613
+"Drd2","GO:0032795","heterotrimeric G-protein binding",0.000699499892200613
+"Drd1","GO:0032795","heterotrimeric G-protein binding",0.000699499892200613
+"Myod1","GO:0031490","chromatin DNA binding",0.000950020426259894
+"Stat3","GO:0031490","chromatin DNA binding",0.000950020426259894
+"Foxo1","GO:0031490","chromatin DNA binding",0.000950020426259894
+"Runx2","GO:0031490","chromatin DNA binding",0.000950020426259894
+"Pou5f1","GO:0031490","chromatin DNA binding",0.000950020426259894
+"Ppargc1a","GO:0031490","chromatin DNA binding",0.000950020426259894
+"Cdh1","GO:0045296","cadherin binding",0.000950020426259894
+"Cdh2","GO:0045296","cadherin binding",0.000950020426259894
+"Nos3","GO:0045296","cadherin binding",0.000950020426259894
+"Psen1","GO:0045296","cadherin binding",0.000950020426259894
+"Nos2","GO:0045296","cadherin binding",0.000950020426259894
+"Chrna3","GO:0098960","postsynaptic neurotransmitter receptor activity",0.000950020426259894
+"Drd2","GO:0098960","postsynaptic neurotransmitter receptor activity",0.000950020426259894
+"Chrnb4","GO:0098960","postsynaptic neurotransmitter receptor activity",0.000950020426259894
+"Chrna5","GO:0098960","postsynaptic neurotransmitter receptor activity",0.000950020426259894
+"Drd1","GO:0098960","postsynaptic neurotransmitter receptor activity",0.000950020426259894
+"Chrna3","GO:0042166","acetylcholine binding",0.00106166106712977
+"Chrnb4","GO:0042166","acetylcholine binding",0.00106166106712977
+"Chrna5","GO:0042166","acetylcholine binding",0.00106166106712977
+"Hspa1a","GO:0002020","protease binding",0.00135211541152502
+"Hspa1b","GO:0002020","protease binding",0.00135211541152502
+"F2rl1","GO:0002020","protease binding",0.00135211541152502
+"Casp3","GO:0002020","protease binding",0.00135211541152502
+"Itgb1","GO:0002020","protease binding",0.00135211541152502
+"Tnf","GO:0002020","protease binding",0.00135211541152502
+"Prnp","GO:0002020","protease binding",0.00135211541152502
+"Trpv1","GO:0005231","excitatory extracellular ligand-gated monoatomic ion channel activity",0.00146763166065981
+"Chrna3","GO:0005231","excitatory extracellular ligand-gated monoatomic ion channel activity",0.00146763166065981
+"Chrnb4","GO:0005231","excitatory extracellular ligand-gated monoatomic ion channel activity",0.00146763166065981
+"Chrna5","GO:0005231","excitatory extracellular ligand-gated monoatomic ion channel activity",0.00146763166065981
+"Cdh1","GO:0045295","gamma-catenin binding",0.00155114074015398
+"Cdh2","GO:0045295","gamma-catenin binding",0.00155114074015398
+"Lef1","GO:0045295","gamma-catenin binding",0.00155114074015398
+"Chrna3","GO:0022848","acetylcholine-gated monoatomic cation-selective channel activity",0.00228603985680805
+"Chrnb4","GO:0022848","acetylcholine-gated monoatomic cation-selective channel activity",0.00228603985680805
+"Chrna5","GO:0022848","acetylcholine-gated monoatomic cation-selective channel activity",0.00228603985680805
+"Casp3","GO:0032813","tumor necrosis factor receptor superfamily binding",0.00314220112130142
+"Lta","GO:0032813","tumor necrosis factor receptor superfamily binding",0.00314220112130142
+"Tnf","GO:0032813","tumor necrosis factor receptor superfamily binding",0.00314220112130142
+"Bdnf","GO:0032813","tumor necrosis factor receptor superfamily binding",0.00314220112130142
+"Cdh1","GO:0050839","cell adhesion molecule binding",0.00314220112130142
+"Cdh2","GO:0050839","cell adhesion molecule binding",0.00314220112130142
+"Nos3","GO:0050839","cell adhesion molecule binding",0.00314220112130142
+"Psen1","GO:0050839","cell adhesion molecule binding",0.00314220112130142
+"Ager","GO:0050839","cell adhesion molecule binding",0.00314220112130142
+"Nos2","GO:0050839","cell adhesion molecule binding",0.00314220112130142
+"Itgb1","GO:0050839","cell adhesion molecule binding",0.00314220112130142
+"Syk","GO:0050839","cell adhesion molecule binding",0.00314220112130142
+"Ptk2","GO:0050839","cell adhesion molecule binding",0.00314220112130142
+"Myod1","GO:0016922","nuclear receptor binding",0.00314220112130142
+"Per2","GO:0016922","nuclear receptor binding",0.00314220112130142
+"Stat3","GO:0016922","nuclear receptor binding",0.00314220112130142
+"Lef1","GO:0016922","nuclear receptor binding",0.00314220112130142
+"Ppargc1a","GO:0016922","nuclear receptor binding",0.00314220112130142
+"Sirt1","GO:0016922","nuclear receptor binding",0.00314220112130142
+"Chrna3","GO:0030594","neurotransmitter receptor activity",0.00314220112130142
+"Drd2","GO:0030594","neurotransmitter receptor activity",0.00314220112130142
+"Chrnb4","GO:0030594","neurotransmitter receptor activity",0.00314220112130142
+"Chrna5","GO:0030594","neurotransmitter receptor activity",0.00314220112130142
+"Drd1","GO:0030594","neurotransmitter receptor activity",0.00314220112130142
+"Mapt","GO:0051879","Hsp90 protein binding",0.00336988454028211
+"Nos3","GO:0051879","Hsp90 protein binding",0.00336988454028211
+"Ago2","GO:0051879","Hsp90 protein binding",0.00336988454028211
+"Nos2","GO:0051879","Hsp90 protein binding",0.00336988454028211
+"Bax","GO:0051087","protein-folding chaperone binding",0.00348907350577001
+"Mapt","GO:0051087","protein-folding chaperone binding",0.00348907350577001
+"Cdk1","GO:0051087","protein-folding chaperone binding",0.00348907350577001
+"Ago2","GO:0051087","protein-folding chaperone binding",0.00348907350577001
+"Prnp","GO:0051087","protein-folding chaperone binding",0.00348907350577001
+"Sod1","GO:0051087","protein-folding chaperone binding",0.00348907350577001
+"Chrna3","GO:0015464","acetylcholine receptor activity",0.003674297404266
+"Chrnb4","GO:0015464","acetylcholine receptor activity",0.003674297404266
+"Chrna5","GO:0015464","acetylcholine receptor activity",0.003674297404266
+"Cdh1","GO:0032794","GTPase activating protein binding",0.00415392111315376
+"Camk2a","GO:0032794","GTPase activating protein binding",0.00415392111315376
+"Akt1","GO:0032794","GTPase activating protein binding",0.00415392111315376
+"Trpv1","GO:0005261","monoatomic cation channel activity",0.0049264248185597
+"Chrna3","GO:0005261","monoatomic cation channel activity",0.0049264248185597
+"Itpr2","GO:0005261","monoatomic cation channel activity",0.0049264248185597
+"Psen1","GO:0005261","monoatomic cation channel activity",0.0049264248185597
+"Chrnb4","GO:0005261","monoatomic cation channel activity",0.0049264248185597
+"Chrna5","GO:0005261","monoatomic cation channel activity",0.0049264248185597
+"Cacna1e","GO:0005261","monoatomic cation channel activity",0.0049264248185597
+"Kcnk9","GO:0005261","monoatomic cation channel activity",0.0049264248185597
+"Itpr2","GO:0044325","transmembrane transporter binding",0.0067006005359513
+"Htt","GO:0044325","transmembrane transporter binding",0.0067006005359513
+"Cav1","GO:0044325","transmembrane transporter binding",0.0067006005359513
+"Mtor","GO:0044325","transmembrane transporter binding",0.0067006005359513
+"Id2","GO:0044325","transmembrane transporter binding",0.0067006005359513
+"Prnp","GO:0044325","transmembrane transporter binding",0.0067006005359513
+"Per2","GO:0003713","transcription coactivator activity",0.00834041207309868
+"Nkx2-1","GO:0003713","transcription coactivator activity",0.00834041207309868
+"Notch4","GO:0003713","transcription coactivator activity",0.00834041207309868
+"Pkm","GO:0003713","transcription coactivator activity",0.00834041207309868
+"Ppargc1a","GO:0003713","transcription coactivator activity",0.00834041207309868
+"Pml","GO:0003713","transcription coactivator activity",0.00834041207309868
+"Sirt1","GO:0003713","transcription coactivator activity",0.00834041207309868
+"Atm","GO:0106310","protein serine kinase activity",0.00834041207309868
+"Cdk1","GO:0106310","protein serine kinase activity",0.00834041207309868
+"Rock1","GO:0106310","protein serine kinase activity",0.00834041207309868
+"Camk2a","GO:0106310","protein serine kinase activity",0.00834041207309868
+"Akt1","GO:0106310","protein serine kinase activity",0.00834041207309868
+"Atr","GO:0106310","protein serine kinase activity",0.00834041207309868
+"Mtor","GO:0106310","protein serine kinase activity",0.00834041207309868
+"Mapk14","GO:0106310","protein serine kinase activity",0.00834041207309868
+"Trpv1","GO:0099094","ligand-gated monoatomic cation channel activity",0.00848450693352765
+"Chrna3","GO:0099094","ligand-gated monoatomic cation channel activity",0.00848450693352765
+"Itpr2","GO:0099094","ligand-gated monoatomic cation channel activity",0.00848450693352765
+"Chrnb4","GO:0099094","ligand-gated monoatomic cation channel activity",0.00848450693352765
+"Chrna5","GO:0099094","ligand-gated monoatomic cation channel activity",0.00848450693352765
+"Smad7","GO:0005160","transforming growth factor beta receptor binding",0.0085706272432901
+"Smad2","GO:0005160","transforming growth factor beta receptor binding",0.0085706272432901
+"Tgfb2","GO:0005160","transforming growth factor beta receptor binding",0.0085706272432901
+"H2-Ea","GO:0042605","peptide antigen binding",0.00888442244884035
+"H2-Aa","GO:0042605","peptide antigen binding",0.00888442244884035
+"H2-Ab1","GO:0042605","peptide antigen binding",0.00888442244884035
+"H2-Eb1","GO:0042605","peptide antigen binding",0.00888442244884035
+"Trpv1","GO:0005230","extracellular ligand-gated monoatomic ion channel activity",0.00889885037477838
+"Chrna3","GO:0005230","extracellular ligand-gated monoatomic ion channel activity",0.00889885037477838
+"Chrnb4","GO:0005230","extracellular ligand-gated monoatomic ion channel activity",0.00889885037477838
+"Chrna5","GO:0005230","extracellular ligand-gated monoatomic ion channel activity",0.00889885037477838
+"Nos3","GO:0016597","amino acid binding",0.00889885037477838
+"Glul","GO:0016597","amino acid binding",0.00889885037477838
+"Nos2","GO:0016597","amino acid binding",0.00889885037477838
+"Gad1","GO:0016597","amino acid binding",0.00889885037477838
+"Mapt","GO:0004857","enzyme inhibitor activity",0.00889885037477838
+"Akt1","GO:0004857","enzyme inhibitor activity",0.00889885037477838
+"Casp3","GO:0004857","enzyme inhibitor activity",0.00889885037477838
+"Rcan1","GO:0004857","enzyme inhibitor activity",0.00889885037477838
+"Cdkn1a","GO:0004857","enzyme inhibitor activity",0.00889885037477838
+"Cav1","GO:0004857","enzyme inhibitor activity",0.00889885037477838
+"Txnip","GO:0004857","enzyme inhibitor activity",0.00889885037477838
+"Prnp","GO:0004857","enzyme inhibitor activity",0.00889885037477838
+"Sirt1","GO:0004857","enzyme inhibitor activity",0.00889885037477838
+"Trpv1","GO:0005516","calmodulin binding",0.00943321972510887
+"Nos3","GO:0005516","calmodulin binding",0.00943321972510887
+"Camk2a","GO:0005516","calmodulin binding",0.00943321972510887
+"Akt1","GO:0005516","calmodulin binding",0.00943321972510887
+"Nos2","GO:0005516","calmodulin binding",0.00943321972510887
+"Ngfr","GO:0005516","calmodulin binding",0.00943321972510887
+"Hspa1a","GO:0003714","transcription corepressor activity",0.00972974067017202
+"T","GO:0003714","transcription corepressor activity",0.00972974067017202
+"Smad7","GO:0003714","transcription corepressor activity",0.00972974067017202
+"Cys1","GO:0003714","transcription corepressor activity",0.00972974067017202
+"Id2","GO:0003714","transcription corepressor activity",0.00972974067017202
+"Sirt1","GO:0003714","transcription corepressor activity",0.00972974067017202
+"Ifnar1","GO:0140375","immune receptor activity",0.0119645903490547
+"Csf2ra","GO:0140375","immune receptor activity",0.0119645903490547
+"Cd74","GO:0140375","immune receptor activity",0.0119645903490547
+"H2-Eb1","GO:0140375","immune receptor activity",0.0119645903490547
+"Lepr","GO:0140375","immune receptor activity",0.0119645903490547
+"Pdgfrb","GO:0004713","protein tyrosine kinase activity",0.0129178136751669
+"Pkm","GO:0004713","protein tyrosine kinase activity",0.0129178136751669
+"Mtor","GO:0004713","protein tyrosine kinase activity",0.0129178136751669
+"Syk","GO:0004713","protein tyrosine kinase activity",0.0129178136751669
+"Ptk2","GO:0004713","protein tyrosine kinase activity",0.0129178136751669
+"Trpv1","GO:0022836","gated channel activity",0.0156391732671079
+"Chrna3","GO:0022836","gated channel activity",0.0156391732671079
+"Itpr2","GO:0022836","gated channel activity",0.0156391732671079
+"Chrnb4","GO:0022836","gated channel activity",0.0156391732671079
+"Chrna5","GO:0022836","gated channel activity",0.0156391732671079
+"Cacna1e","GO:0022836","gated channel activity",0.0156391732671079
+"Kcnk9","GO:0022836","gated channel activity",0.0156391732671079
+"Fgf8","GO:0008083","growth factor activity",0.0159087311109768
+"Il6","GO:0008083","growth factor activity",0.0159087311109768
+"Vegfa","GO:0008083","growth factor activity",0.0159087311109768
+"Tgfb2","GO:0008083","growth factor activity",0.0159087311109768
+"Bdnf","GO:0008083","growth factor activity",0.0159087311109768
+"Akt1","GO:0004860","protein kinase inhibitor activity",0.0163034010883174
+"Casp3","GO:0004860","protein kinase inhibitor activity",0.0163034010883174
+"Cdkn1a","GO:0004860","protein kinase inhibitor activity",0.0163034010883174
+"Cav1","GO:0004860","protein kinase inhibitor activity",0.0163034010883174
+"Nfe2l2","GO:0001221","transcription coregulator binding",0.0163034010883174
+"Per2","GO:0001221","transcription coregulator binding",0.0163034010883174
+"Nkx2-1","GO:0001221","transcription coregulator binding",0.0163034010883174
+"Foxo1","GO:0001221","transcription coregulator binding",0.0163034010883174
+"Lef1","GO:0001221","transcription coregulator binding",0.0163034010883174
+"Fgf8","GO:0070851","growth factor receptor binding",0.0163034010883174
+"Pdgfrb","GO:0070851","growth factor receptor binding",0.0163034010883174
+"Il6","GO:0070851","growth factor receptor binding",0.0163034010883174
+"Vegfa","GO:0070851","growth factor receptor binding",0.0163034010883174
+"Psen1","GO:0070851","growth factor receptor binding",0.0163034010883174
+"Myod1","GO:1990841","promoter-specific chromatin binding",0.0163034010883174
+"Foxo1","GO:1990841","promoter-specific chromatin binding",0.0163034010883174
+"Ppargc1a","GO:1990841","promoter-specific chromatin binding",0.0163034010883174
+"Sirt1","GO:1990841","promoter-specific chromatin binding",0.0163034010883174
+"Myod1","GO:0043425","bHLH transcription factor binding",0.016849066602676
+"Runx2","GO:0043425","bHLH transcription factor binding",0.016849066602676
+"Sirt1","GO:0043425","bHLH transcription factor binding",0.016849066602676
+"Ccl2","GO:0005125","cytokine activity",0.016849066602676
+"Il6","GO:0005125","cytokine activity",0.016849066602676
+"Vegfa","GO:0005125","cytokine activity",0.016849066602676
+"Lta","GO:0005125","cytokine activity",0.016849066602676
+"Tnf","GO:0005125","cytokine activity",0.016849066602676
+"Tgfb2","GO:0005125","cytokine activity",0.016849066602676
+"Vegfa","GO:0001968","fibronectin binding",0.0176899557751911
+"Itgb1","GO:0001968","fibronectin binding",0.0176899557751911
+"Igfbp3","GO:0001968","fibronectin binding",0.0176899557751911
+"Akt1","GO:0019210","kinase inhibitor activity",0.0187264489511495
+"Casp3","GO:0019210","kinase inhibitor activity",0.0187264489511495
+"Cdkn1a","GO:0019210","kinase inhibitor activity",0.0187264489511495
+"Cav1","GO:0019210","kinase inhibitor activity",0.0187264489511495
+"Akt1","GO:0030235","nitric-oxide synthase regulator activity",0.0191239532337896
+"Cav1","GO:0030235","nitric-oxide synthase regulator activity",0.0191239532337896
+"F2rl1","GO:0001965","G-protein alpha-subunit binding",0.0191239532337896
+"Drd2","GO:0001965","G-protein alpha-subunit binding",0.0191239532337896
+"Drd1","GO:0001965","G-protein alpha-subunit binding",0.0191239532337896
+"Mapt","GO:0051721","protein phosphatase 2A binding",0.0191239532337896
+"Foxo1","GO:0051721","protein phosphatase 2A binding",0.0191239532337896
+"Akt1","GO:0051721","protein phosphatase 2A binding",0.0191239532337896
+"Trpv1","GO:0005216","monoatomic ion channel activity",0.0198605379839939
+"Chrna3","GO:0005216","monoatomic ion channel activity",0.0198605379839939
+"Itpr2","GO:0005216","monoatomic ion channel activity",0.0198605379839939
+"Psen1","GO:0005216","monoatomic ion channel activity",0.0198605379839939
+"Chrnb4","GO:0005216","monoatomic ion channel activity",0.0198605379839939
+"Chrna5","GO:0005216","monoatomic ion channel activity",0.0198605379839939
+"Cacna1e","GO:0005216","monoatomic ion channel activity",0.0198605379839939
+"Kcnk9","GO:0005216","monoatomic ion channel activity",0.0198605379839939
+"Tlr4","GO:0043548","phosphatidylinositol 3-kinase binding",0.0198605379839939
+"Pdgfrb","GO:0043548","phosphatidylinositol 3-kinase binding",0.0198605379839939
+"Ptk2","GO:0043548","phosphatidylinositol 3-kinase binding",0.0198605379839939
+"Fgf8","GO:0042056","chemoattractant activity",0.0209221931533379
+"Ccl2","GO:0042056","chemoattractant activity",0.0209221931533379
+"Vegfa","GO:0042056","chemoattractant activity",0.0209221931533379
+"Ifnar1","GO:0004896","cytokine receptor activity",0.0211784250229043
+"Csf2ra","GO:0004896","cytokine receptor activity",0.0211784250229043
+"Cd74","GO:0004896","cytokine receptor activity",0.0211784250229043
+"Lepr","GO:0004896","cytokine receptor activity",0.0211784250229043
+"Ago2","GO:0001046","core promoter sequence-specific DNA binding",0.0239472557383062
+"Nkx2-1","GO:0001046","core promoter sequence-specific DNA binding",0.0239472557383062
+"Klf10","GO:0001046","core promoter sequence-specific DNA binding",0.0239472557383062
+"Smad7","GO:0034713","type I transforming growth factor beta receptor binding",0.0239472557383062
+"Smad2","GO:0034713","type I transforming growth factor beta receptor binding",0.0239472557383062
+"Syk","GO:0035325","Toll-like receptor binding",0.0239472557383062
+"Tlr2","GO:0035325","Toll-like receptor binding",0.0239472557383062
+"Cd74","GO:0042609","CD4 receptor binding",0.0239472557383062
+"H2-Eb1","GO:0042609","CD4 receptor binding",0.0239472557383062
+"Cdh1","GO:0045294","alpha-catenin binding",0.0239472557383062
+"Cdh2","GO:0045294","alpha-catenin binding",0.0239472557383062
+"Vegfa","GO:0019887","protein kinase regulator activity",0.0251458620466294
+"Akt1","GO:0019887","protein kinase regulator activity",0.0251458620466294
+"Casp3","GO:0019887","protein kinase regulator activity",0.0251458620466294
+"Nos2","GO:0019887","protein kinase regulator activity",0.0251458620466294
+"Cdkn1a","GO:0019887","protein kinase regulator activity",0.0251458620466294
+"Cav1","GO:0019887","protein kinase regulator activity",0.0251458620466294
+"Trpv1","GO:0015276","ligand-gated monoatomic ion channel activity",0.0251458620466294
+"Chrna3","GO:0015276","ligand-gated monoatomic ion channel activity",0.0251458620466294
+"Itpr2","GO:0015276","ligand-gated monoatomic ion channel activity",0.0251458620466294
+"Chrnb4","GO:0015276","ligand-gated monoatomic ion channel activity",0.0251458620466294
+"Chrna5","GO:0015276","ligand-gated monoatomic ion channel activity",0.0251458620466294
+"Casp3","GO:0004861","cyclin-dependent protein serine/threonine kinase inhibitor activity",0.0263855980893303
+"Cdkn1a","GO:0004861","cyclin-dependent protein serine/threonine kinase inhibitor activity",0.0263855980893303
+"Hspa1a","GO:0140776","protein-containing complex destabilizing activity",0.0263855980893303
+"Hspa1b","GO:0140776","protein-containing complex destabilizing activity",0.0263855980893303
+"Drd2","GO:1901338","catecholamine binding",0.0263855980893303
+"Drd1","GO:1901338","catecholamine binding",0.0263855980893303
+"Trpv1","GO:0022834","ligand-gated channel activity",0.0268983246349418
+"Chrna3","GO:0022834","ligand-gated channel activity",0.0268983246349418
+"Itpr2","GO:0022834","ligand-gated channel activity",0.0268983246349418
+"Chrnb4","GO:0022834","ligand-gated channel activity",0.0268983246349418
+"Chrna5","GO:0022834","ligand-gated channel activity",0.0268983246349418
+"Akt1","GO:0030291","protein serine/threonine kinase inhibitor activity",0.0284139037279572
+"Casp3","GO:0030291","protein serine/threonine kinase inhibitor activity",0.0284139037279572
+"Cdkn1a","GO:0030291","protein serine/threonine kinase inhibitor activity",0.0284139037279572
+"Nkx2-1","GO:0001161","intronic transcription regulatory region sequence-specific DNA binding",0.0289221446076071
+"Pou5f1","GO:0001161","intronic transcription regulatory region sequence-specific DNA binding",0.0289221446076071
+"Pdgfrb","GO:0005161","platelet-derived growth factor receptor binding",0.0289221446076071
+"Vegfa","GO:0005161","platelet-derived growth factor receptor binding",0.0289221446076071
+"Chrna3","GO:1904315","transmitter-gated monoatomic ion channel activity involved in regulation of postsynaptic membrane potential",0.0289221446076071
+"Chrnb4","GO:1904315","transmitter-gated monoatomic ion channel activity involved in regulation of postsynaptic membrane potential",0.0289221446076071
+"Chrna5","GO:1904315","transmitter-gated monoatomic ion channel activity involved in regulation of postsynaptic membrane potential",0.0289221446076071
+"Nos3","GO:0010181","FMN binding",0.0323677047774042
+"Nos2","GO:0010181","FMN binding",0.0323677047774042
+"Glul","GO:0016595","glutamate binding",0.0323677047774042
+"Gad1","GO:0016595","glutamate binding",0.0323677047774042
+"Chrna3","GO:0099529","neurotransmitter receptor activity involved in regulation of postsynaptic membrane potential",0.0343974592408546
+"Chrnb4","GO:0099529","neurotransmitter receptor activity involved in regulation of postsynaptic membrane potential",0.0343974592408546
+"Chrna5","GO:0099529","neurotransmitter receptor activity involved in regulation of postsynaptic membrane potential",0.0343974592408546
+"Ngfr","GO:0005165","neurotrophin receptor binding",0.0344239499911507
+"Bdnf","GO:0005165","neurotrophin receptor binding",0.0344239499911507
+"Trpv1","GO:0015278","intracellularly gated calcium channel activity",0.0344239499911507
+"Itpr2","GO:0015278","intracellularly gated calcium channel activity",0.0344239499911507
+"Ly6c1","GO:0030550","acetylcholine receptor inhibitor activity",0.0344239499911507
+"Ly6a","GO:0030550","acetylcholine receptor inhibitor activity",0.0344239499911507
+"Smad7","GO:0070411","I-SMAD binding",0.0344239499911507
+"Smad2","GO:0070411","I-SMAD binding",0.0344239499911507
+"Lef1","GO:0070742","C2H2 zinc finger domain binding",0.0344239499911507
+"Pax2","GO:0070742","C2H2 zinc finger domain binding",0.0344239499911507
+"Nos3","GO:0031406","carboxylic acid binding",0.0344939589699382
+"Glul","GO:0031406","carboxylic acid binding",0.0344939589699382
+"Nos2","GO:0031406","carboxylic acid binding",0.0344939589699382
+"Gad1","GO:0031406","carboxylic acid binding",0.0344939589699382
+"Pam","GO:0031406","carboxylic acid binding",0.0344939589699382
+"Atm","GO:0140993","histone modifying activity",0.0348483388733631
+"Cdk1","GO:0140993","histone modifying activity",0.0348483388733631
+"Atr","GO:0140993","histone modifying activity",0.0348483388733631
+"Pkm","GO:0140993","histone modifying activity",0.0348483388733631
+"Sirt1","GO:0140993","histone modifying activity",0.0348483388733631
+"Chrna3","GO:0022824","transmitter-gated monoatomic ion channel activity",0.0359326609202796
+"Chrnb4","GO:0022824","transmitter-gated monoatomic ion channel activity",0.0359326609202796
+"Chrna5","GO:0022824","transmitter-gated monoatomic ion channel activity",0.0359326609202796
+"Chrna3","GO:0022835","transmitter-gated channel activity",0.0359326609202796
+"Chrnb4","GO:0022835","transmitter-gated channel activity",0.0359326609202796
+"Chrna5","GO:0022835","transmitter-gated channel activity",0.0359326609202796
+"Nos3","GO:0043177","organic acid binding",0.0359326609202796
+"Glul","GO:0043177","organic acid binding",0.0359326609202796
+"Nos2","GO:0043177","organic acid binding",0.0359326609202796
+"Gad1","GO:0043177","organic acid binding",0.0359326609202796
+"Pam","GO:0043177","organic acid binding",0.0359326609202796
+"Vegfa","GO:0019207","kinase regulator activity",0.0366814763146705
+"Akt1","GO:0019207","kinase regulator activity",0.0366814763146705
+"Casp3","GO:0019207","kinase regulator activity",0.0366814763146705
+"Nos2","GO:0019207","kinase regulator activity",0.0366814763146705
+"Cdkn1a","GO:0019207","kinase regulator activity",0.0366814763146705
+"Cav1","GO:0019207","kinase regulator activity",0.0366814763146705
+"Bax","GO:0030544","Hsp70 protein binding",0.0383294941493004
+"Cdk1","GO:0030544","Hsp70 protein binding",0.0383294941493004
+"Ago2","GO:0030544","Hsp70 protein binding",0.0383294941493004
+"Nkx2-1","GO:0140296","general transcription initiation factor binding",0.0395602257304681
+"Runx2","GO:0140296","general transcription initiation factor binding",0.0395602257304681
+"Mtor","GO:0140296","general transcription initiation factor binding",0.0395602257304681
+"Tlr4","GO:0061809","NAD+ nucleosidase activity, cyclic ADP-ribose generating",0.0395602257304681
+"Tlr2","GO:0061809","NAD+ nucleosidase activity, cyclic ADP-ribose generating",0.0395602257304681
+"Trpv1","GO:0005262","calcium channel activity",0.0395602257304681
+"Itpr2","GO:0005262","calcium channel activity",0.0395602257304681
+"Psen1","GO:0005262","calcium channel activity",0.0395602257304681
+"Cacna1e","GO:0005262","calcium channel activity",0.0395602257304681
+"Il6","GO:0140006","histone H3 reader activity",0.0421012863288351
+"Pou5f1","GO:0140006","histone H3 reader activity",0.0421012863288351
+"Tnf","GO:0140006","histone H3 reader activity",0.0421012863288351
+"Casp3","GO:0005123","death receptor binding",0.042902319859024
+"Bdnf","GO:0005123","death receptor binding",0.042902319859024
+"Hspa1a","GO:0044183","protein folding chaperone",0.0469058129157396
+"Hspa1b","GO:0044183","protein folding chaperone",0.0469058129157396
+"Cd74","GO:0044183","protein folding chaperone",0.0469058129157396
+"Cdh1","GO:0098631","cell adhesion mediator activity",0.0484084013675578
+"Ager","GO:0098631","cell adhesion mediator activity",0.0484084013675578
+"Itgb1","GO:0098631","cell adhesion mediator activity",0.0484084013675578
+"Prnp","GO:0005507","copper ion binding",0.0499313534413534
+"Sod1","GO:0005507","copper ion binding",0.0499313534413534
+"Pam","GO:0005507","copper ion binding",0.0499313534413534
