@@ -558,6 +558,8 @@ genes_entrez <- getBM(attributes = c("uniprotswissprot", "uniprotsptrembl",
 
 gene_list <- genes_entrez$entrezgene_id
 
+write.csv(genes_entrez, "results/list_genes_methylation.csv", row.names=FALSE)
+
 # Execute GO enrichment analysis
 geo <- function(gene_list, ont_type){
     ego <- enrichGO(gene = gene_list,
