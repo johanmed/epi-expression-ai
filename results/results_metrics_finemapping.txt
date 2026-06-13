@@ -175,7 +175,7 @@
     "Slc7a6": "Rank = 4, Bootstrap support = 100%, Size = 1",
     "Ncam1": "Rank = 4, Bootstrap support = 67%, Size = 3",
     "Sik3": "Rank = 4, Bootstrap support = 50%, Size = 2",
-    "Gsk3b_": "Rank = 4, Bootstrap support = 100%, Size = 1",
+    "Gsk3b": "Rank = 4, Bootstrap support = 100%, Size = 1",
     "Cd80/Cd86": "Rank = 4, Bootstrap support = 100%, Size = 1",
     "Jmjd1c": "Rank = 4, Bootstrap support = 100%, Size = 1",
     "Scd1/Scd2": "Rank = 4, Bootstrap support = 50%, Size = 2",
