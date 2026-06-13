@@ -712,12 +712,12 @@ kegg_ai <- enrichKEGG(gene = gene_list_ai,
                    pvalueCutoff = 0.05)
 
 # Draw barplot of results
-barplot(kegg)
+barplot(kegg_ai)
 dev.copy(pdf, "results/barplot_kegg_AI_results.pdf", width=10)
 dev.off()
 
 # Draw dotplot of results
-dotplot(kegg)
+dotplot(kegg_ai)
 dev.copy(pdf, "results/dotplot_kegg_AI_results.pdf", width=10)
 dev.off()
 
