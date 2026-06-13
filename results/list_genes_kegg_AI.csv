@@ -1,1283 +1,191 @@
 "gene_entrez_id","gene_symbol","pathway_id","pathway_description","p_adjusted"
-"226519","Lamc1","mmu05145","Toxoplasmosis",2.14995813003374e-14
-"21808","Tgfb2","mmu05145","Toxoplasmosis",2.14995813003374e-14
-"24088","Tlr2","mmu05145","Toxoplasmosis",2.14995813003374e-14
-"21898","Tlr4","mmu05145","Toxoplasmosis",2.14995813003374e-14
-"12367","Casp3","mmu05145","Toxoplasmosis",2.14995813003374e-14
-"16412","Itgb1","mmu05145","Toxoplasmosis",2.14995813003374e-14
-"18126","Nos2","mmu05145","Toxoplasmosis",2.14995813003374e-14
-"20848","Stat3","mmu05145","Toxoplasmosis",2.14995813003374e-14
-"11651","Akt1","mmu05145","Toxoplasmosis",2.14995813003374e-14
-"14960","H2-Aa","mmu05145","Toxoplasmosis",2.14995813003374e-14
-"14961","H2-Ab1","mmu05145","Toxoplasmosis",2.14995813003374e-14
-"14969","H2-Eb1","mmu05145","Toxoplasmosis",2.14995813003374e-14
-"100504404","H2-Ea","mmu05145","Toxoplasmosis",2.14995813003374e-14
-"21926","Tnf","mmu05145","Toxoplasmosis",2.14995813003374e-14
-"193740","Hspa1a","mmu05145","Toxoplasmosis",2.14995813003374e-14
-"15511","Hspa1b","mmu05145","Toxoplasmosis",2.14995813003374e-14
-"26416","Mapk14","mmu05145","Toxoplasmosis",2.14995813003374e-14
-"21808","Tgfb2","mmu05205","Proteoglycans in cancer",1.7031806760687e-13
-"24088","Tlr2","mmu05205","Proteoglycans in cancer",1.7031806760687e-13
-"21898","Tlr4","mmu05205","Proteoglycans in cancer",1.7031806760687e-13
-"56717","Mtor","mmu05205","Proteoglycans in cancer",1.7031806760687e-13
-"12389","Cav1","mmu05205","Proteoglycans in cancer",1.7031806760687e-13
-"16653","Kras","mmu05205","Proteoglycans in cancer",1.7031806760687e-13
-"16439","Itpr2","mmu05205","Proteoglycans in cancer",1.7031806760687e-13
-"12367","Casp3","mmu05205","Proteoglycans in cancer",1.7031806760687e-13
-"16412","Itgb1","mmu05205","Proteoglycans in cancer",1.7031806760687e-13
-"20848","Stat3","mmu05205","Proteoglycans in cancer",1.7031806760687e-13
-"11651","Akt1","mmu05205","Proteoglycans in cancer",1.7031806760687e-13
-"14368","Fzd6","mmu05205","Proteoglycans in cancer",1.7031806760687e-13
-"14083","Ptk2","mmu05205","Proteoglycans in cancer",1.7031806760687e-13
-"21926","Tnf","mmu05205","Proteoglycans in cancer",1.7031806760687e-13
-"26416","Mapk14","mmu05205","Proteoglycans in cancer",1.7031806760687e-13
-"12575","Cdkn1a","mmu05205","Proteoglycans in cancer",1.7031806760687e-13
-"22339","Vegfa","mmu05205","Proteoglycans in cancer",1.7031806760687e-13
-"19877","Rock1","mmu05205","Proteoglycans in cancer",1.7031806760687e-13
-"12322","Camk2a","mmu05205","Proteoglycans in cancer",1.7031806760687e-13
-"17126","Smad2","mmu05205","Proteoglycans in cancer",1.7031806760687e-13
-"21808","Tgfb2","mmu04933","AGE-RAGE signaling pathway in diabetic complications",1.18580520568593e-12
-"56458","Foxo1","mmu04933","AGE-RAGE signaling pathway in diabetic complications",1.18580520568593e-12
-"16193","Il6","mmu04933","AGE-RAGE signaling pathway in diabetic complications",1.18580520568593e-12
-"18127","Nos3","mmu04933","AGE-RAGE signaling pathway in diabetic complications",1.18580520568593e-12
-"16653","Kras","mmu04933","AGE-RAGE signaling pathway in diabetic complications",1.18580520568593e-12
-"12028","Bax","mmu04933","AGE-RAGE signaling pathway in diabetic complications",1.18580520568593e-12
-"12367","Casp3","mmu04933","AGE-RAGE signaling pathway in diabetic complications",1.18580520568593e-12
-"20296","Ccl2","mmu04933","AGE-RAGE signaling pathway in diabetic complications",1.18580520568593e-12
-"20848","Stat3","mmu04933","AGE-RAGE signaling pathway in diabetic complications",1.18580520568593e-12
-"11651","Akt1","mmu04933","AGE-RAGE signaling pathway in diabetic complications",1.18580520568593e-12
-"21926","Tnf","mmu04933","AGE-RAGE signaling pathway in diabetic complications",1.18580520568593e-12
-"11596","Ager","mmu04933","AGE-RAGE signaling pathway in diabetic complications",1.18580520568593e-12
-"26416","Mapk14","mmu04933","AGE-RAGE signaling pathway in diabetic complications",1.18580520568593e-12
-"22339","Vegfa","mmu04933","AGE-RAGE signaling pathway in diabetic complications",1.18580520568593e-12
-"17126","Smad2","mmu04933","AGE-RAGE signaling pathway in diabetic complications",1.18580520568593e-12
-"18024","Nfe2l2","mmu05417","Lipid and atherosclerosis",3.89606278621104e-12
-"24088","Tlr2","mmu05417","Lipid and atherosclerosis",3.89606278621104e-12
-"21898","Tlr4","mmu05417","Lipid and atherosclerosis",3.89606278621104e-12
-"16193","Il6","mmu05417","Lipid and atherosclerosis",3.89606278621104e-12
-"18127","Nos3","mmu05417","Lipid and atherosclerosis",3.89606278621104e-12
-"16653","Kras","mmu05417","Lipid and atherosclerosis",3.89606278621104e-12
-"12028","Bax","mmu05417","Lipid and atherosclerosis",3.89606278621104e-12
-"12367","Casp3","mmu05417","Lipid and atherosclerosis",3.89606278621104e-12
-"20296","Ccl2","mmu05417","Lipid and atherosclerosis",3.89606278621104e-12
-"20848","Stat3","mmu05417","Lipid and atherosclerosis",3.89606278621104e-12
-"11651","Akt1","mmu05417","Lipid and atherosclerosis",3.89606278621104e-12
-"14083","Ptk2","mmu05417","Lipid and atherosclerosis",3.89606278621104e-12
-"21926","Tnf","mmu05417","Lipid and atherosclerosis",3.89606278621104e-12
-"193740","Hspa1a","mmu05417","Lipid and atherosclerosis",3.89606278621104e-12
-"15511","Hspa1b","mmu05417","Lipid and atherosclerosis",3.89606278621104e-12
-"11596","Ager","mmu05417","Lipid and atherosclerosis",3.89606278621104e-12
-"20656","Sod2","mmu05417","Lipid and atherosclerosis",3.89606278621104e-12
-"26416","Mapk14","mmu05417","Lipid and atherosclerosis",3.89606278621104e-12
-"12322","Camk2a","mmu05417","Lipid and atherosclerosis",3.89606278621104e-12
-"21808","Tgfb2","mmu05152","Tuberculosis",2.24660905876452e-11
-"24088","Tlr2","mmu05152","Tuberculosis",2.24660905876452e-11
-"21898","Tlr4","mmu05152","Tuberculosis",2.24660905876452e-11
-"16193","Il6","mmu05152","Tuberculosis",2.24660905876452e-11
-"12028","Bax","mmu05152","Tuberculosis",2.24660905876452e-11
-"12367","Casp3","mmu05152","Tuberculosis",2.24660905876452e-11
-"18126","Nos2","mmu05152","Tuberculosis",2.24660905876452e-11
-"11651","Akt1","mmu05152","Tuberculosis",2.24660905876452e-11
-"20963","Syk","mmu05152","Tuberculosis",2.24660905876452e-11
-"14960","H2-Aa","mmu05152","Tuberculosis",2.24660905876452e-11
-"14961","H2-Ab1","mmu05152","Tuberculosis",2.24660905876452e-11
-"14969","H2-Eb1","mmu05152","Tuberculosis",2.24660905876452e-11
-"100504404","H2-Ea","mmu05152","Tuberculosis",2.24660905876452e-11
-"21926","Tnf","mmu05152","Tuberculosis",2.24660905876452e-11
-"26416","Mapk14","mmu05152","Tuberculosis",2.24660905876452e-11
-"16149","Cd74","mmu05152","Tuberculosis",2.24660905876452e-11
-"12322","Camk2a","mmu05152","Tuberculosis",2.24660905876452e-11
-"24088","Tlr2","mmu05168","Herpes simplex virus 1 infection",2.51810332346665e-10
-"56717","Mtor","mmu05168","Herpes simplex virus 1 infection",2.51810332346665e-10
-"16193","Il6","mmu05168","Herpes simplex virus 1 infection",2.51810332346665e-10
-"12028","Bax","mmu05168","Herpes simplex virus 1 infection",2.51810332346665e-10
-"12367","Casp3","mmu05168","Herpes simplex virus 1 infection",2.51810332346665e-10
-"18854","Pml","mmu05168","Herpes simplex virus 1 infection",2.51810332346665e-10
-"20296","Ccl2","mmu05168","Herpes simplex virus 1 infection",2.51810332346665e-10
-"11651","Akt1","mmu05168","Herpes simplex virus 1 infection",2.51810332346665e-10
-"20963","Syk","mmu05168","Herpes simplex virus 1 infection",2.51810332346665e-10
-"15975","Ifnar1","mmu05168","Herpes simplex virus 1 infection",2.51810332346665e-10
-"14960","H2-Aa","mmu05168","Herpes simplex virus 1 infection",2.51810332346665e-10
-"14961","H2-Ab1","mmu05168","Herpes simplex virus 1 infection",2.51810332346665e-10
-"14969","H2-Eb1","mmu05168","Herpes simplex virus 1 infection",2.51810332346665e-10
-"100504404","H2-Ea","mmu05168","Herpes simplex virus 1 infection",2.51810332346665e-10
-"21926","Tnf","mmu05168","Herpes simplex virus 1 infection",2.51810332346665e-10
-"16992","Lta","mmu05168","Herpes simplex virus 1 infection",2.51810332346665e-10
-"16149","Cd74","mmu05168","Herpes simplex virus 1 infection",2.51810332346665e-10
-"21808","Tgfb2","mmu05321","Inflammatory bowel disease",2.95611402914616e-10
-"24088","Tlr2","mmu05321","Inflammatory bowel disease",2.95611402914616e-10
-"21898","Tlr4","mmu05321","Inflammatory bowel disease",2.95611402914616e-10
-"16193","Il6","mmu05321","Inflammatory bowel disease",2.95611402914616e-10
-"20848","Stat3","mmu05321","Inflammatory bowel disease",2.95611402914616e-10
-"14960","H2-Aa","mmu05321","Inflammatory bowel disease",2.95611402914616e-10
-"14961","H2-Ab1","mmu05321","Inflammatory bowel disease",2.95611402914616e-10
-"14969","H2-Eb1","mmu05321","Inflammatory bowel disease",2.95611402914616e-10
-"100504404","H2-Ea","mmu05321","Inflammatory bowel disease",2.95611402914616e-10
-"21926","Tnf","mmu05321","Inflammatory bowel disease",2.95611402914616e-10
-"17126","Smad2","mmu05321","Inflammatory bowel disease",2.95611402914616e-10
-"21808","Tgfb2","mmu05140","Leishmaniasis",1.0384074947884e-09
-"24088","Tlr2","mmu05140","Leishmaniasis",1.0384074947884e-09
-"21898","Tlr4","mmu05140","Leishmaniasis",1.0384074947884e-09
-"16412","Itgb1","mmu05140","Leishmaniasis",1.0384074947884e-09
-"18126","Nos2","mmu05140","Leishmaniasis",1.0384074947884e-09
-"14960","H2-Aa","mmu05140","Leishmaniasis",1.0384074947884e-09
-"14961","H2-Ab1","mmu05140","Leishmaniasis",1.0384074947884e-09
-"14969","H2-Eb1","mmu05140","Leishmaniasis",1.0384074947884e-09
-"100504404","H2-Ea","mmu05140","Leishmaniasis",1.0384074947884e-09
-"21926","Tnf","mmu05140","Leishmaniasis",1.0384074947884e-09
-"26416","Mapk14","mmu05140","Leishmaniasis",1.0384074947884e-09
-"21898","Tlr4","mmu05164","Influenza A",1.31055157740105e-09
-"16193","Il6","mmu05164","Influenza A",1.31055157740105e-09
-"12028","Bax","mmu05164","Influenza A",1.31055157740105e-09
-"12367","Casp3","mmu05164","Influenza A",1.31055157740105e-09
-"18854","Pml","mmu05164","Influenza A",1.31055157740105e-09
-"53869","Rab11a","mmu05164","Influenza A",1.31055157740105e-09
-"20296","Ccl2","mmu05164","Influenza A",1.31055157740105e-09
-"11651","Akt1","mmu05164","Influenza A",1.31055157740105e-09
-"50528","Tmprss2","mmu05164","Influenza A",1.31055157740105e-09
-"15975","Ifnar1","mmu05164","Influenza A",1.31055157740105e-09
-"14960","H2-Aa","mmu05164","Influenza A",1.31055157740105e-09
-"14961","H2-Ab1","mmu05164","Influenza A",1.31055157740105e-09
-"14969","H2-Eb1","mmu05164","Influenza A",1.31055157740105e-09
-"100504404","H2-Ea","mmu05164","Influenza A",1.31055157740105e-09
-"21926","Tnf","mmu05164","Influenza A",1.31055157740105e-09
-"226519","Lamc1","mmu05165","Human papillomavirus infection",1.44013640690098e-09
-"56458","Foxo1","mmu05165","Human papillomavirus infection",1.44013640690098e-09
-"56717","Mtor","mmu05165","Human papillomavirus infection",1.44013640690098e-09
-"16653","Kras","mmu05165","Human papillomavirus infection",1.44013640690098e-09
-"12028","Bax","mmu05165","Human papillomavirus infection",1.44013640690098e-09
-"12367","Casp3","mmu05165","Human papillomavirus infection",1.44013640690098e-09
-"16412","Itgb1","mmu05165","Human papillomavirus infection",1.44013640690098e-09
-"11920","Atm","mmu05165","Human papillomavirus infection",1.44013640690098e-09
-"18746","Pkm","mmu05165","Human papillomavirus infection",1.44013640690098e-09
-"245000","Atr","mmu05165","Human papillomavirus infection",1.44013640690098e-09
-"19164","Psen1","mmu05165","Human papillomavirus infection",1.44013640690098e-09
-"11651","Akt1","mmu05165","Human papillomavirus infection",1.44013640690098e-09
-"14368","Fzd6","mmu05165","Human papillomavirus infection",1.44013640690098e-09
-"14083","Ptk2","mmu05165","Human papillomavirus infection",1.44013640690098e-09
-"15975","Ifnar1","mmu05165","Human papillomavirus infection",1.44013640690098e-09
-"21926","Tnf","mmu05165","Human papillomavirus infection",1.44013640690098e-09
-"18132","Notch4","mmu05165","Human papillomavirus infection",1.44013640690098e-09
-"12575","Cdkn1a","mmu05165","Human papillomavirus infection",1.44013640690098e-09
-"22339","Vegfa","mmu05165","Human papillomavirus infection",1.44013640690098e-09
-"18596","Pdgfrb","mmu05165","Human papillomavirus infection",1.44013640690098e-09
-"21808","Tgfb2","mmu04218","Cellular senescence",2.20948921623728e-09
-"56458","Foxo1","mmu04218","Cellular senescence",2.20948921623728e-09
-"56717","Mtor","mmu04218","Cellular senescence",2.20948921623728e-09
-"16193","Il6","mmu04218","Cellular senescence",2.20948921623728e-09
-"16653","Kras","mmu04218","Cellular senescence",2.20948921623728e-09
-"16439","Itpr2","mmu04218","Cellular senescence",2.20948921623728e-09
-"16009","Igfbp3","mmu04218","Cellular senescence",2.20948921623728e-09
-"11920","Atm","mmu04218","Cellular senescence",2.20948921623728e-09
-"245000","Atr","mmu04218","Cellular senescence",2.20948921623728e-09
-"93759","Sirt1","mmu04218","Cellular senescence",2.20948921623728e-09
-"12534","Cdk1","mmu04218","Cellular senescence",2.20948921623728e-09
-"11651","Akt1","mmu04218","Cellular senescence",2.20948921623728e-09
-"26416","Mapk14","mmu04218","Cellular senescence",2.20948921623728e-09
-"12575","Cdkn1a","mmu04218","Cellular senescence",2.20948921623728e-09
-"17126","Smad2","mmu04218","Cellular senescence",2.20948921623728e-09
-"56458","Foxo1","mmu04213","Longevity regulating pathway - multiple species",3.79469369166445e-09
-"56717","Mtor","mmu04213","Longevity regulating pathway - multiple species",3.79469369166445e-09
-"16653","Kras","mmu04213","Longevity regulating pathway - multiple species",3.79469369166445e-09
-"12955","Cryab","mmu04213","Longevity regulating pathway - multiple species",3.79469369166445e-09
-"93759","Sirt1","mmu04213","Longevity regulating pathway - multiple species",3.79469369166445e-09
-"11651","Akt1","mmu04213","Longevity regulating pathway - multiple species",3.79469369166445e-09
-"20655","Sod1","mmu04213","Longevity regulating pathway - multiple species",3.79469369166445e-09
-"193740","Hspa1a","mmu04213","Longevity regulating pathway - multiple species",3.79469369166445e-09
-"15511","Hspa1b","mmu04213","Longevity regulating pathway - multiple species",3.79469369166445e-09
-"20656","Sod2","mmu04213","Longevity regulating pathway - multiple species",3.79469369166445e-09
-"21808","Tgfb2","mmu05323","Rheumatoid arthritis",7.3002482693469e-09
-"24088","Tlr2","mmu05323","Rheumatoid arthritis",7.3002482693469e-09
-"21898","Tlr4","mmu05323","Rheumatoid arthritis",7.3002482693469e-09
-"16193","Il6","mmu05323","Rheumatoid arthritis",7.3002482693469e-09
-"20296","Ccl2","mmu05323","Rheumatoid arthritis",7.3002482693469e-09
-"14960","H2-Aa","mmu05323","Rheumatoid arthritis",7.3002482693469e-09
-"14961","H2-Ab1","mmu05323","Rheumatoid arthritis",7.3002482693469e-09
-"14969","H2-Eb1","mmu05323","Rheumatoid arthritis",7.3002482693469e-09
-"100504404","H2-Ea","mmu05323","Rheumatoid arthritis",7.3002482693469e-09
-"21926","Tnf","mmu05323","Rheumatoid arthritis",7.3002482693469e-09
-"22339","Vegfa","mmu05323","Rheumatoid arthritis",7.3002482693469e-09
-"16842","Lef1","mmu05167","Kaposi sarcoma-associated herpesvirus infection",2.99168009063269e-08
-"56717","Mtor","mmu05167","Kaposi sarcoma-associated herpesvirus infection",2.99168009063269e-08
-"16193","Il6","mmu05167","Kaposi sarcoma-associated herpesvirus infection",2.99168009063269e-08
-"16653","Kras","mmu05167","Kaposi sarcoma-associated herpesvirus infection",2.99168009063269e-08
-"16439","Itpr2","mmu05167","Kaposi sarcoma-associated herpesvirus infection",2.99168009063269e-08
-"12028","Bax","mmu05167","Kaposi sarcoma-associated herpesvirus infection",2.99168009063269e-08
-"12367","Casp3","mmu05167","Kaposi sarcoma-associated herpesvirus infection",2.99168009063269e-08
-"20848","Stat3","mmu05167","Kaposi sarcoma-associated herpesvirus infection",2.99168009063269e-08
-"11651","Akt1","mmu05167","Kaposi sarcoma-associated herpesvirus infection",2.99168009063269e-08
-"20963","Syk","mmu05167","Kaposi sarcoma-associated herpesvirus infection",2.99168009063269e-08
-"54720","Rcan1","mmu05167","Kaposi sarcoma-associated herpesvirus infection",2.99168009063269e-08
-"15975","Ifnar1","mmu05167","Kaposi sarcoma-associated herpesvirus infection",2.99168009063269e-08
-"26416","Mapk14","mmu05167","Kaposi sarcoma-associated herpesvirus infection",2.99168009063269e-08
-"12575","Cdkn1a","mmu05167","Kaposi sarcoma-associated herpesvirus infection",2.99168009063269e-08
-"22339","Vegfa","mmu05167","Kaposi sarcoma-associated herpesvirus infection",2.99168009063269e-08
-"18627","Per2","mmu05202","Transcriptional misregulation in cancer",3.15838070388525e-08
-"56458","Foxo1","mmu05202","Transcriptional misregulation in cancer",3.15838070388525e-08
-"16193","Il6","mmu05202","Transcriptional misregulation in cancer",3.15838070388525e-08
-"16009","Igfbp3","mmu05202","Transcriptional misregulation in cancer",3.15838070388525e-08
-"12028","Bax","mmu05202","Transcriptional misregulation in cancer",3.15838070388525e-08
-"11920","Atm","mmu05202","Transcriptional misregulation in cancer",3.15838070388525e-08
-"18854","Pml","mmu05202","Transcriptional misregulation in cancer",3.15838070388525e-08
-"18053","Ngfr","mmu05202","Transcriptional misregulation in cancer",3.15838070388525e-08
-"15902","Id2","mmu05202","Transcriptional misregulation in cancer",3.15838070388525e-08
-"14083","Ptk2","mmu05202","Transcriptional misregulation in cancer",3.15838070388525e-08
-"80859","Nfkbiz","mmu05202","Transcriptional misregulation in cancer",3.15838070388525e-08
-"50528","Tmprss2","mmu05202","Transcriptional misregulation in cancer",3.15838070388525e-08
-"13876","Erg","mmu05202","Transcriptional misregulation in cancer",3.15838070388525e-08
-"12575","Cdkn1a","mmu05202","Transcriptional misregulation in cancer",3.15838070388525e-08
-"12393","Runx2","mmu05202","Transcriptional misregulation in cancer",3.15838070388525e-08
-"24088","Tlr2","mmu05169","Epstein-Barr virus infection",3.55374642100605e-08
-"16193","Il6","mmu05169","Epstein-Barr virus infection",3.55374642100605e-08
-"12028","Bax","mmu05169","Epstein-Barr virus infection",3.55374642100605e-08
-"12367","Casp3","mmu05169","Epstein-Barr virus infection",3.55374642100605e-08
-"20848","Stat3","mmu05169","Epstein-Barr virus infection",3.55374642100605e-08
-"11651","Akt1","mmu05169","Epstein-Barr virus infection",3.55374642100605e-08
-"20963","Syk","mmu05169","Epstein-Barr virus infection",3.55374642100605e-08
-"15975","Ifnar1","mmu05169","Epstein-Barr virus infection",3.55374642100605e-08
-"14960","H2-Aa","mmu05169","Epstein-Barr virus infection",3.55374642100605e-08
-"14961","H2-Ab1","mmu05169","Epstein-Barr virus infection",3.55374642100605e-08
-"14969","H2-Eb1","mmu05169","Epstein-Barr virus infection",3.55374642100605e-08
-"100504404","H2-Ea","mmu05169","Epstein-Barr virus infection",3.55374642100605e-08
-"21926","Tnf","mmu05169","Epstein-Barr virus infection",3.55374642100605e-08
-"26416","Mapk14","mmu05169","Epstein-Barr virus infection",3.55374642100605e-08
-"12575","Cdkn1a","mmu05169","Epstein-Barr virus infection",3.55374642100605e-08
-"21808","Tgfb2","mmu05161","Hepatitis B",4.44836212503667e-08
-"24088","Tlr2","mmu05161","Hepatitis B",4.44836212503667e-08
-"21898","Tlr4","mmu05161","Hepatitis B",4.44836212503667e-08
-"16193","Il6","mmu05161","Hepatitis B",4.44836212503667e-08
-"16653","Kras","mmu05161","Hepatitis B",4.44836212503667e-08
-"12028","Bax","mmu05161","Hepatitis B",4.44836212503667e-08
-"12367","Casp3","mmu05161","Hepatitis B",4.44836212503667e-08
-"20848","Stat3","mmu05161","Hepatitis B",4.44836212503667e-08
-"11651","Akt1","mmu05161","Hepatitis B",4.44836212503667e-08
-"15975","Ifnar1","mmu05161","Hepatitis B",4.44836212503667e-08
-"21926","Tnf","mmu05161","Hepatitis B",4.44836212503667e-08
-"26416","Mapk14","mmu05161","Hepatitis B",4.44836212503667e-08
-"12575","Cdkn1a","mmu05161","Hepatitis B",4.44836212503667e-08
-"226519","Lamc1","mmu04151","PI3K-Akt signaling pathway",6.92611143417935e-08
-"12064","Bdnf","mmu04151","PI3K-Akt signaling pathway",6.92611143417935e-08
-"24088","Tlr2","mmu04151","PI3K-Akt signaling pathway",6.92611143417935e-08
-"21898","Tlr4","mmu04151","PI3K-Akt signaling pathway",6.92611143417935e-08
-"56717","Mtor","mmu04151","PI3K-Akt signaling pathway",6.92611143417935e-08
-"16193","Il6","mmu04151","PI3K-Akt signaling pathway",6.92611143417935e-08
-"18127","Nos3","mmu04151","PI3K-Akt signaling pathway",6.92611143417935e-08
-"16653","Kras","mmu04151","PI3K-Akt signaling pathway",6.92611143417935e-08
-"16412","Itgb1","mmu04151","PI3K-Akt signaling pathway",6.92611143417935e-08
-"18053","Ngfr","mmu04151","PI3K-Akt signaling pathway",6.92611143417935e-08
-"11651","Akt1","mmu04151","PI3K-Akt signaling pathway",6.92611143417935e-08
-"20963","Syk","mmu04151","PI3K-Akt signaling pathway",6.92611143417935e-08
-"14083","Ptk2","mmu04151","PI3K-Akt signaling pathway",6.92611143417935e-08
-"15975","Ifnar1","mmu04151","PI3K-Akt signaling pathway",6.92611143417935e-08
-"12575","Cdkn1a","mmu04151","PI3K-Akt signaling pathway",6.92611143417935e-08
-"22339","Vegfa","mmu04151","PI3K-Akt signaling pathway",6.92611143417935e-08
-"18596","Pdgfrb","mmu04151","PI3K-Akt signaling pathway",6.92611143417935e-08
-"14179","Fgf8","mmu04151","PI3K-Akt signaling pathway",6.92611143417935e-08
-"21808","Tgfb2","mmu05166","Human T-cell leukemia virus 1 infection",8.46399292861101e-08
-"16193","Il6","mmu05166","Human T-cell leukemia virus 1 infection",8.46399292861101e-08
-"16653","Kras","mmu05166","Human T-cell leukemia virus 1 infection",8.46399292861101e-08
-"12028","Bax","mmu05166","Human T-cell leukemia virus 1 infection",8.46399292861101e-08
-"11920","Atm","mmu05166","Human T-cell leukemia virus 1 infection",8.46399292861101e-08
-"245000","Atr","mmu05166","Human T-cell leukemia virus 1 infection",8.46399292861101e-08
-"11651","Akt1","mmu05166","Human T-cell leukemia virus 1 infection",8.46399292861101e-08
-"14960","H2-Aa","mmu05166","Human T-cell leukemia virus 1 infection",8.46399292861101e-08
-"14961","H2-Ab1","mmu05166","Human T-cell leukemia virus 1 infection",8.46399292861101e-08
-"14969","H2-Eb1","mmu05166","Human T-cell leukemia virus 1 infection",8.46399292861101e-08
-"100504404","H2-Ea","mmu05166","Human T-cell leukemia virus 1 infection",8.46399292861101e-08
-"21926","Tnf","mmu05166","Human T-cell leukemia virus 1 infection",8.46399292861101e-08
-"16992","Lta","mmu05166","Human T-cell leukemia virus 1 infection",8.46399292861101e-08
-"12575","Cdkn1a","mmu05166","Human T-cell leukemia virus 1 infection",8.46399292861101e-08
-"17126","Smad2","mmu05166","Human T-cell leukemia virus 1 infection",8.46399292861101e-08
-"21898","Tlr4","mmu04066","HIF-1 signaling pathway",1.17937084594746e-07
-"56717","Mtor","mmu04066","HIF-1 signaling pathway",1.17937084594746e-07
-"16193","Il6","mmu04066","HIF-1 signaling pathway",1.17937084594746e-07
-"18127","Nos3","mmu04066","HIF-1 signaling pathway",1.17937084594746e-07
-"15368","Hmox1","mmu04066","HIF-1 signaling pathway",1.17937084594746e-07
-"18126","Nos2","mmu04066","HIF-1 signaling pathway",1.17937084594746e-07
-"20848","Stat3","mmu04066","HIF-1 signaling pathway",1.17937084594746e-07
-"11651","Akt1","mmu04066","HIF-1 signaling pathway",1.17937084594746e-07
-"12575","Cdkn1a","mmu04066","HIF-1 signaling pathway",1.17937084594746e-07
-"22339","Vegfa","mmu04066","HIF-1 signaling pathway",1.17937084594746e-07
-"12322","Camk2a","mmu04066","HIF-1 signaling pathway",1.17937084594746e-07
-"56717","Mtor","mmu05163","Human cytomegalovirus infection",1.24658160570897e-07
-"16193","Il6","mmu05163","Human cytomegalovirus infection",1.24658160570897e-07
-"16653","Kras","mmu05163","Human cytomegalovirus infection",1.24658160570897e-07
-"16439","Itpr2","mmu05163","Human cytomegalovirus infection",1.24658160570897e-07
-"12028","Bax","mmu05163","Human cytomegalovirus infection",1.24658160570897e-07
-"12367","Casp3","mmu05163","Human cytomegalovirus infection",1.24658160570897e-07
-"20296","Ccl2","mmu05163","Human cytomegalovirus infection",1.24658160570897e-07
-"20848","Stat3","mmu05163","Human cytomegalovirus infection",1.24658160570897e-07
-"11651","Akt1","mmu05163","Human cytomegalovirus infection",1.24658160570897e-07
-"14083","Ptk2","mmu05163","Human cytomegalovirus infection",1.24658160570897e-07
-"21926","Tnf","mmu05163","Human cytomegalovirus infection",1.24658160570897e-07
-"26416","Mapk14","mmu05163","Human cytomegalovirus infection",1.24658160570897e-07
-"12575","Cdkn1a","mmu05163","Human cytomegalovirus infection",1.24658160570897e-07
-"22339","Vegfa","mmu05163","Human cytomegalovirus infection",1.24658160570897e-07
-"19877","Rock1","mmu05163","Human cytomegalovirus infection",1.24658160570897e-07
-"21808","Tgfb2","mmu05226","Gastric cancer",1.34617679109984e-07
-"21748","Terc","mmu05226","Gastric cancer",1.34617679109984e-07
-"16842","Lef1","mmu05226","Gastric cancer",1.34617679109984e-07
-"56717","Mtor","mmu05226","Gastric cancer",1.34617679109984e-07
-"16653","Kras","mmu05226","Gastric cancer",1.34617679109984e-07
-"12028","Bax","mmu05226","Gastric cancer",1.34617679109984e-07
-"12550","Cdh1","mmu05226","Gastric cancer",1.34617679109984e-07
-"11651","Akt1","mmu05226","Gastric cancer",1.34617679109984e-07
-"14368","Fzd6","mmu05226","Gastric cancer",1.34617679109984e-07
-"12575","Cdkn1a","mmu05226","Gastric cancer",1.34617679109984e-07
-"17126","Smad2","mmu05226","Gastric cancer",1.34617679109984e-07
-"14179","Fgf8","mmu05226","Gastric cancer",1.34617679109984e-07
-"21808","Tgfb2","mmu05212","Pancreatic cancer",3.4117044422927e-07
-"56717","Mtor","mmu05212","Pancreatic cancer",3.4117044422927e-07
-"16653","Kras","mmu05212","Pancreatic cancer",3.4117044422927e-07
-"12028","Bax","mmu05212","Pancreatic cancer",3.4117044422927e-07
-"20848","Stat3","mmu05212","Pancreatic cancer",3.4117044422927e-07
-"11651","Akt1","mmu05212","Pancreatic cancer",3.4117044422927e-07
-"12575","Cdkn1a","mmu05212","Pancreatic cancer",3.4117044422927e-07
-"22339","Vegfa","mmu05212","Pancreatic cancer",3.4117044422927e-07
-"17126","Smad2","mmu05212","Pancreatic cancer",3.4117044422927e-07
-"21808","Tgfb2","mmu05142","Chagas disease",3.64389104988388e-07
-"24088","Tlr2","mmu05142","Chagas disease",3.64389104988388e-07
-"21898","Tlr4","mmu05142","Chagas disease",3.64389104988388e-07
-"16193","Il6","mmu05142","Chagas disease",3.64389104988388e-07
-"18126","Nos2","mmu05142","Chagas disease",3.64389104988388e-07
-"20296","Ccl2","mmu05142","Chagas disease",3.64389104988388e-07
-"11651","Akt1","mmu05142","Chagas disease",3.64389104988388e-07
-"21926","Tnf","mmu05142","Chagas disease",3.64389104988388e-07
-"26416","Mapk14","mmu05142","Chagas disease",3.64389104988388e-07
-"17126","Smad2","mmu05142","Chagas disease",3.64389104988388e-07
-"21808","Tgfb2","mmu04068","FoxO signaling pathway",3.64775970484863e-07
-"56458","Foxo1","mmu04068","FoxO signaling pathway",3.64775970484863e-07
-"16193","Il6","mmu04068","FoxO signaling pathway",3.64775970484863e-07
-"16653","Kras","mmu04068","FoxO signaling pathway",3.64775970484863e-07
-"11920","Atm","mmu04068","FoxO signaling pathway",3.64775970484863e-07
-"93759","Sirt1","mmu04068","FoxO signaling pathway",3.64775970484863e-07
-"20848","Stat3","mmu04068","FoxO signaling pathway",3.64775970484863e-07
-"11651","Akt1","mmu04068","FoxO signaling pathway",3.64775970484863e-07
-"20656","Sod2","mmu04068","FoxO signaling pathway",3.64775970484863e-07
-"26416","Mapk14","mmu04068","FoxO signaling pathway",3.64775970484863e-07
-"12575","Cdkn1a","mmu04068","FoxO signaling pathway",3.64775970484863e-07
-"24088","Tlr2","mmu05170","Human immunodeficiency virus 1 infection",4.13921411115094e-07
-"21898","Tlr4","mmu05170","Human immunodeficiency virus 1 infection",4.13921411115094e-07
-"56717","Mtor","mmu05170","Human immunodeficiency virus 1 infection",4.13921411115094e-07
-"16653","Kras","mmu05170","Human immunodeficiency virus 1 infection",4.13921411115094e-07
-"16439","Itpr2","mmu05170","Human immunodeficiency virus 1 infection",4.13921411115094e-07
-"12028","Bax","mmu05170","Human immunodeficiency virus 1 infection",4.13921411115094e-07
-"12367","Casp3","mmu05170","Human immunodeficiency virus 1 infection",4.13921411115094e-07
-"11920","Atm","mmu05170","Human immunodeficiency virus 1 infection",4.13921411115094e-07
-"245000","Atr","mmu05170","Human immunodeficiency virus 1 infection",4.13921411115094e-07
-"12534","Cdk1","mmu05170","Human immunodeficiency virus 1 infection",4.13921411115094e-07
-"11651","Akt1","mmu05170","Human immunodeficiency virus 1 infection",4.13921411115094e-07
-"14083","Ptk2","mmu05170","Human immunodeficiency virus 1 infection",4.13921411115094e-07
-"21926","Tnf","mmu05170","Human immunodeficiency virus 1 infection",4.13921411115094e-07
-"26416","Mapk14","mmu05170","Human immunodeficiency virus 1 infection",4.13921411115094e-07
-"12064","Bdnf","mmu05022","Pathways of neurodegeneration - multiple diseases",5.22505970275431e-07
-"19122","Prnp","mmu05022","Pathways of neurodegeneration - multiple diseases",5.22505970275431e-07
-"56717","Mtor","mmu05022","Pathways of neurodegeneration - multiple diseases",5.22505970275431e-07
-"16193","Il6","mmu05022","Pathways of neurodegeneration - multiple diseases",5.22505970275431e-07
-"15194","Htt","mmu05022","Pathways of neurodegeneration - multiple diseases",5.22505970275431e-07
-"16653","Kras","mmu05022","Pathways of neurodegeneration - multiple diseases",5.22505970275431e-07
-"16439","Itpr2","mmu05022","Pathways of neurodegeneration - multiple diseases",5.22505970275431e-07
-"12028","Bax","mmu05022","Pathways of neurodegeneration - multiple diseases",5.22505970275431e-07
-"12367","Casp3","mmu05022","Pathways of neurodegeneration - multiple diseases",5.22505970275431e-07
-"22152","Tubb3","mmu05022","Pathways of neurodegeneration - multiple diseases",5.22505970275431e-07
-"18126","Nos2","mmu05022","Pathways of neurodegeneration - multiple diseases",5.22505970275431e-07
-"17762","Mapt","mmu05022","Pathways of neurodegeneration - multiple diseases",5.22505970275431e-07
-"19164","Psen1","mmu05022","Pathways of neurodegeneration - multiple diseases",5.22505970275431e-07
-"14368","Fzd6","mmu05022","Pathways of neurodegeneration - multiple diseases",5.22505970275431e-07
-"20655","Sod1","mmu05022","Pathways of neurodegeneration - multiple diseases",5.22505970275431e-07
-"21926","Tnf","mmu05022","Pathways of neurodegeneration - multiple diseases",5.22505970275431e-07
-"11596","Ager","mmu05022","Pathways of neurodegeneration - multiple diseases",5.22505970275431e-07
-"26416","Mapk14","mmu05022","Pathways of neurodegeneration - multiple diseases",5.22505970275431e-07
-"12322","Camk2a","mmu05022","Pathways of neurodegeneration - multiple diseases",5.22505970275431e-07
-"21808","Tgfb2","mmu05225","Hepatocellular carcinoma",5.9811812490408e-07
-"18024","Nfe2l2","mmu05225","Hepatocellular carcinoma",5.9811812490408e-07
-"21748","Terc","mmu05225","Hepatocellular carcinoma",5.9811812490408e-07
-"16842","Lef1","mmu05225","Hepatocellular carcinoma",5.9811812490408e-07
-"56717","Mtor","mmu05225","Hepatocellular carcinoma",5.9811812490408e-07
-"16653","Kras","mmu05225","Hepatocellular carcinoma",5.9811812490408e-07
-"12028","Bax","mmu05225","Hepatocellular carcinoma",5.9811812490408e-07
-"15368","Hmox1","mmu05225","Hepatocellular carcinoma",5.9811812490408e-07
-"11651","Akt1","mmu05225","Hepatocellular carcinoma",5.9811812490408e-07
-"14368","Fzd6","mmu05225","Hepatocellular carcinoma",5.9811812490408e-07
-"12575","Cdkn1a","mmu05225","Hepatocellular carcinoma",5.9811812490408e-07
-"17126","Smad2","mmu05225","Hepatocellular carcinoma",5.9811812490408e-07
-"12290","Cacna1e","mmu04010","MAPK signaling pathway",7.21496466449855e-07
-"21808","Tgfb2","mmu04010","MAPK signaling pathway",7.21496466449855e-07
-"12064","Bdnf","mmu04010","MAPK signaling pathway",7.21496466449855e-07
-"16653","Kras","mmu04010","MAPK signaling pathway",7.21496466449855e-07
-"12367","Casp3","mmu04010","MAPK signaling pathway",7.21496466449855e-07
-"18053","Ngfr","mmu04010","MAPK signaling pathway",7.21496466449855e-07
-"17762","Mapt","mmu04010","MAPK signaling pathway",7.21496466449855e-07
-"11651","Akt1","mmu04010","MAPK signaling pathway",7.21496466449855e-07
-"21926","Tnf","mmu04010","MAPK signaling pathway",7.21496466449855e-07
-"193740","Hspa1a","mmu04010","MAPK signaling pathway",7.21496466449855e-07
-"15511","Hspa1b","mmu04010","MAPK signaling pathway",7.21496466449855e-07
-"26416","Mapk14","mmu04010","MAPK signaling pathway",7.21496466449855e-07
-"22339","Vegfa","mmu04010","MAPK signaling pathway",7.21496466449855e-07
-"18596","Pdgfrb","mmu04010","MAPK signaling pathway",7.21496466449855e-07
-"14179","Fgf8","mmu04010","MAPK signaling pathway",7.21496466449855e-07
-"21808","Tgfb2","mmu05210","Colorectal cancer",9.60284173635981e-07
-"16842","Lef1","mmu05210","Colorectal cancer",9.60284173635981e-07
-"56717","Mtor","mmu05210","Colorectal cancer",9.60284173635981e-07
-"16653","Kras","mmu05210","Colorectal cancer",9.60284173635981e-07
-"12028","Bax","mmu05210","Colorectal cancer",9.60284173635981e-07
-"12367","Casp3","mmu05210","Colorectal cancer",9.60284173635981e-07
-"11651","Akt1","mmu05210","Colorectal cancer",9.60284173635981e-07
-"12575","Cdkn1a","mmu05210","Colorectal cancer",9.60284173635981e-07
-"17126","Smad2","mmu05210","Colorectal cancer",9.60284173635981e-07
-"56717","Mtor","mmu04659","Th17 cell differentiation",4.31273727103701e-06
-"16193","Il6","mmu04659","Th17 cell differentiation",4.31273727103701e-06
-"20848","Stat3","mmu04659","Th17 cell differentiation",4.31273727103701e-06
-"14960","H2-Aa","mmu04659","Th17 cell differentiation",4.31273727103701e-06
-"14961","H2-Ab1","mmu04659","Th17 cell differentiation",4.31273727103701e-06
-"14969","H2-Eb1","mmu04659","Th17 cell differentiation",4.31273727103701e-06
-"100504404","H2-Ea","mmu04659","Th17 cell differentiation",4.31273727103701e-06
-"26416","Mapk14","mmu04659","Th17 cell differentiation",4.31273727103701e-06
-"17126","Smad2","mmu04659","Th17 cell differentiation",4.31273727103701e-06
-"56458","Foxo1","mmu05215","Prostate cancer",4.91203882792337e-06
-"16842","Lef1","mmu05215","Prostate cancer",4.91203882792337e-06
-"56717","Mtor","mmu05215","Prostate cancer",4.91203882792337e-06
-"16653","Kras","mmu05215","Prostate cancer",4.91203882792337e-06
-"11651","Akt1","mmu05215","Prostate cancer",4.91203882792337e-06
-"50528","Tmprss2","mmu05215","Prostate cancer",4.91203882792337e-06
-"13876","Erg","mmu05215","Prostate cancer",4.91203882792337e-06
-"12575","Cdkn1a","mmu05215","Prostate cancer",4.91203882792337e-06
-"18596","Pdgfrb","mmu05215","Prostate cancer",4.91203882792337e-06
-"226519","Lamc1","mmu05146","Amoebiasis",5.08879385915131e-06
-"21808","Tgfb2","mmu05146","Amoebiasis",5.08879385915131e-06
-"24088","Tlr2","mmu05146","Amoebiasis",5.08879385915131e-06
-"21898","Tlr4","mmu05146","Amoebiasis",5.08879385915131e-06
-"16193","Il6","mmu05146","Amoebiasis",5.08879385915131e-06
-"12367","Casp3","mmu05146","Amoebiasis",5.08879385915131e-06
-"18126","Nos2","mmu05146","Amoebiasis",5.08879385915131e-06
-"14083","Ptk2","mmu05146","Amoebiasis",5.08879385915131e-06
-"21926","Tnf","mmu05146","Amoebiasis",5.08879385915131e-06
-"56458","Foxo1","mmu04936","Alcoholic liver disease",5.08879385915131e-06
-"16842","Lef1","mmu04936","Alcoholic liver disease",5.08879385915131e-06
-"21898","Tlr4","mmu04936","Alcoholic liver disease",5.08879385915131e-06
-"19017","Ppargc1a","mmu04936","Alcoholic liver disease",5.08879385915131e-06
-"16193","Il6","mmu04936","Alcoholic liver disease",5.08879385915131e-06
-"12367","Casp3","mmu04936","Alcoholic liver disease",5.08879385915131e-06
-"93759","Sirt1","mmu04936","Alcoholic liver disease",5.08879385915131e-06
-"11651","Akt1","mmu04936","Alcoholic liver disease",5.08879385915131e-06
-"21926","Tnf","mmu04936","Alcoholic liver disease",5.08879385915131e-06
-"26416","Mapk14","mmu04936","Alcoholic liver disease",5.08879385915131e-06
-"24088","Tlr2","mmu05162","Measles",5.19334222045991e-06
-"21898","Tlr4","mmu05162","Measles",5.19334222045991e-06
-"16193","Il6","mmu05162","Measles",5.19334222045991e-06
-"12028","Bax","mmu05162","Measles",5.19334222045991e-06
-"12367","Casp3","mmu05162","Measles",5.19334222045991e-06
-"20848","Stat3","mmu05162","Measles",5.19334222045991e-06
-"11651","Akt1","mmu05162","Measles",5.19334222045991e-06
-"15975","Ifnar1","mmu05162","Measles",5.19334222045991e-06
-"193740","Hspa1a","mmu05162","Measles",5.19334222045991e-06
-"15511","Hspa1b","mmu05162","Measles",5.19334222045991e-06
-"56717","Mtor","mmu01521","EGFR tyrosine kinase inhibitor resistance",5.19334222045991e-06
-"16193","Il6","mmu01521","EGFR tyrosine kinase inhibitor resistance",5.19334222045991e-06
-"16653","Kras","mmu01521","EGFR tyrosine kinase inhibitor resistance",5.19334222045991e-06
-"12028","Bax","mmu01521","EGFR tyrosine kinase inhibitor resistance",5.19334222045991e-06
-"20848","Stat3","mmu01521","EGFR tyrosine kinase inhibitor resistance",5.19334222045991e-06
-"11651","Akt1","mmu01521","EGFR tyrosine kinase inhibitor resistance",5.19334222045991e-06
-"22339","Vegfa","mmu01521","EGFR tyrosine kinase inhibitor resistance",5.19334222045991e-06
-"18596","Pdgfrb","mmu01521","EGFR tyrosine kinase inhibitor resistance",5.19334222045991e-06
-"18024","Nfe2l2","mmu05418","Fluid shear stress and atherosclerosis",7.79387565712621e-06
-"18127","Nos3","mmu05418","Fluid shear stress and atherosclerosis",7.79387565712621e-06
-"12389","Cav1","mmu05418","Fluid shear stress and atherosclerosis",7.79387565712621e-06
-"15368","Hmox1","mmu05418","Fluid shear stress and atherosclerosis",7.79387565712621e-06
-"20296","Ccl2","mmu05418","Fluid shear stress and atherosclerosis",7.79387565712621e-06
-"11651","Akt1","mmu05418","Fluid shear stress and atherosclerosis",7.79387565712621e-06
-"14083","Ptk2","mmu05418","Fluid shear stress and atherosclerosis",7.79387565712621e-06
-"21926","Tnf","mmu05418","Fluid shear stress and atherosclerosis",7.79387565712621e-06
-"26416","Mapk14","mmu05418","Fluid shear stress and atherosclerosis",7.79387565712621e-06
-"22339","Vegfa","mmu05418","Fluid shear stress and atherosclerosis",7.79387565712621e-06
-"226519","Lamc1","mmu05020","Prion disease",8.23714299210883e-06
-"19122","Prnp","mmu05020","Prion disease",8.23714299210883e-06
-"16193","Il6","mmu05020","Prion disease",8.23714299210883e-06
-"12389","Cav1","mmu05020","Prion disease",8.23714299210883e-06
-"16439","Itpr2","mmu05020","Prion disease",8.23714299210883e-06
-"12028","Bax","mmu05020","Prion disease",8.23714299210883e-06
-"12367","Casp3","mmu05020","Prion disease",8.23714299210883e-06
-"22152","Tubb3","mmu05020","Prion disease",8.23714299210883e-06
-"20655","Sod1","mmu05020","Prion disease",8.23714299210883e-06
-"21926","Tnf","mmu05020","Prion disease",8.23714299210883e-06
-"193740","Hspa1a","mmu05020","Prion disease",8.23714299210883e-06
-"15511","Hspa1b","mmu05020","Prion disease",8.23714299210883e-06
-"26416","Mapk14","mmu05020","Prion disease",8.23714299210883e-06
-"24088","Tlr2","mmu05134","Legionellosis",8.83175590053553e-06
-"21898","Tlr4","mmu05134","Legionellosis",8.83175590053553e-06
-"16193","Il6","mmu05134","Legionellosis",8.83175590053553e-06
-"12367","Casp3","mmu05134","Legionellosis",8.83175590053553e-06
-"21926","Tnf","mmu05134","Legionellosis",8.83175590053553e-06
-"193740","Hspa1a","mmu05134","Legionellosis",8.83175590053553e-06
-"15511","Hspa1b","mmu05134","Legionellosis",8.83175590053553e-06
-"14960","H2-Aa","mmu04612","Antigen processing and presentation",9.77284346483795e-06
-"14961","H2-Ab1","mmu04612","Antigen processing and presentation",9.77284346483795e-06
-"14969","H2-Eb1","mmu04612","Antigen processing and presentation",9.77284346483795e-06
-"100504404","H2-Ea","mmu04612","Antigen processing and presentation",9.77284346483795e-06
-"21926","Tnf","mmu04612","Antigen processing and presentation",9.77284346483795e-06
-"193740","Hspa1a","mmu04612","Antigen processing and presentation",9.77284346483795e-06
-"15511","Hspa1b","mmu04612","Antigen processing and presentation",9.77284346483795e-06
-"16149","Cd74","mmu04612","Antigen processing and presentation",9.77284346483795e-06
-"56458","Foxo1","mmu04211","Longevity regulating pathway",1.13306098428494e-05
-"56717","Mtor","mmu04211","Longevity regulating pathway",1.13306098428494e-05
-"19017","Ppargc1a","mmu04211","Longevity regulating pathway",1.13306098428494e-05
-"16653","Kras","mmu04211","Longevity regulating pathway",1.13306098428494e-05
-"12028","Bax","mmu04211","Longevity regulating pathway",1.13306098428494e-05
-"93759","Sirt1","mmu04211","Longevity regulating pathway",1.13306098428494e-05
-"11651","Akt1","mmu04211","Longevity regulating pathway",1.13306098428494e-05
-"20656","Sod2","mmu04211","Longevity regulating pathway",1.13306098428494e-05
-"56717","Mtor","mmu01522","Endocrine resistance",1.42153658271192e-05
-"16653","Kras","mmu01522","Endocrine resistance",1.42153658271192e-05
-"12028","Bax","mmu01522","Endocrine resistance",1.42153658271192e-05
-"11651","Akt1","mmu01522","Endocrine resistance",1.42153658271192e-05
-"14083","Ptk2","mmu01522","Endocrine resistance",1.42153658271192e-05
-"18132","Notch4","mmu01522","Endocrine resistance",1.42153658271192e-05
-"26416","Mapk14","mmu01522","Endocrine resistance",1.42153658271192e-05
-"12575","Cdkn1a","mmu01522","Endocrine resistance",1.42153658271192e-05
-"226519","Lamc1","mmu05222","Small cell lung cancer",1.5065371633367e-05
-"12028","Bax","mmu05222","Small cell lung cancer",1.5065371633367e-05
-"12367","Casp3","mmu05222","Small cell lung cancer",1.5065371633367e-05
-"16412","Itgb1","mmu05222","Small cell lung cancer",1.5065371633367e-05
-"18126","Nos2","mmu05222","Small cell lung cancer",1.5065371633367e-05
-"11651","Akt1","mmu05222","Small cell lung cancer",1.5065371633367e-05
-"14083","Ptk2","mmu05222","Small cell lung cancer",1.5065371633367e-05
-"12575","Cdkn1a","mmu05222","Small cell lung cancer",1.5065371633367e-05
-"14415","Gad1","mmu04940","Type I diabetes mellitus",1.67489191197543e-05
-"14960","H2-Aa","mmu04940","Type I diabetes mellitus",1.67489191197543e-05
-"14961","H2-Ab1","mmu04940","Type I diabetes mellitus",1.67489191197543e-05
-"14969","H2-Eb1","mmu04940","Type I diabetes mellitus",1.67489191197543e-05
-"100504404","H2-Ea","mmu04940","Type I diabetes mellitus",1.67489191197543e-05
-"21926","Tnf","mmu04940","Type I diabetes mellitus",1.67489191197543e-05
-"16992","Lta","mmu04940","Type I diabetes mellitus",1.67489191197543e-05
-"14960","H2-Aa","mmu05310","Asthma",1.87510073603877e-05
-"14961","H2-Ab1","mmu05310","Asthma",1.87510073603877e-05
-"14969","H2-Eb1","mmu05310","Asthma",1.87510073603877e-05
-"100504404","H2-Ea","mmu05310","Asthma",1.87510073603877e-05
-"21926","Tnf","mmu05310","Asthma",1.87510073603877e-05
-"18627","Per2","mmu05221","Acute myeloid leukemia",2.16055471684116e-05
-"16842","Lef1","mmu05221","Acute myeloid leukemia",2.16055471684116e-05
-"56717","Mtor","mmu05221","Acute myeloid leukemia",2.16055471684116e-05
-"16653","Kras","mmu05221","Acute myeloid leukemia",2.16055471684116e-05
-"18854","Pml","mmu05221","Acute myeloid leukemia",2.16055471684116e-05
-"20848","Stat3","mmu05221","Acute myeloid leukemia",2.16055471684116e-05
-"11651","Akt1","mmu05221","Acute myeloid leukemia",2.16055471684116e-05
-"21898","Tlr4","mmu05135","Yersinia infection",2.50749389138472e-05
-"16193","Il6","mmu05135","Yersinia infection",2.50749389138472e-05
-"16412","Itgb1","mmu05135","Yersinia infection",2.50749389138472e-05
-"20296","Ccl2","mmu05135","Yersinia infection",2.50749389138472e-05
-"11651","Akt1","mmu05135","Yersinia infection",2.50749389138472e-05
-"14083","Ptk2","mmu05135","Yersinia infection",2.50749389138472e-05
-"21926","Tnf","mmu05135","Yersinia infection",2.50749389138472e-05
-"26416","Mapk14","mmu05135","Yersinia infection",2.50749389138472e-05
-"19877","Rock1","mmu05135","Yersinia infection",2.50749389138472e-05
-"16653","Kras","mmu05218","Melanoma",2.50749389138472e-05
-"12028","Bax","mmu05218","Melanoma",2.50749389138472e-05
-"12550","Cdh1","mmu05218","Melanoma",2.50749389138472e-05
-"11651","Akt1","mmu05218","Melanoma",2.50749389138472e-05
-"12575","Cdkn1a","mmu05218","Melanoma",2.50749389138472e-05
-"18596","Pdgfrb","mmu05218","Melanoma",2.50749389138472e-05
-"14179","Fgf8","mmu05218","Melanoma",2.50749389138472e-05
-"21808","Tgfb2","mmu05206","MicroRNAs in cancer",3.01141462288666e-05
-"56717","Mtor","mmu05206","MicroRNAs in cancer",3.01141462288666e-05
-"16653","Kras","mmu05206","MicroRNAs in cancer",3.01141462288666e-05
-"15368","Hmox1","mmu05206","MicroRNAs in cancer",3.01141462288666e-05
-"12367","Casp3","mmu05206","MicroRNAs in cancer",3.01141462288666e-05
-"11920","Atm","mmu05206","MicroRNAs in cancer",3.01141462288666e-05
-"93759","Sirt1","mmu05206","MicroRNAs in cancer",3.01141462288666e-05
-"20848","Stat3","mmu05206","MicroRNAs in cancer",3.01141462288666e-05
-"18132","Notch4","mmu05206","MicroRNAs in cancer",3.01141462288666e-05
-"12575","Cdkn1a","mmu05206","MicroRNAs in cancer",3.01141462288666e-05
-"22339","Vegfa","mmu05206","MicroRNAs in cancer",3.01141462288666e-05
-"19877","Rock1","mmu05206","MicroRNAs in cancer",3.01141462288666e-05
-"18596","Pdgfrb","mmu05206","MicroRNAs in cancer",3.01141462288666e-05
-"56717","Mtor","mmu04371","Apelin signaling pathway",3.01141462288666e-05
-"19017","Ppargc1a","mmu04371","Apelin signaling pathway",3.01141462288666e-05
-"18127","Nos3","mmu04371","Apelin signaling pathway",3.01141462288666e-05
-"16653","Kras","mmu04371","Apelin signaling pathway",3.01141462288666e-05
-"16439","Itpr2","mmu04371","Apelin signaling pathway",3.01141462288666e-05
-"12550","Cdh1","mmu04371","Apelin signaling pathway",3.01141462288666e-05
-"18126","Nos2","mmu04371","Apelin signaling pathway",3.01141462288666e-05
-"11651","Akt1","mmu04371","Apelin signaling pathway",3.01141462288666e-05
-"17126","Smad2","mmu04371","Apelin signaling pathway",3.01141462288666e-05
-"16009","Igfbp3","mmu04115","p53 signaling pathway",3.05110974753229e-05
-"12028","Bax","mmu04115","p53 signaling pathway",3.05110974753229e-05
-"12367","Casp3","mmu04115","p53 signaling pathway",3.05110974753229e-05
-"11920","Atm","mmu04115","p53 signaling pathway",3.05110974753229e-05
-"245000","Atr","mmu04115","p53 signaling pathway",3.05110974753229e-05
-"12534","Cdk1","mmu04115","p53 signaling pathway",3.05110974753229e-05
-"12575","Cdkn1a","mmu04115","p53 signaling pathway",3.05110974753229e-05
-"56717","Mtor","mmu05214","Glioma",3.05110974753229e-05
-"16653","Kras","mmu05214","Glioma",3.05110974753229e-05
-"12028","Bax","mmu05214","Glioma",3.05110974753229e-05
-"11651","Akt1","mmu05214","Glioma",3.05110974753229e-05
-"12575","Cdkn1a","mmu05214","Glioma",3.05110974753229e-05
-"12322","Camk2a","mmu05214","Glioma",3.05110974753229e-05
-"18596","Pdgfrb","mmu05214","Glioma",3.05110974753229e-05
-"21898","Tlr4","mmu05133","Pertussis",3.57441086842161e-05
-"16193","Il6","mmu05133","Pertussis",3.57441086842161e-05
-"12367","Casp3","mmu05133","Pertussis",3.57441086842161e-05
-"16412","Itgb1","mmu05133","Pertussis",3.57441086842161e-05
-"18126","Nos2","mmu05133","Pertussis",3.57441086842161e-05
-"21926","Tnf","mmu05133","Pertussis",3.57441086842161e-05
-"26416","Mapk14","mmu05133","Pertussis",3.57441086842161e-05
-"56458","Foxo1","mmu04931","Insulin resistance",3.92615078301496e-05
-"56717","Mtor","mmu04931","Insulin resistance",3.92615078301496e-05
-"19017","Ppargc1a","mmu04931","Insulin resistance",3.92615078301496e-05
-"16193","Il6","mmu04931","Insulin resistance",3.92615078301496e-05
-"18127","Nos3","mmu04931","Insulin resistance",3.92615078301496e-05
-"20848","Stat3","mmu04931","Insulin resistance",3.92615078301496e-05
-"11651","Akt1","mmu04931","Insulin resistance",3.92615078301496e-05
-"21926","Tnf","mmu04931","Insulin resistance",3.92615078301496e-05
-"16842","Lef1","mmu05224","Breast cancer",4.08544959356644e-05
-"56717","Mtor","mmu05224","Breast cancer",4.08544959356644e-05
-"16653","Kras","mmu05224","Breast cancer",4.08544959356644e-05
-"12028","Bax","mmu05224","Breast cancer",4.08544959356644e-05
-"11651","Akt1","mmu05224","Breast cancer",4.08544959356644e-05
-"14368","Fzd6","mmu05224","Breast cancer",4.08544959356644e-05
-"18132","Notch4","mmu05224","Breast cancer",4.08544959356644e-05
-"12575","Cdkn1a","mmu05224","Breast cancer",4.08544959356644e-05
-"14179","Fgf8","mmu05224","Breast cancer",4.08544959356644e-05
-"56717","Mtor","mmu04935","Growth hormone synthesis, secretion and action",5.985905353226e-05
-"16653","Kras","mmu04935","Growth hormone synthesis, secretion and action",5.985905353226e-05
-"16439","Itpr2","mmu04935","Growth hormone synthesis, secretion and action",5.985905353226e-05
-"16009","Igfbp3","mmu04935","Growth hormone synthesis, secretion and action",5.985905353226e-05
-"20848","Stat3","mmu04935","Growth hormone synthesis, secretion and action",5.985905353226e-05
-"11651","Akt1","mmu04935","Growth hormone synthesis, secretion and action",5.985905353226e-05
-"14083","Ptk2","mmu04935","Growth hormone synthesis, secretion and action",5.985905353226e-05
-"26416","Mapk14","mmu04935","Growth hormone synthesis, secretion and action",5.985905353226e-05
-"16653","Kras","mmu04540","Gap junction",6.95415734815343e-05
-"16439","Itpr2","mmu04540","Gap junction",6.95415734815343e-05
-"22152","Tubb3","mmu04540","Gap junction",6.95415734815343e-05
-"13489","Drd2","mmu04540","Gap junction",6.95415734815343e-05
-"12534","Cdk1","mmu04540","Gap junction",6.95415734815343e-05
-"13488","Drd1","mmu04540","Gap junction",6.95415734815343e-05
-"18596","Pdgfrb","mmu04540","Gap junction",6.95415734815343e-05
-"12064","Bdnf","mmu04722","Neurotrophin signaling pathway",7.22242939410637e-05
-"16653","Kras","mmu04722","Neurotrophin signaling pathway",7.22242939410637e-05
-"12028","Bax","mmu04722","Neurotrophin signaling pathway",7.22242939410637e-05
-"18053","Ngfr","mmu04722","Neurotrophin signaling pathway",7.22242939410637e-05
-"19164","Psen1","mmu04722","Neurotrophin signaling pathway",7.22242939410637e-05
-"11651","Akt1","mmu04722","Neurotrophin signaling pathway",7.22242939410637e-05
-"26416","Mapk14","mmu04722","Neurotrophin signaling pathway",7.22242939410637e-05
-"12322","Camk2a","mmu04722","Neurotrophin signaling pathway",7.22242939410637e-05
-"18127","Nos3","mmu04370","VEGF signaling pathway",7.22242939410637e-05
-"16653","Kras","mmu04370","VEGF signaling pathway",7.22242939410637e-05
-"11651","Akt1","mmu04370","VEGF signaling pathway",7.22242939410637e-05
-"14083","Ptk2","mmu04370","VEGF signaling pathway",7.22242939410637e-05
-"26416","Mapk14","mmu04370","VEGF signaling pathway",7.22242939410637e-05
-"22339","Vegfa","mmu04370","VEGF signaling pathway",7.22242939410637e-05
-"16842","Lef1","mmu05213","Endometrial cancer",7.22242939410637e-05
-"16653","Kras","mmu05213","Endometrial cancer",7.22242939410637e-05
-"12028","Bax","mmu05213","Endometrial cancer",7.22242939410637e-05
-"12550","Cdh1","mmu05213","Endometrial cancer",7.22242939410637e-05
-"11651","Akt1","mmu05213","Endometrial cancer",7.22242939410637e-05
-"12575","Cdkn1a","mmu05213","Endometrial cancer",7.22242939410637e-05
-"24088","Tlr2","mmu05235","PD-L1 expression and PD-1 checkpoint pathway in cancer",7.56626939640694e-05
-"21898","Tlr4","mmu05235","PD-L1 expression and PD-1 checkpoint pathway in cancer",7.56626939640694e-05
-"56717","Mtor","mmu05235","PD-L1 expression and PD-1 checkpoint pathway in cancer",7.56626939640694e-05
-"16653","Kras","mmu05235","PD-L1 expression and PD-1 checkpoint pathway in cancer",7.56626939640694e-05
-"20848","Stat3","mmu05235","PD-L1 expression and PD-1 checkpoint pathway in cancer",7.56626939640694e-05
-"11651","Akt1","mmu05235","PD-L1 expression and PD-1 checkpoint pathway in cancer",7.56626939640694e-05
-"26416","Mapk14","mmu05235","PD-L1 expression and PD-1 checkpoint pathway in cancer",7.56626939640694e-05
-"16193","Il6","mmu05332","Graft-versus-host disease",8.52132187742352e-05
-"14960","H2-Aa","mmu05332","Graft-versus-host disease",8.52132187742352e-05
-"14961","H2-Ab1","mmu05332","Graft-versus-host disease",8.52132187742352e-05
-"14969","H2-Eb1","mmu05332","Graft-versus-host disease",8.52132187742352e-05
-"100504404","H2-Ea","mmu05332","Graft-versus-host disease",8.52132187742352e-05
-"21926","Tnf","mmu05332","Graft-versus-host disease",8.52132187742352e-05
-"16842","Lef1","mmu05216","Thyroid cancer",0.000100911437977299
-"16653","Kras","mmu05216","Thyroid cancer",0.000100911437977299
-"12028","Bax","mmu05216","Thyroid cancer",0.000100911437977299
-"12550","Cdh1","mmu05216","Thyroid cancer",0.000100911437977299
-"12575","Cdkn1a","mmu05216","Thyroid cancer",0.000100911437977299
-"16193","Il6","mmu04640","Hematopoietic cell lineage",0.000111300260495944
-"14960","H2-Aa","mmu04640","Hematopoietic cell lineage",0.000111300260495944
-"14961","H2-Ab1","mmu04640","Hematopoietic cell lineage",0.000111300260495944
-"14969","H2-Eb1","mmu04640","Hematopoietic cell lineage",0.000111300260495944
-"100504404","H2-Ea","mmu04640","Hematopoietic cell lineage",0.000111300260495944
-"21926","Tnf","mmu04640","Hematopoietic cell lineage",0.000111300260495944
-"12982","Csf2ra","mmu04640","Hematopoietic cell lineage",0.000111300260495944
-"16847","Lepr","mmu04630","JAK-STAT signaling pathway",0.000115738035141591
-"56717","Mtor","mmu04630","JAK-STAT signaling pathway",0.000115738035141591
-"16193","Il6","mmu04630","JAK-STAT signaling pathway",0.000115738035141591
-"20848","Stat3","mmu04630","JAK-STAT signaling pathway",0.000115738035141591
-"11651","Akt1","mmu04630","JAK-STAT signaling pathway",0.000115738035141591
-"15975","Ifnar1","mmu04630","JAK-STAT signaling pathway",0.000115738035141591
-"12575","Cdkn1a","mmu04630","JAK-STAT signaling pathway",0.000115738035141591
-"18596","Pdgfrb","mmu04630","JAK-STAT signaling pathway",0.000115738035141591
-"12982","Csf2ra","mmu04630","JAK-STAT signaling pathway",0.000115738035141591
-"16653","Kras","mmu04015","Rap1 signaling pathway",0.000115738035141591
-"12550","Cdh1","mmu04015","Rap1 signaling pathway",0.000115738035141591
-"16412","Itgb1","mmu04015","Rap1 signaling pathway",0.000115738035141591
-"13489","Drd2","mmu04015","Rap1 signaling pathway",0.000115738035141591
-"18053","Ngfr","mmu04015","Rap1 signaling pathway",0.000115738035141591
-"11651","Akt1","mmu04015","Rap1 signaling pathway",0.000115738035141591
-"26416","Mapk14","mmu04015","Rap1 signaling pathway",0.000115738035141591
-"22339","Vegfa","mmu04015","Rap1 signaling pathway",0.000115738035141591
-"18596","Pdgfrb","mmu04015","Rap1 signaling pathway",0.000115738035141591
-"14179","Fgf8","mmu04015","Rap1 signaling pathway",0.000115738035141591
-"16653","Kras","mmu04550","Signaling pathways regulating pluripotency of stem cells",0.000185047204500342
-"20848","Stat3","mmu04550","Signaling pathways regulating pluripotency of stem cells",0.000185047204500342
-"15902","Id2","mmu04550","Signaling pathways regulating pluripotency of stem cells",0.000185047204500342
-"11651","Akt1","mmu04550","Signaling pathways regulating pluripotency of stem cells",0.000185047204500342
-"14368","Fzd6","mmu04550","Signaling pathways regulating pluripotency of stem cells",0.000185047204500342
-"26416","Mapk14","mmu04550","Signaling pathways regulating pluripotency of stem cells",0.000185047204500342
-"18999","Pou5f1","mmu04550","Signaling pathways regulating pluripotency of stem cells",0.000185047204500342
-"17126","Smad2","mmu04550","Signaling pathways regulating pluripotency of stem cells",0.000185047204500342
-"16193","Il6","mmu04672","Intestinal immune network for IgA production",0.000196346130647643
-"14960","H2-Aa","mmu04672","Intestinal immune network for IgA production",0.000196346130647643
-"14961","H2-Ab1","mmu04672","Intestinal immune network for IgA production",0.000196346130647643
-"14969","H2-Eb1","mmu04672","Intestinal immune network for IgA production",0.000196346130647643
-"100504404","H2-Ea","mmu04672","Intestinal immune network for IgA production",0.000196346130647643
-"24088","Tlr2","mmu04620","Toll-like receptor signaling pathway",0.000196346130647643
-"21898","Tlr4","mmu04620","Toll-like receptor signaling pathway",0.000196346130647643
-"16193","Il6","mmu04620","Toll-like receptor signaling pathway",0.000196346130647643
-"11651","Akt1","mmu04620","Toll-like receptor signaling pathway",0.000196346130647643
-"15975","Ifnar1","mmu04620","Toll-like receptor signaling pathway",0.000196346130647643
-"21926","Tnf","mmu04620","Toll-like receptor signaling pathway",0.000196346130647643
-"26416","Mapk14","mmu04620","Toll-like receptor signaling pathway",0.000196346130647643
-"56458","Foxo1","mmu04922","Glucagon signaling pathway",0.000196346130647643
-"19017","Ppargc1a","mmu04922","Glucagon signaling pathway",0.000196346130647643
-"16439","Itpr2","mmu04922","Glucagon signaling pathway",0.000196346130647643
-"18746","Pkm","mmu04922","Glucagon signaling pathway",0.000196346130647643
-"93759","Sirt1","mmu04922","Glucagon signaling pathway",0.000196346130647643
-"11651","Akt1","mmu04922","Glucagon signaling pathway",0.000196346130647643
-"12322","Camk2a","mmu04922","Glucagon signaling pathway",0.000196346130647643
-"56717","Mtor","mmu05010","Alzheimer disease",0.00020487416663545
-"16193","Il6","mmu05010","Alzheimer disease",0.00020487416663545
-"16653","Kras","mmu05010","Alzheimer disease",0.00020487416663545
-"16439","Itpr2","mmu05010","Alzheimer disease",0.00020487416663545
-"12367","Casp3","mmu05010","Alzheimer disease",0.00020487416663545
-"22152","Tubb3","mmu05010","Alzheimer disease",0.00020487416663545
-"18126","Nos2","mmu05010","Alzheimer disease",0.00020487416663545
-"17762","Mapt","mmu05010","Alzheimer disease",0.00020487416663545
-"19164","Psen1","mmu05010","Alzheimer disease",0.00020487416663545
-"11651","Akt1","mmu05010","Alzheimer disease",0.00020487416663545
-"14368","Fzd6","mmu05010","Alzheimer disease",0.00020487416663545
-"21926","Tnf","mmu05010","Alzheimer disease",0.00020487416663545
-"11596","Ager","mmu05010","Alzheimer disease",0.00020487416663545
-"16847","Lepr","mmu04920","Adipocytokine signaling pathway",0.000210008264120859
-"56717","Mtor","mmu04920","Adipocytokine signaling pathway",0.000210008264120859
-"19017","Ppargc1a","mmu04920","Adipocytokine signaling pathway",0.000210008264120859
-"20848","Stat3","mmu04920","Adipocytokine signaling pathway",0.000210008264120859
-"11651","Akt1","mmu04920","Adipocytokine signaling pathway",0.000210008264120859
-"21926","Tnf","mmu04920","Adipocytokine signaling pathway",0.000210008264120859
-"16193","Il6","mmu04625","C-type lectin receptor signaling pathway",0.000299099256018314
-"16653","Kras","mmu04625","C-type lectin receptor signaling pathway",0.000299099256018314
-"16439","Itpr2","mmu04625","C-type lectin receptor signaling pathway",0.000299099256018314
-"11651","Akt1","mmu04625","C-type lectin receptor signaling pathway",0.000299099256018314
-"20963","Syk","mmu04625","C-type lectin receptor signaling pathway",0.000299099256018314
-"21926","Tnf","mmu04625","C-type lectin receptor signaling pathway",0.000299099256018314
-"26416","Mapk14","mmu04625","C-type lectin receptor signaling pathway",0.000299099256018314
-"21808","Tgfb2","mmu05144","Malaria",0.000299099256018314
-"24088","Tlr2","mmu05144","Malaria",0.000299099256018314
-"21898","Tlr4","mmu05144","Malaria",0.000299099256018314
-"16193","Il6","mmu05144","Malaria",0.000299099256018314
-"20296","Ccl2","mmu05144","Malaria",0.000299099256018314
-"21926","Tnf","mmu05144","Malaria",0.000299099256018314
-"226519","Lamc1","mmu04518","Integrin signaling",0.000311208255089027
-"56717","Mtor","mmu04518","Integrin signaling",0.000311208255089027
-"12550","Cdh1","mmu04518","Integrin signaling",0.000311208255089027
-"16412","Itgb1","mmu04518","Integrin signaling",0.000311208255089027
-"11651","Akt1","mmu04518","Integrin signaling",0.000311208255089027
-"14083","Ptk2","mmu04518","Integrin signaling",0.000311208255089027
-"22339","Vegfa","mmu04518","Integrin signaling",0.000311208255089027
-"18596","Pdgfrb","mmu04518","Integrin signaling",0.000311208255089027
-"24088","Tlr2","mmu05132","Salmonella infection",0.000399397986855306
-"16842","Lef1","mmu05132","Salmonella infection",0.000399397986855306
-"21898","Tlr4","mmu05132","Salmonella infection",0.000399397986855306
-"16193","Il6","mmu05132","Salmonella infection",0.000399397986855306
-"12028","Bax","mmu05132","Salmonella infection",0.000399397986855306
-"12367","Casp3","mmu05132","Salmonella infection",0.000399397986855306
-"22152","Tubb3","mmu05132","Salmonella infection",0.000399397986855306
-"11651","Akt1","mmu05132","Salmonella infection",0.000399397986855306
-"21926","Tnf","mmu05132","Salmonella infection",0.000399397986855306
-"26416","Mapk14","mmu05132","Salmonella infection",0.000399397986855306
-"16193","Il6","mmu04668","TNF signaling pathway",0.000400049967022959
-"12367","Casp3","mmu04668","TNF signaling pathway",0.000400049967022959
-"20296","Ccl2","mmu04668","TNF signaling pathway",0.000400049967022959
-"11651","Akt1","mmu04668","TNF signaling pathway",0.000400049967022959
-"21926","Tnf","mmu04668","TNF signaling pathway",0.000400049967022959
-"16992","Lta","mmu04668","TNF signaling pathway",0.000400049967022959
-"26416","Mapk14","mmu04668","TNF signaling pathway",0.000400049967022959
-"12290","Cacna1e","mmu04020","Calcium signaling pathway",0.000415469853154418
-"19220","Ptgfr","mmu04020","Calcium signaling pathway",0.000415469853154418
-"18127","Nos3","mmu04020","Calcium signaling pathway",0.000415469853154418
-"16439","Itpr2","mmu04020","Calcium signaling pathway",0.000415469853154418
-"18126","Nos2","mmu04020","Calcium signaling pathway",0.000415469853154418
-"13488","Drd1","mmu04020","Calcium signaling pathway",0.000415469853154418
-"22339","Vegfa","mmu04020","Calcium signaling pathway",0.000415469853154418
-"12322","Camk2a","mmu04020","Calcium signaling pathway",0.000415469853154418
-"18596","Pdgfrb","mmu04020","Calcium signaling pathway",0.000415469853154418
-"14179","Fgf8","mmu04020","Calcium signaling pathway",0.000415469853154418
-"56717","Mtor","mmu04012","ErbB signaling pathway",0.000456707902451555
-"16653","Kras","mmu04012","ErbB signaling pathway",0.000456707902451555
-"11651","Akt1","mmu04012","ErbB signaling pathway",0.000456707902451555
-"14083","Ptk2","mmu04012","ErbB signaling pathway",0.000456707902451555
-"12575","Cdkn1a","mmu04012","ErbB signaling pathway",0.000456707902451555
-"12322","Camk2a","mmu04012","ErbB signaling pathway",0.000456707902451555
-"16653","Kras","mmu05160","Hepatitis C",0.000475043810801774
-"12028","Bax","mmu05160","Hepatitis C",0.000475043810801774
-"12367","Casp3","mmu05160","Hepatitis C",0.000475043810801774
-"20848","Stat3","mmu05160","Hepatitis C",0.000475043810801774
-"11651","Akt1","mmu05160","Hepatitis C",0.000475043810801774
-"15975","Ifnar1","mmu05160","Hepatitis C",0.000475043810801774
-"21926","Tnf","mmu05160","Hepatitis C",0.000475043810801774
-"12575","Cdkn1a","mmu05160","Hepatitis C",0.000475043810801774
-"18127","Nos3","mmu04611","Platelet activation",0.000574562672086447
-"16439","Itpr2","mmu04611","Platelet activation",0.000574562672086447
-"16412","Itgb1","mmu04611","Platelet activation",0.000574562672086447
-"11651","Akt1","mmu04611","Platelet activation",0.000574562672086447
-"20963","Syk","mmu04611","Platelet activation",0.000574562672086447
-"26416","Mapk14","mmu04611","Platelet activation",0.000574562672086447
-"19877","Rock1","mmu04611","Platelet activation",0.000574562672086447
-"18024","Nfe2l2","mmu05012","Parkinson disease",0.000706166039709309
-"16439","Itpr2","mmu05012","Parkinson disease",0.000706166039709309
-"12028","Bax","mmu05012","Parkinson disease",0.000706166039709309
-"12367","Casp3","mmu05012","Parkinson disease",0.000706166039709309
-"22152","Tubb3","mmu05012","Parkinson disease",0.000706166039709309
-"13489","Drd2","mmu05012","Parkinson disease",0.000706166039709309
-"17762","Mapt","mmu05012","Parkinson disease",0.000706166039709309
-"13488","Drd1","mmu05012","Parkinson disease",0.000706166039709309
-"20655","Sod1","mmu05012","Parkinson disease",0.000706166039709309
-"12322","Camk2a","mmu05012","Parkinson disease",0.000706166039709309
-"18127","Nos3","mmu04071","Sphingolipid signaling pathway",0.000706166039709309
-"16653","Kras","mmu04071","Sphingolipid signaling pathway",0.000706166039709309
-"12028","Bax","mmu04071","Sphingolipid signaling pathway",0.000706166039709309
-"11651","Akt1","mmu04071","Sphingolipid signaling pathway",0.000706166039709309
-"21926","Tnf","mmu04071","Sphingolipid signaling pathway",0.000706166039709309
-"26416","Mapk14","mmu04071","Sphingolipid signaling pathway",0.000706166039709309
-"19877","Rock1","mmu04071","Sphingolipid signaling pathway",0.000706166039709309
-"18127","Nos3","mmu04926","Relaxin signaling pathway",0.000706166039709309
-"16653","Kras","mmu04926","Relaxin signaling pathway",0.000706166039709309
-"18126","Nos2","mmu04926","Relaxin signaling pathway",0.000706166039709309
-"11651","Akt1","mmu04926","Relaxin signaling pathway",0.000706166039709309
-"26416","Mapk14","mmu04926","Relaxin signaling pathway",0.000706166039709309
-"22339","Vegfa","mmu04926","Relaxin signaling pathway",0.000706166039709309
-"17126","Smad2","mmu04926","Relaxin signaling pathway",0.000706166039709309
-"12389","Cav1","mmu05416","Viral myocarditis",0.000786983706934942
-"12367","Casp3","mmu05416","Viral myocarditis",0.000786983706934942
-"14960","H2-Aa","mmu05416","Viral myocarditis",0.000786983706934942
-"14961","H2-Ab1","mmu05416","Viral myocarditis",0.000786983706934942
-"14969","H2-Eb1","mmu05416","Viral myocarditis",0.000786983706934942
-"100504404","H2-Ea","mmu05416","Viral myocarditis",0.000786983706934942
-"14960","H2-Aa","mmu05330","Allograft rejection",0.000786983706934942
-"14961","H2-Ab1","mmu05330","Allograft rejection",0.000786983706934942
-"14969","H2-Eb1","mmu05330","Allograft rejection",0.000786983706934942
-"100504404","H2-Ea","mmu05330","Allograft rejection",0.000786983706934942
-"21926","Tnf","mmu05330","Allograft rejection",0.000786983706934942
-"18024","Nfe2l2","mmu05208","Chemical carcinogenesis - reactive oxygen species",0.000835650476347795
-"16653","Kras","mmu05208","Chemical carcinogenesis - reactive oxygen species",0.000835650476347795
-"15368","Hmox1","mmu05208","Chemical carcinogenesis - reactive oxygen species",0.000835650476347795
-"11651","Akt1","mmu05208","Chemical carcinogenesis - reactive oxygen species",0.000835650476347795
-"14083","Ptk2","mmu05208","Chemical carcinogenesis - reactive oxygen species",0.000835650476347795
-"20655","Sod1","mmu05208","Chemical carcinogenesis - reactive oxygen species",0.000835650476347795
-"20656","Sod2","mmu05208","Chemical carcinogenesis - reactive oxygen species",0.000835650476347795
-"26416","Mapk14","mmu05208","Chemical carcinogenesis - reactive oxygen species",0.000835650476347795
-"22339","Vegfa","mmu05208","Chemical carcinogenesis - reactive oxygen species",0.000835650476347795
-"16653","Kras","mmu04210","Apoptosis",0.000840463334193256
-"16439","Itpr2","mmu04210","Apoptosis",0.000840463334193256
-"12028","Bax","mmu04210","Apoptosis",0.000840463334193256
-"12367","Casp3","mmu04210","Apoptosis",0.000840463334193256
-"11920","Atm","mmu04210","Apoptosis",0.000840463334193256
-"11651","Akt1","mmu04210","Apoptosis",0.000840463334193256
-"21926","Tnf","mmu04210","Apoptosis",0.000840463334193256
-"21808","Tgfb2","mmu04380","Osteoclast differentiation",0.000840463334193256
-"16439","Itpr2","mmu04380","Osteoclast differentiation",0.000840463334193256
-"11651","Akt1","mmu04380","Osteoclast differentiation",0.000840463334193256
-"20963","Syk","mmu04380","Osteoclast differentiation",0.000840463334193256
-"15975","Ifnar1","mmu04380","Osteoclast differentiation",0.000840463334193256
-"21926","Tnf","mmu04380","Osteoclast differentiation",0.000840463334193256
-"26416","Mapk14","mmu04380","Osteoclast differentiation",0.000840463334193256
-"24088","Tlr2","mmu04145","Phagosome",0.000899331089003691
-"21898","Tlr4","mmu04145","Phagosome",0.000899331089003691
-"22152","Tubb3","mmu04145","Phagosome",0.000899331089003691
-"16412","Itgb1","mmu04145","Phagosome",0.000899331089003691
-"14960","H2-Aa","mmu04145","Phagosome",0.000899331089003691
-"14961","H2-Ab1","mmu04145","Phagosome",0.000899331089003691
-"14969","H2-Eb1","mmu04145","Phagosome",0.000899331089003691
-"100504404","H2-Ea","mmu04145","Phagosome",0.000899331089003691
-"16842","Lef1","mmu05217","Basal cell carcinoma",0.000937094715889128
-"12028","Bax","mmu05217","Basal cell carcinoma",0.000937094715889128
-"14634","Gli3","mmu05217","Basal cell carcinoma",0.000937094715889128
-"14368","Fzd6","mmu05217","Basal cell carcinoma",0.000937094715889128
-"12575","Cdkn1a","mmu05217","Basal cell carcinoma",0.000937094715889128
-"16653","Kras","mmu04664","Fc epsilon RI signaling pathway",0.00115381130531234
-"11651","Akt1","mmu04664","Fc epsilon RI signaling pathway",0.00115381130531234
-"20963","Syk","mmu04664","Fc epsilon RI signaling pathway",0.00115381130531234
-"21926","Tnf","mmu04664","Fc epsilon RI signaling pathway",0.00115381130531234
-"26416","Mapk14","mmu04664","Fc epsilon RI signaling pathway",0.00115381130531234
-"56717","Mtor","mmu05230","Central carbon metabolism in cancer",0.00140526405624797
-"16653","Kras","mmu05230","Central carbon metabolism in cancer",0.00140526405624797
-"18746","Pkm","mmu05230","Central carbon metabolism in cancer",0.00140526405624797
-"11651","Akt1","mmu05230","Central carbon metabolism in cancer",0.00140526405624797
-"18596","Pdgfrb","mmu05230","Central carbon metabolism in cancer",0.00140526405624797
-"21808","Tgfb2","mmu05211","Renal cell carcinoma",0.00148672688170173
-"16653","Kras","mmu05211","Renal cell carcinoma",0.00148672688170173
-"11651","Akt1","mmu05211","Renal cell carcinoma",0.00148672688170173
-"12575","Cdkn1a","mmu05211","Renal cell carcinoma",0.00148672688170173
-"22339","Vegfa","mmu05211","Renal cell carcinoma",0.00148672688170173
-"226519","Lamc1","mmu04510","Focal adhesion",0.00164537328876542
-"12389","Cav1","mmu04510","Focal adhesion",0.00164537328876542
-"16412","Itgb1","mmu04510","Focal adhesion",0.00164537328876542
-"11651","Akt1","mmu04510","Focal adhesion",0.00164537328876542
-"14083","Ptk2","mmu04510","Focal adhesion",0.00164537328876542
-"22339","Vegfa","mmu04510","Focal adhesion",0.00164537328876542
-"19877","Rock1","mmu04510","Focal adhesion",0.00164537328876542
-"18596","Pdgfrb","mmu04510","Focal adhesion",0.00164537328876542
-"16653","Kras","mmu05223","Non-small cell lung cancer",0.00164537328876542
-"12028","Bax","mmu05223","Non-small cell lung cancer",0.00164537328876542
-"20848","Stat3","mmu05223","Non-small cell lung cancer",0.00164537328876542
-"11651","Akt1","mmu05223","Non-small cell lung cancer",0.00164537328876542
-"12575","Cdkn1a","mmu05223","Non-small cell lung cancer",0.00164537328876542
-"18127","Nos3","mmu04921","Oxytocin signaling pathway",0.00164537328876542
-"16653","Kras","mmu04921","Oxytocin signaling pathway",0.00164537328876542
-"16439","Itpr2","mmu04921","Oxytocin signaling pathway",0.00164537328876542
-"54720","Rcan1","mmu04921","Oxytocin signaling pathway",0.00164537328876542
-"12575","Cdkn1a","mmu04921","Oxytocin signaling pathway",0.00164537328876542
-"19877","Rock1","mmu04921","Oxytocin signaling pathway",0.00164537328876542
-"12322","Camk2a","mmu04921","Oxytocin signaling pathway",0.00164537328876542
-"16653","Kras","mmu05219","Bladder cancer",0.00170334714962642
-"12550","Cdh1","mmu05219","Bladder cancer",0.00170334714962642
-"12575","Cdkn1a","mmu05219","Bladder cancer",0.00170334714962642
-"22339","Vegfa","mmu05219","Bladder cancer",0.00170334714962642
-"21808","Tgfb2","mmu04350","TGF-beta signaling pathway",0.00175371977085997
-"15902","Id2","mmu04350","TGF-beta signaling pathway",0.00175371977085997
-"21926","Tnf","mmu04350","TGF-beta signaling pathway",0.00175371977085997
-"19877","Rock1","mmu04350","TGF-beta signaling pathway",0.00175371977085997
-"17131","Smad7","mmu04350","TGF-beta signaling pathway",0.00175371977085997
-"17126","Smad2","mmu04350","TGF-beta signaling pathway",0.00175371977085997
-"21808","Tgfb2","mmu04390","Hippo signaling pathway",0.00186171714294369
-"16842","Lef1","mmu04390","Hippo signaling pathway",0.00186171714294369
-"12550","Cdh1","mmu04390","Hippo signaling pathway",0.00186171714294369
-"15902","Id2","mmu04390","Hippo signaling pathway",0.00186171714294369
-"14368","Fzd6","mmu04390","Hippo signaling pathway",0.00186171714294369
-"17131","Smad7","mmu04390","Hippo signaling pathway",0.00186171714294369
-"17126","Smad2","mmu04390","Hippo signaling pathway",0.00186171714294369
-"16653","Kras","mmu04725","Cholinergic synapse",0.0018889108523021
-"16439","Itpr2","mmu04725","Cholinergic synapse",0.0018889108523021
-"110834","Chrna3","mmu04725","Cholinergic synapse",0.0018889108523021
-"108015","Chrnb4","mmu04725","Cholinergic synapse",0.0018889108523021
-"11651","Akt1","mmu04725","Cholinergic synapse",0.0018889108523021
-"12322","Camk2a","mmu04725","Cholinergic synapse",0.0018889108523021
-"21808","Tgfb2","mmu05220","Chronic myeloid leukemia",0.00200473341286349
-"16653","Kras","mmu05220","Chronic myeloid leukemia",0.00200473341286349
-"12028","Bax","mmu05220","Chronic myeloid leukemia",0.00200473341286349
-"11651","Akt1","mmu05220","Chronic myeloid leukemia",0.00200473341286349
-"12575","Cdkn1a","mmu05220","Chronic myeloid leukemia",0.00200473341286349
-"16847","Lepr","mmu04932","Non-alcoholic fatty liver disease",0.00209860660553035
-"16193","Il6","mmu04932","Non-alcoholic fatty liver disease",0.00209860660553035
-"12028","Bax","mmu04932","Non-alcoholic fatty liver disease",0.00209860660553035
-"12367","Casp3","mmu04932","Non-alcoholic fatty liver disease",0.00209860660553035
-"11651","Akt1","mmu04932","Non-alcoholic fatty liver disease",0.00209860660553035
-"21926","Tnf","mmu04932","Non-alcoholic fatty liver disease",0.00209860660553035
-"26416","Mapk14","mmu04932","Non-alcoholic fatty liver disease",0.00209860660553035
-"56458","Foxo1","mmu04919","Thyroid hormone signaling pathway",0.0024065814560293
-"56717","Mtor","mmu04919","Thyroid hormone signaling pathway",0.0024065814560293
-"16653","Kras","mmu04919","Thyroid hormone signaling pathway",0.0024065814560293
-"11651","Akt1","mmu04919","Thyroid hormone signaling pathway",0.0024065814560293
-"54720","Rcan1","mmu04919","Thyroid hormone signaling pathway",0.0024065814560293
-"18132","Notch4","mmu04919","Thyroid hormone signaling pathway",0.0024065814560293
-"21808","Tgfb2","mmu05415","Diabetic cardiomyopathy",0.00240801719037864
-"56717","Mtor","mmu05415","Diabetic cardiomyopathy",0.00240801719037864
-"18127","Nos3","mmu05415","Diabetic cardiomyopathy",0.00240801719037864
-"11651","Akt1","mmu05415","Diabetic cardiomyopathy",0.00240801719037864
-"11596","Ager","mmu05415","Diabetic cardiomyopathy",0.00240801719037864
-"26416","Mapk14","mmu05415","Diabetic cardiomyopathy",0.00240801719037864
-"12322","Camk2a","mmu05415","Diabetic cardiomyopathy",0.00240801719037864
-"17126","Smad2","mmu05415","Diabetic cardiomyopathy",0.00240801719037864
-"12028","Bax","mmu01524","Platinum drug resistance",0.00258264562778899
-"12367","Casp3","mmu01524","Platinum drug resistance",0.00258264562778899
-"11920","Atm","mmu01524","Platinum drug resistance",0.00258264562778899
-"11651","Akt1","mmu01524","Platinum drug resistance",0.00258264562778899
-"12575","Cdkn1a","mmu01524","Platinum drug resistance",0.00258264562778899
-"56338","Txnip","mmu04621","NOD-like receptor signaling pathway",0.00258477609698314
-"21898","Tlr4","mmu04621","NOD-like receptor signaling pathway",0.00258477609698314
-"16193","Il6","mmu04621","NOD-like receptor signaling pathway",0.00258477609698314
-"16439","Itpr2","mmu04621","NOD-like receptor signaling pathway",0.00258477609698314
-"20296","Ccl2","mmu04621","NOD-like receptor signaling pathway",0.00258477609698314
-"15975","Ifnar1","mmu04621","NOD-like receptor signaling pathway",0.00258477609698314
-"21926","Tnf","mmu04621","NOD-like receptor signaling pathway",0.00258477609698314
-"26416","Mapk14","mmu04621","NOD-like receptor signaling pathway",0.00258477609698314
-"24088","Tlr2","mmu05171","Coronavirus disease - COVID-19",0.00259957461678422
-"21898","Tlr4","mmu05171","Coronavirus disease - COVID-19",0.00259957461678422
-"16193","Il6","mmu05171","Coronavirus disease - COVID-19",0.00259957461678422
-"20296","Ccl2","mmu05171","Coronavirus disease - COVID-19",0.00259957461678422
-"20848","Stat3","mmu05171","Coronavirus disease - COVID-19",0.00259957461678422
-"20963","Syk","mmu05171","Coronavirus disease - COVID-19",0.00259957461678422
-"50528","Tmprss2","mmu05171","Coronavirus disease - COVID-19",0.00259957461678422
-"15975","Ifnar1","mmu05171","Coronavirus disease - COVID-19",0.00259957461678422
-"21926","Tnf","mmu05171","Coronavirus disease - COVID-19",0.00259957461678422
-"26416","Mapk14","mmu05171","Coronavirus disease - COVID-19",0.00259957461678422
-"14645","Glul","mmu00220","Arginine biosynthesis",0.00265097482363907
-"18127","Nos3","mmu00220","Arginine biosynthesis",0.00265097482363907
-"18126","Nos2","mmu00220","Arginine biosynthesis",0.00265097482363907
-"12290","Cacna1e","mmu04930","Type II diabetes mellitus",0.00277925284921331
-"56717","Mtor","mmu04930","Type II diabetes mellitus",0.00277925284921331
-"18746","Pkm","mmu04930","Type II diabetes mellitus",0.00277925284921331
-"21926","Tnf","mmu04930","Type II diabetes mellitus",0.00277925284921331
-"56458","Foxo1","mmu04152","AMPK signaling pathway",0.00303472474752956
-"16847","Lepr","mmu04152","AMPK signaling pathway",0.00303472474752956
-"56717","Mtor","mmu04152","AMPK signaling pathway",0.00303472474752956
-"19017","Ppargc1a","mmu04152","AMPK signaling pathway",0.00303472474752956
-"93759","Sirt1","mmu04152","AMPK signaling pathway",0.00303472474752956
-"11651","Akt1","mmu04152","AMPK signaling pathway",0.00303472474752956
-"16653","Kras","mmu05203","Viral carcinogenesis",0.00311363967770061
-"12028","Bax","mmu05203","Viral carcinogenesis",0.00311363967770061
-"12367","Casp3","mmu05203","Viral carcinogenesis",0.00311363967770061
-"18746","Pkm","mmu05203","Viral carcinogenesis",0.00311363967770061
-"12534","Cdk1","mmu05203","Viral carcinogenesis",0.00311363967770061
-"20848","Stat3","mmu05203","Viral carcinogenesis",0.00311363967770061
-"20963","Syk","mmu05203","Viral carcinogenesis",0.00311363967770061
-"12575","Cdkn1a","mmu05203","Viral carcinogenesis",0.00311363967770061
-"14645","Glul","mmu04217","Necroptosis",0.00322488967197477
-"21898","Tlr4","mmu04217","Necroptosis",0.00322488967197477
-"12028","Bax","mmu04217","Necroptosis",0.00322488967197477
-"20848","Stat3","mmu04217","Necroptosis",0.00322488967197477
-"15975","Ifnar1","mmu04217","Necroptosis",0.00322488967197477
-"21926","Tnf","mmu04217","Necroptosis",0.00322488967197477
-"12322","Camk2a","mmu04217","Necroptosis",0.00322488967197477
-"56717","Mtor","mmu05207","Chemical carcinogenesis - receptor activation",0.00332800125178809
-"16653","Kras","mmu05207","Chemical carcinogenesis - receptor activation",0.00332800125178809
-"110834","Chrna3","mmu05207","Chemical carcinogenesis - receptor activation",0.00332800125178809
-"108015","Chrnb4","mmu05207","Chemical carcinogenesis - receptor activation",0.00332800125178809
-"20848","Stat3","mmu05207","Chemical carcinogenesis - receptor activation",0.00332800125178809
-"11651","Akt1","mmu05207","Chemical carcinogenesis - receptor activation",0.00332800125178809
-"22339","Vegfa","mmu05207","Chemical carcinogenesis - receptor activation",0.00332800125178809
-"14179","Fgf8","mmu05207","Chemical carcinogenesis - receptor activation",0.00332800125178809
-"14960","H2-Aa","mmu04658","Th1 and Th2 cell differentiation",0.0034647169338518
-"14961","H2-Ab1","mmu04658","Th1 and Th2 cell differentiation",0.0034647169338518
-"14969","H2-Eb1","mmu04658","Th1 and Th2 cell differentiation",0.0034647169338518
-"100504404","H2-Ea","mmu04658","Th1 and Th2 cell differentiation",0.0034647169338518
-"26416","Mapk14","mmu04658","Th1 and Th2 cell differentiation",0.0034647169338518
-"12550","Cdh1","mmu04514","Cell adhesion molecule (CAM) interaction",0.00357799727548911
-"16412","Itgb1","mmu04514","Cell adhesion molecule (CAM) interaction",0.00357799727548911
-"14960","H2-Aa","mmu04514","Cell adhesion molecule (CAM) interaction",0.00357799727548911
-"14961","H2-Ab1","mmu04514","Cell adhesion molecule (CAM) interaction",0.00357799727548911
-"14969","H2-Eb1","mmu04514","Cell adhesion molecule (CAM) interaction",0.00357799727548911
-"100504404","H2-Ea","mmu04514","Cell adhesion molecule (CAM) interaction",0.00357799727548911
-"12558","Cdh2","mmu04514","Cell adhesion molecule (CAM) interaction",0.00357799727548911
-"21808","Tgfb2","mmu04060","Cytokine-cytokine receptor interaction",0.00376989762196669
-"16847","Lepr","mmu04060","Cytokine-cytokine receptor interaction",0.00376989762196669
-"16193","Il6","mmu04060","Cytokine-cytokine receptor interaction",0.00376989762196669
-"20296","Ccl2","mmu04060","Cytokine-cytokine receptor interaction",0.00376989762196669
-"18053","Ngfr","mmu04060","Cytokine-cytokine receptor interaction",0.00376989762196669
-"15975","Ifnar1","mmu04060","Cytokine-cytokine receptor interaction",0.00376989762196669
-"21926","Tnf","mmu04060","Cytokine-cytokine receptor interaction",0.00376989762196669
-"16992","Lta","mmu04060","Cytokine-cytokine receptor interaction",0.00376989762196669
-"12982","Csf2ra","mmu04060","Cytokine-cytokine receptor interaction",0.00376989762196669
-"18127","Nos3","mmu04915","Estrogen signaling pathway",0.00376989762196669
-"16653","Kras","mmu04915","Estrogen signaling pathway",0.00376989762196669
-"16439","Itpr2","mmu04915","Estrogen signaling pathway",0.00376989762196669
-"11651","Akt1","mmu04915","Estrogen signaling pathway",0.00376989762196669
-"193740","Hspa1a","mmu04915","Estrogen signaling pathway",0.00376989762196669
-"15511","Hspa1b","mmu04915","Estrogen signaling pathway",0.00376989762196669
-"16439","Itpr2","mmu04728","Dopaminergic synapse",0.00418907344941646
-"13489","Drd2","mmu04728","Dopaminergic synapse",0.00418907344941646
-"11651","Akt1","mmu04728","Dopaminergic synapse",0.00418907344941646
-"13488","Drd1","mmu04728","Dopaminergic synapse",0.00418907344941646
-"26416","Mapk14","mmu04728","Dopaminergic synapse",0.00418907344941646
-"12322","Camk2a","mmu04728","Dopaminergic synapse",0.00418907344941646
-"12064","Bdnf","mmu05016","Huntington disease",0.00508831710858197
-"56717","Mtor","mmu05016","Huntington disease",0.00508831710858197
-"19017","Ppargc1a","mmu05016","Huntington disease",0.00508831710858197
-"15194","Htt","mmu05016","Huntington disease",0.00508831710858197
-"12028","Bax","mmu05016","Huntington disease",0.00508831710858197
-"12367","Casp3","mmu05016","Huntington disease",0.00508831710858197
-"22152","Tubb3","mmu05016","Huntington disease",0.00508831710858197
-"20655","Sod1","mmu05016","Huntington disease",0.00508831710858197
-"20656","Sod2","mmu05016","Huntington disease",0.00508831710858197
-"16653","Kras","mmu04062","Chemokine signaling pathway",0.00511338183940434
-"20296","Ccl2","mmu04062","Chemokine signaling pathway",0.00511338183940434
-"20848","Stat3","mmu04062","Chemokine signaling pathway",0.00511338183940434
-"11651","Akt1","mmu04062","Chemokine signaling pathway",0.00511338183940434
-"14083","Ptk2","mmu04062","Chemokine signaling pathway",0.00511338183940434
-"19877","Rock1","mmu04062","Chemokine signaling pathway",0.00511338183940434
-"14773","Grk5","mmu04062","Chemokine signaling pathway",0.00511338183940434
-"16193","Il6","mmu04657","IL-17 signaling pathway",0.00527684483406564
-"12367","Casp3","mmu04657","IL-17 signaling pathway",0.00527684483406564
-"20296","Ccl2","mmu04657","IL-17 signaling pathway",0.00527684483406564
-"21926","Tnf","mmu04657","IL-17 signaling pathway",0.00527684483406564
-"26416","Mapk14","mmu04657","IL-17 signaling pathway",0.00527684483406564
-"19220","Ptgfr","mmu04072","Phospholipase D signaling pathway",0.00621117158594319
-"56717","Mtor","mmu04072","Phospholipase D signaling pathway",0.00621117158594319
-"16653","Kras","mmu04072","Phospholipase D signaling pathway",0.00621117158594319
-"11651","Akt1","mmu04072","Phospholipase D signaling pathway",0.00621117158594319
-"20963","Syk","mmu04072","Phospholipase D signaling pathway",0.00621117158594319
-"18596","Pdgfrb","mmu04072","Phospholipase D signaling pathway",0.00621117158594319
-"24088","Tlr2","mmu04613","Neutrophil extracellular trap formation",0.00756828724671403
-"21898","Tlr4","mmu04613","Neutrophil extracellular trap formation",0.00756828724671403
-"56717","Mtor","mmu04613","Neutrophil extracellular trap formation",0.00756828724671403
-"11651","Akt1","mmu04613","Neutrophil extracellular trap formation",0.00756828724671403
-"20963","Syk","mmu04613","Neutrophil extracellular trap formation",0.00756828724671403
-"11596","Ager","mmu04613","Neutrophil extracellular trap formation",0.00756828724671403
-"26416","Mapk14","mmu04613","Neutrophil extracellular trap formation",0.00756828724671403
-"21898","Tlr4","mmu04064","NF-kappa B signaling pathway",0.00756828724671403
-"11920","Atm","mmu04064","NF-kappa B signaling pathway",0.00756828724671403
-"20963","Syk","mmu04064","NF-kappa B signaling pathway",0.00756828724671403
-"21926","Tnf","mmu04064","NF-kappa B signaling pathway",0.00756828724671403
-"16992","Lta","mmu04064","NF-kappa B signaling pathway",0.00756828724671403
-"21808","Tgfb2","mmu04110","Cell cycle",0.00787815988518078
-"11920","Atm","mmu04110","Cell cycle",0.00787815988518078
-"245000","Atr","mmu04110","Cell cycle",0.00787815988518078
-"12534","Cdk1","mmu04110","Cell cycle",0.00787815988518078
-"12575","Cdkn1a","mmu04110","Cell cycle",0.00787815988518078
-"17126","Smad2","mmu04110","Cell cycle",0.00787815988518078
-"12028","Bax","mmu04215","Apoptosis - multiple species",0.00790028467341776
-"12367","Casp3","mmu04215","Apoptosis - multiple species",0.00790028467341776
-"18053","Ngfr","mmu04215","Apoptosis - multiple species",0.00790028467341776
-"93759","Sirt1","mmu05031","Amphetamine addiction",0.00919412813659892
-"13488","Drd1","mmu05031","Amphetamine addiction",0.00919412813659892
-"11838","Arc","mmu05031","Amphetamine addiction",0.00919412813659892
-"12322","Camk2a","mmu05031","Amphetamine addiction",0.00919412813659892
-"12367","Casp3","mmu04148","Efferocytosis",0.00926567177895018
-"93759","Sirt1","mmu04148","Efferocytosis",0.00926567177895018
-"14083","Ptk2","mmu04148","Efferocytosis",0.00926567177895018
-"11596","Ager","mmu04148","Efferocytosis",0.00926567177895018
-"26416","Mapk14","mmu04148","Efferocytosis",0.00926567177895018
-"12322","Camk2a","mmu04148","Efferocytosis",0.00926567177895018
-"12064","Bdnf","mmu04024","cAMP signaling pathway",0.010637072398222
-"13489","Drd2","mmu04024","cAMP signaling pathway",0.010637072398222
-"11651","Akt1","mmu04024","cAMP signaling pathway",0.010637072398222
-"13488","Drd1","mmu04024","cAMP signaling pathway",0.010637072398222
-"14634","Gli3","mmu04024","cAMP signaling pathway",0.010637072398222
-"19877","Rock1","mmu04024","cAMP signaling pathway",0.010637072398222
-"12322","Camk2a","mmu04024","cAMP signaling pathway",0.010637072398222
-"16653","Kras","mmu04917","Prolactin signaling pathway",0.0115568637140295
-"20848","Stat3","mmu04917","Prolactin signaling pathway",0.0115568637140295
-"11651","Akt1","mmu04917","Prolactin signaling pathway",0.0115568637140295
-"26416","Mapk14","mmu04917","Prolactin signaling pathway",0.0115568637140295
-"16653","Kras","mmu04650","Natural killer cell mediated cytotoxicity",0.0117287925342459
-"12367","Casp3","mmu04650","Natural killer cell mediated cytotoxicity",0.0117287925342459
-"20963","Syk","mmu04650","Natural killer cell mediated cytotoxicity",0.0117287925342459
-"15975","Ifnar1","mmu04650","Natural killer cell mediated cytotoxicity",0.0117287925342459
-"21926","Tnf","mmu04650","Natural killer cell mediated cytotoxicity",0.0117287925342459
-"14960","H2-Aa","mmu05320","Autoimmune thyroid disease",0.0125209631686513
-"14961","H2-Ab1","mmu05320","Autoimmune thyroid disease",0.0125209631686513
-"14969","H2-Eb1","mmu05320","Autoimmune thyroid disease",0.0125209631686513
-"100504404","H2-Ea","mmu05320","Autoimmune thyroid disease",0.0125209631686513
-"12389","Cav1","mmu05100","Bacterial invasion of epithelial cells",0.013019689219899
-"12550","Cdh1","mmu05100","Bacterial invasion of epithelial cells",0.013019689219899
-"16412","Itgb1","mmu05100","Bacterial invasion of epithelial cells",0.013019689219899
-"14083","Ptk2","mmu05100","Bacterial invasion of epithelial cells",0.013019689219899
-"16193","Il6","mmu05143","African trypanosomiasis",0.0130876467908903
-"14063","F2rl1","mmu05143","African trypanosomiasis",0.0130876467908903
-"21926","Tnf","mmu05143","African trypanosomiasis",0.0130876467908903
-"16653","Kras","mmu04810","Regulation of actin cytoskeleton",0.0131945775645272
-"16412","Itgb1","mmu04810","Regulation of actin cytoskeleton",0.0131945775645272
-"11651","Akt1","mmu04810","Regulation of actin cytoskeleton",0.0131945775645272
-"14083","Ptk2","mmu04810","Regulation of actin cytoskeleton",0.0131945775645272
-"19877","Rock1","mmu04810","Regulation of actin cytoskeleton",0.0131945775645272
-"18596","Pdgfrb","mmu04810","Regulation of actin cytoskeleton",0.0131945775645272
-"14179","Fgf8","mmu04810","Regulation of actin cytoskeleton",0.0131945775645272
-"12064","Bdnf","mmu04014","Ras signaling pathway",0.0137100593774779
-"16653","Kras","mmu04014","Ras signaling pathway",0.0137100593774779
-"18053","Ngfr","mmu04014","Ras signaling pathway",0.0137100593774779
-"11651","Akt1","mmu04014","Ras signaling pathway",0.0137100593774779
-"22339","Vegfa","mmu04014","Ras signaling pathway",0.0137100593774779
-"18596","Pdgfrb","mmu04014","Ras signaling pathway",0.0137100593774779
-"14179","Fgf8","mmu04014","Ras signaling pathway",0.0137100593774779
-"56458","Foxo1","mmu04517","IgSF CAM signaling",0.0138353199962864
-"12550","Cdh1","mmu04517","IgSF CAM signaling",0.0138353199962864
-"22152","Tubb3","mmu04517","IgSF CAM signaling",0.0138353199962864
-"16412","Itgb1","mmu04517","IgSF CAM signaling",0.0138353199962864
-"11651","Akt1","mmu04517","IgSF CAM signaling",0.0138353199962864
-"14083","Ptk2","mmu04517","IgSF CAM signaling",0.0138353199962864
-"26416","Mapk14","mmu04517","IgSF CAM signaling",0.0138353199962864
-"12558","Cdh2","mmu04517","IgSF CAM signaling",0.0138353199962864
-"16439","Itpr2","mmu04750","Inflammatory mediator regulation of TRP channels",0.0155986170278011
-"193034","Trpv1","mmu04750","Inflammatory mediator regulation of TRP channels",0.0155986170278011
-"14063","F2rl1","mmu04750","Inflammatory mediator regulation of TRP channels",0.0155986170278011
-"26416","Mapk14","mmu04750","Inflammatory mediator regulation of TRP channels",0.0155986170278011
-"12322","Camk2a","mmu04750","Inflammatory mediator regulation of TRP channels",0.0155986170278011
-"56458","Foxo1","mmu04910","Insulin signaling pathway",0.0210277894601657
-"56717","Mtor","mmu04910","Insulin signaling pathway",0.0210277894601657
-"19017","Ppargc1a","mmu04910","Insulin signaling pathway",0.0210277894601657
-"16653","Kras","mmu04910","Insulin signaling pathway",0.0210277894601657
-"11651","Akt1","mmu04910","Insulin signaling pathway",0.0210277894601657
-"19220","Ptgfr","mmu04080","Neuroactive ligand-receptor interaction",0.0210277894601657
-"16847","Lepr","mmu04080","Neuroactive ligand-receptor interaction",0.0210277894601657
-"13489","Drd2","mmu04080","Neuroactive ligand-receptor interaction",0.0210277894601657
-"110834","Chrna3","mmu04080","Neuroactive ligand-receptor interaction",0.0210277894601657
-"110835","Chrna5","mmu04080","Neuroactive ligand-receptor interaction",0.0210277894601657
-"108015","Chrnb4","mmu04080","Neuroactive ligand-receptor interaction",0.0210277894601657
-"193034","Trpv1","mmu04080","Neuroactive ligand-receptor interaction",0.0210277894601657
-"13488","Drd1","mmu04080","Neuroactive ligand-receptor interaction",0.0210277894601657
-"14063","F2rl1","mmu04080","Neuroactive ligand-receptor interaction",0.0210277894601657
-"16653","Kras","mmu04912","GnRH signaling pathway",0.0212397766766301
-"16439","Itpr2","mmu04912","GnRH signaling pathway",0.0212397766766301
-"26416","Mapk14","mmu04912","GnRH signaling pathway",0.0212397766766301
-"12322","Camk2a","mmu04912","GnRH signaling pathway",0.0212397766766301
-"12064","Bdnf","mmu05030","Cocaine addiction",0.0220647585828961
-"13489","Drd2","mmu05030","Cocaine addiction",0.0220647585828961
-"13488","Drd1","mmu05030","Cocaine addiction",0.0220647585828961
-"16653","Kras","mmu04914","Progesterone-mediated oocyte maturation",0.0234517446929464
-"12534","Cdk1","mmu04914","Progesterone-mediated oocyte maturation",0.0234517446929464
-"11651","Akt1","mmu04914","Progesterone-mediated oocyte maturation",0.0234517446929464
-"26416","Mapk14","mmu04914","Progesterone-mediated oocyte maturation",0.0234517446929464
-"16193","Il6","mmu04061","Viral protein interaction with cytokine and cytokine receptor",0.0250530462994073
-"20296","Ccl2","mmu04061","Viral protein interaction with cytokine and cytokine receptor",0.0250530462994073
-"21926","Tnf","mmu04061","Viral protein interaction with cytokine and cytokine receptor",0.0250530462994073
-"16992","Lta","mmu04061","Viral protein interaction with cytokine and cytokine receptor",0.0250530462994073
-"12389","Cav1","mmu04144","Endocytosis",0.0255377769157718
-"18854","Pml","mmu04144","Endocytosis",0.0255377769157718
-"53869","Rab11a","mmu04144","Endocytosis",0.0255377769157718
-"193740","Hspa1a","mmu04144","Endocytosis",0.0255377769157718
-"15511","Hspa1b","mmu04144","Endocytosis",0.0255377769157718
-"17126","Smad2","mmu04144","Endocytosis",0.0255377769157718
-"14773","Grk5","mmu04144","Endocytosis",0.0255377769157718
-"14960","H2-Aa","mmu05322","Systemic lupus erythematosus",0.0265130629203631
-"14961","H2-Ab1","mmu05322","Systemic lupus erythematosus",0.0265130629203631
-"14969","H2-Eb1","mmu05322","Systemic lupus erythematosus",0.0265130629203631
-"100504404","H2-Ea","mmu05322","Systemic lupus erythematosus",0.0265130629203631
-"21926","Tnf","mmu05322","Systemic lupus erythematosus",0.0265130629203631
-"56717","Mtor","mmu05231","Choline metabolism in cancer",0.0272915476115819
-"16653","Kras","mmu05231","Choline metabolism in cancer",0.0272915476115819
-"11651","Akt1","mmu05231","Choline metabolism in cancer",0.0272915476115819
-"18596","Pdgfrb","mmu05231","Choline metabolism in cancer",0.0272915476115819
-"16842","Lef1","mmu04916","Melanogenesis",0.0288383377507711
-"16653","Kras","mmu04916","Melanogenesis",0.0288383377507711
-"14368","Fzd6","mmu04916","Melanogenesis",0.0288383377507711
-"12322","Camk2a","mmu04916","Melanogenesis",0.0288383377507711
-"21808","Tgfb2","mmu05410","Hypertrophic cardiomyopathy",0.0288383377507711
-"16193","Il6","mmu05410","Hypertrophic cardiomyopathy",0.0288383377507711
-"16412","Itgb1","mmu05410","Hypertrophic cardiomyopathy",0.0288383377507711
-"21926","Tnf","mmu05410","Hypertrophic cardiomyopathy",0.0288383377507711
-"56717","Mtor","mmu04150","mTOR signaling pathway",0.0317644422851874
-"16653","Kras","mmu04150","mTOR signaling pathway",0.0317644422851874
-"11651","Akt1","mmu04150","mTOR signaling pathway",0.0317644422851874
-"14368","Fzd6","mmu04150","mTOR signaling pathway",0.0317644422851874
-"21926","Tnf","mmu04150","mTOR signaling pathway",0.0317644422851874
-"16842","Lef1","mmu04934","Cushing syndrome",0.0348319731106895
-"16439","Itpr2","mmu04934","Cushing syndrome",0.0348319731106895
-"14368","Fzd6","mmu04934","Cushing syndrome",0.0348319731106895
-"12575","Cdkn1a","mmu04934","Cushing syndrome",0.0348319731106895
-"12322","Camk2a","mmu04934","Cushing syndrome",0.0348319731106895
-"16653","Kras","mmu04929","GnRH secretion",0.0430033751144748
-"16439","Itpr2","mmu04929","GnRH secretion",0.0430033751144748
-"11651","Akt1","mmu04929","GnRH secretion",0.0430033751144748
-"56717","Mtor","mmu05014","Amyotrophic lateral sclerosis",0.044304391190643
-"12028","Bax","mmu05014","Amyotrophic lateral sclerosis",0.044304391190643
-"12367","Casp3","mmu05014","Amyotrophic lateral sclerosis",0.044304391190643
-"22152","Tubb3","mmu05014","Amyotrophic lateral sclerosis",0.044304391190643
-"18126","Nos2","mmu05014","Amyotrophic lateral sclerosis",0.044304391190643
-"20655","Sod1","mmu05014","Amyotrophic lateral sclerosis",0.044304391190643
-"21926","Tnf","mmu05014","Amyotrophic lateral sclerosis",0.044304391190643
-"26416","Mapk14","mmu05014","Amyotrophic lateral sclerosis",0.044304391190643
-"16842","Lef1","mmu04310","Wnt signaling pathway",0.0461259035889598
-"93759","Sirt1","mmu04310","Wnt signaling pathway",0.0461259035889598
-"19164","Psen1","mmu04310","Wnt signaling pathway",0.0461259035889598
-"14368","Fzd6","mmu04310","Wnt signaling pathway",0.0461259035889598
-"12322","Camk2a","mmu04310","Wnt signaling pathway",0.0461259035889598
-"18024","Nfe2l2","mmu04141","Protein processing in endoplasmic reticulum",0.0489168231977448
-"12028","Bax","mmu04141","Protein processing in endoplasmic reticulum",0.0489168231977448
-"12955","Cryab","mmu04141","Protein processing in endoplasmic reticulum",0.0489168231977448
-"193740","Hspa1a","mmu04141","Protein processing in endoplasmic reticulum",0.0489168231977448
-"15511","Hspa1b","mmu04141","Protein processing in endoplasmic reticulum",0.0489168231977448
-"16412","Itgb1","mmu04670","Leukocyte transendothelial migration",0.0489669135125899
-"14083","Ptk2","mmu04670","Leukocyte transendothelial migration",0.0489669135125899
-"26416","Mapk14","mmu04670","Leukocyte transendothelial migration",0.0489669135125899
-"19877","Rock1","mmu04670","Leukocyte transendothelial migration",0.0489669135125899
-"16653","Kras","mmu04720","Long-term potentiation",0.0489669135125899
-"16439","Itpr2","mmu04720","Long-term potentiation",0.0489669135125899
-"12322","Camk2a","mmu04720","Long-term potentiation",0.0489669135125899
+"12578","Cdkn2a","mmu05166","Human T-cell leukemia virus 1 infection",8.03561535264883e-06
+"12579","Cdkn2b","mmu05166","Human T-cell leukemia virus 1 infection",8.03561535264883e-06
+"17869","Myc","mmu05166","Human T-cell leukemia virus 1 infection",8.03561535264883e-06
+"21926","Tnf","mmu05166","Human T-cell leukemia virus 1 infection",8.03561535264883e-06
+"16992","Lta","mmu05166","Human T-cell leukemia virus 1 infection",8.03561535264883e-06
+"16476","Jun","mmu05166","Human T-cell leukemia virus 1 infection",8.03561535264883e-06
+"19211","Pten","mmu05166","Human T-cell leukemia virus 1 infection",8.03561535264883e-06
+"20850","Stat5a","mmu05166","Human T-cell leukemia virus 1 infection",8.03561535264883e-06
+"20851","Stat5b","mmu05166","Human T-cell leukemia virus 1 infection",8.03561535264883e-06
+"11514","Adcy8","mmu05166","Human T-cell leukemia virus 1 infection",8.03561535264883e-06
+"20525","Slc2a1","mmu05166","Human T-cell leukemia virus 1 infection",8.03561535264883e-06
+"20848","Stat3","mmu05221","Acute myeloid leukemia",0.00296860043582797
+"17869","Myc","mmu05221","Acute myeloid leukemia",0.00296860043582797
+"12394","Runx1","mmu05221","Acute myeloid leukemia",0.00296860043582797
+"20850","Stat5a","mmu05221","Acute myeloid leukemia",0.00296860043582797
+"20851","Stat5b","mmu05221","Acute myeloid leukemia",0.00296860043582797
+"12578","Cdkn2a","mmu05223","Non-small cell lung cancer",0.00296860043582797
+"20848","Stat3","mmu05223","Non-small cell lung cancer",0.00296860043582797
+"17295","Met","mmu05223","Non-small cell lung cancer",0.00296860043582797
+"20850","Stat5a","mmu05223","Non-small cell lung cancer",0.00296860043582797
+"20851","Stat5b","mmu05223","Non-small cell lung cancer",0.00296860043582797
+"12578","Cdkn2a","mmu05220","Chronic myeloid leukemia",0.00296860043582797
+"17869","Myc","mmu05220","Chronic myeloid leukemia",0.00296860043582797
+"12394","Runx1","mmu05220","Chronic myeloid leukemia",0.00296860043582797
+"20850","Stat5a","mmu05220","Chronic myeloid leukemia",0.00296860043582797
+"20851","Stat5b","mmu05220","Chronic myeloid leukemia",0.00296860043582797
+"12389","Cav1","mmu05205","Proteoglycans in cancer",0.00383212324826506
+"12390","Cav2","mmu05205","Proteoglycans in cancer",0.00383212324826506
+"20848","Stat3","mmu05205","Proteoglycans in cancer",0.00383212324826506
+"17869","Myc","mmu05205","Proteoglycans in cancer",0.00383212324826506
+"21926","Tnf","mmu05205","Proteoglycans in cancer",0.00383212324826506
+"17295","Met","mmu05205","Proteoglycans in cancer",0.00383212324826506
+"22413","Wnt2","mmu05205","Proteoglycans in cancer",0.00383212324826506
+"20848","Stat3","mmu05162","Measles",0.00383212324826506
+"16476","Jun","mmu05162","Measles",0.00383212324826506
+"20850","Stat5a","mmu05162","Measles",0.00383212324826506
+"20851","Stat5b","mmu05162","Measles",0.00383212324826506
+"193740","Hspa1a","mmu05162","Measles",0.00383212324826506
+"15511","Hspa1b","mmu05162","Measles",0.00383212324826506
+"11806","Apoa1","mmu05417","Lipid and atherosclerosis",0.00426330422369708
+"11808","Apoa4","mmu05417","Lipid and atherosclerosis",0.00426330422369708
+"20848","Stat3","mmu05417","Lipid and atherosclerosis",0.00426330422369708
+"21926","Tnf","mmu05417","Lipid and atherosclerosis",0.00426330422369708
+"16476","Jun","mmu05417","Lipid and atherosclerosis",0.00426330422369708
+"193740","Hspa1a","mmu05417","Lipid and atherosclerosis",0.00426330422369708
+"15511","Hspa1b","mmu05417","Lipid and atherosclerosis",0.00426330422369708
+"17869","Myc","mmu04010","MAPK signaling pathway",0.00426330422369708
+"21926","Tnf","mmu04010","MAPK signaling pathway",0.00426330422369708
+"16476","Jun","mmu04010","MAPK signaling pathway",0.00426330422369708
+"17295","Met","mmu04010","MAPK signaling pathway",0.00426330422369708
+"18015","Nf1","mmu04010","MAPK signaling pathway",0.00426330422369708
+"193740","Hspa1a","mmu04010","MAPK signaling pathway",0.00426330422369708
+"15511","Hspa1b","mmu04010","MAPK signaling pathway",0.00426330422369708
+"13163","Daxx","mmu04010","MAPK signaling pathway",0.00426330422369708
+"11816","Apoe","mmu04979","Cholesterol metabolism",0.00429068253330397
+"11806","Apoa1","mmu04979","Cholesterol metabolism",0.00429068253330397
+"11808","Apoa4","mmu04979","Cholesterol metabolism",0.00429068253330397
+"11814","Apoc3","mmu04979","Cholesterol metabolism",0.00429068253330397
+"20848","Stat3","mmu04933","AGE-RAGE signaling pathway in diabetic complications",0.00463301753684334
+"21926","Tnf","mmu04933","AGE-RAGE signaling pathway in diabetic complications",0.00463301753684334
+"16476","Jun","mmu04933","AGE-RAGE signaling pathway in diabetic complications",0.00463301753684334
+"20850","Stat5a","mmu04933","AGE-RAGE signaling pathway in diabetic complications",0.00463301753684334
+"20851","Stat5b","mmu04933","AGE-RAGE signaling pathway in diabetic complications",0.00463301753684334
+"20848","Stat3","mmu05161","Hepatitis B",0.00463301753684334
+"17869","Myc","mmu05161","Hepatitis B",0.00463301753684334
+"21926","Tnf","mmu05161","Hepatitis B",0.00463301753684334
+"16476","Jun","mmu05161","Hepatitis B",0.00463301753684334
+"20850","Stat5a","mmu05161","Hepatitis B",0.00463301753684334
+"20851","Stat5b","mmu05161","Hepatitis B",0.00463301753684334
+"20848","Stat3","mmu04659","Th17 cell differentiation",0.00464205117577302
+"12394","Runx1","mmu04659","Th17 cell differentiation",0.00464205117577302
+"16476","Jun","mmu04659","Th17 cell differentiation",0.00464205117577302
+"20850","Stat5a","mmu04659","Th17 cell differentiation",0.00464205117577302
+"20851","Stat5b","mmu04659","Th17 cell differentiation",0.00464205117577302
+"18126","Nos2","mmu05145","Toxoplasmosis",0.00469227247279455
+"20848","Stat3","mmu05145","Toxoplasmosis",0.00469227247279455
+"21926","Tnf","mmu05145","Toxoplasmosis",0.00469227247279455
+"193740","Hspa1a","mmu05145","Toxoplasmosis",0.00469227247279455
+"15511","Hspa1b","mmu05145","Toxoplasmosis",0.00469227247279455
+"20848","Stat3","mmu04931","Insulin resistance",0.00469227247279455
+"21926","Tnf","mmu04931","Insulin resistance",0.00469227247279455
+"19211","Pten","mmu04931","Insulin resistance",0.00469227247279455
+"19017","Ppargc1a","mmu04931","Insulin resistance",0.00469227247279455
+"20525","Slc2a1","mmu04931","Insulin resistance",0.00469227247279455
+"12578","Cdkn2a","mmu05225","Hepatocellular carcinoma",0.00469227247279455
+"18104","Nqo1","mmu05225","Hepatocellular carcinoma",0.00469227247279455
+"17869","Myc","mmu05225","Hepatocellular carcinoma",0.00469227247279455
+"17295","Met","mmu05225","Hepatocellular carcinoma",0.00469227247279455
+"19211","Pten","mmu05225","Hepatocellular carcinoma",0.00469227247279455
+"22413","Wnt2","mmu05225","Hepatocellular carcinoma",0.00469227247279455
+"17869","Myc","mmu05230","Central carbon metabolism in cancer",0.00735945320069346
+"17295","Met","mmu05230","Central carbon metabolism in cancer",0.00735945320069346
+"19211","Pten","mmu05230","Central carbon metabolism in cancer",0.00735945320069346
+"20525","Slc2a1","mmu05230","Central carbon metabolism in cancer",0.00735945320069346
+"12389","Cav1","mmu05020","Prion disease",0.00735945320069346
+"12390","Cav2","mmu05020","Prion disease",0.00735945320069346
+"21926","Tnf","mmu05020","Prion disease",0.00735945320069346
+"12857","Cox4i1","mmu05020","Prion disease",0.00735945320069346
+"17967","Ncam1","mmu05020","Prion disease",0.00735945320069346
+"193740","Hspa1a","mmu05020","Prion disease",0.00735945320069346
+"15511","Hspa1b","mmu05020","Prion disease",0.00735945320069346
+"20848","Stat3","mmu04920","Adipocytokine signaling pathway",0.00818154671741803
+"21926","Tnf","mmu04920","Adipocytokine signaling pathway",0.00818154671741803
+"19017","Ppargc1a","mmu04920","Adipocytokine signaling pathway",0.00818154671741803
+"20525","Slc2a1","mmu04920","Adipocytokine signaling pathway",0.00818154671741803
+"20848","Stat3","mmu01521","EGFR tyrosine kinase inhibitor resistance",0.0115738912875364
+"17295","Met","mmu01521","EGFR tyrosine kinase inhibitor resistance",0.0115738912875364
+"19211","Pten","mmu01521","EGFR tyrosine kinase inhibitor resistance",0.0115738912875364
+"18015","Nf1","mmu01521","EGFR tyrosine kinase inhibitor resistance",0.0115738912875364
+"20848","Stat3","mmu04081","Hormone signaling",0.0123167100656236
+"17202","Mc4r","mmu04081","Hormone signaling",0.0123167100656236
+"13489","Drd2","mmu04081","Hormone signaling",0.0123167100656236
+"20850","Stat5a","mmu04081","Hormone signaling",0.0123167100656236
+"20851","Stat5b","mmu04081","Hormone signaling",0.0123167100656236
+"11514","Adcy8","mmu04081","Hormone signaling",0.0123167100656236
+"17869","Myc","mmu04012","ErbB signaling pathway",0.0123285055790701
+"16476","Jun","mmu04012","ErbB signaling pathway",0.0123285055790701
+"20850","Stat5a","mmu04012","ErbB signaling pathway",0.0123285055790701
+"20851","Stat5b","mmu04012","ErbB signaling pathway",0.0123285055790701
+"12389","Cav1","mmu05418","Fluid shear stress and atherosclerosis",0.0123285055790701
+"12390","Cav2","mmu05418","Fluid shear stress and atherosclerosis",0.0123285055790701
+"18104","Nqo1","mmu05418","Fluid shear stress and atherosclerosis",0.0123285055790701
+"21926","Tnf","mmu05418","Fluid shear stress and atherosclerosis",0.0123285055790701
+"16476","Jun","mmu05418","Fluid shear stress and atherosclerosis",0.0123285055790701
+"12578","Cdkn2a","mmu05203","Viral carcinogenesis",0.0123285055790701
+"12579","Cdkn2b","mmu05203","Viral carcinogenesis",0.0123285055790701
+"20848","Stat3","mmu05203","Viral carcinogenesis",0.0123285055790701
+"16476","Jun","mmu05203","Viral carcinogenesis",0.0123285055790701
+"20850","Stat5a","mmu05203","Viral carcinogenesis",0.0123285055790701
+"20851","Stat5b","mmu05203","Viral carcinogenesis",0.0123285055790701
+"18104","Nqo1","mmu05208","Chemical carcinogenesis - reactive oxygen species",0.0126553272369612
+"16476","Jun","mmu05208","Chemical carcinogenesis - reactive oxygen species",0.0126553272369612
+"17295","Met","mmu05208","Chemical carcinogenesis - reactive oxygen species",0.0126553272369612
+"12857","Cox4i1","mmu05208","Chemical carcinogenesis - reactive oxygen species",0.0126553272369612
+"19211","Pten","mmu05208","Chemical carcinogenesis - reactive oxygen species",0.0126553272369612
+"12408","Cbr1","mmu05208","Chemical carcinogenesis - reactive oxygen species",0.0126553272369612
+"20848","Stat3","mmu05207","Chemical carcinogenesis - receptor activation",0.0127112296971539
+"17869","Myc","mmu05207","Chemical carcinogenesis - receptor activation",0.0127112296971539
+"16476","Jun","mmu05207","Chemical carcinogenesis - receptor activation",0.0127112296971539
+"20850","Stat5a","mmu05207","Chemical carcinogenesis - receptor activation",0.0127112296971539
+"20851","Stat5b","mmu05207","Chemical carcinogenesis - receptor activation",0.0127112296971539
+"11514","Adcy8","mmu05207","Chemical carcinogenesis - receptor activation",0.0127112296971539
+"12579","Cdkn2b","mmu05222","Small cell lung cancer",0.0154988992551636
+"18126","Nos2","mmu05222","Small cell lung cancer",0.0154988992551636
+"17869","Myc","mmu05222","Small cell lung cancer",0.0154988992551636
+"19211","Pten","mmu05222","Small cell lung cancer",0.0154988992551636
+"20848","Stat3","mmu04630","JAK-STAT signaling pathway",0.0191997731556919
+"17869","Myc","mmu04630","JAK-STAT signaling pathway",0.0191997731556919
+"20850","Stat5a","mmu04630","JAK-STAT signaling pathway",0.0191997731556919
+"20851","Stat5b","mmu04630","JAK-STAT signaling pathway",0.0191997731556919
+"14580","Gfap","mmu04630","JAK-STAT signaling pathway",0.0191997731556919
+"20848","Stat3","mmu04935","Growth hormone synthesis, secretion and action",0.0321873563131587
+"20850","Stat5a","mmu04935","Growth hormone synthesis, secretion and action",0.0321873563131587
+"20851","Stat5b","mmu04935","Growth hormone synthesis, secretion and action",0.0321873563131587
+"11514","Adcy8","mmu04935","Growth hormone synthesis, secretion and action",0.0321873563131587
+"21926","Tnf","mmu05134","Legionellosis",0.0357538719875827
+"193740","Hspa1a","mmu05134","Legionellosis",0.0357538719875827
+"15511","Hspa1b","mmu05134","Legionellosis",0.0357538719875827
+"12389","Cav1","mmu04510","Focal adhesion",0.0357538719875827
+"12390","Cav2","mmu04510","Focal adhesion",0.0357538719875827
+"16476","Jun","mmu04510","Focal adhesion",0.0357538719875827
+"17295","Met","mmu04510","Focal adhesion",0.0357538719875827
+"19211","Pten","mmu04510","Focal adhesion",0.0357538719875827
+"193740","Hspa1a","mmu04213","Longevity regulating pathway - multiple species",0.0373862663800599
+"15511","Hspa1b","mmu04213","Longevity regulating pathway - multiple species",0.0373862663800599
+"11514","Adcy8","mmu04213","Longevity regulating pathway - multiple species",0.0373862663800599
+"20848","Stat3","mmu05321","Inflammatory bowel disease",0.0379279450549977
+"21926","Tnf","mmu05321","Inflammatory bowel disease",0.0379279450549977
+"16476","Jun","mmu05321","Inflammatory bowel disease",0.0379279450549977
+"16476","Jun","mmu04915","Estrogen signaling pathway",0.0444788119433756
+"193740","Hspa1a","mmu04915","Estrogen signaling pathway",0.0444788119433756
+"15511","Hspa1b","mmu04915","Estrogen signaling pathway",0.0444788119433756
+"11514","Adcy8","mmu04915","Estrogen signaling pathway",0.0444788119433756
+"12578","Cdkn2a","mmu05206","MicroRNAs in cancer",0.0461814068516209
+"20848","Stat3","mmu05206","MicroRNAs in cancer",0.0461814068516209
+"17869","Myc","mmu05206","MicroRNAs in cancer",0.0461814068516209
+"17295","Met","mmu05206","MicroRNAs in cancer",0.0461814068516209
+"19211","Pten","mmu05206","MicroRNAs in cancer",0.0461814068516209
+"12050","Bcl2l2","mmu05206","MicroRNAs in cancer",0.0461814068516209
+"18126","Nos2","mmu00220","Arginine biosynthesis",0.0461814068516209
+"14718","Got1","mmu00220","Arginine biosynthesis",0.0461814068516209
+"18126","Nos2","mmu05140","Leishmaniasis",0.0461814068516209
+"21926","Tnf","mmu05140","Leishmaniasis",0.0461814068516209
+"16476","Jun","mmu05140","Leishmaniasis",0.0461814068516209
+"16476","Jun","mmu05211","Renal cell carcinoma",0.0461814068516209
+"17295","Met","mmu05211","Renal cell carcinoma",0.0461814068516209
+"20525","Slc2a1","mmu05211","Renal cell carcinoma",0.0461814068516209
+"12578","Cdkn2a","mmu05218","Melanoma",0.0486535940374739
+"17295","Met","mmu05218","Melanoma",0.0486535940374739
+"19211","Pten","mmu05218","Melanoma",0.0486535940374739

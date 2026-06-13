@@ -1,415 +1,115 @@
 "gene_symbol","go_id","go_description","p_adjusted"
-"Cdh1","GO:0045121","membrane raft",5.41809132622613e-10
-"Hspa1a","GO:0045121","membrane raft",5.41809132622613e-10
-"Hspa1b","GO:0045121","membrane raft",5.41809132622613e-10
-"Mapt","GO:0045121","membrane raft",5.41809132622613e-10
-"Cdh2","GO:0045121","membrane raft",5.41809132622613e-10
-"Nos3","GO:0045121","membrane raft",5.41809132622613e-10
-"Chrna3","GO:0045121","membrane raft",5.41809132622613e-10
-"Hmox1","GO:0045121","membrane raft",5.41809132622613e-10
-"Psen1","GO:0045121","membrane raft",5.41809132622613e-10
-"Arc","GO:0045121","membrane raft",5.41809132622613e-10
-"Itgb1","GO:0045121","membrane raft",5.41809132622613e-10
-"Cav1","GO:0045121","membrane raft",5.41809132622613e-10
-"Tnf","GO:0045121","membrane raft",5.41809132622613e-10
-"Prnp","GO:0045121","membrane raft",5.41809132622613e-10
-"Tlr2","GO:0045121","membrane raft",5.41809132622613e-10
-"Drd1","GO:0045121","membrane raft",5.41809132622613e-10
-"Cdh1","GO:0098857","membrane microdomain",5.41809132622613e-10
-"Hspa1a","GO:0098857","membrane microdomain",5.41809132622613e-10
-"Hspa1b","GO:0098857","membrane microdomain",5.41809132622613e-10
-"Mapt","GO:0098857","membrane microdomain",5.41809132622613e-10
-"Cdh2","GO:0098857","membrane microdomain",5.41809132622613e-10
-"Nos3","GO:0098857","membrane microdomain",5.41809132622613e-10
-"Chrna3","GO:0098857","membrane microdomain",5.41809132622613e-10
-"Hmox1","GO:0098857","membrane microdomain",5.41809132622613e-10
-"Psen1","GO:0098857","membrane microdomain",5.41809132622613e-10
-"Arc","GO:0098857","membrane microdomain",5.41809132622613e-10
-"Itgb1","GO:0098857","membrane microdomain",5.41809132622613e-10
-"Cav1","GO:0098857","membrane microdomain",5.41809132622613e-10
-"Tnf","GO:0098857","membrane microdomain",5.41809132622613e-10
-"Prnp","GO:0098857","membrane microdomain",5.41809132622613e-10
-"Tlr2","GO:0098857","membrane microdomain",5.41809132622613e-10
-"Drd1","GO:0098857","membrane microdomain",5.41809132622613e-10
-"H2-Ea","GO:0042613","MHC class II protein complex",2.37144411837226e-07
-"Cd74","GO:0042613","MHC class II protein complex",2.37144411837226e-07
-"H2-Aa","GO:0042613","MHC class II protein complex",2.37144411837226e-07
-"H2-Ab1","GO:0042613","MHC class II protein complex",2.37144411837226e-07
-"H2-Eb1","GO:0042613","MHC class II protein complex",2.37144411837226e-07
-"Cdh1","GO:0150034","distal axon",7.34338959621737e-07
-"Trpv1","GO:0150034","distal axon",7.34338959621737e-07
-"Mapt","GO:0150034","distal axon",7.34338959621737e-07
-"Ccl2","GO:0150034","distal axon",7.34338959621737e-07
-"Glul","GO:0150034","distal axon",7.34338959621737e-07
-"Psen1","GO:0150034","distal axon",7.34338959621737e-07
-"Tubb3","GO:0150034","distal axon",7.34338959621737e-07
-"Ngfr","GO:0150034","distal axon",7.34338959621737e-07
-"Drd2","GO:0150034","distal axon",7.34338959621737e-07
-"Gad1","GO:0150034","distal axon",7.34338959621737e-07
-"Prnp","GO:0150034","distal axon",7.34338959621737e-07
-"Sirt1","GO:0150034","distal axon",7.34338959621737e-07
-"Bdnf","GO:0150034","distal axon",7.34338959621737e-07
-"Drd1","GO:0150034","distal axon",7.34338959621737e-07
-"Cdh1","GO:0043679","axon terminus",4.47927917523264e-05
-"Trpv1","GO:0043679","axon terminus",4.47927917523264e-05
-"Ccl2","GO:0043679","axon terminus",4.47927917523264e-05
-"Glul","GO:0043679","axon terminus",4.47927917523264e-05
-"Drd2","GO:0043679","axon terminus",4.47927917523264e-05
-"Gad1","GO:0043679","axon terminus",4.47927917523264e-05
-"Prnp","GO:0043679","axon terminus",4.47927917523264e-05
-"Bdnf","GO:0043679","axon terminus",4.47927917523264e-05
-"Drd1","GO:0043679","axon terminus",4.47927917523264e-05
-"Csf2ra","GO:0098802","plasma membrane signaling receptor complex",4.47927917523264e-05
-"Chrna3","GO:0098802","plasma membrane signaling receptor complex",4.47927917523264e-05
-"Il6","GO:0098802","plasma membrane signaling receptor complex",4.47927917523264e-05
-"Itgb1","GO:0098802","plasma membrane signaling receptor complex",4.47927917523264e-05
-"Drd2","GO:0098802","plasma membrane signaling receptor complex",4.47927917523264e-05
-"Chrnb4","GO:0098802","plasma membrane signaling receptor complex",4.47927917523264e-05
-"Chrna5","GO:0098802","plasma membrane signaling receptor complex",4.47927917523264e-05
-"Syk","GO:0098802","plasma membrane signaling receptor complex",4.47927917523264e-05
-"Tlr2","GO:0098802","plasma membrane signaling receptor complex",4.47927917523264e-05
-"Drd1","GO:0098802","plasma membrane signaling receptor complex",4.47927917523264e-05
-"Cdh1","GO:0044306","neuron projection terminus",7.64186970060744e-05
-"Trpv1","GO:0044306","neuron projection terminus",7.64186970060744e-05
-"Ccl2","GO:0044306","neuron projection terminus",7.64186970060744e-05
-"Glul","GO:0044306","neuron projection terminus",7.64186970060744e-05
-"Drd2","GO:0044306","neuron projection terminus",7.64186970060744e-05
-"Gad1","GO:0044306","neuron projection terminus",7.64186970060744e-05
-"Prnp","GO:0044306","neuron projection terminus",7.64186970060744e-05
-"Bdnf","GO:0044306","neuron projection terminus",7.64186970060744e-05
-"Drd1","GO:0044306","neuron projection terminus",7.64186970060744e-05
-"H2-Ea","GO:0042611","MHC protein complex",7.64186970060744e-05
-"Cd74","GO:0042611","MHC protein complex",7.64186970060744e-05
-"H2-Aa","GO:0042611","MHC protein complex",7.64186970060744e-05
-"H2-Ab1","GO:0042611","MHC protein complex",7.64186970060744e-05
-"H2-Eb1","GO:0042611","MHC protein complex",7.64186970060744e-05
-"Hspa1a","GO:0016234","inclusion body",9.52254399306886e-05
-"Hspa1b","GO:0016234","inclusion body",9.52254399306886e-05
-"Mapt","GO:0016234","inclusion body",9.52254399306886e-05
-"Psen1","GO:0016234","inclusion body",9.52254399306886e-05
-"Htt","GO:0016234","inclusion body",9.52254399306886e-05
-"Prnp","GO:0016234","inclusion body",9.52254399306886e-05
-"Cdh1","GO:0044853","plasma membrane raft",0.000208141222619437
-"Cdh2","GO:0044853","plasma membrane raft",0.000208141222619437
-"Nos3","GO:0044853","plasma membrane raft",0.000208141222619437
-"Chrna3","GO:0044853","plasma membrane raft",0.000208141222619437
-"Hmox1","GO:0044853","plasma membrane raft",0.000208141222619437
-"Cav1","GO:0044853","plasma membrane raft",0.000208141222619437
-"Drd1","GO:0044853","plasma membrane raft",0.000208141222619437
-"Cryab","GO:0043204","perikaryon",0.000316665960533675
-"Ccl2","GO:0043204","perikaryon",0.000316665960533675
-"Glul","GO:0043204","perikaryon",0.000316665960533675
-"Ngfr","GO:0043204","perikaryon",0.000316665960533675
-"Drd2","GO:0043204","perikaryon",0.000316665960533675
-"Cacna1e","GO:0043204","perikaryon",0.000316665960533675
-"Pam","GO:0043204","perikaryon",0.000316665960533675
-"Bdnf","GO:0043204","perikaryon",0.000316665960533675
-"Cdh1","GO:0031252","cell leading edge",0.000425590929958112
-"Tlr4","GO:0031252","cell leading edge",0.000425590929958112
-"Trpv1","GO:0031252","cell leading edge",0.000425590929958112
-"Mapt","GO:0031252","cell leading edge",0.000425590929958112
-"Cdh2","GO:0031252","cell leading edge",0.000425590929958112
-"Pdgfrb","GO:0031252","cell leading edge",0.000425590929958112
-"Rock1","GO:0031252","cell leading edge",0.000425590929958112
-"Tubb3","GO:0031252","cell leading edge",0.000425590929958112
-"Ngfr","GO:0031252","cell leading edge",0.000425590929958112
-"Itgb1","GO:0031252","cell leading edge",0.000425590929958112
-"Ptk2","GO:0031252","cell leading edge",0.000425590929958112
-"Trpv1","GO:0043197","dendritic spine",0.000432887857906433
-"Cryab","GO:0043197","dendritic spine",0.000432887857906433
-"Camk2a","GO:0043197","dendritic spine",0.000432887857906433
-"Arc","GO:0043197","dendritic spine",0.000432887857906433
-"Ngfr","GO:0043197","dendritic spine",0.000432887857906433
-"Itgb1","GO:0043197","dendritic spine",0.000432887857906433
-"Drd2","GO:0043197","dendritic spine",0.000432887857906433
-"Drd1","GO:0043197","dendritic spine",0.000432887857906433
-"Trpv1","GO:0044309","neuron spine",0.000468112183470672
-"Cryab","GO:0044309","neuron spine",0.000468112183470672
-"Camk2a","GO:0044309","neuron spine",0.000468112183470672
-"Arc","GO:0044309","neuron spine",0.000468112183470672
-"Ngfr","GO:0044309","neuron spine",0.000468112183470672
-"Itgb1","GO:0044309","neuron spine",0.000468112183470672
-"Drd2","GO:0044309","neuron spine",0.000468112183470672
-"Drd1","GO:0044309","neuron spine",0.000468112183470672
-"Cdh1","GO:0005938","cell cortex",0.00124954186928733
-"Cdh2","GO:0005938","cell cortex",0.00124954186928733
-"Itpr2","GO:0005938","cell cortex",0.00124954186928733
-"Psen1","GO:0005938","cell cortex",0.00124954186928733
-"Arc","GO:0005938","cell cortex",0.00124954186928733
-"Nos2","GO:0005938","cell cortex",0.00124954186928733
-"Cav1","GO:0005938","cell cortex",0.00124954186928733
-"Gad1","GO:0005938","cell cortex",0.00124954186928733
-"Ptk2","GO:0005938","cell cortex",0.00124954186928733
-"Cdh1","GO:0043209","myelin sheath",0.00150333427441227
-"Cryab","GO:0043209","myelin sheath",0.00150333427441227
-"Glul","GO:0043209","myelin sheath",0.00150333427441227
-"Itgb1","GO:0043209","myelin sheath",0.00150333427441227
-"Pkm","GO:0043209","myelin sheath",0.00150333427441227
-"Sod2","GO:0043209","myelin sheath",0.00150333427441227
-"Sod1","GO:0043209","myelin sheath",0.00150333427441227
-"Chrna3","GO:0005892","acetylcholine-gated channel complex",0.00215691225287703
-"Chrnb4","GO:0005892","acetylcholine-gated channel complex",0.00215691225287703
-"Chrna5","GO:0005892","acetylcholine-gated channel complex",0.00215691225287703
-"H2-Ea","GO:0005770","late endosome",0.00267958338503235
-"Ifnar1","GO:0005770","late endosome",0.00267958338503235
-"Cd74","GO:0005770","late endosome",0.00267958338503235
-"Rab11a","GO:0005770","late endosome",0.00267958338503235
-"H2-Aa","GO:0005770","late endosome",0.00267958338503235
-"H2-Ab1","GO:0005770","late endosome",0.00267958338503235
-"Htt","GO:0005770","late endosome",0.00267958338503235
-"H2-Eb1","GO:0005770","late endosome",0.00267958338503235
-"Trpv1","GO:0045211","postsynaptic membrane",0.00270976656869189
-"Chrna3","GO:0045211","postsynaptic membrane",0.00270976656869189
-"Arc","GO:0045211","postsynaptic membrane",0.00270976656869189
-"Itgb1","GO:0045211","postsynaptic membrane",0.00270976656869189
-"Drd2","GO:0045211","postsynaptic membrane",0.00270976656869189
-"Chrnb4","GO:0045211","postsynaptic membrane",0.00270976656869189
-"Chrna5","GO:0045211","postsynaptic membrane",0.00270976656869189
-"Cacna1e","GO:0045211","postsynaptic membrane",0.00270976656869189
-"Drd1","GO:0045211","postsynaptic membrane",0.00270976656869189
-"Cdh1","GO:0005901","caveola",0.00318648360681648
-"Nos3","GO:0005901","caveola",0.00318648360681648
-"Hmox1","GO:0005901","caveola",0.00318648360681648
-"Cav1","GO:0005901","caveola",0.00318648360681648
-"Drd1","GO:0005901","caveola",0.00318648360681648
-"Nfe2l2","GO:0090575","RNA polymerase II transcription regulator complex",0.00322229250212891
-"Smad7","GO:0090575","RNA polymerase II transcription regulator complex",0.00322229250212891
-"Stat3","GO:0090575","RNA polymerase II transcription regulator complex",0.00322229250212891
-"Smad2","GO:0090575","RNA polymerase II transcription regulator complex",0.00322229250212891
-"Nkx2-5","GO:0090575","RNA polymerase II transcription regulator complex",0.00322229250212891
-"Lef1","GO:0090575","RNA polymerase II transcription regulator complex",0.00322229250212891
-"Crem","GO:0090575","RNA polymerase II transcription regulator complex",0.00322229250212891
-"Cdh1","GO:0009925","basal plasma membrane",0.00322229250212891
-"Hspa1a","GO:0009925","basal plasma membrane",0.00322229250212891
-"Hspa1b","GO:0009925","basal plasma membrane",0.00322229250212891
-"Cdh2","GO:0009925","basal plasma membrane",0.00322229250212891
-"Ager","GO:0009925","basal plasma membrane",0.00322229250212891
-"Cav1","GO:0009925","basal plasma membrane",0.00322229250212891
-"Ptk2","GO:0009925","basal plasma membrane",0.00322229250212891
-"Lepr","GO:0009925","basal plasma membrane",0.00322229250212891
-"Chrna3","GO:0098691","dopaminergic synapse",0.00322229250212891
-"Drd2","GO:0098691","dopaminergic synapse",0.00322229250212891
-"Chrna5","GO:0098691","dopaminergic synapse",0.00322229250212891
-"Chrna3","GO:0098981","cholinergic synapse",0.00322229250212891
-"Chrnb4","GO:0098981","cholinergic synapse",0.00322229250212891
-"Chrna5","GO:0098981","cholinergic synapse",0.00322229250212891
-"Ccl2","GO:0030139","endocytic vesicle",0.00322229250212891
-"Rab11a","GO:0030139","endocytic vesicle",0.00322229250212891
-"Ngfr","GO:0030139","endocytic vesicle",0.00322229250212891
-"Drd2","GO:0030139","endocytic vesicle",0.00322229250212891
-"Mtor","GO:0030139","endocytic vesicle",0.00322229250212891
-"Syk","GO:0030139","endocytic vesicle",0.00322229250212891
-"Tlr2","GO:0030139","endocytic vesicle",0.00322229250212891
-"Trpv1","GO:0098982","GABA-ergic synapse",0.00322229250212891
-"Atr","GO:0098982","GABA-ergic synapse",0.00322229250212891
-"Drd2","GO:0098982","GABA-ergic synapse",0.00322229250212891
-"Gad1","GO:0098982","GABA-ergic synapse",0.00322229250212891
-"Cacna1e","GO:0098982","GABA-ergic synapse",0.00322229250212891
-"Drd1","GO:0098982","GABA-ergic synapse",0.00322229250212891
-"Atm","GO:0030133","transport vesicle",0.00322229250212891
-"Itpr2","GO:0030133","transport vesicle",0.00322229250212891
-"Psen1","GO:0030133","transport vesicle",0.00322229250212891
-"Rab11a","GO:0030133","transport vesicle",0.00322229250212891
-"Atr","GO:0030133","transport vesicle",0.00322229250212891
-"Drd2","GO:0030133","transport vesicle",0.00322229250212891
-"Kcnk9","GO:0030133","transport vesicle",0.00322229250212891
-"Pam","GO:0030133","transport vesicle",0.00322229250212891
-"Bdnf","GO:0030133","transport vesicle",0.00322229250212891
-"Atr","GO:0016605","PML body",0.00322229250212891
-"Mtor","GO:0016605","PML body",0.00322229250212891
-"Ppargc1a","GO:0016605","PML body",0.00322229250212891
-"Pml","GO:0016605","PML body",0.00322229250212891
-"Sirt1","GO:0016605","PML body",0.00322229250212891
-"Cdh1","GO:0045178","basal part of cell",0.00412881358773516
-"Hspa1a","GO:0045178","basal part of cell",0.00412881358773516
-"Hspa1b","GO:0045178","basal part of cell",0.00412881358773516
-"Cdh2","GO:0045178","basal part of cell",0.00412881358773516
-"Ager","GO:0045178","basal part of cell",0.00412881358773516
-"Cav1","GO:0045178","basal part of cell",0.00412881358773516
-"Ptk2","GO:0045178","basal part of cell",0.00412881358773516
-"Lepr","GO:0045178","basal part of cell",0.00412881358773516
-"Atm","GO:0008021","synaptic vesicle",0.00647442151940833
-"Psen1","GO:0008021","synaptic vesicle",0.00647442151940833
-"Rab11a","GO:0008021","synaptic vesicle",0.00647442151940833
-"Atr","GO:0008021","synaptic vesicle",0.00647442151940833
-"Drd2","GO:0008021","synaptic vesicle",0.00647442151940833
-"Kcnk9","GO:0008021","synaptic vesicle",0.00647442151940833
-"Bdnf","GO:0008021","synaptic vesicle",0.00647442151940833
-"Myod1","GO:0000791","euchromatin",0.00677500638014754
-"Ppargc1a","GO:0000791","euchromatin",0.00677500638014754
-"Id2","GO:0000791","euchromatin",0.00677500638014754
-"Sirt1","GO:0000791","euchromatin",0.00677500638014754
-"Tlr4","GO:0001891","phagocytic cup",0.00725888503972761
-"Ager","GO:0001891","phagocytic cup",0.00725888503972761
-"Tnf","GO:0001891","phagocytic cup",0.00725888503972761
-"Cdh1","GO:0016323","basolateral plasma membrane",0.00778975761301021
-"Hspa1a","GO:0016323","basolateral plasma membrane",0.00778975761301021
-"Hspa1b","GO:0016323","basolateral plasma membrane",0.00778975761301021
-"Cdh2","GO:0016323","basolateral plasma membrane",0.00778975761301021
-"Cav1","GO:0016323","basolateral plasma membrane",0.00778975761301021
-"Ptk2","GO:0016323","basolateral plasma membrane",0.00778975761301021
-"Lepr","GO:0016323","basolateral plasma membrane",0.00778975761301021
-"Atm","GO:0070382","exocytic vesicle",0.00801297079556106
-"Psen1","GO:0070382","exocytic vesicle",0.00801297079556106
-"Rab11a","GO:0070382","exocytic vesicle",0.00801297079556106
-"Atr","GO:0070382","exocytic vesicle",0.00801297079556106
-"Drd2","GO:0070382","exocytic vesicle",0.00801297079556106
-"Kcnk9","GO:0070382","exocytic vesicle",0.00801297079556106
-"Bdnf","GO:0070382","exocytic vesicle",0.00801297079556106
-"Cdh1","GO:0030027","lamellipodium",0.00880801597012638
-"Cdh2","GO:0030027","lamellipodium",0.00880801597012638
-"Rock1","GO:0030027","lamellipodium",0.00880801597012638
-"Tubb3","GO:0030027","lamellipodium",0.00880801597012638
-"Itgb1","GO:0030027","lamellipodium",0.00880801597012638
-"Ptk2","GO:0030027","lamellipodium",0.00880801597012638
-"Mapt","GO:0032838","plasma membrane bounded cell projection cytoplasm",0.00880801597012638
-"Gli3","GO:0032838","plasma membrane bounded cell projection cytoplasm",0.00880801597012638
-"Camk2a","GO:0032838","plasma membrane bounded cell projection cytoplasm",0.00880801597012638
-"Arc","GO:0032838","plasma membrane bounded cell projection cytoplasm",0.00880801597012638
-"Htt","GO:0032838","plasma membrane bounded cell projection cytoplasm",0.00880801597012638
-"Cys1","GO:0032838","plasma membrane bounded cell projection cytoplasm",0.00880801597012638
-"Sod1","GO:0032838","plasma membrane bounded cell projection cytoplasm",0.00880801597012638
-"Hspa1a","GO:0016235","aggresome",0.0106562057543459
-"Hspa1b","GO:0016235","aggresome",0.0106562057543459
-"Psen1","GO:0016235","aggresome",0.0106562057543459
-"Rock1","GO:0098685","Schaffer collateral - CA1 synapse",0.0112255151220317
-"Stat3","GO:0098685","Schaffer collateral - CA1 synapse",0.0112255151220317
-"Camk2a","GO:0098685","Schaffer collateral - CA1 synapse",0.0112255151220317
-"Rab11a","GO:0098685","Schaffer collateral - CA1 synapse",0.0112255151220317
-"Itgb1","GO:0098685","Schaffer collateral - CA1 synapse",0.0112255151220317
-"Nfe2l2","GO:0036064","ciliary basal body",0.0112585351498751
-"Chrna3","GO:0036064","ciliary basal body",0.0112585351498751
-"Smad7","GO:0036064","ciliary basal body",0.0112585351498751
-"Fzd6","GO:0036064","ciliary basal body",0.0112585351498751
-"Akt1","GO:0036064","ciliary basal body",0.0112585351498751
-"Cys1","GO:0036064","ciliary basal body",0.0112585351498751
-"Ptk2","GO:0036064","ciliary basal body",0.0112585351498751
-"Hspa1a","GO:0005814","centriole",0.0128891476551711
-"Hspa1b","GO:0005814","centriole",0.0128891476551711
-"Rock1","GO:0005814","centriole",0.0128891476551711
-"Rab11a","GO:0005814","centriole",0.0128891476551711
-"Htt","GO:0005814","centriole",0.0128891476551711
-"Tlr4","GO:0005769","early endosome",0.0128891476551711
-"F2rl1","GO:0005769","early endosome",0.0128891476551711
-"Psen1","GO:0005769","early endosome",0.0128891476551711
-"Ager","GO:0005769","early endosome",0.0128891476551711
-"Arc","GO:0005769","early endosome",0.0128891476551711
-"H2-Ab1","GO:0005769","early endosome",0.0128891476551711
-"Htt","GO:0005769","early endosome",0.0128891476551711
-"Pml","GO:0005769","early endosome",0.0128891476551711
-"Smad7","GO:0071141","SMAD protein complex",0.0137576677749195
-"Smad2","GO:0071141","SMAD protein complex",0.0137576677749195
-"Arc","GO:0071598","neuronal ribonucleoprotein granule",0.0137576677749195
-"Htt","GO:0071598","neuronal ribonucleoprotein granule",0.0137576677749195
-"Atm","GO:0030658","transport vesicle membrane",0.0137576677749195
-"Itpr2","GO:0030658","transport vesicle membrane",0.0137576677749195
-"Rab11a","GO:0030658","transport vesicle membrane",0.0137576677749195
-"Atr","GO:0030658","transport vesicle membrane",0.0137576677749195
-"Drd2","GO:0030658","transport vesicle membrane",0.0137576677749195
-"Pam","GO:0030658","transport vesicle membrane",0.0137576677749195
-"Mapt","GO:0099568","cytoplasmic region",0.0139070656049095
-"Gli3","GO:0099568","cytoplasmic region",0.0139070656049095
-"Camk2a","GO:0099568","cytoplasmic region",0.0139070656049095
-"Arc","GO:0099568","cytoplasmic region",0.0139070656049095
-"Htt","GO:0099568","cytoplasmic region",0.0139070656049095
-"Cys1","GO:0099568","cytoplasmic region",0.0139070656049095
-"Sod1","GO:0099568","cytoplasmic region",0.0139070656049095
-"Drd2","GO:0097648","G protein-coupled receptor complex",0.0160118806534971
-"Drd1","GO:0097648","G protein-coupled receptor complex",0.0160118806534971
-"Mapt","GO:0036464","cytoplasmic ribonucleoprotein granule",0.0173009771738851
-"Ago2","GO:0036464","cytoplasmic ribonucleoprotein granule",0.0173009771738851
-"Rock1","GO:0036464","cytoplasmic ribonucleoprotein granule",0.0173009771738851
-"Arc","GO:0036464","cytoplasmic ribonucleoprotein granule",0.0173009771738851
-"Htt","GO:0036464","cytoplasmic ribonucleoprotein granule",0.0173009771738851
-"Nfkbiz","GO:0036464","cytoplasmic ribonucleoprotein granule",0.0173009771738851
-"Cdh2","GO:0042383","sarcolemma",0.0173009771738851
-"Nos3","GO:0042383","sarcolemma",0.0173009771738851
-"Psen1","GO:0042383","sarcolemma",0.0173009771738851
-"Itgb1","GO:0042383","sarcolemma",0.0173009771738851
-"Ptk2","GO:0042383","sarcolemma",0.0173009771738851
-"Camk2a","GO:0120111","neuron projection cytoplasm",0.0173009771738851
-"Arc","GO:0120111","neuron projection cytoplasm",0.0173009771738851
-"Htt","GO:0120111","neuron projection cytoplasm",0.0173009771738851
-"Sod1","GO:0120111","neuron projection cytoplasm",0.0173009771738851
-"Cdh1","GO:0005912","adherens junction",0.0177636364773532
-"Cdh2","GO:0005912","adherens junction",0.0177636364773532
-"Smad7","GO:0005912","adherens junction",0.0177636364773532
-"Vegfa","GO:0005912","adherens junction",0.0177636364773532
-"Itgb1","GO:0005912","adherens junction",0.0177636364773532
-"Psen1","GO:0031594","neuromuscular junction",0.0184186790269601
-"Ngfr","GO:0031594","neuromuscular junction",0.0184186790269601
-"Itgb1","GO:0031594","neuromuscular junction",0.0184186790269601
-"Lamc1","GO:0031594","neuromuscular junction",0.0184186790269601
-"Camk2a","GO:0099524","postsynaptic cytosol",0.0206083092821616
-"Htt","GO:0099524","postsynaptic cytosol",0.0206083092821616
-"Mtor","GO:0099524","postsynaptic cytosol",0.0206083092821616
-"Trpv1","GO:0031253","cell projection membrane",0.0239886749320237
-"Mapt","GO:0031253","cell projection membrane",0.0239886749320237
-"Ngfr","GO:0031253","cell projection membrane",0.0239886749320237
-"Itgb1","GO:0031253","cell projection membrane",0.0239886749320237
-"Drd2","GO:0031253","cell projection membrane",0.0239886749320237
-"Cys1","GO:0031253","cell projection membrane",0.0239886749320237
-"Drd1","GO:0031253","cell projection membrane",0.0239886749320237
-"Vegfa","GO:0005604","basement membrane",0.0247166930405597
-"Itgb1","GO:0005604","basement membrane",0.0247166930405597
-"Lamc1","GO:0005604","basement membrane",0.0247166930405597
-"Tgfb2","GO:0005604","basement membrane",0.0247166930405597
-"Chrna3","GO:0098878","neurotransmitter receptor complex",0.0267148967302167
-"Chrnb4","GO:0098878","neurotransmitter receptor complex",0.0267148967302167
-"Chrna5","GO:0098878","neurotransmitter receptor complex",0.0267148967302167
-"Mapt","GO:0097386","glial cell projection",0.0303274016610098
-"Glul","GO:0097386","glial cell projection",0.0303274016610098
-"Itgb1","GO:0097386","glial cell projection",0.0303274016610098
-"Hspa1a","GO:0016607","nuclear speck",0.0370004630243552
-"Hspa1b","GO:0016607","nuclear speck",0.0370004630243552
-"Chrna3","GO:0016607","nuclear speck",0.0370004630243552
-"Grk5","GO:0016607","nuclear speck",0.0370004630243552
-"Gli3","GO:0016607","nuclear speck",0.0370004630243552
-"Nfkbiz","GO:0016607","nuclear speck",0.0370004630243552
-"Mapk14","GO:0016607","nuclear speck",0.0370004630243552
-"H2-Ea","GO:0005765","lysosomal membrane",0.0370004630243552
-"Psen1","GO:0005765","lysosomal membrane",0.0370004630243552
-"H2-Aa","GO:0005765","lysosomal membrane",0.0370004630243552
-"H2-Ab1","GO:0005765","lysosomal membrane",0.0370004630243552
-"H2-Eb1","GO:0005765","lysosomal membrane",0.0370004630243552
-"Mtor","GO:0005765","lysosomal membrane",0.0370004630243552
-"H2-Ea","GO:0098852","lytic vacuole membrane",0.0370004630243552
-"Psen1","GO:0098852","lytic vacuole membrane",0.0370004630243552
-"H2-Aa","GO:0098852","lytic vacuole membrane",0.0370004630243552
-"H2-Ab1","GO:0098852","lytic vacuole membrane",0.0370004630243552
-"H2-Eb1","GO:0098852","lytic vacuole membrane",0.0370004630243552
-"Mtor","GO:0098852","lytic vacuole membrane",0.0370004630243552
-"Cdh2","GO:0014704","intercalated disc",0.0370004630243552
-"Itgb1","GO:0014704","intercalated disc",0.0370004630243552
-"Ptk2","GO:0014704","intercalated disc",0.0370004630243552
-"Mapt","GO:0030426","growth cone",0.0426240538515511
-"Psen1","GO:0030426","growth cone",0.0426240538515511
-"Tubb3","GO:0030426","growth cone",0.0426240538515511
-"Ngfr","GO:0030426","growth cone",0.0426240538515511
-"Sirt1","GO:0030426","growth cone",0.0426240538515511
-"Cd74","GO:0005771","multivesicular body",0.0456555178466608
-"Rab11a","GO:0005771","multivesicular body",0.0456555178466608
-"H2-Ab1","GO:0005771","multivesicular body",0.0456555178466608
-"Rab11a","GO:0045335","phagocytic vesicle",0.0467560115406406
-"Mtor","GO:0045335","phagocytic vesicle",0.0467560115406406
-"Syk","GO:0045335","phagocytic vesicle",0.0467560115406406
-"Tlr2","GO:0045335","phagocytic vesicle",0.0467560115406406
-"Mapt","GO:0030427","site of polarized growth",0.0467560115406406
-"Psen1","GO:0030427","site of polarized growth",0.0467560115406406
-"Tubb3","GO:0030427","site of polarized growth",0.0467560115406406
-"Ngfr","GO:0030427","site of polarized growth",0.0467560115406406
-"Sirt1","GO:0030427","site of polarized growth",0.0467560115406406
-"Camk2a","GO:0099522","cytosolic region",0.0483722303721197
-"Htt","GO:0099522","cytosolic region",0.0483722303721197
-"Mtor","GO:0099522","cytosolic region",0.0483722303721197
-"Atm","GO:0005777","peroxisome",0.0483722303721197
-"Nos2","GO:0005777","peroxisome",0.0483722303721197
-"Cav1","GO:0005777","peroxisome",0.0483722303721197
-"Sod1","GO:0005777","peroxisome",0.0483722303721197
-"Atm","GO:0042579","microbody",0.0483722303721197
-"Nos2","GO:0042579","microbody",0.0483722303721197
-"Cav1","GO:0042579","microbody",0.0483722303721197
-"Sod1","GO:0042579","microbody",0.0483722303721197
-"Drd2","GO:0060170","ciliary membrane",0.0483722303721197
-"Cys1","GO:0060170","ciliary membrane",0.0483722303721197
-"Drd1","GO:0060170","ciliary membrane",0.0483722303721197
+"Mpz","GO:0009925","basal plasma membrane",1.82106830409459e-06
+"Cftr","GO:0009925","basal plasma membrane",1.82106830409459e-06
+"Slc1a3","GO:0009925","basal plasma membrane",1.82106830409459e-06
+"Slc2a9","GO:0009925","basal plasma membrane",1.82106830409459e-06
+"Hspa1a","GO:0009925","basal plasma membrane",1.82106830409459e-06
+"Cav1","GO:0009925","basal plasma membrane",1.82106830409459e-06
+"Met","GO:0009925","basal plasma membrane",1.82106830409459e-06
+"Slc2a1","GO:0009925","basal plasma membrane",1.82106830409459e-06
+"Slc7a8","GO:0009925","basal plasma membrane",1.82106830409459e-06
+"Adcy8","GO:0009925","basal plasma membrane",1.82106830409459e-06
+"Hspa1b","GO:0009925","basal plasma membrane",1.82106830409459e-06
+"Mpz","GO:0045178","basal part of cell",1.82106830409459e-06
+"Cftr","GO:0045178","basal part of cell",1.82106830409459e-06
+"Slc1a3","GO:0045178","basal part of cell",1.82106830409459e-06
+"Slc2a9","GO:0045178","basal part of cell",1.82106830409459e-06
+"Hspa1a","GO:0045178","basal part of cell",1.82106830409459e-06
+"Cav1","GO:0045178","basal part of cell",1.82106830409459e-06
+"Met","GO:0045178","basal part of cell",1.82106830409459e-06
+"Slc2a1","GO:0045178","basal part of cell",1.82106830409459e-06
+"Slc7a8","GO:0045178","basal part of cell",1.82106830409459e-06
+"Adcy8","GO:0045178","basal part of cell",1.82106830409459e-06
+"Hspa1b","GO:0045178","basal part of cell",1.82106830409459e-06
+"Mpz","GO:0016323","basolateral plasma membrane",3.2984038164649e-06
+"Cftr","GO:0016323","basolateral plasma membrane",3.2984038164649e-06
+"Slc1a3","GO:0016323","basolateral plasma membrane",3.2984038164649e-06
+"Slc2a9","GO:0016323","basolateral plasma membrane",3.2984038164649e-06
+"Hspa1a","GO:0016323","basolateral plasma membrane",3.2984038164649e-06
+"Cav1","GO:0016323","basolateral plasma membrane",3.2984038164649e-06
+"Slc2a1","GO:0016323","basolateral plasma membrane",3.2984038164649e-06
+"Slc7a8","GO:0016323","basolateral plasma membrane",3.2984038164649e-06
+"Adcy8","GO:0016323","basolateral plasma membrane",3.2984038164649e-06
+"Hspa1b","GO:0016323","basolateral plasma membrane",3.2984038164649e-06
+"Apoe","GO:0042627","chylomicron",5.04342892796141e-06
+"Apoa1","GO:0042627","chylomicron",5.04342892796141e-06
+"Apoc3","GO:0042627","chylomicron",5.04342892796141e-06
+"Apoa4","GO:0042627","chylomicron",5.04342892796141e-06
+"Apoe","GO:0034364","high-density lipoprotein particle",1.0049488169875e-05
+"Apoa1","GO:0034364","high-density lipoprotein particle",1.0049488169875e-05
+"Apoc3","GO:0034364","high-density lipoprotein particle",1.0049488169875e-05
+"Apoa4","GO:0034364","high-density lipoprotein particle",1.0049488169875e-05
+"Pon1","GO:0034364","high-density lipoprotein particle",1.0049488169875e-05
+"Apoe","GO:0034358","plasma lipoprotein particle",1.92721307483158e-05
+"Apoa1","GO:0034358","plasma lipoprotein particle",1.92721307483158e-05
+"Apoc3","GO:0034358","plasma lipoprotein particle",1.92721307483158e-05
+"Apoa4","GO:0034358","plasma lipoprotein particle",1.92721307483158e-05
+"Pon1","GO:0034358","plasma lipoprotein particle",1.92721307483158e-05
+"Apoe","GO:1990777","lipoprotein particle",1.92721307483158e-05
+"Apoa1","GO:1990777","lipoprotein particle",1.92721307483158e-05
+"Apoc3","GO:1990777","lipoprotein particle",1.92721307483158e-05
+"Apoa4","GO:1990777","lipoprotein particle",1.92721307483158e-05
+"Pon1","GO:1990777","lipoprotein particle",1.92721307483158e-05
+"Apoe","GO:0032994","protein-lipid complex",2.33093908533744e-05
+"Apoa1","GO:0032994","protein-lipid complex",2.33093908533744e-05
+"Apoc3","GO:0032994","protein-lipid complex",2.33093908533744e-05
+"Apoa4","GO:0032994","protein-lipid complex",2.33093908533744e-05
+"Pon1","GO:0032994","protein-lipid complex",2.33093908533744e-05
+"Apoe","GO:0034361","very-low-density lipoprotein particle",0.000107597067137039
+"Apoa1","GO:0034361","very-low-density lipoprotein particle",0.000107597067137039
+"Apoc3","GO:0034361","very-low-density lipoprotein particle",0.000107597067137039
+"Apoa4","GO:0034361","very-low-density lipoprotein particle",0.000107597067137039
+"Apoe","GO:0034385","triglyceride-rich plasma lipoprotein particle",0.000107597067137039
+"Apoa1","GO:0034385","triglyceride-rich plasma lipoprotein particle",0.000107597067137039
+"Apoc3","GO:0034385","triglyceride-rich plasma lipoprotein particle",0.000107597067137039
+"Apoa4","GO:0034385","triglyceride-rich plasma lipoprotein particle",0.000107597067137039
+"Cdh13","GO:0045121","membrane raft",0.000334478767101067
+"Cav2","GO:0045121","membrane raft",0.000334478767101067
+"Hspa1a","GO:0045121","membrane raft",0.000334478767101067
+"Cav1","GO:0045121","membrane raft",0.000334478767101067
+"Slc2a1","GO:0045121","membrane raft",0.000334478767101067
+"Tnf","GO:0045121","membrane raft",0.000334478767101067
+"Adcy8","GO:0045121","membrane raft",0.000334478767101067
+"Hspa1b","GO:0045121","membrane raft",0.000334478767101067
+"Cdh13","GO:0098857","membrane microdomain",0.000334478767101067
+"Cav2","GO:0098857","membrane microdomain",0.000334478767101067
+"Hspa1a","GO:0098857","membrane microdomain",0.000334478767101067
+"Cav1","GO:0098857","membrane microdomain",0.000334478767101067
+"Slc2a1","GO:0098857","membrane microdomain",0.000334478767101067
+"Tnf","GO:0098857","membrane microdomain",0.000334478767101067
+"Adcy8","GO:0098857","membrane microdomain",0.000334478767101067
+"Hspa1b","GO:0098857","membrane microdomain",0.000334478767101067
+"Myc","GO:0090575","RNA polymerase II transcription regulator complex",0.000348383717746682
+"Stat5a","GO:0090575","RNA polymerase II transcription regulator complex",0.000348383717746682
+"Wwox","GO:0090575","RNA polymerase II transcription regulator complex",0.000348383717746682
+"Jun","GO:0090575","RNA polymerase II transcription regulator complex",0.000348383717746682
+"Stat3","GO:0090575","RNA polymerase II transcription regulator complex",0.000348383717746682
+"Stat5b","GO:0090575","RNA polymerase II transcription regulator complex",0.000348383717746682
+"Runx1","GO:0090575","RNA polymerase II transcription regulator complex",0.000348383717746682
+"Apoe","GO:0034362","low-density lipoprotein particle",0.000400808707711721
+"Apoa1","GO:0034362","low-density lipoprotein particle",0.000400808707711721
+"Apoa4","GO:0034362","low-density lipoprotein particle",0.000400808707711721
+"Cdh13","GO:0005901","caveola",0.00055887470194714
+"Cav2","GO:0005901","caveola",0.00055887470194714
+"Cav1","GO:0005901","caveola",0.00055887470194714
+"Slc2a1","GO:0005901","caveola",0.00055887470194714
+"Adcy8","GO:0005901","caveola",0.00055887470194714
+"Cdh13","GO:0044853","plasma membrane raft",0.00248319799745764
+"Cav2","GO:0044853","plasma membrane raft",0.00248319799745764
+"Cav1","GO:0044853","plasma membrane raft",0.00248319799745764
+"Slc2a1","GO:0044853","plasma membrane raft",0.00248319799745764
+"Adcy8","GO:0044853","plasma membrane raft",0.00248319799745764
+"Gpc5","GO:0005796","Golgi lumen",0.00321694270436058
+"Sod3","GO:0005796","Golgi lumen",0.00321694270436058
+"Gpc6","GO:0005796","Golgi lumen",0.00321694270436058
+"Cftr","GO:0005902","microvillus",0.0153527480989321
+"Wwox","GO:0005902","microvillus",0.0153527480989321
+"Slc7a8","GO:0005902","microvillus",0.0153527480989321
+"Cbr1","GO:0005902","microvillus",0.0153527480989321
+"Ncam1","GO:0098685","Schaffer collateral - CA1 synapse",0.0396490048486808
+"Adcy8","GO:0098685","Schaffer collateral - CA1 synapse",0.0396490048486808
+"Stat3","GO:0098685","Schaffer collateral - CA1 synapse",0.0396490048486808
+"Dcc","GO:0098685","Schaffer collateral - CA1 synapse",0.0396490048486808
+"Myc","GO:0000791","euchromatin",0.0444047288534912
+"Jun","GO:0000791","euchromatin",0.0444047288534912
+"Ppargc1a","GO:0000791","euchromatin",0.0444047288534912
