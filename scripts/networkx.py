@@ -2,8 +2,9 @@ import argparse
 import json
 
 import matplotlib.pyplot as plt
-import networkx as nx
 import pandas as pd
+
+import networkx as nx
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -36,7 +37,7 @@ if __name__ == "__main__":
         edge_attr="weight",
         create_using=nx.DiGraph(),
     )
-    
+
     pos = nx.spiral_layout(G, resolution=0.6, scale=20, equidistant=True)
     plt.figure(figsize=(10, 10))
     nx.draw_networkx_nodes(G, pos, node_color="lightblue", node_size=1000)
@@ -56,9 +57,15 @@ if __name__ == "__main__":
     plt.show()
 
     # Compute network connectivity metrics
-    degree_centrality = sorted(nx.degree_centrality(G).items(), key=lambda item: item[0])
-    betweenness_centrality = sorted(nx.betweenness_centrality(G).items(), key=lambda item: item[0])
-    eigenvector_centrality = sorted(nx.eigenvector_centrality(G, max_iter=1000).items(), key=lambda item: item[0])
+    degree_centrality = sorted(
+        nx.degree_centrality(G).items(), key=lambda item: item[0]
+    )
+    betweenness_centrality = sorted(
+        nx.betweenness_centrality(G).items(), key=lambda item: item[0]
+    )
+    eigenvector_centrality = sorted(
+        nx.eigenvector_centrality(G, max_iter=1000).items(), key=lambda item: item[0]
+    )
     degree_clustering = sorted(nx.clustering(G).items(), key=lambda item: item[0])
 
     final_metrics = pd.DataFrame(
@@ -71,12 +78,7 @@ if __name__ == "__main__":
         }
     )
     final_metrics.plot.bar(
-        x="Genes",
-        figsize=(10, 10),
-        title="Network connectivity metrics"
+        x="Genes", figsize=(10, 10), title="Network connectivity metrics"
     )
     plt.savefig(args.metric_path, dpi=1000)
     plt.show()
-
-
-        
