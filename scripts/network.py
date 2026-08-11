@@ -12,7 +12,7 @@ if __name__ == "__main__":
         "--input-path", help="Path to file with network analysis metrics results"
     )
     parser.add_argument("--network-path", help="Path to save network figure at")
-    parser.add_argument("--metric-path", help="Path to save network figure at")
+    parser.add_argument("--metric-path", help="Path to save network connectivity figure at")
     args = parser.parse_args()
 
     with open(args.input_path) as i:
@@ -24,7 +24,7 @@ if __name__ == "__main__":
         gene1, gene2 = key.split("->")
         value = dic[key]
         weight = int(value.split("=")[1].split(",")[0].strip())
-        if weight >= 3:
+        if weight >= 5:
             collection.append([gene1.strip(), gene2.strip(), weight])
         else:
             continue
