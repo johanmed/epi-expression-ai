@@ -29,30 +29,75 @@ if __name__ == "__main__":
         else:
             continue
     df = pd.DataFrame(collection, columns=["source", "target", "weight"])
+    df["norm_weight"] = df["weight"]/df["weight"].max()
 
+    # Draw network
     G = nx.from_pandas_edgelist(
         df,
         source="source",
         target="target",
-        edge_attr="weight",
+        edge_attr="norm_weight",
         create_using=nx.DiGraph(),
     )
 
-    pos = nx.spiral_layout(G, resolution=0.6, scale=20, equidistant=True)
-    plt.figure(figsize=(10, 10))
-    nx.draw_networkx_nodes(G, pos, node_color="lightblue", node_size=1000)
-    nx.draw_networkx_labels(G, pos, font_size=10, font_weight="bold")
+    node_weights = {node: 0 for node in G.nodes()}
+    for u, v, data in G.edges(data=True):
+        w = data["norm_weight"]
+        node_weights[u] += w
+        node_weights[v] += w
+    node_color_values = [node_weights[n] for n in G.nodes()]
+
+    edge_weights = nx.get_edge_attributes(G, "norm_weight")
+    min_w = min(edge_weights.values())
+    max_w = max(edge_weights.values())
+    width_map = {
+        e: 0.5 + 3.0 * (w - min_w) / (max_w - min_w + 1e-9)
+        for e, w in edge_weights.items()
+    }
+
+    pos = nx.spiral_layout(
+        G.to_undirected(),
+        scale=50,
+        resolution=1,
+        equidistant=True,
+    )
+
+    plt.figure(figsize=(20, 15))
+
     nx.draw_networkx_edges(
         G,
         pos,
-        arrowstyle="->",
-        arrowsize=20,
-        edge_color="gray",
+        arrowstyle="-",
+        arrowsize=30,
+        edge_color="grey",
+        alpha=0.95,
         connectionstyle="angle,rad=0.2",
+        node_size=2000,
+        width=[width_map[e] for e in G.edges()],
     )
 
-    plt.title("Inferred Biological Connections in Gulf War Disease", fontsize=20)
+    nodes = nx.draw_networkx_nodes(
+        G,
+        pos,
+        node_color=node_color_values,
+        cmap=plt.cm.YlOrRd,
+        node_size=2000,
+        alpha=0.95,
+        linewidths=2,
+    )
+
+    plt.colorbar(nodes, shrink=0.5, label="Total connected weight")
+
+    nx.draw_networkx_labels(
+        G,
+        pos,
+        font_size=20,
+        font_weight="bold",
+    )
+
+    plt.suptitle("Inferred Biological Connections in Gulf War Disease", fontsize=40)
     plt.axis("off")
+    plt.tight_layout()
     plt.savefig(args.network_path, dpi=1000)
     plt.show()
 
@@ -80,5 +125,7 @@ if __name__ == "__main__":
     final_metrics.plot.bar(
         x="Genes", figsize=(10, 10), title="Network connectivity metrics"
     )
+    plt.ylabel("Scores")
+    plt.tight_layout()
     plt.savefig(args.metric_path, dpi=1000)
     plt.show()
