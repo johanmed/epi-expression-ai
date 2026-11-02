@@ -166,7 +166,7 @@ def build(output_path):
     ax.axis("off")
 
     # ---------------------------------------------------------------- title
-    ax.text(W / 2, 87.8, "Agentic LLM integration of multi-omics data resolves\na stress-to-demyelination network in Gulf War Illness",
+    ax.text(W / 2, 87.8, "Graphical Summary",
             ha="center", va="center", fontsize=14.5, fontweight="bold",
             color=INK, linespacing=1.35)
 
