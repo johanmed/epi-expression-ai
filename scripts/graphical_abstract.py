@@ -316,7 +316,7 @@ def build(output_path):
          "Tlr2 · Cd14 · Tnf · Il6 · Il1b · Nlrp3 · Casp4", C_ORANGE),
         ("Oxidative stress & detoxification",
          "Nqo1 · Hmox1 · Gsr · Txnrd1 · Pon1–3", C_GREEN),
-        ("Demyelination", "Mbp · Mog · Plp1 ↓ → cognitive decline", C_PURPLE),
+        ("Dysmyelination", "Mbp · Mog · Plp1 ↓ → cognitive decline", C_PURPLE),
     ]
     y = 68.5
     bh, bgap = 9.2, 1.9
